@@ -3,6 +3,8 @@
 
 
 /***************************************GENERAL STYLES***********************************************/
+
+body {background: #212121;}
 a:link, a:visited {
 	color: #FFFFFF;
 	text-decoration: none;
