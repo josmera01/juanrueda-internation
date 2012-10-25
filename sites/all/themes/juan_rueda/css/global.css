@@ -19,7 +19,7 @@ ul li.leaf {
 .bloque-gris .views-row{
 	background: #d8d8d8;
 	color: #1C1C1C;
-	padding: 10px 15px 15px;
+	/*padding: 10px 15px 15px;*/
 }
 .block-title{color: #2D6CB4;}
 .block-title .field-name-body {
@@ -64,6 +64,7 @@ ul li.leaf {
     color: #FFFFFF;
 }
 #block-menu-menu-menu-secciones-principales ul li.leaf{}
+
 /***************************************FOOTER***********************************************/
 
 #zone-footer {
