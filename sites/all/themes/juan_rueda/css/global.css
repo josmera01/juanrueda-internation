@@ -23,16 +23,21 @@ ul li.leaf {
 }
 #block-system-main-menu ul li.leaf {
 	float: left;
-	height:27px;
+    height: 27px;
+    margin: 0;
+    padding: 0;
 }
 #block-system-main-menu ul li a {
-	background: url(../images/menu_1.png) no-repeat 0 0;
-	color: #000000;
-	display: block;
+	background: url("../images/menu_1.png") repeat-x scroll 0 0 transparent;
+    border-right: 1px solid red;
+    color: #000000;
+    display: block;
     height: 100%;
-	width: 100%;
+    padding: 0 22px;
+    width: auto;
 }
 #block-system-main-menu ul li a.active {
+	background-position: 0 -27px;
     color: #FFFFFF;
 }
 
