@@ -15,8 +15,16 @@ ul li.leaf {
     list-style-type: none;
 }
 #zone-user {margin-top: 20px;}
-.bloque-gris .views-row{background: #d8d8d8;}
-
+.bloque-gris {}
+.bloque-gris .views-row{
+	background: #d8d8d8;
+	color: #1C1C1C;
+	padding: 10px 15px 15px;
+}
+.block-title{color: #2D6CB4;}
+.block-title .field-name-body {
+	text-align: center;
+} 
 /***************************************HEADER***********************************************/
 
 #region-user-second .region-inner {overflow: hidden;}
@@ -83,7 +91,6 @@ ul li.leaf {
 #block-block-1{float: left;}
 #block-block-2{float: right;}
 #zone-footer .block-title {
-    color: #2D6CB4;
     height: auto;
     margin-bottom: 15px;
     min-height: 18px;
