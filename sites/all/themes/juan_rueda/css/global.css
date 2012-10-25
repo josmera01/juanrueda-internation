@@ -1,4 +1,25 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
-body{color:red;}
+a:link, a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+ul li.leaf {
+    list-style-image: none;
+    list-style-type: none;
+}
+
+#zone-footer {
+	backgrpund-color: #000000;
+	color: #FFFFFF;
+}
+#zone-footer .block {
+	float: left;
+	width: 150px;
+}
+#zone-footer a {
+	text-decoration: none;
+}
+#region-footer-second .block {float: left;}
