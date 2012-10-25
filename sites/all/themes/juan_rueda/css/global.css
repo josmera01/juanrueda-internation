@@ -69,8 +69,8 @@ ul li.leaf {
 	text-decoration: none;
 }
 #region-footer-first {padding: 30px 0;}
+#region-footer-first .block .content {text-align: center;}
 #region-footer-second .block {float: left;}
-#region-footer-second .block .content {text-align: center;}
 #zone-footer .block-title {
     color: #2D6CB4;
 	height: 60px;
