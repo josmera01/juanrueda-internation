@@ -83,13 +83,15 @@ ul li.leaf {
 #block-block-2{float: right;}
 #zone-footer .block-title {
     color: #2D6CB4;
-	height: 60px;
-    line-height: 6;
-	margin-bottom: 15px;
+    height: auto;
+    margin-bottom: 15px;
+    min-height: 18px;
+    padding-top: 50px;
     text-align: center;
 }
 #zone-footer  #block-views-menu-block h2{background: url("../images/ico-camion-footer.png") no-repeat scroll center 0 transparent;}
 #zone-footer  #block-menu-block-1 h2{background: url("../images/ico-tips-footer.png") no-repeat scroll center 0 transparent;}
 #zone-footer  #block-menu-menu-cont-ctenos h2{background: url("../images/ico-contactenos-footer.png") no-repeat scroll center 0 transparent;}
 #zone-footer  #block-widgets-s-socialmedia-profile-buttons h2{background: url("../images/ico-siguenos-footer.png") no-repeat scroll center 0 transparent;}
-#block-widgets-s-socialmedia-profile-buttons .block div.widgets-element-horizontal {float: none;}
+#block-menu-menu-international-menu-inferior h2{background: url("../images/ico-international.png") no-repeat scroll center 0 transparent;}
+#block-widgets-s-socialmedia-profile-buttons  div.widgets-element-horizontal {float: none;}
