@@ -12,7 +12,7 @@ a:link, a:visited {
 
 ul li.leaf {
     list-style-image: none;
-    list-style-type: none;
+    list-style-type: circle;
 }
 #zone-user {margin-top: 20px;}
 
@@ -54,7 +54,7 @@ ul li.leaf {
 	background-position: 0 -27px;
     color: #FFFFFF;
 }
-
+#block-menu-menu-menu-secciones-principales ul li.leaf{}
 /***************************************FOOTER***********************************************/
 
 #zone-footer {
@@ -63,9 +63,14 @@ ul li.leaf {
 }
 #zone-footer .block {
 	float: left;
-	width: 150px;
+	width: 20%;
 }
 #zone-footer a {
 	text-decoration: none;
 }
 #region-footer-second .block {float: left;}
+#zone-footer .block-title {color: #2D6CB4;}
+#zone-footer  #block-views-menu-block h2{background: url("../images/ico-camion-footer.png") no-repeat scroll 0 0 transparent;}
+#zone-footer  #block-menu-block-1 h2{background: url("../images/ico-tips-footer.png") no-repeat scroll 0 0 transparent;}
+#zone-footer  #block-menu-menu-cont-ctenos h2{background: url("../images/ico-contactenos-footer.png") no-repeat scroll 0 0 transparent;}
+#zone-footer  #block-widgets-s-socialmedia-profile-buttons h2{background: url("../images/ico-siguenos-footer.png") no-repeat scroll 0 0 transparent;}
