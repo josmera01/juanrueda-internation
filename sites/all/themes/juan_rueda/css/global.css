@@ -14,6 +14,13 @@ ul li.leaf {
     list-style-image: none;
     list-style-type: none;
 }
+#zone-user {margin-top: 20px;}
+
+/***************************************HEADER***********************************************/
+
+#region-user-second .region-inner {overflow: hidden;}
+#region-user-second .block {float: left;}
+#region-user-second a.twitter-timeline {background: url("../images/ico-cabecera-twitter.png") repeat-x scroll 0 0 transparent;font-size: 0;}
 
 /***************************************MENU***********************************************/
 
@@ -29,7 +36,7 @@ ul li.leaf {
 }
 #block-system-main-menu ul li a {
 	background: url("../images/menu_1.png") repeat-x scroll 0 0 transparent;
-    border-right: 1px solid red;
+    border-right: 1px solid #000000;
     color: #000000;
     display: block;
     height: 100%;
