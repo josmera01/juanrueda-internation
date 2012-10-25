@@ -15,6 +15,27 @@ ul li.leaf {
     list-style-type: none;
 }
 
+/***************************************MENU***********************************************/
+
+#block-system-main-menu {
+	max-width: 100%;
+	width: auto;
+}
+#block-system-main-menu ul li.leaf {
+	float: left;
+	height:27px;
+}
+#block-system-main-menu ul li a {
+	background: url(../images/menu_1.png) no-repeat 0 0;
+	color: #000000;
+	display: block;
+    height: 100%;
+	width: 100%;
+}
+#block-system-main-menu ul li a.active {
+    color: #FFFFFF;
+}
+
 /***************************************FOOTER***********************************************/
 
 #zone-footer {
