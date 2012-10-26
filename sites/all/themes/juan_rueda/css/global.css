@@ -27,6 +27,7 @@ ul li.leaf {
 } 
 /***************************************HEADER***********************************************/
 .branding-data {text-align: center;}
+.site-name-slogan {float: none;}
 .branding-data  h1.site-name {
 	font-size: 4em;
 	font-weight: normal;
@@ -68,6 +69,7 @@ div.widgets-element-horizontal {margin-right: 5px;}
 	background-position: 0 -27px;
     color: #FFFFFF;
 }
+#block-menu-menu-menu-secciones-principales {margin-bottom: 30px;}
 #block-menu-menu-menu-secciones-principales .content {
 	margin: 0 auto;
     width: 75%;
