@@ -21,10 +21,21 @@ ul li.leaf {
 	color: #1C1C1C;
 	/*padding: 10px 15px 15px;*/
 }
+.bloque-gris h2 {
+	color: #1B457A;
+	font-size: 1.5em;
+	font-family: gotham regular;
+	font-weight: normal;
+}
+.bloque-gri .field-name-body {
+	color: #181818;
+	font-size: 1em;
+	font-family: gotham regular;
+}
 .block-title{color: #2D6CB4;}
 .block-title .field-name-body {
 	text-align: center;
-} 
+}
 #block-block-5 {background: url("../images/cabeza-face.png") no-repeat scroll 0 0 #FFFFFF;}
 #block-block-4{background: url("../images/cabeza-twitter.png") no-repeat scroll 0 0 #FFFFFF;}
 #block-block-3{background: url("../images/cabeza-youtube.png") no-repeat scroll 0 0 #FFFFFF;}
