@@ -65,7 +65,10 @@ ul li.leaf {
 }
 #block-menu-menu-menu-secciones-principales ul {overflow: hidden;}
 #block-menu-menu-menu-secciones-principales ul li.leaf{float: left;}
-#block-menu-menu-menu-secciones-principales a {}
+#block-menu-menu-menu-secciones-principales ul li a {
+    display: block;
+    height: 128px;
+}
 a.camiones{background: url("../images/camiones.png") no-repeat scroll 0 0 transparent;}
 a.conozca_su_maquina  {background: url("../images/conozca_su_maquina.png") no-repeat scroll 0 0 transparent;}
 a.conviertase_en_experto  {background: url("../images/disfrute_su_camion.png") no-repeat scroll 0 0 transparent;}
