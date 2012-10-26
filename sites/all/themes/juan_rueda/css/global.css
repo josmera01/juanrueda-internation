@@ -27,6 +27,7 @@ ul li.leaf {
 	font-family: gotham regular;
 	font-weight: normal;
 }
+.bloque-gris a {color: #1B457A;}
 .bloque-gri .field-name-body {
 	color: #181818;
 	font-size: 1em;
@@ -84,8 +85,10 @@ div.widgets-element-horizontal {margin-right: 5px;}
 #block-system-main-menu ul li a {
 	background: url("../images/menu_1.png") repeat-x scroll 0 0 transparent;
     border-right: 1px solid #000000;
-    color: #000000;
+    color: #474747;
     display: block;
+	font-size: 1em;
+	font-family: gotham medium;
     height: 100%;
     padding: 0 22px;
     width: auto;
