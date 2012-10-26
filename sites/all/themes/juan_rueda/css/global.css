@@ -129,5 +129,7 @@ a.contacte_distribuidor.active  {background-position: 0 -130px;}
 /***************************************MOBILE***********************************************/
 
 @media screen and (max-width: 450px) {
+#zone-footer .block {
+	float: none;}
 	#block-menu-menu-menu-secciones-principales ul li.leaf{float: none;}
 }
