@@ -26,16 +26,21 @@ ul li.leaf {
 	text-align: center;
 } 
 /***************************************HEADER***********************************************/
-
+.branding-data {text-align: center;}
+.branding-data  h1.site-name {
+	font-size: 4em;
+	font-weight: normal;
+	margin: 35px 0;
+}
 #region-user-second .region-inner {overflow: hidden;}
 #region-user-second .block {float: right;}
 #region-user-second a.twitter-timeline {
-    background: url("../images/ico-cabecera-twitter.png") no-repeat scroll 0 0 transparent;
     display: block;
     font-size: 0;
     height: 28px;
     width: 30px;
 }
+div.widgets-element-horizontal {margin-right: 5px;}
 
 /***************************************MENU***********************************************/
 
