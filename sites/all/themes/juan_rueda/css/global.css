@@ -63,11 +63,17 @@ ul li.leaf {
 	background-position: 0 -27px;
     color: #FFFFFF;
 }
+#block-menu-menu-menu-secciones-principales .contact {
+	margin: 0 auto;
+    width: 75%;
+}
 #block-menu-menu-menu-secciones-principales ul {overflow: hidden;}
 #block-menu-menu-menu-secciones-principales ul li.leaf{float: left;}
 #block-menu-menu-menu-secciones-principales ul li a {
     display: block;
+	font-size: 0;
     height: 128px;
+	width: 160px;
 }
 a.camiones{background: url("../images/camiones.png") no-repeat scroll 0 0 transparent;}
 a.conozca_su_maquina  {background: url("../images/conozca_su_maquina.png") no-repeat scroll 0 0 transparent;}
@@ -119,3 +125,9 @@ a.contacte_distribuidor.active  {background-position: 0 -130px;}
 #zone-footer  #block-widgets-s-socialmedia-profile-buttons h2{background: url("../images/ico-siguenos-footer.png") no-repeat scroll center 0 transparent;}
 #block-menu-menu-international-menu-inferior h2{background: url("../images/ico-international.png") no-repeat scroll center 0 transparent;}
 #block-widgets-s-socialmedia-profile-buttons  div.widgets-element-horizontal {float: none;}
+
+/***************************************MOBILE***********************************************/
+
+@media screen and (max-width: 600px) {
+	#block-menu-menu-menu-secciones-principales ul li.leaf{float: none;}
+}
