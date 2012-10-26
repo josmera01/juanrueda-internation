@@ -25,6 +25,9 @@ ul li.leaf {
 .block-title .field-name-body {
 	text-align: center;
 } 
+#block-block-5 {background: url("../images/cabeza-face.png") no-repeat scroll 0 0 transparent;}
+#block-block-4{background: url("../images/cabeza-twitter.png") no-repeat scroll 0 0 transparent;}
+#block-block-3{background: url("../images/cabeza-youtube.png") no-repeat scroll 0 0 transparent;}
 /***************************************HEADER***********************************************/
 .branding-data {text-align: center;}
 .site-name-slogan {float: none;}
