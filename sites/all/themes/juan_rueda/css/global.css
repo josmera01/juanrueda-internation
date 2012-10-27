@@ -50,15 +50,15 @@ ul li.leaf {
 #block-block-4  {background-position: 0 -82px;}
 #block-block-3 {background-position: 0 -143px;}
 #block-block-3 h2.block-title, #block-block-4 h2.block-title, #block-block-5 h2.block-title {
-	background: url("../images/ico-cabecera-redes-sociales.png") no-repeat scroll 10px 0 transparent;
+	background: url("../images/cabeza-youtube.png") no-repeat scroll 10px 0 transparent;
 	color: white;
     font-size: 1.75em;
     font-weight: normal;
     line-height: 2.5;
     text-indent: 69px;	
 }
-#block-block-4 h2.block-title {background-position: 10px -48px;}
-#block-block-5 h2.block-title {background-position: 10px 9px;}
+#block-block-4 h2.block-title {background: url("../images/cabeza-twitter.png") no-repeat scroll 10px 0 transparent;}
+#block-block-5 h2.block-title {background: url("../images/cabeza-face.png") no-repeat scroll 10px 0 transparent;}
 #page-title {
 	color: #FF7B00;
 	font-size: 2.51em;
