@@ -123,20 +123,37 @@ div.widgets-element-horizontal {margin-right: 5px;}
 #block-menu-menu-menu-secciones-principales {margin-bottom: 30px;}
 #block-menu-menu-menu-secciones-principales .content {
 	margin: 0 auto;
-    width: 75%;
+	width: 100%;
 }
-#block-menu-menu-menu-secciones-principales ul {overflow: hidden;}
-#block-menu-menu-menu-secciones-principales ul li.leaf{float: left;}
+#block-menu-menu-menu-secciones-principales ul {
+	overflow: hidden;
+	padding: 3%;
+}
+#block-menu-menu-menu-secciones-principales ul li.leaf {
+	float: left;
+	width: 18%;
+	margin: 1%;
+	padding: 0;
+}
 #block-menu-menu-menu-secciones-principales ul li a {
-    color: #133156;
+	color: #133156;
 	display: block;
-	font-size: 1.06em;
+	font-size: 1em;
 	font-weight: 400;
-    height: 128px;
-	width: 160px;
+	font-family: gotham medium, "lato", arial;
+	background: url("../images/menu-bg.png") repeat-x scroll top left transparent;
+	width: 70%;
+	text-align: center;
+	padding: 2.85em 15% 0;
+	height: 7.1em;
+	text-transform: uppercase;
+	line-height: 1.2;
+	border-radius: 0.5em;
 }
+#block-menu-menu-menu-secciones-principales ul li a:hover{background-position: 128px;}
+#block-menu-menu-menu-secciones-principales ul li a.active{background-position: 256px;}
 #block-menu-menu-menu-secciones-principales ul li a:hover, #block-menu-menu-menu-secciones-principales ul li a.active {color: #FFFFFF;}
-a.camiones{background: url("../images/camiones.png") no-repeat scroll 0 0 transparent;}
+/*a.camiones{background: url("../images/camiones.png") no-repeat scroll 0 0 transparent;}
 a.conozca_su_maquina  {background: url("../images/conozca_su_maquina.png") no-repeat scroll 0 0 transparent;}
 a.conviertase_en_experto  {background: url("../images/disfrute_su_camion.png") no-repeat scroll 0 0 transparent;}
 a.disfrute_su_camion  {background: url("../images/conviertase_en_experto.png") no-repeat scroll 0 0 transparent;}
@@ -145,7 +162,7 @@ a.camiones.active {background-position: 0 -130px;}
 a.conozca_su_maquina.active {background-position: 0 -130px;}
 a.conviertase_en_experto.active  {background-position: 0 -130px;}
 a.disfrute_su_camion.active  {background-position: 0 -130px;}
-a.contacte_distribuidor.active  {background-position: 0 -130px;}
+a.contacte_distribuidor.active  {background-position: 0 -130px;}*/
 
 /***************************************FOOTER***********************************************/
 
@@ -198,3 +215,16 @@ a.contacte_distribuidor.active  {background-position: 0 -130px;}
     text-align: center;
     width: 40%;
 }
+
+/**********************************MASONRY VIEWS***********************************/
+
+.front #region-content,
+.page-camiones #region-content,
+.page-tips-de-juan-rueda #region-content,
+.page-noticias-y-eventos #region-content{
+	margin: 0;
+}
+
+
+
+
