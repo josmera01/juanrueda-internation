@@ -125,7 +125,7 @@ function _view_galeria_eslasticslider($nid, $settings) {
   $path = drupal_get_path('module', 'juanrueda_galeria');
 
   drupal_add_js($path . '/js/juanrueda_galeria.js');
-  drupal_add_js('setting', array('galeria' => $settings));
+  drupal_add_js(array('galeria' => $settings), 'setting');
 
   $content['galeria']= array(
      '#theme' => 'links',
