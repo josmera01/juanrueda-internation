@@ -64,6 +64,11 @@ function juanrueda_galeria_field_formatter_settings_form($field, $instance, $vie
  */
 function juanrueda_galeria_field_formatter_settings_summary($field, $instance, $view_mode) {
   dpm(1);
+  $display = $instance['display'][$view_mode];
+  $settings = $display['settings'];
+
+  $summary = array();
+
   if ($display['type'] == 'galeria_elastislide') {
     $summary[] = $settings['galeria_elastislide_dos'] ? t('Link to the referenced entity') : t('No link');
   }
