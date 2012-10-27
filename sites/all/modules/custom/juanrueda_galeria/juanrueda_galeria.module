@@ -89,6 +89,7 @@ function juanrueda_galeria_field_formatter_view($entity_type, $entity, $field, $
 
   switch ($display['type']) {
     case 'galeria_elastislide':
+    dpm($display);
       if (!empty($items)) {
         dpm($items);
         foreach ($items as $delta => $item) {
@@ -110,7 +111,7 @@ function _view_galeria_eslasticslider($nid) {
   drupal_add_library('juanrueda_libraries', 'elastislide');
   $node = node_load($nid);
 
-
+  //image_style_path();
 
   dpm($node);
 
