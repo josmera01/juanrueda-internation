@@ -36,17 +36,21 @@ ul li.leaf {
 	font-weight: 300;
 	margin-bottom: 0.7em;
 }
-.bloque-gris a {color: #1B457A;}
+.bloque-gris a:link {color: #1B457A;}
+.bloque-gris a:hover, .bloque-gris a:visited{text-decoration: underline;}
+.bloque-gris a:hover{color: #E55700;}
+.bloque-gris a:visited{color: #6E6072;}
+.bloque-gris .field-type-image img{
+	width: 100%;
+	height: auto;
+	margin-bottom: 0.5em;
+}
 .bloque-gris .field-name-body {
 	color: #181818;
 	font-size: 1em;
 	font-weight: 300;
 	border-bottom: 1px solid #fff;
 	padding-bottom: 1em;
-}
-.bloque-gris .field-name-field-image img{
-	width: 100%;
-	height: auto;
 }
 .bloque-gris .field-name-body p{margin: 0;}
 .bloque-gris .node-article, .bloque-gris .node-evento {padding: 12px 15px 15px;}
