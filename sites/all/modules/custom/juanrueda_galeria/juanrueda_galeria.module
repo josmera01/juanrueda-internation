@@ -8,10 +8,7 @@ function juanrueda_galeria_field_formatter_info() {
       'galeria_elastislide' => array(
         'label' => t('Galeria elastislide'),
         'field types' => array('entityreference'),
-        'settings' => array(
-          'view_mode' => '',
-          'links' => TRUE,
-        ),
+
       ),
     );
 }
