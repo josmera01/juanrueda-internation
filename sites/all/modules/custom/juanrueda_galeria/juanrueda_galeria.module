@@ -8,6 +8,10 @@ function juanrueda_galeria_field_formatter_info() {
       'galeria_elastislide' => array(
         'label' => t('Galeria elastislide'),
         'field types' => array('entityreference'),
+        'settings' => array(
+          'view_mode' => '',
+          'links' => TRUE,
+        ),
 
       ),
     );
@@ -43,7 +47,7 @@ function juanrueda_galeria_field_formatter_settings_form($field, $instance, $vie
   dpm($settings);
 
   if ($display['type'] == 'galeria_elastislide') {
-    $element['galeria_elastislide'] = array(
+    $element['view_mode'] = array(
       '#title' => t('Cantidad imagenes'),
       '#type' => 'textfield',
       '#size' => 20,
