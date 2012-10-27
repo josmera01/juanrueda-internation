@@ -143,7 +143,7 @@ function _view_galeria_eslasticslider($nid) {
   'links' => $links,
   'attributes' => array('class' => array('carousel'))));*/
 
-  return $content;
+  return drupal_render($content);
 
 
 
