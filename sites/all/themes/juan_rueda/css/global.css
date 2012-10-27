@@ -18,8 +18,13 @@ ul li.leaf {
 .bloque-gris {}
 .bloque-gris .views-row{
 	background: #d8d8d8;
+	background-image: linear-gradient(bottom, #DBD8DB 12%, #E9E9E9 56%, #FFFFFF 78%);
+	background-image: -o-linear-gradient(bottom, #DBD8DB 12%, #E9E9E9 56%, #FFFFFF 78%);
+	background-image: -moz-linear-gradient(bottom, #DBD8DB 12%, #E9E9E9 56%, #FFFFFF 78%);
+	background-image: -webkit-linear-gradient(bottom, #DBD8DB 12%, #E9E9E9 56%, #FFFFFF 78%);
+	background-image: -ms-linear-gradient(bottom, #DBD8DB 12%, #E9E9E9 56%, #FFFFFF 78%);
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.12, #DBD8DB),color-stop(0.56, #E9E9E9),color-stop(0.78, #FFFFFF));
 	color: #1C1C1C;
-	/*padding: 10px 15px 15px;*/
 }
 .bloque-gris h2 {
 	color: #1B457A;
@@ -171,10 +176,15 @@ a.contacte_distribuidor.active  {background-position: 0 -130px;}
 #block-menu-menu-international-menu-inferior h2{background: url("../images/ico-international.png") no-repeat scroll center 0 transparent;}
 #block-widgets-s-socialmedia-profile-buttons  div.widgets-element-horizontal {float: none;}
 
-/***************************************MOBILE***********************************************/
+/***************************************HOME***********************************************/
 
-@media screen and (max-width: 450px) {
-#zone-footer .block {
-	float: none;}
-	#block-menu-menu-menu-secciones-principales ul li.leaf{float: none;}
+
+#block-webform-client-block-1 h2.block-title {
+    font-family: gotham medium;
+    font-size: 1.5em;
+    font-weight: normal;
+    line-height: 1.2;
+    margin: 0 auto;
+    text-align: center;
+    width: 40%;
 }
