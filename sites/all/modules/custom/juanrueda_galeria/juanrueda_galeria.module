@@ -78,10 +78,19 @@ function juanrueda_galeria_field_formatter_settings_summary($field, $instance, $
   $display = $instance['display'][$view_mode];
   $settings = $display['settings'];
 
+  $image_styles = image_style_options(FALSE);
+
   $summary = array();
 
   if ($display['type'] == 'galeria_elastislide') {
     $summary[] = $settings['view_mode'] ? t('Candidad seleccionada') : t('Esta por defecto');
+
+    if (isset($image_styles[$settings['image_style']])) {
+      $summary[] = t('Image style: @style', array('@style' => $image_styles[$settings['image_style']]));
+    }
+    else {
+      $summary[] = t('Original image');
+    }
   }
 
   return implode('<br />', $summary);
