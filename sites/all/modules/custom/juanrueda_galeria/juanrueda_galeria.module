@@ -114,8 +114,9 @@ function _view_galeria_eslasticslider($nid) {
   foreach ($node->field_imagen_galeria[LANGUAGE_NONE] as $key => $value) {
 
      $links[] = array(
-      'html' => '<img src"'. image_style_url('thumbnail', $value['uri']) .'" />',
-      //'html' => TRUE,
+       'title' => theme('image', array('path' =>image_style_url('thumbnail', $value['uri']))),
+
+      'html' => TRUE,
 
       );
 
