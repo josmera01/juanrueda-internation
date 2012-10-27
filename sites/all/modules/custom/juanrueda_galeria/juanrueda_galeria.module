@@ -109,7 +109,9 @@ function _view_galeria_eslasticslider($nid) {
 
   drupal_add_library('juanrueda_libraries', 'elastislide');
   $node = node_load($nid);
-  return render(field_view_field('node', $node, 'field_imagen_galeria', array('settings' => array('image_style' => 'original'))));
+
+
+
   dpm($node);
 
 }
