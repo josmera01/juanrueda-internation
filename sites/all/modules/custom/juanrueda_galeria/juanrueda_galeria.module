@@ -137,8 +137,13 @@ function _view_galeria_eslasticslider($nid) {
   $content['galeria']= array(
      '#theme' => 'links',
      '#links' => $links,
+<<<<<<< HEAD
      '#prefix' => '<div id="carousel">',
      '#suffix' => '</div>',
+=======
+     '#prefix' => '<div id="carousel" class="es-carousel-wrapper"><div class="es-carousel">',
+     '#suffix' => '</div></div>',
+>>>>>>> 453b228e336d307ef308941bd121b62ed0fb815b
     );
 
 
