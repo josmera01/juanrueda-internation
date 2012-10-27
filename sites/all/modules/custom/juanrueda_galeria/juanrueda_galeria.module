@@ -134,16 +134,14 @@ function _view_galeria_eslasticslider($nid) {
 
   drupal_add_js($js, 'inline');
 
-  $content['galeria']['contenido'] = array(
+  $content['galeria']= array(
      '#theme' => 'links',
      '#links' => $links,
+     '#prefix' => '<div class="poll-form">',
+     '#suffix' => '</div>',
     );
 
-  $content['galeria'] = array(
-    '#prefix' => '<div class="poll-form">',
-    '#suffix' => '</div>',
-    '#type' => 'fieldset',
-    );
+
 
   return drupal_render($content);
 
