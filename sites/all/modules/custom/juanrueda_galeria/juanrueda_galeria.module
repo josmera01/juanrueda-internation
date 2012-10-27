@@ -137,7 +137,7 @@ function _view_galeria_eslasticslider($nid) {
   $content['galeria']= array(
      '#theme' => 'links',
      '#links' => $links,
-     '#prefix' => '<div class="poll-form">',
+     '#prefix' => '<div id="carousel">',
      '#suffix' => '</div>',
     );
 
