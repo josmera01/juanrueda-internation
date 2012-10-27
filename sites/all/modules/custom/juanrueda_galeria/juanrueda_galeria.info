@@ -1,0 +1,4 @@
+name = Formato Galeria
+description = Modulo que permite despligue de la galeria
+core = 7.x
+package = juenRueda International
