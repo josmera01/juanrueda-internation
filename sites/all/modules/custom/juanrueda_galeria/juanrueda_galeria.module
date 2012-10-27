@@ -51,7 +51,7 @@ function juanrueda_galeria_field_formatter_settings_form($field, $instance, $vie
       '#title' => t('Cantidad imagenes'),
       '#type' => 'textfield',
       '#size' => 20,
-      '#default_value' => $settings['view_mode'],
+      '#default_value' => $settings['view_mode'] ? $settings['view_mode'] : 5,
       '#required' => TRUE,
     );
   }
@@ -72,7 +72,7 @@ function juanrueda_galeria_field_formatter_settings_summary($field, $instance, $
   $summary = array();
 
   if ($display['type'] == 'galeria_elastislide') {
-    $summary[] = $settings['galeria_elastislide'] ? t('Link to the referenced entity') : t('No link');
+    $summary[] = $settings['view_mode'] ? t('Candidad seleccionada') : t('Esta por defecto');
   }
 
   return implode('<br />', $summary);
