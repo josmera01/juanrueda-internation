@@ -114,9 +114,9 @@ function _view_galeria_eslasticslider($nid) {
   foreach ($node->field_imagen_galeria[LANGUAGE_NONE] as $key => $value) {
 
      $links[] = array(
-       'title' => theme('image', array('path' =>image_style_url('thumbnail', $value['uri']))),
-
+      'title' => theme('image', array('path' =>image_style_url('thumbnail', $value['uri']))),
       'html' => TRUE,
+      'href' => '',
 
       );
 
@@ -134,10 +134,18 @@ function _view_galeria_eslasticslider($nid) {
 
   drupal_add_js($js, 'inline');
 
+  $content['galeria']['contenido'] = array(
+     '#theme' => 'links',
+     '#links' => $links,
+    );
 
-  return theme('links', array(
-  'links' => $links,
-  'attributes' => array('id' => array('carousel'))));
+  $content['galeria'] = array(
+    '#prefix' => '<div class="poll-form">',
+    '#suffix' => '</div>',
+    '#type' => 'fieldset',
+    );
+
+  return drupal_render($content);
 
 
 
