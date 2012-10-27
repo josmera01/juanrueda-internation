@@ -89,7 +89,7 @@ function juanrueda_galeria_field_formatter_view($entity_type, $entity, $field, $
 
   switch ($display['type']) {
     case 'galeria_elastislide':
-    dpm($display);
+
       if (!empty($items)) {
 
         foreach ($items as $delta => $item) {
