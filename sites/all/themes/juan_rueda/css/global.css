@@ -44,11 +44,11 @@ ul li.leaf {
 	text-align: center;
 }
 #block-block-5, #block-block-4, #block-block-3{
-	background: url("../images/cabecera-redes-sociales.png") no-repeat scroll 0 0 transparent;
+	background: url("../images/cabecera-redes-sociales.png") repeat-x scroll 0 0 #FFFFFF;
 	padding-left: 4px;
 }
 #block-block-4  {background-position: 0 -82px;}
-#block-block-5 {background-position: 0 -143px;}
+#block-block-3 {background-position: 0 -143px;}
 #block-block-3 h2.block-title, #block-block-4 h2.block-title, #block-block-5 h2.block-title {
 	background: url("../images/ico-cabecera-redes-sociales.png") no-repeat scroll 10px 0 transparent;
 	color: white;
@@ -58,7 +58,7 @@ ul li.leaf {
     text-indent: 69px;	
 }
 #block-block-4 h2.block-title {background-position: 10px -48px;}
-#block-block-5 h2.block-title {background-position: 10px -144px;}
+#block-block-5 h2.block-title {background-position: 10px 9px;}
 #page-title {
 	color: #FF7B00;
 	font-size: 2.51em;
