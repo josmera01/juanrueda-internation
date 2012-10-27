@@ -21,21 +21,53 @@ ul li.leaf {
 	color: #1C1C1C;
 	/*padding: 10px 15px 15px;*/
 }
+.bloque-gris h2 {
+	color: #1B457A;
+	font-size: 1.5em;
+	font-family: gotham regular;
+	font-weight: normal;
+}
+.bloque-gris a {color: #1B457A;}
+.bloque-gri .field-name-body {
+	color: #181818;
+	font-size: 1em;
+	font-family: gotham regular;
+}
 .block-title{color: #2D6CB4;}
 .block-title .field-name-body {
 	text-align: center;
-} 
+}
+#block-block-5 {background: url("../images/cabeza-face.png") no-repeat scroll 0 0 #FFFFFF;}
+#block-block-4{background: url("../images/cabeza-twitter.png") no-repeat scroll 0 0 #FFFFFF;}
+#block-block-3{background: url("../images/cabeza-youtube.png") no-repeat scroll 0 0 #FFFFFF;}
+#block-block-3, #block-block-4, #block-block-5{
+	height: 90px;
+    padding-left: 14px;
+    padding-top: 40px;
+    width: 74.8%;
+}
+#page-title {
+	color: #FF7B00;
+	font-size: 2.51em;
+	font-family: gotham medium;
+}
 /***************************************HEADER***********************************************/
-
+.branding-data {text-align: center;}
+.site-name-slogan {float: none;}
+.branding-data  h1.site-name {
+	font-size: 4em;
+	font-weight: normal;
+	margin: 35px 0;
+}
 #region-user-second .region-inner {overflow: hidden;}
 #region-user-second .block {float: right;}
 #region-user-second a.twitter-timeline {
-    background: url("../images/ico-cabecera-twitter.png") no-repeat scroll 0 0 transparent;
     display: block;
     font-size: 0;
     height: 28px;
     width: 30px;
 }
+div.widgets-element-horizontal {margin-right: 5px;}
 
 /***************************************MENU***********************************************/
 
@@ -53,8 +85,10 @@ ul li.leaf {
 #block-system-main-menu ul li a {
 	background: url("../images/menu_1.png") repeat-x scroll 0 0 transparent;
     border-right: 1px solid #000000;
-    color: #000000;
+    color: #474747;
     display: block;
+	font-size: 1em;
+	font-family: gotham medium;
     height: 100%;
     padding: 0 22px;
     width: auto;
@@ -63,7 +97,32 @@ ul li.leaf {
 	background-position: 0 -27px;
     color: #FFFFFF;
 }
-#block-menu-menu-menu-secciones-principales ul li.leaf{}
+#block-menu-menu-menu-secciones-principales {margin-bottom: 30px;}
+#block-menu-menu-menu-secciones-principales .content {
+	margin: 0 auto;
+    width: 75%;
+}
+#block-menu-menu-menu-secciones-principales ul {overflow: hidden;}
+#block-menu-menu-menu-secciones-principales ul li.leaf{float: left;}
+#block-menu-menu-menu-secciones-principales ul li a {
+    color: #133156;
+	display: block;
+	font-size: 1.06em;
+	font-family: gotham medium;
+    height: 128px;
+	width: 160px;
+}
+#block-menu-menu-menu-secciones-principales ul li a:hover, #block-menu-menu-menu-secciones-principales ul li a.active {color: #FFFFFF;}
+a.camiones{background: url("../images/camiones.png") no-repeat scroll 0 0 transparent;}
+a.conozca_su_maquina  {background: url("../images/conozca_su_maquina.png") no-repeat scroll 0 0 transparent;}
+a.conviertase_en_experto  {background: url("../images/disfrute_su_camion.png") no-repeat scroll 0 0 transparent;}
+a.disfrute_su_camion  {background: url("../images/conviertase_en_experto.png") no-repeat scroll 0 0 transparent;}
+a.contacte_distribuidor  {background: url("../images/contacte_su_distribuidor.png") no-repeat scroll 0 0 transparent;}
+a.camiones.active {background-position: 0 -130px;}
+a.conozca_su_maquina.active {background-position: 0 -130px;}
+a.conviertase_en_experto.active  {background-position: 0 -130px;}
+a.disfrute_su_camion.active  {background-position: 0 -130px;}
+a.contacte_distribuidor.active  {background-position: 0 -130px;}
 
 /***************************************FOOTER***********************************************/
 
@@ -104,3 +163,11 @@ ul li.leaf {
 #zone-footer  #block-widgets-s-socialmedia-profile-buttons h2{background: url("../images/ico-siguenos-footer.png") no-repeat scroll center 0 transparent;}
 #block-menu-menu-international-menu-inferior h2{background: url("../images/ico-international.png") no-repeat scroll center 0 transparent;}
 #block-widgets-s-socialmedia-profile-buttons  div.widgets-element-horizontal {float: none;}
+
+/***************************************MOBILE***********************************************/
+
+@media screen and (max-width: 450px) {
+#zone-footer .block {
+	float: none;}
+	#block-menu-menu-menu-secciones-principales ul li.leaf{float: none;}
+}
