@@ -1,4 +1,0 @@
-name = Libraries Custom
-description = Modulo que carga las libraries personalizadas del sitio
-core = 7.x
-package = juanRueda International
