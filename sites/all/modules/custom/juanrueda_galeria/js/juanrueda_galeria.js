@@ -2,7 +2,7 @@
   Drupal.behaviors.juanruedaGaleria = {
     attach: function(context, settings) {
       $('#carousel').elastislide({
-        imageW    : 180,
+        imageW    : Drupal.settings.galeria.view_mode,
         minItems  : 3,
         margin    : 2,
         border    : 0,
