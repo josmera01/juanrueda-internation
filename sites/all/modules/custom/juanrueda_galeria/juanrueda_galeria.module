@@ -91,10 +91,10 @@ function juanrueda_galeria_field_formatter_view($entity_type, $entity, $field, $
     case 'galeria_elastislide':
     dpm($display);
       if (!empty($items)) {
-        dpm($items);
+
         foreach ($items as $delta => $item) {
           $element[$delta] = array(
-            '#markup' =>  _view_galeria_eslasticslider($item['target_id']) ,
+            '#markup' =>  _view_galeria_eslasticslider($item['target_id'], $display['settings']) ,
             );
         }
 
@@ -105,7 +105,7 @@ function juanrueda_galeria_field_formatter_view($entity_type, $entity, $field, $
   return $element;
 }
 
-function _view_galeria_eslasticslider($nid) {
+function _view_galeria_eslasticslider($nid, $settings) {
   $node = &drupal_static(__FUNCTION__);
 
   drupal_add_library('juanrueda_libraries', 'elastislide');
@@ -121,14 +121,11 @@ function _view_galeria_eslasticslider($nid) {
       );
 
   }
-  dpm($links);
-  dpm($node);
 
   $path = drupal_get_path('module', 'juanrueda_galeria');
 
   drupal_add_js($path . '/js/juanrueda_galeria.js');
-
-
+  drupal_add_js('setting', array('galeria' => $settings));
 
   $content['galeria']= array(
      '#theme' => 'links',
@@ -138,10 +135,7 @@ function _view_galeria_eslasticslider($nid) {
     );
 
 
-
   return drupal_render($content);
-
-
 
 
 }
