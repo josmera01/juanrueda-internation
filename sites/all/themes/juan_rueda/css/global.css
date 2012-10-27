@@ -28,19 +28,28 @@ ul li.leaf {
 	background-image: -ms-linear-gradient(bottom, #DBD8DB 12%, #E9E9E9 56%, #FFFFFF 78%);
 	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.12, #DBD8DB),color-stop(0.56, #E9E9E9),color-stop(0.78, #FFFFFF));
 	color: #1C1C1C;
+	border-radius: 0.5em;
 }
 .bloque-gris h2 {
 	color: #1B457A;
 	font-size: 1.5em;
 	font-weight: 300;
+	margin-bottom: 0.7em;
 }
 .bloque-gris a {color: #1B457A;}
 .bloque-gris .field-name-body {
 	color: #181818;
 	font-size: 1em;
 	font-weight: 300;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 1em;
 }
-.bloque-gris .node-article {padding: 12px 15px 15px;}
+.bloque-gris .field-name-field-image img{
+	width: 100%;
+	height: auto;
+}
+.bloque-gris .field-name-body p{margin: 0;}
+.bloque-gris .node-article, .bloque-gris .node-evento {padding: 12px 15px 15px;}
 .block-title{color: #2D6CB4;}
 .block-title .field-name-body {
 	text-align: center;
