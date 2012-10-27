@@ -134,10 +134,16 @@ function _view_galeria_eslasticslider($nid) {
 
   drupal_add_js($js, 'inline');
 
+  $content['galeria'] = array(
+     '#theme' => 'links',
+     '#links' => $links,
+    );
 
-  return theme('links', array(
+  /*return theme('links', array(
   'links' => $links,
-  'attributes' => array('id' => array('carousel'))));
+  'attributes' => array('class' => array('carousel'))));*/
+
+  return $content;
 
 
 
