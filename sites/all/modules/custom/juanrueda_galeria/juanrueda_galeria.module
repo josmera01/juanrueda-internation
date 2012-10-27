@@ -115,6 +115,7 @@ function _view_galeria_eslasticslider($nid) {
 
      $links[] = array(
       'title' => '<img src"'. image_style_url('thumbnail', $value['uri']) .'" />',
+      'html' => TRUE,
 
       );
 
