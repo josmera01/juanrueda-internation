@@ -122,7 +122,10 @@ function _view_galeria_eslasticslider($nid) {
   dpm($links);
   dpm($node);
 
-  return theme('links', $links);
+  return theme('links', array(
+  'links' => $links,
+  'attributes' => array('class' => array('links', 'inline'))));
+
 
 
 
