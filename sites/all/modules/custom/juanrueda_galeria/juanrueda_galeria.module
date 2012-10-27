@@ -124,7 +124,7 @@ function _view_galeria_eslasticslider($nid) {
   dpm($links);
   dpm($node);
 
-  $js = "$('#carousel').elastislide({
+  $js = "jQuery('#carousel').elastislide({
         imageW    : 180,
         minItems  : 3,
         margin    : 2,
@@ -134,16 +134,14 @@ function _view_galeria_eslasticslider($nid) {
 
   drupal_add_js($js, 'inline');
 
-  $content['galeria']['contenido'] = array(
+  $content['galeria']= array(
      '#theme' => 'links',
      '#links' => $links,
+     '#prefix' => '<div id="carousel">',
+     '#suffix' => '</div>',
     );
 
-  $content['galeria'] = array(
-    '#prefix' => '<div class="poll-form">',
-    '#suffix' => '</div>',
-    '#type' => 'fieldset',
-    );
+
 
   return drupal_render($content);
 
