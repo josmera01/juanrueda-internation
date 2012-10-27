@@ -38,7 +38,7 @@ function juanrueda_galeria_field_formatter_settings_form($field, $instance, $vie
   $settings = $display['settings'];
 
   $element = array();
-
+  dpm($display);
   if ($display['type'] == 'entityreference') {
     $element['galeria_elastislide'] = array(
       '#title' => t('Cantidad imagenes'),
