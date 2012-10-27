@@ -51,15 +51,15 @@ ul li.leaf {
 #block-block-4 {background: url("../images/cabecera-twitter.png") repeat-x scroll 0 0 #FFFFFF;}
 #block-block-3  {background: url("../images/cabecera-youtube.png") repeat-x scroll 0 0 #FFFFFF;}
 #block-block-3 h2.block-title, #block-block-4 h2.block-title, #block-block-5 h2.block-title {
-	background: url("../images/logo-youtube.png") no-repeat scroll 0 0 transparent;
+	background: url("../images/logo-youtube.png") no-repeat scroll 10px 7px transparent;
 	color: white;
     font-size: 1.75em;
     font-weight: normal;
     line-height: 2.5;
     text-indent: 69px;	
 }
-#block-block-4 h2.block-title {background: url("../images/logo-twitter.png") no-repeat scroll 0 0 transparent;}
-#block-block-5 h2.block-title {background: url("../images/logo-face.png") no-repeat scroll 0 0 transparent;}
+#block-block-4 h2.block-title {background: url("../images/logo-twitter.png") no-repeat scroll 10px 7px transparent;}
+#block-block-5 h2.block-title {background: url("../images/logo-facebook.png") no-repeat scroll 10px 7px transparent;}
 #page-title {
 	color: #FF7B00;
 	font-size: 2.51em;
