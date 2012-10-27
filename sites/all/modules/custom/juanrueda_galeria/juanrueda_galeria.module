@@ -124,7 +124,7 @@ function _view_galeria_eslasticslider($nid) {
   dpm($links);
   dpm($node);
 
-  $js = "$('#carousel').elastislide({
+  $js = "jQuery('#carousel').elastislide({
         imageW    : 180,
         minItems  : 3,
         margin    : 2,
