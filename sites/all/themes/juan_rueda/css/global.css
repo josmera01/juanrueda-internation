@@ -38,7 +38,7 @@ ul li.leaf {
 	font-size: 1em;
 	font-family: gotham regular;
 }
-.bloque-gris article {padding: 12px 15px 15px;}
+.bloque-gris .node-article {padding: 12px 15px 15px;}
 .block-title{color: #2D6CB4;}
 .block-title .field-name-body {
 	text-align: center;
