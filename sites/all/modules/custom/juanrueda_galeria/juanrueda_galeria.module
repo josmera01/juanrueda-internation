@@ -85,7 +85,7 @@ function juanrueda_galeria_field_formatter_settings_summary($field, $instance, $
 /**
  * Implements hook_field_formatter_view($entity_type, $entity, $field, $instance, $langcode, $items, $display);
  */
-function juanrueda_galeria_hook_field_formatter_view($entity_type, $entity, $field, $instance, $langcode, $items, $display) {
+function juanrueda_galeria_field_formatter_view($entity_type, $entity, $field, $instance, $langcode, $items, $display) {
 
   switch ($display['type']) {
     case 'galeria_elastislide':
@@ -93,7 +93,7 @@ function juanrueda_galeria_hook_field_formatter_view($entity_type, $entity, $fie
         dpm($items);
         foreach ($items as $delta => $item) {
           $element[$delta] = array(
-            '#markup' =>   'Prueba',
+            '#markup' =>  _view_galeria_eslasticslider($item['target_id']) ,
             );
         }
 
@@ -102,4 +102,14 @@ function juanrueda_galeria_hook_field_formatter_view($entity_type, $entity, $fie
   }
 
   return $element;
+}
+
+function _view_galeria_eslasticslider($nid) {
+  $node = &drupal_static(__FUNCTION__);
+
+  drupal_add_library('juanrueda_libraries', 'elastislide');
+  $node = node_load($nid);
+
+  dpm($node);
+
 }
