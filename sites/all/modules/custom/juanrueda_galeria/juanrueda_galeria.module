@@ -42,6 +42,9 @@ function juanrueda_galeria_field_formatter_settings_form($field, $instance, $vie
   $display = $instance['display'][$view_mode];
   $settings = $display['settings'];
 
+  $image_styles = image_style_options(FALSE);
+
+
   $element = array();
 
   if ($display['type'] == 'galeria_elastislide') {
@@ -51,6 +54,14 @@ function juanrueda_galeria_field_formatter_settings_form($field, $instance, $vie
       '#size' => 20,
       '#default_value' => $settings['view_mode'] ? $settings['view_mode'] : 5,
       '#required' => TRUE,
+    );
+
+    $element['image_style'] = array(
+      '#title' => t('Image style'),
+      '#type' => 'select',
+      '#default_value' => $settings['image_style'],
+      '#empty_option' => t('None (original image)'),
+      '#options' => $image_styles,
     );
   }
 
