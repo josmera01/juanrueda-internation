@@ -124,15 +124,9 @@ function _view_galeria_eslasticslider($nid) {
   dpm($links);
   dpm($node);
 
-  $js = "$('#carousel').elastislide({
-        imageW    : 180,
-        minItems  : 3,
-        margin    : 2,
-        border    : 0,
-        current   : 12
-      });";
+  $path = drupal_get_path('module', 'juanrueda_galeria');
 
-  drupal_add_js($js, 'inline');
+  drupal_add_js($path . '/js/juanrueda_galeria.js');
 
   $content['galeria']= array(
      '#theme' => 'links',
