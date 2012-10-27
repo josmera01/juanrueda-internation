@@ -43,8 +43,6 @@ function juanrueda_galeria_field_formatter_settings_form($field, $instance, $vie
   $settings = $display['settings'];
 
   $element = array();
-  dpm($display);
-  dpm($settings);
 
   if ($display['type'] == 'galeria_elastislide') {
     $element['view_mode'] = array(
