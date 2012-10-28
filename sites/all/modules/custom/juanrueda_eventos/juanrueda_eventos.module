@@ -25,6 +25,23 @@ function juanrueda_eventos_menu() {
 }
 
 function contenido_evento() {
+  $commands = array();
+
+  $contenido = array(
+    '#markup' => 'hola',
+    );
+
+  $commands[] = array(
+    'command' => 'insert',
+    'data' => array(
+      $contenido
+    ),
+  );
+
+  return array(
+    '#type' => 'ajax',
+    '#commands' => $commands,
+  );
 
 }
 
@@ -37,7 +54,7 @@ function _consultar_evento($fecha) {
 
   $id = array();
   foreach ($db as $key => $value) {
-    dpm($value);
+    $id[] = $value->entity_id;
   }
-  return true;
+  return $id;
 }
