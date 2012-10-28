@@ -35,7 +35,7 @@ function contenido_evento($fecha) {
   foreach ($ids as $key => $value) {
     $node = node_load($value);
 
-    $output .= node_view($node, 'eventos_calendario');
+    $output .= drupal_render(node_view($node, 'eventos_calendario'));
   }
 
   return $output;
