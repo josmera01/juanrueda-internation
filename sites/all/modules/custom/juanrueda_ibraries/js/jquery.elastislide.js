@@ -4,8 +4,8 @@
 	$.fn.touchwipe 				= function(settings) {
 
 		var config = {
-			min_move_x: 5,
-			min_move_y: 5,
+			min_move_x: 20,
+			min_move_y: 20,
 			wipeLeft: function() { },
 			wipeRight: function() { },
 			wipeUp: function() { },
