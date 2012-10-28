@@ -50,7 +50,9 @@ function _consultar_evento($fecha) {
     ->fetchAll();
 
   $id = array();
+
   foreach ($db as $key => $value) {
+    dpm($value);
     $id[] = $value->entity_id;
   }
   return $id;
