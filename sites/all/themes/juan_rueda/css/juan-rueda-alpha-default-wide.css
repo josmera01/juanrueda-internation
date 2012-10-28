@@ -1,8 +1,8 @@
 /* This file will hold styles that are loaded using the same media query as the wide grid. */
 
-.front #region-content,
-.page-camiones #region-content,
-.page-tips-de-juan-rueda #region-content,
-.page-noticias-y-eventos #region-content{
+.front #region-content.grid-12,
+.page-camiones #region-content.grid-12,
+.page-tips-de-juan-rueda #region-content.grid-12,
+.page-noticias-y-eventos #region-content.grid-12{
 	width: 1200px;
 }
