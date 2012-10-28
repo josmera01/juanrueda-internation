@@ -17,7 +17,6 @@ function juanrueda_eventos_menu() {
     'page callback' => 'contenido_evento',
     'page argument' => array(1),
     'access callback' => TRUE,
-    'delivery callback' => 'ajax_deliver',
   );
 
   return $items;
@@ -25,24 +24,8 @@ function juanrueda_eventos_menu() {
 }
 
 function contenido_evento() {
-  $commands = array();
 
-  $contenido = array(
-    '#markup' => 'hola',
-    );
-
-  $commands[] = array(
-    'command' => 'insert',
-    'data' => array(
-      $contenido
-    ),
-  );
-
-  return array(
-    '#type' => 'ajax',
-    '#commands' => $commands,
-  );
-
+ drupal_json_output(array(a));
 }
 
 function _consultar_evento($fecha) {
