@@ -5,7 +5,8 @@
   Drupal.behaviors.juanruedacalendario = {
     attach: function(context, settings) {
       $('.has-events div a').click( function() {
-        alert('hoña');
+        var i = $(this).attr('href');
+        alert(i);
         return false;
       });
 
