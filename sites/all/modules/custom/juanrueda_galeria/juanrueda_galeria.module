@@ -116,7 +116,7 @@ function _view_galeria_eslasticslider($nid, $settings) {
      $links[] = array(
       'title' => theme('image', array('path' =>image_style_url($settings['image_style'], $value['uri']))),
       'html' => TRUE,
-      'href' => '',
+      'href' => '#',
 
       );
 
