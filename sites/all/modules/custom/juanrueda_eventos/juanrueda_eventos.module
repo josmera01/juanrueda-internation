@@ -24,8 +24,9 @@ function juanrueda_eventos_menu() {
 
 }
 
-function render_page_eventos($callback) {
-  dpm($callback);
+function render_page_eventos($callback, $a) {
+  var_dump($callback);
+  var_dump($a);
   drupal_render($callback);
   return $callback;
 }
