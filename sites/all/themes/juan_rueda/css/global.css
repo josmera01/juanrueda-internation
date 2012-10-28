@@ -32,19 +32,32 @@ img{
 	background-image: -ms-linear-gradient(bottom, #DBD8DB 12%, #E9E9E9 56%, #FFFFFF 78%);
 	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.12, #DBD8DB),color-stop(0.56, #E9E9E9),color-stop(0.78, #FFFFFF));
 	color: #1C1C1C;
+	border-radius: 0.5em;
 }
 .bloque-gris h2 {
 	color: #1B457A;
 	font-size: 1.5em;
 	font-weight: 300;
+	margin-bottom: 0.7em;
 }
-.bloque-gris a {color: #1B457A;}
+.bloque-gris a:link {color: #1B457A;}
+.bloque-gris a:hover, .bloque-gris a:visited{text-decoration: underline;}
+.bloque-gris a:hover{color: #E55700;}
+.bloque-gris a:visited{color: #6E6072;}
+.bloque-gris .field-type-image img{
+	width: 100%;
+	height: auto;
+	margin-bottom: 0.5em;
+}
 .bloque-gris .field-name-body {
 	color: #181818;
 	font-size: 1em;
 	font-weight: 300;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 1em;
 }
-.bloque-gris .node-article {padding: 12px 15px 15px;}
+.bloque-gris .field-name-body p{margin: 0;}
+.bloque-gris .node-article, .bloque-gris .node-evento {padding: 12px 15px 15px;}
 .block-title{color: #2D6CB4;}
 .block-title .field-name-body {text-align: center;}
 #block-block-5, #block-block-4, #block-block-3{
@@ -127,20 +140,37 @@ div.widgets-element-horizontal {margin-right: 5px;}
 #block-menu-menu-menu-secciones-principales {margin-bottom: 30px;}
 #block-menu-menu-menu-secciones-principales .content {
 	margin: 0 auto;
-    width: 75%;
+	width: 100%;
 }
-#block-menu-menu-menu-secciones-principales ul {overflow: hidden;}
-#block-menu-menu-menu-secciones-principales ul li.leaf{float: left;}
+#block-menu-menu-menu-secciones-principales ul {
+	overflow: hidden;
+	padding: 3%;
+}
+#block-menu-menu-menu-secciones-principales ul li.leaf {
+	float: left;
+	width: 18%;
+	margin: 1%;
+	padding: 0;
+}
 #block-menu-menu-menu-secciones-principales ul li a {
-    color: #133156;
+	color: #133156;
 	display: block;
-	font-size: 1.06em;
+	font-size: 1em;
 	font-weight: 400;
-    height: 128px;
-	width: 160px;
+	font-family: gotham medium, "lato", arial;
+	background: url("../images/menu-bg.png") repeat-x scroll top left transparent;
+	width: 70%;
+	text-align: center;
+	padding: 2.85em 15% 0;
+	height: 7.1em;
+	text-transform: uppercase;
+	line-height: 1.2;
+	border-radius: 0.5em;
 }
+#block-menu-menu-menu-secciones-principales ul li a:hover{background-position: 128px;}
+#block-menu-menu-menu-secciones-principales ul li a.active{background-position: 256px;}
 #block-menu-menu-menu-secciones-principales ul li a:hover, #block-menu-menu-menu-secciones-principales ul li a.active {color: #FFFFFF;}
-a.camiones{background: url("../images/camiones.png") no-repeat scroll 0 0 transparent;}
+/*a.camiones{background: url("../images/camiones.png") no-repeat scroll 0 0 transparent;}
 a.conozca_su_maquina  {background: url("../images/conozca_su_maquina.png") no-repeat scroll 0 0 transparent;}
 a.conviertase_en_experto  {background: url("../images/disfrute_su_camion.png") no-repeat scroll 0 0 transparent;}
 a.disfrute_su_camion  {background: url("../images/conviertase_en_experto.png") no-repeat scroll 0 0 transparent;}
@@ -149,7 +179,7 @@ a.camiones.active {background-position: 0 -130px;}
 a.conozca_su_maquina.active {background-position: 0 -130px;}
 a.conviertase_en_experto.active  {background-position: 0 -130px;}
 a.disfrute_su_camion.active  {background-position: 0 -130px;}
-a.contacte_distribuidor.active  {background-position: 0 -130px;}
+a.contacte_distribuidor.active  {background-position: 0 -130px;}*/
 
 /***************************************FOOTER***********************************************/
 
@@ -201,3 +231,16 @@ a.contacte_distribuidor.active  {background-position: 0 -130px;}
     text-align: center;
     width: 40%;
 }
+
+/**********************************MASONRY VIEWS***********************************/
+
+.front #region-content,
+.page-camiones #region-content,
+.page-tips-de-juan-rueda #region-content,
+.page-noticias-y-eventos #region-content{
+	margin: 0;
+}
+
+
+
+
