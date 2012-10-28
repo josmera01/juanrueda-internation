@@ -178,6 +178,13 @@ label {color: #FFFFFF;}
 	margin-right: 10px;
 }
 #block-views-bloque-todos-los-camiones-block .views-row.views-row-last {margin-right: 0;}
+#block-views-bloque-todos-los-camiones-block h2 a{
+	background: #DBDBDB;
+	color: #272727;
+	font-size: 1.06em;
+}
+#block-views-bloque-todos-los-camiones-block h2 a:hover,
+#block-views-bloque-todos-los-camiones-block h2 a.active {background: #E55500;}
 /***************************************HEADER***********************************************/
 
 .branding-data {text-align: center;}
