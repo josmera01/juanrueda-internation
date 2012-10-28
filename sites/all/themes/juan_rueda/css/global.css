@@ -305,13 +305,12 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 }
 #zone-footer .block {
 	float: left;
-	margin-right: 5%;
+	margin-left: 4%;
 }
-#zone-footer .block#block-widgets-s-socialmedia-profile-buttons{margin-right: 0;}
 #zone-footer .block#block-menu-menu-cont-ctenos{width: 30%;}
 #zone-footer #block-menu-menu-cont-ctenos .leaf {
 	float: left;
-	width: 30%;
+	width: 31%;
 }
 #zone-footer a {
 	text-decoration: none;
@@ -321,7 +320,7 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 	padding: 30px 0;
 }
 #region-footer-first .block .content {text-align: center;}
-#region-footer-first .block ul {}
+#region-footer-first .block ul {text-align: left;}
 #region-footer-first .block ul li{
 	list-style: circle inside;
 	margin: 0;
