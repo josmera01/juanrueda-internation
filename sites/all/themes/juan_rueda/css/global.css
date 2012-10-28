@@ -248,6 +248,25 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
     width: 40%;
 }
 
+.nivo-caption{
+	left: 65%;
+	top: 0px;
+	height: 100%;
+	width: 35%;
+	padding: 1em 3em;
+	opacity: 0.9;
+	background: #45484D;
+	background: -moz-linear-gradient(left, transparent 10%, black 80%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(10%,transparent), color-stop(80%,black));
+	background: -webkit-linear-gradient(left, transparent 10%,black 80%);
+	background: -o-linear-gradient(left, transparent 10%,black 80%);
+	background: -ms-linear-gradient(left, transparent 10%,black 80%);
+	background: linear-gradient(to right, transparent 10%,black 80%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='transparent', endColorstr='#000000',GradientType=1 );
+}
+
+
+
 /**********************************MASONRY VIEWS***********************************/
 
 .front #region-content,
