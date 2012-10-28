@@ -15,7 +15,7 @@ function juanrueda_eventos_menu() {
   $items['eventos/%'] = array(
     'title' => 'Chat Asesor',
     'page callback' => 'contenido_evento',
-    'page argument' => array(1),
+    'page arguments' => array(1),
     'access callback' => TRUE,
     'delivery callback' => 'render_page_eventos',
   );
