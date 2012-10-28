@@ -89,6 +89,7 @@ img{
 #block-block-4 h2.block-title {background: url("../images/logo-twitter.png") no-repeat scroll 10px 7px transparent;}
 #block-block-5 h2.block-title {background: url("../images/logo-facebook.png") no-repeat scroll 10px 7px transparent;}
 #page-title {
+	border-bottom: 1px solid #FF7B00;
 	color: #FF7B00;
 	font-size: 2.51em;
 	font-weight: 400;
