@@ -2,9 +2,9 @@
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
  
-.front #region-content,
-.page-camiones #region-content,
-.page-tips-de-juan-rueda #region-content,
-.page-noticias-y-eventos #region-content{
+.front #region-content.grid-12,
+.page-camiones #region-content.grid-12,
+.page-tips-de-juan-rueda #region-content.grid-12,
+.page-noticias-y-eventos #region-content.grid-12{
 	width: 960px;
 }

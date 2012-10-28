@@ -39,11 +39,16 @@ img{
 	font-size: 1.5em;
 	font-weight: 300;
 	margin-bottom: 0.7em;
+	line-height: 1.2;
+	padding-left: 1.5em;
 }
+.bloque-gris .node-evento h2{background: url("../images/ico-eventos.png") no-repeat 0 0 transparent;}
 .bloque-gris a:link {color: #1B457A;}
-.bloque-gris a:hover, .bloque-gris a:visited{text-decoration: underline;}
-.bloque-gris a:hover{color: #E55700;}
-.bloque-gris a:visited{color: #6E6072;}
+.bloque-gris a:hover{
+	text-decoration: underline;
+	color: #E55700;
+}
+
 .bloque-gris .field-type-image img{
 	width: 100%;
 	height: auto;
@@ -58,6 +63,12 @@ img{
 }
 .bloque-gris .field-name-body p{margin: 0;}
 .bloque-gris .node-article, .bloque-gris .node-evento {padding: 12px 15px 15px;}
+.bloque-gris .node-evento .field-label{float: left;}
+.bloque-gris .node-evento .field-name-field-fecha{
+	border-bottom: 1px solid #fff;
+	padding-bottom: 1em;
+}
+
 .block-title{color: #2D6CB4;}
 .block-title .field-name-body {text-align: center;}
 #block-block-5, #block-block-4, #block-block-3{

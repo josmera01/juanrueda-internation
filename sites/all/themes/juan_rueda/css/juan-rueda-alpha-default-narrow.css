@@ -3,9 +3,9 @@
  *  apply to the normal and widescreen layouts. You may override these styles in the normal 
  *  and widescreen CSS files as appropriate. */
  
-.front #region-content,
-.page-camiones #region-content,
-.page-tips-de-juan-rueda #region-content,
-.page-noticias-y-eventos #region-content{
+.front #region-content.grid-12,
+.page-camiones #region-content.grid-12,
+.page-tips-de-juan-rueda #region-content.grid-12,
+.page-noticias-y-eventos #region-content.grid-12{
 	width: 720px;
 }
