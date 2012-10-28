@@ -303,6 +303,7 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 	background-color: #000000;
 	color: #FFFFFF;
 }
+#section-footer li a:hover, #section-footer li a.active{color: #E55700;}
 #zone-footer .block {
 	float: left;
 	margin-left: 4%;
