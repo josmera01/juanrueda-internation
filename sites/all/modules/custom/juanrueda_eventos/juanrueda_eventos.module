@@ -1,10 +1,49 @@
 <?php
 
 function juanrueda_eventos_init() {
-  if (request_uri() == 'noticias-y-eventos') {
+
+  if (request_uri() == '/noticias-y-eventos') {
     $paht = drupal_get_path('module', 'juanrueda_eventos');
     drupal_add_js($paht . '/juanrueda_eventos.js');
   }
 
 }
 
+function juanrueda_eventos_menu() {
+  $items = array();
+
+  $items['eventos/%'] = array(
+    'title' => 'Chat Asesor',
+    'page callback' => 'contenido_evento',
+    'page argument' => array(1),
+    'access callback' => TRUE,
+    'delivery callback' => 'render_page_eventos',
+  );
+
+  return $items;
+
+}
+
+function render_page_eventos($callback) {
+  print $callback;
+}
+
+function contenido_evento() {
+
+  return 'hoa0';
+
+}
+
+function _consultar_evento($fecha) {
+  $db = db_select('field_data_field_fecha', 'f')
+    ->fields('f')
+    ->condition('field_fecha_value', $fecha)
+    ->execute()
+    ->fetchAll();
+
+  $id = array();
+  foreach ($db as $key => $value) {
+    $id[] = $value->entity_id;
+  }
+  return $id;
+}
