@@ -30,7 +30,8 @@ function render_page_eventos($callback) {
 
 function contenido_evento() {
 
- drupal_json_output(array(a));
+  return 'hoa0';
+
 }
 
 function _consultar_evento($fecha) {
