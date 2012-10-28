@@ -362,8 +362,7 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 	float: left;
 	width: 25.5%;
 }
-#node-webform-9 .form-textfield, #node-webform-9 .form-select {width: 100%;}
-
+#node-webform-9 .form-text, #node-webform-9 .form-select {width: 100%;}
 #node-webform-9 .webform-component-textarea, #node-webform-9 #edit-actions {width: 52.5%;}
 #node-webform-9 #edit-actions {overflow: hidden;}
 #node-webform-9 label {padding-left: 10px;}
