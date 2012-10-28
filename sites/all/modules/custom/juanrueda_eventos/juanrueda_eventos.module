@@ -15,7 +15,7 @@ function juanrueda_eventos_menu() {
   $items['eventos/%'] = array(
     'title' => 'Chat Asesor',
     'page callback' => 'contenido_evento',
-    'page argument' => array(1),
+    'page arguments' => array(1),
     'access callback' => TRUE,
     'delivery callback' => 'render_page_eventos',
   );
@@ -31,11 +31,11 @@ function render_page_eventos($callback) {
 function contenido_evento($fecha) {
   $ids = _consultar_evento($fecha);
   $output = '';
-  var_dump($fecha);
+
   foreach ($ids as $key => $value) {
     $node = node_load($value);
-    var_dump($node);
-    $output .= node_view($node, 'eventos_calendario');
+
+    $output .= drupal_render(node_view($node, 'eventos_calendario'));
   }
 
   return $output;
@@ -52,7 +52,6 @@ function _consultar_evento($fecha) {
   $id = array();
 
   foreach ($db as $key => $value) {
-    dpm($value->entity_id);
     $id[] = $value->entity_id;
   }
 
