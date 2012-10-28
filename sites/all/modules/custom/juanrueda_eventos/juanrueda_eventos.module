@@ -1,0 +1,5 @@
+<?php
+
+function juanrueda_eventos_init() {
+
+}

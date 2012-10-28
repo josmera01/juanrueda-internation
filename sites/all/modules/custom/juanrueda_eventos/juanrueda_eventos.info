@@ -1,0 +1,4 @@
+name = Alter de eventos
+description = Modulo altera las funcionalidades de eventos, calendario
+core = 7.x
+package = juanRueda International
