@@ -144,12 +144,32 @@ label {color: #FFFFFF;}
 	width: 5px;
 }
 #block-views-featured-slider-block  .nivo-controlNav a.active{background: #F75B04;}
+.nivo-caption {
+	left: 65%;
+	top: 0px;
+	height: 100%;
+	width: 35%;
+	padding: 1em 3em;
+	opacity: 0.9;
+	background: #000000;
+	background: -moz-linear-gradient(left, transparent 10%, black 80%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(10%,transparent), color-stop(80%,black));
+	background: -webkit-linear-gradient(left, transparent 10%,black 80%);
+	background: -o-linear-gradient(left, transparent 10%,black 80%);
+	background: -ms-linear-gradient(left, transparent 10%,black 80%);
+	background: linear-gradient(to right, transparent 10%,black 80%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='transparent', endColorstr='#000000',GradientType=1 );
+}
 #views-nivo-slider-featured_slider-block {
 	border: 2px solid #FFFFFF;
 	border-radius: 5px;
 }
 .views-nivo-slider-view  {padding: 0;}
-
+#block-views-bloque-todos-los-camiones-block .views-row {
+	float: left;
+	margin-right: 10px;
+}
+#block-views-bloque-todos-los-camiones-block .views-row.views-row-last {margin-right: 0;}
 /***************************************HEADER***********************************************/
 
 .branding-data {text-align: center;}
