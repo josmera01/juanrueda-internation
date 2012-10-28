@@ -46,10 +46,9 @@ img{
 }
 .bloque-gris .node-evento h2{background: url("../images/ico-eventos.png") no-repeat 0 0 transparent;}
 .bloque-gris a:link {color: #1B457A;}
-.bloque-gris a:hover{
-	text-decoration: underline;
-	color: #E55700;
-}
+.bloque-gris a:hover, .bloque-gris a:visited{text-decoration: underline;}
+.bloque-gris a:hover{color: #E55700;}
+.bloque-gris a:visited{color: #6E7072;}
 
 .bloque-gris .field-type-image img{
 	width: 100%;
@@ -102,14 +101,21 @@ label {color: #FFFFFF;}
 
 /***************************************SLIDER***********************************************/
 
-#block-views-featured-slider-block .nivo-caption {
-	background: transparent;
-	display: block;
-    float: left;
-    height: 65%;
-    left: 830px;
-    top: 40px;
-    width: 25%;
+.nivo-caption{
+	left: 65%;
+	top: 0px;
+	height: 100%;
+	width: 35%;
+	padding: 2em 3em;
+	opacity: 0.9;
+	background: #000000;
+	background: -moz-linear-gradient(left, transparent 10%, black 80%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(10%,transparent), color-stop(80%,black));
+	background: -webkit-linear-gradient(left, transparent 10%,black 80%);
+	background: -o-linear-gradient(left, transparent 10%,black 80%);
+	background: -ms-linear-gradient(left, transparent 10%,black 80%);
+	background: linear-gradient(to right, transparent 10%,black 80%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='transparent', endColorstr='#000000',GradientType=1 );
 }
 #block-views-featured-slider-block .nivo-caption h1 {
 	font-size: 2em;
@@ -323,23 +329,6 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
     margin: 0 auto;
     text-align: center;
     width: 40%;
-}
-
-.nivo-caption{
-	left: 65%;
-	top: 0px;
-	height: 100%;
-	width: 35%;
-	padding: 1em 3em;
-	opacity: 0.9;
-	background: #45484D;
-	background: -moz-linear-gradient(left, transparent 10%, black 80%);
-	background: -webkit-gradient(linear, left top, right top, color-stop(10%,transparent), color-stop(80%,black));
-	background: -webkit-linear-gradient(left, transparent 10%,black 80%);
-	background: -o-linear-gradient(left, transparent 10%,black 80%);
-	background: -ms-linear-gradient(left, transparent 10%,black 80%);
-	background: linear-gradient(to right, transparent 10%,black 80%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='transparent', endColorstr='#000000',GradientType=1 );
 }
 
 

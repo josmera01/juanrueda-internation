@@ -18,6 +18,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
+
 define('DRUPAL_ROOT', getcwd());
 
 require_once DRUPAL_ROOT . '/includes/bootstrap.inc';
