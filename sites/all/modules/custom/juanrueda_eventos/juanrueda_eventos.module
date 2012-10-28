@@ -12,10 +12,11 @@ function juanrueda_eventos_init() {
 function juanrueda_eventos_menu() {
   $items = array();
 
-  $items['ves_chat/asesor/%/%'] = array(
+  $items['eventos/%'] = array(
     'title' => 'Chat Asesor',
-    'page callback' => 'ves_chat_asesor_page',
-    'access callback' => TRUE
+    'page callback' => 'contenido_evento',
+    'page argument' => array(1),
+    'access callback' => TRUE,
     'delivery callback' => 'ajax_deliver',
   );
 
