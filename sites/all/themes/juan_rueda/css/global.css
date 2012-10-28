@@ -75,6 +75,7 @@ img{
 #block-block-5, #block-block-4, #block-block-3{
 	border-radius: 5px 5px 0 0;
 	padding-left: 4px;
+	width: 100%;
 }
 #block-block-5  {background: url("../images/cabecera-facebook.png") repeat-x scroll 0 0 #FFFFFF;}
 #block-block-4 {background: url("../images/cabecera-twitter.png") repeat-x scroll 0 0 #FFFFFF;}
@@ -84,7 +85,8 @@ img{
 	color: white;
     font-size: 1.75em;
     font-weight: normal;
-    line-height: 2.5;
+	height: 60px;
+    line-height: 2;
     text-indent: 69px;	
 }
 #block-block-4 h2.block-title {background: url("../images/logo-twitter.png") no-repeat scroll 10px 7px transparent;}
@@ -181,9 +183,10 @@ label {color: #FFFFFF;}
 .branding-data {text-align: center;}
 .site-name-slogan {float: none;}
 .branding-data  h1.site-name {
-	font-size: 4em;
-	font-weight: normal;
+	font-size: 7em;
+	font-weight: 700;
 	margin: 35px 0;
+	text-transform: uppercase;
 }
 #region-user-second .region-inner {overflow: hidden;}
 #region-user-second .block {float: right;}
