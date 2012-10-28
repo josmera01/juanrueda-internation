@@ -52,7 +52,7 @@ function _consultar_evento($fecha) {
   $id = array();
 
   foreach ($db as $key => $value) {
-    dpm($value);
+    dpm($value->entity_id);
     $id[] = $value->entity_id;
   }
   return $id;
