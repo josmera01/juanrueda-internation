@@ -28,9 +28,16 @@ function render_page_eventos($callback) {
   print $callback;
 }
 
-function contenido_evento() {
+function contenido_evento($fecha) {
+  $ids = _consultar_evento($fecha);
+  $output = '';
 
-  return 'hoa0';
+  foreach ($ids as $key => $value) {
+    $node = node_load($value);
+    $output .= node_view($node, 'eventos_calendario');
+  }
+
+  return $output;
 
 }
 
