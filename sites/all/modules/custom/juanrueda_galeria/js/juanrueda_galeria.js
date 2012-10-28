@@ -1,9 +1,13 @@
 (function($){
+
+  Drupal.juanruedaGaleria = Drupal.juanruedaGaleria || {};
+
   Drupal.behaviors.juanruedaGaleria = {
     attach: function(context, settings) {
+      alert('ho');
       $('#carousel').elastislide({
         imageW    : 180,
-        minItems  : Drupal.settings.galeria.view_mode,
+        minItems  : 2,
         margin    : 2,
         border    : 0,
         current   : 12

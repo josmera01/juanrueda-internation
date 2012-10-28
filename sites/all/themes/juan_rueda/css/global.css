@@ -4,18 +4,22 @@
 
 /***************************************GENERAL STYLES***********************************************/
 @import url(http://fonts.googleapis.com/css?family=Lato:400,300,700);
-body {background: #212121;
-font-family: 'Lato', sans-serif;
+body {
+	background: #212121;
+	font-family: 'Lato', sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {font-family: 'Lato', sans-serif;}
 a:link, a:visited {
 	color: #FFFFFF;
 	text-decoration: none;
 }
-
 ul li.leaf {
     list-style-image: none;
     list-style-type: none;
+}
+img{
+	max-width: 100%;
+	width: auto;
 }
 #zone-user {margin-top: 20px;}
 .bloque-gris {}
@@ -66,9 +70,7 @@ ul li.leaf {
 }
 
 .block-title{color: #2D6CB4;}
-.block-title .field-name-body {
-	text-align: center;
-}
+.block-title .field-name-body {text-align: center;}
 #block-block-5, #block-block-4, #block-block-3{
 	border-radius: 5px 5px 0 0;
 	padding-left: 4px;
@@ -81,7 +83,7 @@ ul li.leaf {
 	color: white;
     font-size: 1.75em;
     font-weight: normal;
-    line-height: 2;
+    line-height: 2.5;
     text-indent: 69px;	
 }
 #block-block-4 h2.block-title {background: url("../images/logo-twitter.png") no-repeat scroll 10px 7px transparent;}
@@ -92,7 +94,9 @@ ul li.leaf {
 	font-weight: 400;
 }
 label {color: #FFFFFF;}
+
 /***************************************HEADER***********************************************/
+
 .branding-data {text-align: center;}
 .site-name-slogan {float: none;}
 .branding-data  h1.site-name {
@@ -229,7 +233,6 @@ a.contacte_distribuidor.active  {background-position: 0 -130px;}*/
 #block-widgets-s-socialmedia-profile-buttons  div.widgets-element-horizontal {float: none;}
 
 /***************************************HOME***********************************************/
-
 
 #block-webform-client-block-1 h2.block-title {
     font-size: 1.5em;
