@@ -288,8 +288,8 @@ div.widgets-element-horizontal {margin-right: 5px;}
 #block-menu-menu-menu-secciones-principales ul li:hover{background-position: 128px;}
 #block-menu-menu-menu-secciones-principales ul li.active-trail{background-position: 256px;}
 #block-menu-menu-menu-secciones-principales ul li a:hover, #block-menu-menu-menu-secciones-principales ul li a.active {
-color: #FFFFFF;
-background-position: center -12.1em;
+	color: #FFFFFF;
+	background-position: center -12.1em;
 }
 a.camiones{background-image: url("../images/ico-camiones.png");}
 a.conozca_su_maquina  {background-image: url("../images/ico-repuestos.png");}
@@ -347,9 +347,35 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
     text-align: center;
     width: 40%;
 }
+/***************************************CONTACTO***********************************************/
 
-
-
+#node-webform-9 .webform-component-textfield, #node-webform-9 .webform-component-select {
+	float: left;
+	width: 25.5%;
+}
+#node-webform-9 .webform-component-textarea, #node-webform-9 #edit-actions {width: 52.5%;}
+#node-webform-9 #edit-actions {overflow: hidden;}
+#node-webform-9 label {padding-left: 10px;}
+.marker, .form-required {color: #FF7B00;}
+#node-webform-9 #edit-actions .form-submit {
+	background-image: linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+	background-image: -o-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+	background-image: -moz-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+	background-image: -webkit-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+	background-image: -ms-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.22, #133155),
+		color-stop(0.61, #133B6C),
+		color-stop(0.81, #224B88)
+	);
+	border-radius: 7px 7px 7px 7px !important;
+	color: #FFFFFF;
+	float: right;
+    padding: 8px 20px;
+}
 /**********************************MASONRY VIEWS***********************************/
 
 .front #region-content,
