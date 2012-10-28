@@ -9,3 +9,34 @@ function juanrueda_eventos_init() {
 
 }
 
+function juanrueda_eventos_menu() {
+  $items = array();
+
+  $items['ves_chat/asesor/%/%'] = array(
+    'title' => 'Chat Asesor',
+    'page callback' => 'ves_chat_asesor_page',
+    'access callback' => TRUE
+    'delivery callback' => 'ajax_deliver',
+  );
+
+  return $items;
+
+}
+
+function contenido_evento() {
+
+}
+
+function _consultar_evento($fecha) {
+  $db = db_select('field_data_field_fecha', 'f')
+    ->fields('f')
+    ->condition('field_fecha_value', $fecha)
+    ->execute()
+    ->fetchAll();
+
+  $id = array();
+  foreach ($db as $key => $value) {
+    dpm($value);
+  }
+  return true;
+}
