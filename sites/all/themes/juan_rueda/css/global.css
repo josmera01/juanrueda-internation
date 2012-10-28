@@ -162,35 +162,39 @@ div.widgets-element-horizontal {margin-right: 5px;}
 	width: 18%;
 	margin: 1%;
 	padding: 0;
+	background: url("../images/menu-bg.png") repeat-x scroll top left transparent;
+	border-radius: 0.5em;
 }
 #block-menu-menu-menu-secciones-principales ul li a {
 	color: #133156;
 	display: block;
 	font-size: 1em;
-	font-weight: 400;
+	font-weight: 700;
 	font-family: gotham medium, "lato", arial;
-	background: url("../images/menu-bg.png") repeat-x scroll top left transparent;
-	width: 70%;
+	width: 60%;
 	text-align: center;
-	padding: 2.85em 15% 0;
-	height: 7.1em;
+	padding: 3.2em 20% 0;
+	height: 6.8em;
 	text-transform: uppercase;
 	line-height: 1.2;
-	border-radius: 0.5em;
+	background-repeat: no-repeat;
+	background-position: center 0.5em;
 }
-#block-menu-menu-menu-secciones-principales ul li a:hover{background-position: 128px;}
-#block-menu-menu-menu-secciones-principales ul li a.active{background-position: 256px;}
-#block-menu-menu-menu-secciones-principales ul li a:hover, #block-menu-menu-menu-secciones-principales ul li a.active {color: #FFFFFF;}
-/*a.camiones{background: url("../images/camiones.png") no-repeat scroll 0 0 transparent;}
-a.conozca_su_maquina  {background: url("../images/conozca_su_maquina.png") no-repeat scroll 0 0 transparent;}
-a.conviertase_en_experto  {background: url("../images/disfrute_su_camion.png") no-repeat scroll 0 0 transparent;}
-a.disfrute_su_camion  {background: url("../images/conviertase_en_experto.png") no-repeat scroll 0 0 transparent;}
-a.contacte_distribuidor  {background: url("../images/contacte_su_distribuidor.png") no-repeat scroll 0 0 transparent;}
-a.camiones.active {background-position: 0 -130px;}
-a.conozca_su_maquina.active {background-position: 0 -130px;}
-a.conviertase_en_experto.active  {background-position: 0 -130px;}
-a.disfrute_su_camion.active  {background-position: 0 -130px;}
-a.contacte_distribuidor.active  {background-position: 0 -130px;}*/
+#block-menu-menu-menu-secciones-principales ul li.first a{
+	padding: 3.8em 20% 0;
+	height: 6.2em;
+}
+#block-menu-menu-menu-secciones-principales ul li:hover{background-position: 128px;}
+#block-menu-menu-menu-secciones-principales ul li.active-trail{background-position: 256px;}
+#block-menu-menu-menu-secciones-principales ul li a:hover, #block-menu-menu-menu-secciones-principales ul li a.active {
+color: #FFFFFF;
+background-position: center -12.1em;
+}
+a.camiones{background-image: url("../images/ico-camiones.png");}
+a.conozca_su_maquina  {background-image: url("../images/ico-repuestos.png");}
+a.conviertase_en_experto  {background-image: url("../images/ico-latec.png");}
+a.disfrute_su_camion  {background-image: url("../images/ico-servicios.png");}
+a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 
 /***************************************FOOTER***********************************************/
 
