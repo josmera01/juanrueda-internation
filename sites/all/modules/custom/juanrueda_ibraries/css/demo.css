@@ -63,7 +63,7 @@ p{
 .content{
 	margin:0px 25px;
 }
-/* Examples list 
+/* Examples list */
 
 .more{
 	position:relative;
@@ -107,7 +107,7 @@ p{
 	width:48%;
 	float:left;
 	padding:1%;
-}*/
+}
 @media screen and (max-width: 640px) {
 	.header{
 		text-align:center;
