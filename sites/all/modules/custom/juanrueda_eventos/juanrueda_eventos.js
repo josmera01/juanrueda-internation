@@ -8,7 +8,7 @@
         var contenido = $(this).attr('href');
 
         var myArray = contenido.split('/');
-        console.log(myArray);
+        console.log(myArray[5]);
         return false;
       });
 
