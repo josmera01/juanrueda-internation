@@ -59,7 +59,7 @@ ul li.leaf {
 }
 .bloque-gris .field-name-body p{margin: 0;}
 .bloque-gris .node-article, .bloque-gris .node-evento {padding: 12px 15px 15px;}
-.bloque-gris .field-label{float: left;}
+.bloque-gris .node-evento .field-label{float: left;}
 
 .block-title{color: #2D6CB4;}
 .block-title .field-name-body {
