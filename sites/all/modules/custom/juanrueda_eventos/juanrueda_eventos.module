@@ -9,3 +9,35 @@ function juanrueda_eventos_init() {
 
 }
 
+function juanrueda_eventos_menu() {
+  $items = array();
+
+  $items['eventos/%'] = array(
+    'title' => 'Chat Asesor',
+    'page callback' => 'contenido_evento',
+    'page argument' => array(1),
+    'access callback' => TRUE,
+  );
+
+  return $items;
+
+}
+
+function contenido_evento() {
+
+ drupal_json_output(array(a));
+}
+
+function _consultar_evento($fecha) {
+  $db = db_select('field_data_field_fecha', 'f')
+    ->fields('f')
+    ->condition('field_fecha_value', $fecha)
+    ->execute()
+    ->fetchAll();
+
+  $id = array();
+  foreach ($db as $key => $value) {
+    $id[] = $value->entity_id;
+  }
+  return $id;
+}
