@@ -1,5 +1,7 @@
 <?php
 
 function juanrueda_eventos_init() {
-
+  $paht = drupal_get_path('module', 'juanrueda_eventos');
+  drupal_add_js($paht . '/juanrueda_eventos.js');
 }
+
