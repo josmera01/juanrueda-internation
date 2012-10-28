@@ -1,4 +1,7 @@
 (function($){
+
+  Drupal.juanruedaGaleria = Drupal.juanruedaGaleria || {};
+
   Drupal.behaviors.juanruedaGaleria = {
     attach: function(context, settings) {
       $('#carousel').elastislide({
