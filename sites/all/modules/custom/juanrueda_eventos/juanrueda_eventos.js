@@ -12,7 +12,7 @@
         url = '/eventos/' + myArray[5];
 
         $('#result-eventos').load(url, function() {
-          alert('hola');
+
         });
 
         return false;
