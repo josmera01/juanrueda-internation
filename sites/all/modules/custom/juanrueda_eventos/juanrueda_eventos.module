@@ -31,7 +31,7 @@ function render_page_eventos($callback) {
 function contenido_evento($fecha) {
   $ids = _consultar_evento($fecha);
   $output = '';
-  var_dump($ids);
+  var_dump($fecha);
   foreach ($ids as $key => $value) {
     $node = node_load($value);
     var_dump($node);
@@ -55,5 +55,6 @@ function _consultar_evento($fecha) {
     dpm($value->entity_id);
     $id[] = $value->entity_id;
   }
+
   return $id;
 }
