@@ -1,6 +1,6 @@
 @import url('reset.css');
 
-/* General Codrops Demo Style */
+/* General Codrops Demo Style *//*
 body{
 	background:#e1c9c7 url(../images/pattern.png) repeat top left;
 	color:#222;
@@ -107,7 +107,7 @@ p{
 	width:48%;
 	float:left;
 	padding:1%;
-}
+}*/
 @media screen and (max-width: 640px) {
 	.header{
 		text-align:center;
