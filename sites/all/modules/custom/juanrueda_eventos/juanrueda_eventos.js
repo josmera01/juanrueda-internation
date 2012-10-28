@@ -8,12 +8,10 @@
         var contenido = $(this).attr('href');
 
         var myArray = contenido.split('/');
-        console.log();
-        url = 'eventos/' + myArray[5]
-        $.ajax({
-          type: "GET",
-          url: url,
-          dataType: "script"
+
+        url = '/eventos/' + myArray[5]
+        $('#result-eventos').load(eventos, function() {
+
         });
 
         return false;
