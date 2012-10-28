@@ -46,10 +46,9 @@ img{
 }
 .bloque-gris .node-evento h2{background: url("../images/ico-eventos.png") no-repeat 0 0 transparent;}
 .bloque-gris a:link {color: #1B457A;}
-.bloque-gris a:hover{
-	text-decoration: underline;
-	color: #E55700;
-}
+.bloque-gris a:hover, .bloque-gris a:visited{text-decoration: underline;}
+.bloque-gris a:hover{color: #E55700;}
+.bloque-gris a:visited{color: #6E7072;}
 
 .bloque-gris .field-type-image img{
 	width: 100%;
