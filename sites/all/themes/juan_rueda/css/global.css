@@ -195,7 +195,7 @@ div.widgets-element-horizontal {margin-right: 5px;}
     margin: 0;
     padding: 0;
 }
-#block-system-main-menu ul li a, .responsive-layout-mobile  .menu-render{
+#block-system-main-menu ul li a {
 	background: url("../images/menu_1.png") repeat-x scroll 0 0 transparent;
     border-right: 1px solid #858585;
     color: #474747;
@@ -472,4 +472,21 @@ form .form-submit:hover {
     padding: 1.3em 0 0 70px;
 	text-align: left;
 	width: auto;
+}
+.responsive-layout-mobile  .menu-render {
+	background-image: linear-gradient(bottom, #FF6201 42%, #FF9900 71%);
+	background-image: -o-linear-gradient(bottom, #FF6201 42%, #FF9900 71%);
+	background-image: -moz-linear-gradient(bottom, #FF6201 42%, #FF9900 71%);
+	background-image: -webkit-linear-gradient(bottom, #FF6201 42%, #FF9900 71%);
+	background-image: -ms-linear-gradient(bottom, #FF6201 42%, #FF9900 71%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.42, #FF6201),
+		color-stop(0.71, #FF9900)
+	);
+	border-radius: 5px;
+	color: #554747;
 }
