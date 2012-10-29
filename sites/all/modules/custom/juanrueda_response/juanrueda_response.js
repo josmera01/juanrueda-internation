@@ -13,7 +13,7 @@
           });
         }
         else {
-          ('#block-menu-menu-menu-secciones-principales ul').css('display', 'block');
+          ('#block-menu-menu-menu-secciones-principales ul').show();
         }
       });
   }
