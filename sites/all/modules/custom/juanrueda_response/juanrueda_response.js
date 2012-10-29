@@ -18,16 +18,14 @@
             $('#block-menu-menu-menu-secciones-principales .content ul').toggle();
           });
 
-          $('#zone-footer .grid-12').hide();
+          //Mapa sitio
+          $('#zone-footer .region-footer-first-inner').hide();
 
-          if ($('#zone-footer').val() == 'Menu') {
-              $('#zone-footer').css('display', 'block');
-          }else{
-            $('#zone-footer').prepend('<div class="mapa-sitio-render">Mapa sitio</div>');
-          }
+          $('#zone-footer').prepend('<div class="mapa-sitio-render">Mapa sitio</div>');
+
 
           $('.mapa-sitio-render').click(function(){
-            $('#zone-footer .grid-12').toggle();
+            $('#zone-footer .region-footer-first-inner').toggle();
           });
 
 
@@ -36,7 +34,7 @@
           $('#block-menu-menu-menu-secciones-principales .content ul').css('display', 'block');
           $('.menu-render').hide();
 
-          $('#zone-footer .grid-12').css('display', 'block');
+          $('#zone-footer .region-footer-first-inner').css('display', 'block');
           $('.mapa-sitio-render').hide();
 
         }
