@@ -27,8 +27,7 @@ img{
 .block-title{color: #2D6CB4;}
 .block-title .field-name-body {text-align: center;}
 #block-block-5, #block-block-4, #block-block-3{
-	border-radius: 5px 5px 0 0;
-	width: 100%;
+	border-radius: 0.5em 0.5em 0 0;
 }
 #block-block-5 .block-inner, #block-block-4 .block-inner, #block-block-3 .block-inner {
 	padding-bottom: 6px;
@@ -183,12 +182,12 @@ div.widgets-element-horizontal {margin-right: 5px;}
 /***************************************MENU***********************************************/
 
 #block-system-main-menu {
-	float: right;
 	margin-right: 50px;
 	max-width: 100%;
 	width: auto;
 	
 }
+#block-system-main-menu ul{float: right;}
 #block-system-main-menu ul li.leaf {
 	float: left;
     height: 27px;
@@ -384,7 +383,8 @@ form .form-submit:hover {
 .front #region-content,
 .page-camiones #region-content,
 .page-tips-de-juan-rueda #region-content,
-.page-noticias-y-eventos #region-content{
+.page-noticias-y-eventos #region-content,
+.front #region-postscript-fourth.grid-12{
 	margin: 0;
 }
 
@@ -473,13 +473,13 @@ form .form-submit:hover {
 	text-align: left;
 	width: auto;
 }
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content ul li a.active{background-position: 2em -12em;}
 .responsive-layout-mobile  .menu-render {
 	background-image: linear-gradient(bottom, #FF6201 42%, #FF9900 71%);
 	background-image: -o-linear-gradient(bottom, #FF6201 42%, #FF9900 71%);
 	background-image: -moz-linear-gradient(bottom, #FF6201 42%, #FF9900 71%);
 	background-image: -webkit-linear-gradient(bottom, #FF6201 42%, #FF9900 71%);
 	background-image: -ms-linear-gradient(bottom, #FF6201 42%, #FF9900 71%);
-
 	background-image: -webkit-gradient(
 		linear,
 		left bottom,
@@ -489,11 +489,4 @@ form .form-submit:hover {
 	);
 	border-radius: 5px;
 	color: #554747;
-}
-.responsive-layout-mobile  #block-search-form {
-    display: block;
-    left: 40%;
-    position: absolute;
-    top: 251px;
-    z-index: 100;
 }

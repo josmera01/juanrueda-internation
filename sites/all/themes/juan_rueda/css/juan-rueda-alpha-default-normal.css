@@ -4,9 +4,18 @@
  
 .front #region-content.grid-12,
 .page-camiones #region-content.grid-12,
-.page-tips-de-juan-rueda #region-content.grid-12{
+.page-tips-de-juan-rueda #region-content.grid-12,
+.front #region-postscript-fourth.grid-12{
 	width: 960px;
 }
 .page-noticias-y-eventos #region-content.grid-8{
 	width: 640px;
+}
+
+.responsive-layout-normal #block-menu-menu-menu-secciones-principales .content ul li a{
+	width: 70%;
+	padding: 3.2em 15% 0;
+}
+.responsive-layout-normal #block-menu-menu-menu-secciones-principales .content ul li.first a {
+	padding: 3.8em 15% 0;
 }
