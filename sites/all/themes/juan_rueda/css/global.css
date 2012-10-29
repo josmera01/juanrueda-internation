@@ -490,3 +490,10 @@ form .form-submit:hover {
 	border-radius: 5px;
 	color: #554747;
 }
+.responsive-layout-mobile  #block-search-form {
+    display: block;
+    left: 40%;
+    position: absolute;
+    top: 251px;
+    z-index: 100;
+}
