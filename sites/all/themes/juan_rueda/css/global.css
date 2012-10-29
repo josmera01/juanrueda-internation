@@ -149,7 +149,7 @@ label {color: #FFFFFF;}
 	border-bottom-right-radius: 0.5em;
 	border-bottom-left-radius: 0.5em;
 }
-#block-views-bloque-todos-los-camiones-block .field-name-title a:hover, #block-views-bloque-todos-los-camiones-block .field-name-title a.active {
+#block-views-bloque-todos-los-camiones-block .views-row:hover .field-name-title a, #block-views-bloque-todos-los-camiones-block .field-name-title a.active {
 	background: #E55500;
 	color: #FFFFFF;
 }
