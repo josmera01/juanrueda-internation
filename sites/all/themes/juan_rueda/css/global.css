@@ -44,6 +44,7 @@ img{
 	line-height: 1.2;
 	padding-left: 1.5em;
 }
+.bloque-gris .node-camion h2{padding-left: 0;}
 .bloque-gris .node-evento h2{background: url("../images/ico-eventos.png") no-repeat 0 0 transparent;}
 .bloque-gris a:link {color: #1B457A;}
 .bloque-gris a:hover, .bloque-gris a:visited{text-decoration: underline;}
@@ -63,7 +64,7 @@ img{
 	padding-bottom: 1em;
 }
 .bloque-gris .field-name-body p{margin: 0;}
-.bloque-gris .node-article, .bloque-gris .node-evento {padding: 12px 15px 15px;}
+.bloque-gris .node-article, .bloque-gris .node-evento, .bloque-gris .node-camion {padding: 1em 1.2em 1.2em 1.2em;}
 .bloque-gris .node-evento .field-label{float: left;}
 .bloque-gris .node-evento .field-name-field-fecha{
 	border-bottom: 1px solid #fff;
