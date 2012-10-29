@@ -23,6 +23,8 @@ img{
 	max-width: 100%;
 	height: auto;
 }
+iframe{max-width: 100%}
+
 #zone-user {margin-top: 20px;}
 .block-title{color: #2D6CB4;}
 .block-title .field-name-body {text-align: center;}
@@ -35,21 +37,25 @@ img{
 #block-block-5, #block-block-4, #block-block-3{
 	border-radius: 0.5em 0.5em 0 0;
 }
-#block-block-5 .block-inner, #block-block-4 .block-inner, #block-block-3 .block-inner {
-	padding-bottom: 6px;
-	padding-left: 4px;
+#block-block-5 .content, #block-block-4 .content, #block-block-3 .content {
+	padding: 0 1em;
 }
 #block-block-5  {background: url("../images/cabecera-facebook.png") repeat-x scroll 0 0 #FFFFFF;}
 #block-block-4 {background: url("../images/cabecera-twitter.png") repeat-x scroll 0 0 #FFFFFF;}
+#block-block-4 .content p{
+	width: 100%;
+	text-align: center;
+}
 #block-block-3  {background: url("../images/cabecera-youtube.png") repeat-x scroll 0 0 #FFFFFF;}
 #block-block-3 h2.block-title, #block-block-4 h2.block-title, #block-block-5 h2.block-title {
 	background: url("../images/logo-youtube.png") no-repeat scroll 10px 7px transparent;
 	color: white;
-    font-size: 1.75em;
-    font-weight: normal;
-	height: 60px;
-    line-height: 2;
-    text-indent: 69px;	
+	font-weight: normal;
+	height: 3em;
+	line-height: 2;
+	text-indent: 69px;
+	font-size: 1.2em;
+	padding: 0.5em 0;
 }
 #block-block-4 h2.block-title {background: url("../images/logo-twitter.png") no-repeat scroll 10px 7px transparent;}
 #block-block-5 h2.block-title {background: url("../images/logo-facebook.png") no-repeat scroll 10px 7px transparent;}
