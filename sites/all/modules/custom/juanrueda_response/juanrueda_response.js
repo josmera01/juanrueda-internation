@@ -28,6 +28,11 @@
             $('#zone-footer .region-footer-first-inner').toggle();
           });
 
+          //Buscador
+          $('.form-item-search-block-form').hide();
+          $('.form-item-search-block-form').prepend('<div class="buscador-render">Buscador</div>');
+
+
 
         }
         else {
@@ -36,6 +41,10 @@
 
           $('#zone-footer .region-footer-first-inner').css('display', 'block');
           $('.mapa-sitio-render').hide();
+
+          $('.form-item-search-block-form').css('display', 'block');
+          $('.buscador-render').hide();
+
 
         }
       });
