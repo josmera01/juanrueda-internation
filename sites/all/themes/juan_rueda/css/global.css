@@ -454,3 +454,15 @@ form .form-submit:hover {
 
 
 
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf {
+	border: 2px solid #9EAAB0;
+	border-radius: 0;
+	float: none;
+	margin: 0;
+	width: 25%;
+}
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content ul li a {
+	background-position: 2em 0.8em;
+    height: 2.7em;
+    padding: 1.3em 20% 0 10%;
+}
