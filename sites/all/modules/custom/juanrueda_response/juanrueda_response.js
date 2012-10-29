@@ -29,8 +29,8 @@
           });
 
           //Buscador
-          $('.form-item-search-block-form').hide();
-          $('.form-item-search-block-form').prepend('<div class="buscador-render">Buscador</div>');
+          $('#block-search-form').hide();
+          $('#block-search-form').prepend('<div class="buscador-render">Buscador</div>');
 
 
 
@@ -42,7 +42,7 @@
           $('#zone-footer .region-footer-first-inner').css('display', 'block');
           $('.mapa-sitio-render').hide();
 
-          $('.form-item-search-block-form').css('display', 'block');
+          $('#block-search-form').css('display', 'block');
           $('.buscador-render').hide();
 
 
