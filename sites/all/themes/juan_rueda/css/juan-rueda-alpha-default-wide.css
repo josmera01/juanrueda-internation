@@ -2,7 +2,9 @@
 
 .front #region-content.grid-12,
 .page-camiones #region-content.grid-12,
-.page-tips-de-juan-rueda #region-content.grid-12,
-.page-noticias-y-eventos #region-content.grid-12{
+.page-tips-de-juan-rueda #region-content.grid-12{
 	width: 1200px;
+}
+.page-noticias-y-eventos #region-content.grid-8{
+	width: 800px;
 }

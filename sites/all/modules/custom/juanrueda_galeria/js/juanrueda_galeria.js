@@ -7,7 +7,7 @@
 
       $('#carousel').elastislide({
         imageW    : 180,
-        minItems  : 2,
+        minItems  : Drupal.settings.galeria.view_mode,
         margin    : 2,
         border    : 0,
         current   : 12
