@@ -18,7 +18,6 @@ function juanrueda_galeria_field_formatter_info() {
     );
 }
 
-
 /**
  * Implements hook_field_formatter_settings_form($field, $instance, $view_mode, $form, &$form_state)
  */
@@ -86,6 +85,8 @@ function juanrueda_galeria_field_formatter_settings_summary($field, $instance, $
  * Implements hook_field_formatter_view($entity_type, $entity, $field, $instance, $langcode, $items, $display);
  */
 function juanrueda_galeria_field_formatter_view($entity_type, $entity, $field, $instance, $langcode, $items, $display) {
+
+  $element = array();
 
   switch ($display['type']) {
     case 'galeria_elastislide':
