@@ -128,33 +128,16 @@ label {color: #FFFFFF;}
 }
 .views-nivo-slider-view  {padding: 0;}
 
-/*#block-views-bloque-todos-los-camiones-block .views-row {
-	float: left;
-	margin-right: 10px;
-}
-#block-views-bloque-todos-los-camiones-block .views-row.views-row-last {margin-right: 0;}
-#block-views-bloque-todos-los-camiones-block h2 a{
-	background: #DBDBDB;
-	color: #272727;
-	display: block;
-	font-size: 1.06em;
-	text-align: center;
-	width: 100%;
-}
-#block-views-bloque-todos-los-camiones-block h2.node-title {	
-	font-size: inherit;
-	margin: 0;
-}
-#block-views-bloque-todos-los-camiones-block h2 a:hover,
-#block-views-bloque-todos-los-camiones-block h2 a.active {
-	background: #E55500;
-	color: #FFFFFF;
-}*/
 #block-views-bloque-todos-los-camiones-block .views-row {
 	float: left;
-	margin-right: 1em;
+	margin-right: 1.5%;
+	width: 13%;
 }
 #block-views-bloque-todos-los-camiones-block .views-row.views-row-last {margin-right: 0;}
+#block-views-bloque-todos-los-camiones-block .field-name-field-imagen-destacada img{
+	border-top-right-radius: 0.5em;
+	border-top-left-radius: 0.5em;
+}
 #block-views-bloque-todos-los-camiones-block .field-name-title a{
 	background: #DBDBDB;
 	color: #272727;
@@ -162,6 +145,9 @@ label {color: #FFFFFF;}
 	font-size: 1.06em;
 	text-align: center;
 	width: 100%;
+	padding: 0.3em 0;
+	border-bottom-right-radius: 0.5em;
+	border-bottom-left-radius: 0.5em;
 }
 #block-views-bloque-todos-los-camiones-block .field-name-title a:hover, #block-views-bloque-todos-los-camiones-block .field-name-title a.active {
 	background: #E55500;
