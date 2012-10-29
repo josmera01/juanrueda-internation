@@ -24,53 +24,6 @@ img{
 	width: auto;
 }
 #zone-user {margin-top: 20px;}
-.bloque-gris {}
-.bloque-gris .views-row, #block-webform-client-block-1{
-	background: #d8d8d8;
-	background-image: linear-gradient(bottom, #DBD8DB 12%, #E9E9E9 56%, #FFFFFF 78%);
-	background-image: -o-linear-gradient(bottom, #DBD8DB 12%, #E9E9E9 56%, #FFFFFF 78%);
-	background-image: -moz-linear-gradient(bottom, #DBD8DB 12%, #E9E9E9 56%, #FFFFFF 78%);
-	background-image: -webkit-linear-gradient(bottom, #DBD8DB 12%, #E9E9E9 56%, #FFFFFF 78%);
-	background-image: -ms-linear-gradient(bottom, #DBD8DB 12%, #E9E9E9 56%, #FFFFFF 78%);
-	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.12, #DBD8DB),color-stop(0.56, #E9E9E9),color-stop(0.78, #FFFFFF));
-	color: #1C1C1C;
-	border-radius: 0.5em;
-}
-.bloque-gris h2 {
-	color: #1B457A;
-	font-size: 1.5em;
-	font-weight: 300;
-	margin-bottom: 0.7em;
-	line-height: 1.2;
-	padding-left: 1.5em;
-}
-.bloque-gris .node-camion h2{padding-left: 0;}
-.bloque-gris .node-evento h2{background: url("../images/ico-eventos.png") no-repeat 0 0 transparent;}
-.bloque-gris a:link {color: #1B457A;}
-.bloque-gris a:hover, .bloque-gris a:visited{text-decoration: underline;}
-.bloque-gris a:hover{color: #E55700;}
-.bloque-gris a:visited{color: #6E7072;}
-
-.bloque-gris .field-type-image img{
-	width: 100%;
-	height: auto;
-	margin-bottom: 0.5em;
-}
-.bloque-gris .field-name-body {
-	color: #181818;
-	font-size: 1em;
-	font-weight: 300;
-	border-bottom: 1px solid #fff;
-	padding-bottom: 1em;
-}
-.bloque-gris .field-name-body p{margin: 0;}
-.bloque-gris .node-article, .bloque-gris .node-evento, .bloque-gris .node-camion {padding: 1em 1.2em 1.2em 1.2em;}
-.bloque-gris .node-evento .field-label{float: left;}
-.bloque-gris .node-evento .field-name-field-fecha{
-	border-bottom: 1px solid #fff;
-	padding-bottom: 1em;
-}
-
 .block-title{color: #2D6CB4;}
 .block-title .field-name-body {text-align: center;}
 #block-block-5, #block-block-4, #block-block-3{
@@ -174,7 +127,8 @@ label {color: #FFFFFF;}
 	border-radius: 5px;
 }
 .views-nivo-slider-view  {padding: 0;}
-#block-views-bloque-todos-los-camiones-block .views-row {
+
+/*#block-views-bloque-todos-los-camiones-block .views-row {
 	float: left;
 	margin-right: 10px;
 }
@@ -193,6 +147,23 @@ label {color: #FFFFFF;}
 }
 #block-views-bloque-todos-los-camiones-block h2 a:hover,
 #block-views-bloque-todos-los-camiones-block h2 a.active {
+	background: #E55500;
+	color: #FFFFFF;
+}*/
+#block-views-bloque-todos-los-camiones-block .views-row {
+	float: left;
+	margin-right: 1em;
+}
+#block-views-bloque-todos-los-camiones-block .views-row.views-row-last {margin-right: 0;}
+#block-views-bloque-todos-los-camiones-block .field-name-title a{
+	background: #DBDBDB;
+	color: #272727;
+	display: block;
+	font-size: 1.06em;
+	text-align: center;
+	width: 100%;
+}
+#block-views-bloque-todos-los-camiones-block .field-name-title a:hover, #block-views-bloque-todos-los-camiones-block .field-name-title a.active {
 	background: #E55500;
 	color: #FFFFFF;
 }
@@ -394,7 +365,7 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 }
 #webform-component-nombre-completo, #webform-component-correo-electronico {margin-right: 20px;}
 
-/**********************************MASONRY VIEWS***********************************/
+/**********************************MASONRY VIEWS - BLOQUES GRISES***********************************/
 
 .front #region-content,
 .page-camiones #region-content,
@@ -403,6 +374,54 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 	margin: 0;
 }
 
+.bloque-gris {}
+.bloque-gris .views-row, #block-webform-client-block-1{
+	background: #d8d8d8;
+	background-image: linear-gradient(bottom, #DBD8DB 12%, #E9E9E9 56%, #FFFFFF 78%);
+	background-image: -o-linear-gradient(bottom, #DBD8DB 12%, #E9E9E9 56%, #FFFFFF 78%);
+	background-image: -moz-linear-gradient(bottom, #DBD8DB 12%, #E9E9E9 56%, #FFFFFF 78%);
+	background-image: -webkit-linear-gradient(bottom, #DBD8DB 12%, #E9E9E9 56%, #FFFFFF 78%);
+	background-image: -ms-linear-gradient(bottom, #DBD8DB 12%, #E9E9E9 56%, #FFFFFF 78%);
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.12, #DBD8DB),color-stop(0.56, #E9E9E9),color-stop(0.78, #FFFFFF));
+	color: #1C1C1C;
+	border-radius: 0.5em;
+}
+.bloque-gris h2 {
+	color: #1B457A;
+	font-size: 1.5em;
+	font-weight: 300;
+	margin-bottom: 0.7em;
+	line-height: 1.2;
+	padding-left: 1.5em;
+}
+.bloque-gris .node-camion h2{padding-left: 0;}
+.bloque-gris .node-evento h2{background: url("../images/ico-eventos.png") no-repeat 0 0 transparent;}
+.bloque-gris a:link {color: #1B457A;}
+.bloque-gris a:hover, .bloque-gris a:visited{text-decoration: underline;}
+.bloque-gris a:hover{color: #E55700;}
+.bloque-gris a:visited{color: #6E7072;}
+
+.bloque-gris .field-type-image img{
+	width: 100%;
+	height: auto;
+	margin-bottom: 0.5em;
+}
+.bloque-gris .field-name-body {
+	color: #181818;
+	font-size: 1em;
+	font-weight: 300;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 1em;
+}
+.bloque-gris .field-name-body p{margin: 0;}
+.bloque-gris .node-article, .bloque-gris .node-evento, .bloque-gris .node-camion {padding: 1em 1.2em 1.2em 1.2em;}
+.bloque-gris .node-evento .field-label{float: left;}
+.bloque-gris .node-evento .field-name-field-fecha{
+	border-bottom: 1px solid #fff;
+	padding-bottom: 1em;
+}
+
+.bloque-gris .es-carousel-wrapper, .bloque-gris .es-carousel{background: none;}
 
 
 
