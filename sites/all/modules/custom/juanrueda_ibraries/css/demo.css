@@ -33,7 +33,7 @@ p{
 	text-shadow:1px 1px 1px #f7edeb;
 }
 /* Header Style */
-.header{
+#carousel .header{
 	line-height:24px;
 	font-family: Arial, sans-serif;
 	font-size:11px;
