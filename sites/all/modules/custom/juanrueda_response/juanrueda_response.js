@@ -29,7 +29,7 @@
           });
 
           //Buscador
-          $('#block-search-form').hide();
+          $('#block-search-form .block-inner').hide();
           $('#block-search-form').prepend('<div class="buscador-render">Buscador</div>');
 
 
@@ -42,7 +42,7 @@
           $('#zone-footer .region-footer-first-inner').css('display', 'block');
           $('.mapa-sitio-render').hide();
 
-          $('#block-search-form').css('display', 'block');
+          $('#block-search-form .block-inner').css('display', 'block');
           $('.buscador-render').hide();
 
 
