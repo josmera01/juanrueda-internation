@@ -44,6 +44,7 @@ img{
 	line-height: 1.2;
 	padding-left: 1.5em;
 }
+.bloque-gris .node-camion h2{padding-left: 0;}
 .bloque-gris .node-evento h2{background: url("../images/ico-eventos.png") no-repeat 0 0 transparent;}
 .bloque-gris a:link {color: #1B457A;}
 .bloque-gris a:hover, .bloque-gris a:visited{text-decoration: underline;}
@@ -63,7 +64,7 @@ img{
 	padding-bottom: 1em;
 }
 .bloque-gris .field-name-body p{margin: 0;}
-.bloque-gris .node-article, .bloque-gris .node-evento {padding: 12px 15px 15px;}
+.bloque-gris .node-article, .bloque-gris .node-evento, .bloque-gris .node-camion {padding: 1em 1.2em 1.2em 1.2em;}
 .bloque-gris .node-evento .field-label{float: left;}
 .bloque-gris .node-evento .field-name-field-fecha{
 	border-bottom: 1px solid #fff;
@@ -299,10 +300,11 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 
 /***************************************FOOTER***********************************************/
 
-#zone-footer {
+#section-footer {
 	background-color: #000000;
 	color: #FFFFFF;
 }
+#section-footer li a:hover, #section-footer li a.active{color: #E55700;}
 #zone-footer .block {
 	float: left;
 	margin-left: 4%;
@@ -327,11 +329,14 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 }
 #region-footer-second .block {
 	color: #4E4E4E;
-	padding-left: 60px;
-	width: 41%;
+	padding: 0.8em 0.5em 0 0.5em;
+	margin: 0;
 }
-#block-block-1{float: left;}
-#block-block-2{float: right;}
+#zone-footer #block-block-1{float: left;}
+#zone-footer #block-block-2{
+	float: right;
+	text-align: right;
+}
 #zone-footer .block-title {
     height: auto;
     margin-bottom: 15px;
@@ -362,6 +367,7 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 	float: left;
 	width: 25.5%;
 }
+#node-webform-9 .form-text, #node-webform-9 .form-select {width: 100%;}
 #node-webform-9 .webform-component-textarea, #node-webform-9 #edit-actions {width: 52.5%;}
 #node-webform-9 #edit-actions {overflow: hidden;}
 #node-webform-9 label {padding-left: 10px;}
@@ -380,11 +386,14 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 		color-stop(0.61, #133B6C),
 		color-stop(0.81, #224B88)
 	);
+	border: 0;
 	border-radius: 7px 7px 7px 7px !important;
 	color: #FFFFFF;
 	float: right;
     padding: 8px 20px;
 }
+#webform-component-nombre-completo, #webform-component-correo-electronico {margin-right: 20px;}
+
 /**********************************MASONRY VIEWS***********************************/
 
 .front #region-content,

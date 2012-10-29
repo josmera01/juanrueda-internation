@@ -33,7 +33,7 @@ p{
 	text-shadow:1px 1px 1px #f7edeb;
 }
 /* Header Style */
-.header{
+#carousel .header{
 	line-height:24px;
 	font-family: Arial, sans-serif;
 	font-size:11px;
@@ -44,51 +44,51 @@ p{
 	-webkit-box-shadow: 1px 0px 2px #000;
 	box-shadow: 1px 0px 2px #000;
 }
-.header a{
+#carousel .header a{
 	line-height:18px;
 	padding:0 4px;
 	letter-spacing:1px;
 	text-shadow:1px 1px 1px #000;
 	color:#ddd;
 }
-.header a:hover{
+#carousel .header a:hover{
 	color:#fff;
 }
-.header a span{
+#carousel .header a span{
 	font-weight:bold;
 }
-.header span.right_ab{
+#carousel .header span.right_ab{
 	float:right;
 }
-.content{
+#carousel .content{
 	margin:0px 25px;
 }
 /* Examples list */
 
-.more{
+#carousel .more{
 	position:relative;
 	clear:both;
 }
-.more p{
+#carousel .more p{
 	color:#8f0630;
 	font-size:16px;
 }
-.more ul{
+#carousel .more ul{
 	display:block;
 	text-align:center;
 }
-.more ul li{
+#carousel .more ul li{
 	display:inline;
 	padding:2px;
 	line-height:30px;
 }
-.more ul li.selected a,
-.more ul li.selected a:hover{
+#carousel .more ul li.selected a,
+#carousel .more ul li.selected a:hover{
 	background:#690322;
 	color:#fff;
 	text-shadow:none;
 }
-.more ul li a{
+#carousel .more ul li a{
 	text-shadow:1px 1px 1px #fff;
 	color:#333;
 	background:#fff;
@@ -98,32 +98,32 @@ p{
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
 }
-.more ul li a:hover{
+#carousel .more ul li a:hover{
 	background:#8f0630;
 	color:#fff;
 	text-shadow:none;
 }
-.column{
+#carousel .column{
 	width:48%;
 	float:left;
 	padding:1%;
 }
 @media screen and (max-width: 640px) {
-	.header{
+	#carousel .header{
 		text-align:center;
 	}
-	.header a{
+	#carousel .header a{
 		font-size:10px;
 		text-shadow:none;
 		white-space:nowrap;
 	}
-	.header span.right_ab{
+	#carousel .header span.right_ab{
 		float:none;
 	}
-	h1{
+	#carousel h1{
 		font-size:40px;
 	}
-	h1 span{
+	#carousel h1 span{
 		font-size:16px;
 	}
 }
