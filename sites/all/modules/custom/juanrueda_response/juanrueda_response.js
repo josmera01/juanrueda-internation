@@ -26,6 +26,11 @@
             $('#zone-footer').prepend('<div class="mapa-sitio-render">Mapa sitio</div>');
           }
 
+          $('.mapa-sitio-render').click(function(){
+            $('#zone-footer .grid-12').toggle();
+          });
+
+
         }
         else {
           $('#block-menu-menu-menu-secciones-principales .content ul').css('display', 'block');
