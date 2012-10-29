@@ -4,5 +4,5 @@
       if($("body").hasClass("responsive-layout-mobile")) {
         alert("Yes, it has!");
       }
-  };
+  }
 })(jQuery);
