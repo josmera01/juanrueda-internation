@@ -1,9 +1,10 @@
 (function($) {
   Drupal.behaviors.juan_rueda_respnse = {
     attach: function(context) {
-      if($("body").hasClass("responsive-layout-mobile")) {
-        alert("Yes, it has!");
-      }
-  }
-}
+      $('body').bind('responsivelayout', function(e, d) {
+        if($(this).hasClass("responsive-layout-mobile")) {
+          console.log("a");
+        }
+      });
+  };
 })(jQuery);
