@@ -21,7 +21,7 @@ ul li.leaf {
 }
 img{
 	max-width: 100%;
-	width: auto;
+	height: auto;
 }
 #zone-user {margin-top: 20px;}
 .block-title{color: #2D6CB4;}
