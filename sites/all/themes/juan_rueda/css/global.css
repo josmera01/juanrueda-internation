@@ -26,6 +26,12 @@ img{
 #zone-user {margin-top: 20px;}
 .block-title{color: #2D6CB4;}
 .block-title .field-name-body {text-align: center;}
+#block-block-14 p{
+	text-align: center;
+	font-size: 1.75em;
+	color: #fff;
+	font-weight: 300;
+}
 #block-block-5, #block-block-4, #block-block-3{
 	border-radius: 0.5em 0.5em 0 0;
 }
