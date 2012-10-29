@@ -225,7 +225,7 @@ div.widgets-element-horizontal {margin-right: 5px;}
 	background: url("../images/menu-bg.png") repeat-x scroll top left transparent;
 	border-radius: 0.5em;
 }
-#block-menu-menu-menu-secciones-principales ul li a {
+#block-menu-menu-menu-secciones-principales .content ul li a {
 	color: #133156;
 	display: block;
 	font-size: 1em;
@@ -240,7 +240,7 @@ div.widgets-element-horizontal {margin-right: 5px;}
 	background-repeat: no-repeat;
 	background-position: center 0.5em;
 }
-#block-menu-menu-menu-secciones-principales ul li.first a{
+#block-menu-menu-menu-secciones-principales .content ul li.first a{
 	padding: 3.8em 20% 0;
 	height: 6.2em;
 }
@@ -411,6 +411,7 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 .bloque-gris .es-carousel-wrapper, .bloque-gris .es-carousel{background: none;}
 .bloque-gris #carousel .es-nav span.es-nav-prev{background: transparent url(../images/flecha-bloque-izq.png) no-repeat top left;}
 .bloque-gris #carousel .es-nav span.es-nav-next{background: transparent url(../images/flecha-bloque-der.png) no-repeat top left;}
+.bloque-gris #carousel .node ol, .bloque-gris #carousel .node ul{padding-left: 0;}
 
 
 
