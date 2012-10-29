@@ -5,4 +5,5 @@
         alert("Yes, it has!");
       }
   }
+}
 })(jQuery);
