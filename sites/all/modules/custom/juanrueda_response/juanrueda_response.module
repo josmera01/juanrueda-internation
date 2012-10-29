@@ -1,0 +1,6 @@
+<?php
+
+function juanrueda_response_init() {
+  $path = drupal_get_path('module', 'juanrueda_response');
+  drupal_add_js($path . '/juanrueda_response.js');
+}
