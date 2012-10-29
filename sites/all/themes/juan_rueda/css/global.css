@@ -74,8 +74,11 @@ img{
 .block-title .field-name-body {text-align: center;}
 #block-block-5, #block-block-4, #block-block-3{
 	border-radius: 5px 5px 0 0;
-	padding-left: 4px;
 	width: 100%;
+}
+#block-block-5 .block-inner, #block-block-4 .block-inner, #block-block-3 .block-inner {
+	padding-bottom: 6px;
+	padding-left: 4px;
 }
 #block-block-5  {background: url("../images/cabecera-facebook.png") repeat-x scroll 0 0 #FFFFFF;}
 #block-block-4 {background: url("../images/cabecera-twitter.png") repeat-x scroll 0 0 #FFFFFF;}
@@ -91,6 +94,8 @@ img{
 }
 #block-block-4 h2.block-title {background: url("../images/logo-twitter.png") no-repeat scroll 10px 7px transparent;}
 #block-block-5 h2.block-title {background: url("../images/logo-facebook.png") no-repeat scroll 10px 7px transparent;}
+#block-block-5 #fb-root {display: none;}
+#block-block-5 .fb-like-box {margin-top: -10px;}
 #page-title {
 	border-bottom: 1px solid #FF7B00;
 	color: #FF7B00;
@@ -348,14 +353,20 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 
 /***************************************HOME***********************************************/
 
+#block-webform-client-block-1 {
+    padding-left: 36px;
+    padding-top: 9px;
+}
 #block-webform-client-block-1 h2.block-title {
     font-size: 1.5em;
     font-weight: 400;
     line-height: 1.2;
     margin: 0 auto;
     text-align: center;
-    width: 40%;
+    width: 55%;
 }
+#block-webform-client-block-1 .form-text {width: 67%;}
+#block-webform-client-block-1 .form-submit {margin-left: 112px;}
 /***************************************CONTACTO***********************************************/
 
 #node-webform-9 .webform-component-textfield, #node-webform-9 .webform-component-select {
@@ -367,7 +378,7 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 #node-webform-9 #edit-actions {overflow: hidden;}
 #node-webform-9 label {padding-left: 10px;}
 .marker, .form-required {color: #FF7B00;}
-#node-webform-9 #edit-actions .form-submit {
+form .form-submit {
 	background-image: linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
 	background-image: -o-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
 	background-image: -moz-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
@@ -387,7 +398,23 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 	float: right;
     padding: 8px 20px;
 }
+form .form-submit:hover {
+	background-image: linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
+	background-image: -o-linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
+	background-image: -moz-linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
+	background-image: -webkit-linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
+	background-image: -ms-linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.45, #194E99),
+		color-stop(0.73, #2E78C1)
+	);
+}
 #webform-component-nombre-completo, #webform-component-correo-electronico {margin-right: 20px;}
+#webform-component-correo-electronico {clear: left;}
 
 /**********************************MASONRY VIEWS***********************************/
 
@@ -398,6 +425,14 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 	margin: 0;
 }
 
+/**********************************BARRA DERECHA***********************************/
 
+.view-art-culos-relacionados .item-list ul li {margin: 0;}
+.view-art-culos-relacionados .views-row p {margin: 0;}
+.view-art-culos-relacionados .views-row{
+	border-bottom: 1px solid #B5B5B5;
+	padding: 1em;
+}
+#block-views-art-culos-relacionados-block .block-title {coor: #FFFFFF;}
 
 
