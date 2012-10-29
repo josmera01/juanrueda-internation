@@ -195,7 +195,7 @@ div.widgets-element-horizontal {margin-right: 5px;}
     margin: 0;
     padding: 0;
 }
-#block-system-main-menu ul li a {
+#block-system-main-menu ul li a, .responsive-layout-mobile  .menu-render{
 	background: url("../images/menu_1.png") repeat-x scroll 0 0 transparent;
     border-right: 1px solid #858585;
     color: #474747;
@@ -453,7 +453,7 @@ form .form-submit:hover {
 #block-views-art-culos-relacionados-block .block-title {color: #FFFFFF;}
 
 
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul {
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul.menu {
 	border: 3px solid #FD8900;
     border-radius: 5px 5px 5px 5px;
     display: block;
