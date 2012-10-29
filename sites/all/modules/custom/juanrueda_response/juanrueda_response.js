@@ -31,7 +31,9 @@
           //Buscador
           $('#block-search-form .block-inner').hide();
           $('#block-search-form').prepend('<div class="buscador-render">Buscador</div>');
-
+          $('.buscador-render').click(function(){
+            $('#block-search-form .block-inner').toggle();
+          });
 
 
         }
