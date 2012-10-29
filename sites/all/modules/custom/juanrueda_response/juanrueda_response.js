@@ -10,7 +10,7 @@
             if ($('.menu-render').val() == 'Menu principal') {
               $('.menu-render').css('display', 'block');
             }else{
-              $('#block-menu-menu-menu-secciones-principales').append('<div class="menu-render">Menu principal</div>');
+              $('#block-menu-menu-menu-secciones-principales').appenTo('<div class="menu-render">Menu principal</div>');
             }
 
           $('.menu-render').click(function(){
