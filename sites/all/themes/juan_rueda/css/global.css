@@ -490,3 +490,13 @@ form .form-submit:hover {
 	border-radius: 5px;
 	color: #554747;
 }
+.responsive-layout-mobile #block-search-form {
+    display: block;
+    left: 40%;
+    position: absolute;
+    top: 251px;
+    z-index: 100;
+	padding: 3% 10%;
+	width: 20%;
+	font-size: 1.3em;
+}
