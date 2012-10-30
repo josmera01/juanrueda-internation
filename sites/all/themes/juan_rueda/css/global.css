@@ -583,6 +583,7 @@ font-size: 1.3em;
 	font-weight: 300;
 	text-align: center;
 }
+.view-calendario-de-eventos .field-name-field-imagen-destacada-evento {float: left;}
 .view-calendario-de-eventos .date-heading {
 background-image: linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
 background-image: -o-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
@@ -714,6 +715,7 @@ color: #000000;
 .view-calendario-de-eventos .view-footer {
 	border-top: 1px solid #e4e4e4;
 	margin-bottom: 15px;
+	padding: 4% 11% 0 4%;
 }
 .calendar-calendar .mini-day-on {
 	background: transparent !important;
