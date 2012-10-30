@@ -592,7 +592,7 @@ color-stop(0.61, #133B6C),
 color-stop(0.81, #224B88)
 );
 margin: 0 3px;
-top: 32px;
+top: 30px;
 width: 98%;
 }
 .view-calendario-de-eventos  .date-prev, #view-calendario-de-eventos  .date-next {background: transparent;}
@@ -635,3 +635,4 @@ color: #000000;
 	border: 0;
 	color: #000000;
 }
+.calendar-calendar td {width: 5% !important;}
