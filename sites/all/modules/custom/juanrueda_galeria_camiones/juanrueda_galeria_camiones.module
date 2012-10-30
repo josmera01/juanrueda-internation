@@ -38,13 +38,13 @@ function galeria_render_camiones() {
     $node = node_load($value);
     $image = $node->field_imagen_destacada[LANGUAGE_NONE][0];
 
-    $html = image_style_url('square_thumbnail', $image['uri']) . '<span>' . $node->title.'</span>';
+
 
      $links[] = array(
       'title' => theme('image', array(
-        'path' => $html,
+        'path' => image_style_url('square_thumbnail', $image['uri'])
         )
-      ),
+      ) . '<span>' . $node->title.'</span>',
       'html' => TRUE,
       'href' => '#',
 
