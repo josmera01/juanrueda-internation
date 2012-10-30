@@ -552,17 +552,17 @@ form .form-submit:hover {
 	height: auto;
 }
 
-.responsive-layout-mobile .menu-buscador{
-display: block;
-padding: 0.5em;
-height: 1.7em;
-float: left;
-text-indent: -9999px;
-width: 2em;
-margin-left: 0.5em;
-border-radius: 0.5em;
-background-color: #999;
-background-image:
+.responsive-layout-mobile .menu-buscador, .responsive-layout-mobile .home-movil{
+	display: block;
+	padding: 0.5em;
+	height: 1.7em;
+	float: left;
+	text-indent: -9999px;
+	width: 2em;
+	margin-left: 0.5em;
+	border-radius: 0.5em;
+	background-color: #999;
+	background-image:
 }
 
 .responsive-layout-mobile #zone-user, #block-multiblock-1{display: none;}
