@@ -578,7 +578,7 @@ font-size: 1.3em;
 
 }
 .view-calendario-de-eventos {background: #FFFFFF;}
-.view-calendario-de-eventos h2{
+#block-views-calendario-de-eventos-block-1 .view-content h2{
 	color: #FFFFFF;
 	font-weight: 300;
 	text-align: center;
@@ -706,7 +706,15 @@ color: #000000;
 	color: #575c56 !important;
 	height: 25px;
 }
-.view-calendario-de-eventos .month a {color: #575c56 !important;}
+.view-calendario-de-eventos .month a {
+	color: #575c56 !important;
+	text-decoration: none;
+}
+.view-calendario-de-eventos .view-content {margin-bottom: 15px;}
+.view-calendario-de-eventos .view-footer {
+	border-top: 1px solid #e4e4e4;
+	margin-bottom: 15px;
+}
 .calendar-calendar .mini-day-on {
 	background: transparent !important;
 	border: 1px soloid #fff5bf;
@@ -715,6 +723,29 @@ color: #000000;
 	border: 0;
 	padding: 0 1px;
 	text-align: center;
+}
+.view-calendario-de-eventos .view-footer h2{
+color: #0F2745;
+font-size: 1.06em;
+font-weight: 400;
+}
+.view-calendario-de-eventos .view-footer a {
+	color: #1B457A;
+	font-size: 1.06em;
+	font-weight: 300;
+}
+.view-calendario-de-eventos .view-footer a:hover {
+	color: #E55700;
+	text-decoration: underline;
+}
+.view-calendario-de-eventos .view-footer a:visited{
+	color: #6E7072;
+	text-decoration: underline;
+}
+.view-calendario-de-eventos .view-footer .node-evento{
+	color: #000000;
+	font-size: 1.06em;
+	font-weight: 300;
 }
 .responsive-layout-wide #block-views-bloque-todos-los-camiones-block {display:block;}
 .responsive-layout-mobile #block-views-bloque-todos-los-camiones-block {display: none;}
