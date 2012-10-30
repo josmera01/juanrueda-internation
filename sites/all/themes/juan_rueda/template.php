@@ -22,7 +22,7 @@ function juan_rueda_menu_link__menu_menu_secciones_principales(&$variables) {
   }
 
 
-  $output = l($element['#title'], $element['#href'], $element['#localized_options']);
-  return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu .'<span>'. $element['#localized_options']['attributes']['title']  ."</span></li>\n";
+  $output = l('<span>' .$element['#title'] .'</span><span class="texto">'. $element['#localized_options']['attributes']['title'] . '</span>' , $element['#href'], array($element['#localized_options']), 'html' => TRUE);
+  return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu  ."</li>\n";
 
 }
