@@ -14,13 +14,14 @@
 }
 
 .responsive-layout-narrow #block-menu-menu-menu-secciones-principales .content ul li a{
-	padding: 3em 5% 0;
-	width: 90%;
-	height: 2.8em;
+	width: 100%;
+	padding: 3.2em 0 0 0;
+	height: 2.6em;
 	background-position: center 0.3em;
 }
-.responsive-layout-narrow #block-menu-menu-menu-secciones-principales .content ul li.first a {
-	padding: 3.75em 5% 0;
-	height: 2.05em;
+.responsive-layout-narrow #block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu{padding: 0 6%;}
+.responsive-layout-narrow #block-menu-menu-menu-secciones-principales .content ul li.first a span.titulo_menu{
+	padding: 4% 6% 0;
 	background-position: center 0.5em;
 }
+.responsive-layout-narrow #block-menu-menu-menu-secciones-principales .content ul li a span.texto{display: none;}
