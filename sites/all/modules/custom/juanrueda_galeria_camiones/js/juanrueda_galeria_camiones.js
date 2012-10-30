@@ -8,9 +8,9 @@
       $('#carousel-camion').elastislide({
         imageW    : 180,
         minItems  : 3,
-        margin    : 2,
+        margin    : 5,
         border    : 0,
-        current   : 7
+        current   : 8
       });
 
 
