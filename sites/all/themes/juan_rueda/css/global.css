@@ -698,7 +698,17 @@ color: #000000;
 .view-calendario-de-eventos .month {
 	background: none repeat scroll 0 0 #E7E7E7;
     border: 1px solid #DADADA;
-	color: #575c56;
+	color: #575c56 !important;
+	height: 25px;
+}
+.calendar-calendar .mini-day-on {
+	background: transparent !important;
+	border: 1px soloid #fff5bf;
+}
+.calendar-calendar .mini {
+	border: 0;
+	padding: 0 1px;
+	text-align: center;
 }
 .responsive-layout-wide #block-views-bloque-todos-los-camiones-block {display:block;}
 .responsive-layout-mobile #block-views-bloque-todos-los-camiones-block {display: none;}
