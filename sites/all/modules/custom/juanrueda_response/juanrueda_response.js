@@ -29,9 +29,8 @@
           });
 
           //Buscador
-
           $('.menu-buscador').click(function(){
-            $('#block-search-form .block-inner').toggle();
+            $('#block-multiblock-1').toggle();
           });
 
 
