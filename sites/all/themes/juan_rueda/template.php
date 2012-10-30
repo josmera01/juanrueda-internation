@@ -20,9 +20,9 @@ function juan_rueda_menu_link__menu_menu_secciones_principales(&$variables) {
   if ($element['#below']) {
     $sub_menu = drupal_render($element['#below']);
   }
-  dpm($element);
 
-  $output = l($element['#title'], $element['#href'], $element['#localized_options']);
-  return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . "</li>\n";
-  //return 'hola';
+
+  $output = l('<span class="titulo_menu">' . $element['#title'] .'</span><span class="texto">'. $element['#localized_options']['attributes']['title'] . '</span>', $element['#href'], array('attributes' => $element['#localized_options']['attributes'], 'html' => TRUE));
+  return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu  ."</li>\n";
+
 }
