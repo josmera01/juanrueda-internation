@@ -539,7 +539,7 @@ form .form-submit:hover {
 	height: auto;
 }
 
-.responsive-layout-mobile #region-user-second{display: none;}
+.responsive-layout-mobile #region-user-second, #search-block-form--2{display: none;}
 
 .responsive-layout-mobile #block-search-form {
     display: block;
