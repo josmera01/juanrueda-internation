@@ -23,7 +23,7 @@ function juanrueda_galeria_camiones_block_info() {
     'info' => t('Galeria Camiones'),
     );
 
-   return $blocks
+   return $blocks;
 }
 
 
