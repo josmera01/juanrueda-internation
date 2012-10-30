@@ -38,6 +38,8 @@ function galeria_render_camiones() {
     $node = node_load($value);
     $image = $node->field_imagen_destacada[LANGUAGE_NONE][0];
 
+    dpm($image);
+
      $links[] = array(
       'title' => theme('image', array(
         'path' => image_style_url('square_thumbnail', $image['uri'])
