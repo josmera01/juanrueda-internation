@@ -11,7 +11,7 @@
             if ($('.menu-render').val() == 'Menu') {
               $('.menu-render').css('display', 'block');
             }else{
-              $('#block-menu-menu-menu-secciones-principales').prepend('<div class="menu-render">Menu</div><div class="menu-buscador">Buscador</div>');
+              $('#block-menu-menu-menu-secciones-principales').prepend('<a href="/" class="home-movil">Home</a><div class="menu-render">Menu</div><div class="menu-buscador">Buscador</div>');
             }
 
           $('.menu-render').click(function(){
