@@ -7,10 +7,10 @@
 
       $('#carousel-camion').elastislide({
         imageW    : 180,
-        minItems  : 7,
+        minItems  : 3,
         margin    : 2,
         border    : 0,
-        current   : 12
+        current   : 7
       });
 
 
