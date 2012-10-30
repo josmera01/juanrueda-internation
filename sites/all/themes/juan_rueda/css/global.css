@@ -551,7 +551,7 @@ form .form-submit:hover {
 	padding: 0;
 	height: auto;
 }
-
+.responsive-layout-mobile .menu-buscador, .responsive-layout-mobile .home-movil, .responsive-layout-mobile .menu-render{margin-right: 0.5em;}
 .responsive-layout-mobile .menu-buscador, .responsive-layout-mobile .home-movil{
 	display: block;
 	padding: 0.5em;
@@ -559,11 +559,10 @@ form .form-submit:hover {
 	float: left;
 	text-indent: -9999px;
 	width: 2em;
-	margin-left: 0.5em;
 	border-radius: 0.5em;
-	background-color: #999;
-	background-image:
 }
+.responsive-layout-mobile .menu-buscador{background: transparent url(../images/ico-search-mobile.png) no-repeat top left;}
+.responsive-layout-mobile .home-movil{background: transparent url(../images/ico-home-mobile.png) no-repeat top left;}
 
 .responsive-layout-mobile #zone-user, #block-multiblock-1{display: none;}
 
