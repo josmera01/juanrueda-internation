@@ -532,6 +532,14 @@ form .form-submit:hover {
 	border-radius: 5px;
 	color: #554747;
 }
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content ul li a span.texto{display: none;}
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu{
+	padding: 0;
+	height: auto;
+}
+
+.responsive-layout-mobile #region-user-second{display: none;}
+
 .responsive-layout-mobile #block-search-form {
     display: block;
     left: 40%;
