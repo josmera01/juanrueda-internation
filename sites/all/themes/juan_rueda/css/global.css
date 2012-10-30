@@ -636,3 +636,8 @@ color: #000000;
 	color: #000000;
 }
 .calendar-calendar td {width: 5% !important;}
+.responsive-layout-wide #block-views-bloque-todos-los-camiones-block {display:block;}
+.responsive-layout-mobile #block-views-bloque-todos-los-camiones-block {display: none;}
+
+.responsive-layout-wide #carousel-camion{display: none;}
+.responsive-layout-mobile #carousel-camion{display:block;}
