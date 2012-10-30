@@ -52,11 +52,11 @@ function galeria_render_camiones() {
 
   }
 
-  $path = drupal_get_path('module', 'juanrueda_galeria');
+  $path = drupal_get_path('module', 'juanrueda_galeria_camiones');
 
   drupal_add_js($path . '/js/juanrueda_galeria_camiones.js');
 
-  dpm($links);
+
 
   $content['galeria']= array(
      '#theme' => 'links',
