@@ -681,7 +681,7 @@ color: #000000;
 		color-stop(0.81, #224B88)
 	);
 	margin: 0 3px;
-	top: 32px;
+	top: 30px;
 	width: 98%;
 }
 .view-calendario-de-eventos.view .date-nav-wrapper  .date-prev, 
@@ -695,7 +695,11 @@ color: #000000;
 	border: 0;
 	color: #000000;
 }
-.calendar-calendar td {width: 5% !important;}
+.view-calendario-de-eventos .month {
+	background: none repeat scroll 0 0 #E7E7E7;
+    border: 1px solid #DADADA;
+	color: #575c56;
+}
 .responsive-layout-wide #block-views-bloque-todos-los-camiones-block {display:block;}
 .responsive-layout-mobile #block-views-bloque-todos-los-camiones-block {display: none;}
 
