@@ -287,7 +287,7 @@ height: 2em;
 }
 #block-menu-menu-menu-secciones-principales .content ul li a span.texto{
 color: #272727;
-padding: 2.5% 10%;
+/*padding: 2.5% 10%;*/padding: 2.5% 10%0.5% 9%;
 font-weight: 400;
 }
 #block-menu-menu-menu-secciones-principales ul li:hover{background-position: 128px;}
@@ -575,7 +575,7 @@ border-radius: 0.5em;
 padding: 3% 10%;
 width: 20%;
 font-size: 1.3em;
-<<<<<<< HEAD
+
 }
 
 .view-calendario-de-eventos .date-heading {
