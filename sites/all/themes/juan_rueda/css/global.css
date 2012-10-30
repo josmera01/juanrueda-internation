@@ -5,6 +5,7 @@
 /***************************************GENERAL STYLES***********************************************/
 
 @import url(http://fonts.googleapis.com/css?family=Lato:400,300,700);
+@import url("provicional.css");
 
 body {
 	background: #212121;
@@ -524,7 +525,7 @@ form .form-submit:hover {
 	width: auto;
 }
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content ul li a.active{background-position: 2em -12em;}
-.responsive-layout-mobile  .menu-render {
+.responsive-layout-mobile .menu-render {
 	background-image: linear-gradient(bottom, #FF6201 42%, #FF9900 71%);
 	background-image: -o-linear-gradient(bottom, #FF6201 42%, #FF9900 71%);
 	background-image: -moz-linear-gradient(bottom, #FF6201 42%, #FF9900 71%);
@@ -549,6 +550,19 @@ form .form-submit:hover {
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu{
 	padding: 0;
 	height: auto;
+}
+
+.responsive-layout-mobile .menu-buscador{
+display: block;
+padding: 0.5em;
+height: 1.7em;
+float: left;
+text-indent: -9999px;
+width: 2em;
+margin-left: 0.5em;
+border-radius: 0.5em;
+background-color: #999;
+background-image:
 }
 
 .responsive-layout-mobile #zone-user, #block-multiblock-1{display: none;}
