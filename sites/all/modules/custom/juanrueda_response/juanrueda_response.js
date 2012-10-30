@@ -11,7 +11,7 @@
             if ($('.menu-render').val() == 'Menu') {
               $('.menu-render').css('display', 'block');
             }else{
-              $('#block-menu-menu-menu-secciones-principales').prepend('<div class="menu-render">Menu</div>');
+              $('#block-menu-menu-menu-secciones-principales').prepend('<a href="/" class="home-movil">Home</a><div class="menu-render">Menu</div><div class="menu-buscador">Buscador</div>');
             }
 
           $('.menu-render').click(function(){
@@ -29,10 +29,8 @@
           });
 
           //Buscador
-          $('#block-search-form .block-inner').hide();
-          $('#block-search-form').prepend('<div class="buscador-render">Buscador</div>');
-          $('.buscador-render').click(function(){
-            $('#block-search-form .block-inner').toggle();
+          $('.menu-buscador').click(function(){
+            $('#block-multiblock-1').toggle();
           });
 
 
@@ -40,12 +38,10 @@
         else {
           $('#block-menu-menu-menu-secciones-principales .content ul').css('display', 'block');
           $('.menu-render').hide();
+          $('.menu-buscador').hide();
 
           $('#zone-footer .region-footer-first-inner').css('display', 'block');
           $('.mapa-sitio-render').hide();
-
-          $('#block-search-form .block-inner').css('display', 'block');
-          $('.buscador-render').hide();
 
 
         }
