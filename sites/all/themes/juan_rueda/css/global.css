@@ -181,7 +181,7 @@ label {color: #FFFFFF;}
 	text-transform: uppercase;
 }
 #region-user-second .region-inner {overflow: hidden;}
-#region-user-second .block {float: right;}
+/*#region-user-second .block {float: right;}*/
 #region-user-second a.twitter-timeline {
     display: block;
     font-size: 0;
@@ -190,6 +190,26 @@ label {color: #FFFFFF;}
 }
 div.widgets-element-horizontal {margin-right: 5px;}
 #block-widgets-s-socialmedia-profile-default {margin-right: 10px;}
+
+#block-block-12{width: 30%;}
+.social_networks_links li{
+	float: left;
+	margin: 0.2em;
+}
+.social_networks_links li a{
+	width: 2.4em;
+	height: 2.2em;
+	background-color: red;
+	background: url("../images/jr-images.png") no-repeat transparent;
+	display: block;
+	text-indent: -9999px;
+}
+.social_networks_links li#twitter a{background-position: -57px -15px }
+.social_networks_links li#facebook a{background-position: -15px -15px}
+.social_networks_links li#youtube a{background-position: -98px -15px }
+.social_networks_links li#twitter a:hover{background-position: -57px -43px }
+.social_networks_links li#facebook a:hover{background-position: -15px -43px}
+.social_networks_links li#youtube a:hover{background-position: -98px -43px }
 
 /***************************************MENU***********************************************/
 
@@ -326,21 +346,20 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 #block-widgets-s-socialmedia-profile-buttons  div.widgets-element-horizontal {float: none;}
 
 /***************************************HOME***********************************************/
-
-#block-webform-client-block-1 {
-    padding-left: 36px;
-    padding-top: 9px;
-}
+#block-webform-client-block-1{padding: 1em;}
 #block-webform-client-block-1 h2.block-title {
     font-size: 1.5em;
     font-weight: 400;
     line-height: 1.2;
     margin: 0 auto;
     text-align: center;
-    width: 55%;
+    padding: 0 1.8em;
 }
-#block-webform-client-block-1 .form-text {width: 67%;}
-#block-webform-client-block-1 .form-submit {margin-left: 112px;}
+#block-webform-client-block-1 #edit-actions--2{text-align: center;}
+#block-webform-client-block-1 .form-text {width: 70%;}
+#block-webform-client-block-1 .form-submit {
+	float: none;
+}
 /***************************************CONTACTO***********************************************/
 
 #node-webform-9 .webform-component-textfield, #node-webform-9 .webform-component-select {
