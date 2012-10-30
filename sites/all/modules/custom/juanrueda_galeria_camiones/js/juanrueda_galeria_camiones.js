@@ -6,7 +6,7 @@
     attach: function(context, settings) {
 
       $('#carousel-camion').elastislide({
-        imageW    : 180,
+        imageW    : 150,
         minItems  : 3,
         margin    : 5,
         border    : 0,
