@@ -532,6 +532,26 @@ form .form-submit:hover {
 	border-radius: 5px;
 	color: #554747;
 }
+<<<<<<< HEAD
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content ul li a span.texto{display: none;}
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu{
+	padding: 0;
+	height: auto;
+}
+
+.responsive-layout-mobile #region-user-second{display: none;}
+
+.responsive-layout-mobile #block-search-form {
+    display: block;
+    left: 40%;
+    position: absolute;
+    top: 251px;
+    z-index: 100;
+	padding: 3% 10%;
+	width: 20%;
+	font-size: 1.3em;
+
+
 .view-calendario-de-eventos .date-heading {
 	background-image: linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
 	background-image: -o-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
