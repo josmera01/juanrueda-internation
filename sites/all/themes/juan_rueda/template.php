@@ -20,6 +20,8 @@ function juan_rueda_menu_link__menu_menu_secciones_principales(&$variables) {
   if ($element['#below']) {
     $sub_menu = drupal_render($element['#below']);
   }
+  dpm($element);
+
   $output = l($element['#title'], $element['#href'], $element['#localized_options']);
   //return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . "</li>\n";
   return 'hola';
