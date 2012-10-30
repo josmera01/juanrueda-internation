@@ -1,0 +1,85 @@
+<?php
+
+/**
+ *Implementation hoo_block_view()
+ **/
+function juanrueda_galeria_camiones_block_view($delta = '') {
+  $blocks = array();
+
+  switch ($delta) {
+    case 'galeria_camiones':
+      $blocks['content'] = galeria_render_camiones();
+      break;
+  }
+
+  return $blocks;
+}
+
+/**
+ *Implementation hoo_block_info()
+ **/
+function juanrueda_galeria_camiones_block_info() {
+   $blocks['galeria_camiones'] = array(
+    'info' => t('Galeria Camiones'),
+    );
+
+   return $blocks
+}
+
+
+
+function galeria_render_camiones() {
+  drupal_add_library('juanrueda_libraries', 'elastislide');
+
+  $node = consulta_camiones();
+
+  foreach ($node as $key => $value) {
+
+    $node = node_load($value);
+    $image = $node->field_imagen_destacada[LANGUAGE_NONE][0];
+
+     $links[] = array(
+      'title' => theme('image', array(
+        'path' => image_style_url('square_thumbnail', $image['uri'])
+        )
+      ),
+      'html' => TRUE,
+      'href' => '#',
+
+      );
+
+  }
+
+  $path = drupal_get_path('module', 'juanrueda_galeria');
+
+  drupal_add_js($path . '/js/juanrueda_galeria_camiones.js');
+
+
+  $content['galeria']= array(
+     '#theme' => 'links',
+     '#links' => $links,
+     '#prefix' => '<div id="carousel-camion" class="es-carousel-wrapper"><div class="es-carousel">',
+     '#suffix' => '</div></div>',
+    );
+
+
+  return drupal_render($content);
+
+}
+
+function consulta_camiones() {
+
+  $db = db_select('node', 'n')
+    ->fields('n')
+    ->condition('type', 'camion')
+    ->execute()
+    ->fetchAll();
+
+  $id = array();
+
+  foreach ($db as $key => $value) {
+    $id[] = $value->nid;
+  }
+
+  return $id;
+}
