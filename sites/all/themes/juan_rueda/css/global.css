@@ -578,7 +578,7 @@ font-size: 1.3em;
 
 }
 .view-calendario-de-eventos {background: #FFFFFF;}
-#block-views-calendario-de-eventos-block-1 .view-content h2{
+#block-views-calendario-de-eventos-block-1 h2.block-title{
 	color: #FFFFFF;
 	font-weight: 300;
 	text-align: center;
