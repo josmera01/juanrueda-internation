@@ -262,30 +262,41 @@ div.widgets-element-horizontal {margin-right: 5px;}
 	border-radius: 0.5em;
 }
 #block-menu-menu-menu-secciones-principales .content ul li a {
-	color: #133156;
 	display: block;
-	font-size: 1em;
 	font-weight: 700;
 	font-family: gotham medium, "lato", arial;
-	width: 60%;
+	width: 90%;
 	text-align: center;
-	padding: 3.2em 20% 0;
+	padding: 3.2em 5% 0;
 	height: 6.8em;
-	text-transform: uppercase;
 	line-height: 1.2;
 	background-repeat: no-repeat;
 	background-position: center 0.5em;
 }
-#block-menu-menu-menu-secciones-principales .content ul li.first a{
-	padding: 3.8em 20% 0;
-	height: 6.2em;
+#block-menu-menu-menu-secciones-principales .content ul li a span{display: block;}
+#block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu{
+	text-transform: uppercase;
+	font-size: 1em;
+	color: #133156;
+	padding: 0 12%;
+	height: 2.6em;
+}
+#block-menu-menu-menu-secciones-principales .content ul li.first a span.titulo_menu{
+	padding: 4% 12% 0;
+	height: 2em;
+}
+#block-menu-menu-menu-secciones-principales .content ul li a span.texto{
+	color: #272727;
+	padding: 2.5% 10%;
+	font-weight: 400;
 }
 #block-menu-menu-menu-secciones-principales ul li:hover{background-position: 128px;}
 #block-menu-menu-menu-secciones-principales ul li.active-trail{background-position: 256px;}
-#block-menu-menu-menu-secciones-principales ul li a:hover, #block-menu-menu-menu-secciones-principales ul li a.active {
-	color: #FFFFFF;
-	background-position: center -12.1em;
-}
+#block-menu-menu-menu-secciones-principales ul li a:hover, #block-menu-menu-menu-secciones-principales ul li a.active {background-position: center -12.1em;}
+#block-menu-menu-menu-secciones-principales ul li a:hover span.titulo_menu, 
+#block-menu-menu-menu-secciones-principales ul li a.active span.titulo_menu, 
+#block-menu-menu-menu-secciones-principales ul li a:hover span.texto,
+#block-menu-menu-menu-secciones-principales ul li a.active span.texto{color: #FFFFFF;}
 a.camiones{background-image: url("../images/ico-camiones.png");}
 a.conozca_su_maquina  {background-image: url("../images/ico-repuestos.png");}
 a.conviertase_en_experto  {background-image: url("../images/ico-latec.png");}
@@ -521,13 +532,32 @@ form .form-submit:hover {
 	border-radius: 5px;
 	color: #554747;
 }
-.responsive-layout-mobile #block-search-form {
-    display: block;
-    left: 40%;
-    position: absolute;
-    top: 251px;
-    z-index: 100;
-	padding: 3% 10%;
-	width: 20%;
-	font-size: 1.3em;
+.view-calendario-de-eventos .date-heading {
+	background-image: linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+	background-image: -o-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+	background-image: -moz-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+	background-image: -webkit-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+	background-image: -ms-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.22, #133155),
+		color-stop(0.61, #133B6C),
+		color-stop(0.81, #224B88)
+	);
+	margin: 0 3px;
+	top: 32px;
+	width: 98%;
 }
+.view-calendario-de-eventos  .date-prev, #view-calendario-de-eventos  .date-next {background: transparent;}
+.view-calendario-de-eventos ul.pager a {
+	border-radius: 10px;
+	font-size: 5px;
+}
+.view-calendario-de-eventos .calendar-calendar th.days {
+	background: transparent;
+	border: 0;
+	color: #000000;
+}
+
