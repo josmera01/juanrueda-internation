@@ -23,6 +23,6 @@ function juan_rueda_menu_link__menu_menu_secciones_principales(&$variables) {
   dpm($element);
 
   $output = l($element['#title'], $element['#href'], $element['#localized_options']);
-  return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu .'<span>'. $elemen['#localized_options']['attributes']['title']  ."</span></li>\n";
+  return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu .'<span>'. $element['#localized_options']['attributes']['title']  ."</span></li>\n";
   //return 'hola';
 }
