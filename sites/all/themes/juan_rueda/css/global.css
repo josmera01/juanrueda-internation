@@ -735,7 +735,7 @@ font-size: 1.06em;
 font-weight: 400;
 margin-bottom: 2%;
 }
-.view-calendario-de-eventos .view-footer label {
+.view-calendario-de-eventos .view-footer .field-label {
 	float: left;
 	font-weight: 300;
 }
