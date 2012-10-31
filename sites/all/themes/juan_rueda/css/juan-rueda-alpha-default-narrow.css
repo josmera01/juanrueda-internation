@@ -2,26 +2,3 @@
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the normal and widescreen layouts. You may override these styles in the normal 
  *  and widescreen CSS files as appropriate. */
- 
-.responsive-layout-narrow .front #region-content.grid-12,
-.responsive-layout-narrow .page-camiones #region-content.grid-12,
-.responsive-layout-narrow .page-tips-de-juan-rueda #region-content.grid-12,
-.responsive-layout-narrow .front #region-postscript-fourth.grid-12{
-	width: 720px;
-}
-.responsive-layout-narrow .page-noticias-y-eventos #region-content.grid-8{
-	width: 480px;
-}
-
-.responsive-layout-narrow #block-menu-menu-menu-secciones-principales .content ul li a{
-	width: 100%;
-	padding: 3.2em 0 0 0;
-	height: 2.6em;
-	background-position: center 0.3em;
-}
-.responsive-layout-narrow #block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu{padding: 0 6%;}
-.responsive-layout-narrow #block-menu-menu-menu-secciones-principales .content ul li.first a span.titulo_menu{
-	padding: 4% 6% 0;
-	background-position: center 0.5em;
-}
-.responsive-layout-narrow #block-menu-menu-menu-secciones-principales .content ul li a span.texto{display: none;}
