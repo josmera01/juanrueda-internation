@@ -606,7 +606,7 @@ color: #000000;
     border: 0;
     color: #000000;
 }
-.view-calendario-de-eventos .date-heading {
+.view-calendario-de-eventos.view .date-nav-wrapper .date-heading {
 background-image: linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
 background-image: -o-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
 background-image: -moz-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
@@ -625,7 +625,10 @@ top: 30px;
 width: 98%;
 }
 .view-calendario-de-eventos  .date-prev, #view-calendario-de-eventos  .date-next {background: transparent;}
-.view-calendario-de-eventos ul.pager, .view-calendario-de-eventos ul li {border: 0;}
+.view-calendario-de-eventos ul.pager, .view-calendario-de-eventos ul li {
+	border: 0;
+	top: -30px;
+}
 .view-calendario-de-eventos ul.pager a {
 border-radius: 10px;
 font-size: 5px;
@@ -656,7 +659,10 @@ color: #000000;
 	color: #575c56 !important;
 	text-decoration: none;
 }
-.view-calendario-de-eventos .view-content {margin-bottom: 15px;}
+.view-calendario-de-eventos .view-content {
+		position: relative;
+		top: -22px;	
+}
 .view-calendario-de-eventos .view-footer {
 	border-top: 1px solid #e4e4e4;
 	margin-bottom: 15px;
