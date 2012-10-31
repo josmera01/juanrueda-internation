@@ -619,7 +619,6 @@ form .form-submit:hover {
 
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales, .responsive-layout-mobile #block-multiblock-1{
 	clear: both;
-	display: block;
 	float: right;
 	margin: 0 auto;
 	width: 50%;
