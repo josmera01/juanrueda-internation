@@ -9,5 +9,9 @@ function juanrueda_views_breadcrumb_views_post_execute(&$view) {
         $breadcrumb[] = l('Inicio', '<front>');
         $breadcrumb[] = l('Camiones', 'camiones');
         drupal_set_breadcrumb($breadcrumb);
+    }if($view->name == "noticias-y-eventos"){
+        $breadcrumb[] = l('Inicio', '<front>');
+        $breadcrumb[] = l('Camiones', 'camiones');
+        drupal_set_breadcrumb($breadcrumb);
     }
 }
