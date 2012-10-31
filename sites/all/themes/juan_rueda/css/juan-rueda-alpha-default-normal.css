@@ -2,24 +2,3 @@
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
  
-.responsive-layout-normal .front #region-content.grid-12,
-.responsive-layout-normal .page-camiones #region-content.grid-12,
-.responsive-layout-normal .page-tips-de-juan-rueda #region-content.grid-12,
-.responsive-layout-normal .front #region-postscript-fourth.grid-12{
-	width: 960px;
-}
-.responsive-layout-normal .page-noticias-y-eventos #region-content.grid-8{
-	width: 640px;
-}
-
-.responsive-layout-normal #block-menu-menu-menu-secciones-principales .content ul li a{
-	width: 100%;
-	padding: 3.2em 0 0 0;
-}
-
-.responsive-layout-normal #block-menu-menu-menu-secciones-principales .content ul li.first a span.titulo_menu{
-	padding: 4% 12% 0;
-}
-.responsive-layout-normal #block-menu-menu-menu-secciones-principales .content ul li a span.texto{
-	padding: 2.5% 6%;
-}
