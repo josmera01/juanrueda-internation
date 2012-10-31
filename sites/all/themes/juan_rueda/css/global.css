@@ -690,7 +690,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render {
     border-radius: 0.5em 0.5em 0.5em 0.5em;
     display: block;
     height: 1.7em;
+	margin: 0 auto;
     padding: 0.5em;
-    text-indent: -9999px;
-    width: 2em;
+    width: 16em;
 }
