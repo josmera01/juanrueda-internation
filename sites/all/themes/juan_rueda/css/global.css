@@ -9,6 +9,7 @@
 
 body {
 	background: url("../images/home-background.jpg") repeat-x scroll 0 0 #212121;
+	color: #FFFFFF;
 	font-family: 'Lato', sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {font-family: 'Lato', sans-serif;}
@@ -685,3 +686,11 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render {
 .responsive-layout-mobile #block-views-bloque-todos-los-camiones-block {display: none;}
 .responsive-layout-wide #carousel-camion{display: none;}
 .responsive-layout-mobile #carousel-camion{display:block;}
+.responsive-layout-mobile .mapa-sitio-render {
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    display: block;
+    height: 1.7em;
+    padding: 0.5em;
+    text-indent: -9999px;
+    width: 2em;
+}
