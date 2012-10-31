@@ -565,6 +565,7 @@ form .form-submit:hover {
 .view-calendario-de-eventos {background: #FFFFFF;}
 #block-views-calendario-de-eventos-block-1 h2.block-title{
 	color: #FFFFFF;
+	font-size: 1.75em;
 	font-weight: 300;
 	text-align: center;
 }
@@ -574,10 +575,6 @@ form .form-submit:hover {
 }
 .view-calendario-de-eventos  .date-prev, #view-calendario-de-eventos  .date-next {background: transparent;}
 .view-calendario-de-eventos ul.pager, .view-calendario-de-eventos ul li {border: 0;}
-.view-calendario-de-eventos ul.pager a {
-	border-radius: 10px;
-	font-size: 5px;
-}
 .view-calendario-de-eventos .calendar-calendar th.days {
 	background: transparent;
 	border: 0;
@@ -585,15 +582,12 @@ form .form-submit:hover {
 }
 .view-calendario-de-eventos.view .date-nav-wrapper  .date-prev, 
 .view-calendario-de-eventos.view .date-nav-wrapper  .date-next {background: transparent;}
-.view-calendario-de-eventos ul.pager a {
-    border-radius: 10px;
-    font-size: 5px !important;
-}
 .view-calendario-de-eventos .calendar-calendar th.days {
     background: transparent;
     border: 0;
     color: #000000;
 }
+.view-calendario-de-eventos.view .date-nav-wrapper .date-heading h3 a {font-size: 0.8em;}
 .view-calendario-de-eventos.view .date-nav-wrapper .date-heading {
 	background-image: linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
 	background-image: -o-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
@@ -616,10 +610,6 @@ form .form-submit:hover {
 	border: 0;
 	top: -30px;
 }
-.view-calendario-de-eventos ul.pager a {
-	border-radius: 10px;
-	font-size: 5px;
-}
 .view-calendario-de-eventos .calendar-calendar th.days {
 	background: transparent;
 	border: 0;
@@ -629,7 +619,12 @@ form .form-submit:hover {
 .view-calendario-de-eventos.view .date-nav-wrapper  .date-next {background: transparent;}
 .view-calendario-de-eventos ul.pager a {
 	border-radius: 10px;
-	font-size: 5px !important;
+	font-size: 0.9em !important;
+	height: 10px;
+	line-height: 0.8;
+	padding: 0;
+	text-align: center;
+	width: 10px;
 }
 .view-calendario-de-eventos .calendar-calendar th.days {
 	background: transparent;
