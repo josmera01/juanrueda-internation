@@ -8,8 +8,6 @@ function juanrueda_views_breadcrumb_views_post_execute(&$view) {
     if ($view->name == 'camiones') {
         $breadcrumb[] = l('Inicio', '<front>');
         $breadcrumb[] = l('Camiones', 'camiones');
-    }else if(drupal_is_front_page()){
-        $breadcrumb[] = l('Inicio', '<front>');
+        drupal_set_breadcrumb($breadcrumb);
     }
-    drupal_set_breadcrumb($breadcrumb);
 }
