@@ -624,6 +624,7 @@ form .form-submit:hover {
 	margin: 0 auto;
 	width: 50%;
 }
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .block-inner {clear: both;}
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul.menu {
 	border: 3px solid #FD8900;
     border-radius: 5px 5px 5px 5px;
