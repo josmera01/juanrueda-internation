@@ -602,6 +602,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render {
 
 /***************************************** CSS WIDE ************************************************/
 
+/**
 .front #region-content.grid-12,
 .page-camiones #region-content.grid-12,
 .page-tips-de-juan-rueda #region-content.grid-12,
@@ -611,7 +612,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render {
 .page-noticias-y-eventos #region-content.grid-8{
 	width: 800px;
 }
-
+**/
 
 /***************************************** CSS NORMAL ************************************************/
 
