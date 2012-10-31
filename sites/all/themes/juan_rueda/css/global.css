@@ -386,7 +386,7 @@ form .form-submit {
 	float: right;
 	padding: 8px 20px;
 }
-form .form-submit:hover {
+form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render {
 	background-image: linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
 	background-image: -o-linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
 	background-image: -moz-linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
