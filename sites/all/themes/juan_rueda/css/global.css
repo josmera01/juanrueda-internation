@@ -693,3 +693,8 @@ form .form-submit:hover {
 .responsive-layout-mobile #block-views-bloque-todos-los-camiones-block {display: none;}
 .responsive-layout-wide #carousel-camion{display: none;}
 .responsive-layout-mobile #carousel-camion{display:block;}
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales {
+	margin: 0 auto;
+	width: 50%;
+}
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .block-inner {clear: both;}
