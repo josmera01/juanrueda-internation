@@ -39,3 +39,10 @@
 .responsive-layout-narrow .social_networks_links li#twitter a {background-position: -60px -18px;}
 .responsive-layout-narrow .social_networks_links li#facebook a {background-position: -18px -17px;}
 .responsive-layout-narrow .social_networks_links li#youtube a {background-position: -101px -16px;}
+
+.responsive-layout-narrow .social_networks_links li#twitter a:hover,
+.responsive-layout-narrow .social_networks_links li#twitter a.active {background-position: -60px -45px;}
+.responsive-layout-narrow .social_networks_links li#facebook a:hover,
+.responsive-layout-narrow .social_networks_links li#facebook a.active {background-position: -18px -44px;}
+.responsive-layout-narrow .social_networks_links li#youtube a:hover,
+.responsive-layout-narrow .social_networks_links li#youtube a.active {background-position: -101px -43px;}
