@@ -31,7 +31,7 @@ function juanrueda_galeria_camiones_block_info() {
 function galeria_render_camiones() {
   drupal_add_library('juanrueda_libraries', 'elastislide');
 
-  $node = consulta_camiones();
+  $node = consulta_types();
 
   foreach ($node as $key => $value) {
 
@@ -70,11 +70,11 @@ function galeria_render_camiones() {
 
 }
 
-function consulta_camiones() {
+function consulta_types($default = 'camion') {
 
   $db = db_select('node', 'n')
     ->fields('n')
-    ->condition('type', 'camion')
+    ->condition('type', $default)
     ->execute()
     ->fetchAll();
 

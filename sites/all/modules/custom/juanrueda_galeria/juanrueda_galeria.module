@@ -138,5 +138,60 @@ function _view_galeria_eslasticslider($nid, $settings) {
 
   return drupal_render($content);
 
+}
+
+function juanrueda_galeria_menu() {
+  $items = array();
+
+   $items['nuestra-historia'] = array(
+    'title' => 'Home',
+    'page callback' => 'galeria_nuestra_historia',
+    'access arguments' => array('access content'),
+    );
+   return $items;
+}
+
+function galeria_nuestra_historia() {
+  drupal_add_library('juanrueda_libraries', 'elastislide');
+
+  $node = consulta_types('hito_historico');
+
+  foreach ($node as $key => $value) {
+
+    $node = node_load($value);
+    $image = $node->field_imagen_hito[LANGUAGE_NONE][0];
+
+
+
+     $links[] = array(
+      'title' =>
+     '<span>' . $node->title.'</span>' .
+      theme('image', array(
+        'path' => image_style_url('square_thumbnail', $image['uri'])
+        )
+      )
+      . '<p>' $node->field_body[LANGUAGE_NONE][0] . '</p>'
+      ,
+      'html' => TRUE,
+      'href' => 'node/' . $node->nid,
+
+      );
+
+  }
+
+  $path = drupal_get_path('module', 'juanrueda_galeria');
+
+  drupal_add_js($path . '/js/juanrueda_galeria_historico.js');
+
+  $content['galeria']= array(
+     '#theme' => 'links',
+     '#links' => $links,
+     '#prefix' => '<div id="carousel-historico" class="es-carousel-wrapper"><div class="es-carousel">',
+     '#suffix' => '</div></div>',
+    );
+
+
+  return $content;
+
 
 }
