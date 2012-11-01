@@ -688,9 +688,11 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render {
 .responsive-layout-mobile #carousel-camion{display:block;}
 .responsive-layout-mobile .mapa-sitio-render {
     border-radius: 0.5em 0.5em 0.5em 0.5em;
+	cursor: pointer;
     display: block;
     height: 1.7em;
 	margin: 0 auto;
     padding: 0.5em;
+	text-align: center;
     width: 16em;
 }
