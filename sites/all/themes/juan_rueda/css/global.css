@@ -380,10 +380,10 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 #zone-footer #block-menu-menu-paises h2{background: url("../images/ico-contactenos-footer.png") no-repeat scroll center 0 transparent;}
 #zone-footer #block-block-13 h2{background: url("../images/ico-siguenos-footer.png") no-repeat scroll center 0 transparent;}
 
-/*#region-footer-first .social_networks_sitemap li{
+
+/*#region-footer-first .block ul.social_networks_sitemap li{
 	background: url("../images/jr-images.png") no-repeat transparent;
 	list-style: none;
-	background-size: 425%;
 	padding-left: 0.5em;
 	line-height: 1.4;
 }
@@ -518,6 +518,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 	padding-left: 2em;
 	min-height 1.8em;
 }
+.bloque-gris .field-name-title{background-size: 28px;}
 .bloque-gris .categoria- .field-name-title{background: url("../images/ico-camiones.png") no-repeat 0 0 transparent;}
 .bloque-gris .categoria-1 .field-name-title{background: url("../images/ico-eventos.png") no-repeat 0 0 transparent;}
 .bloque-gris .categoria-2 .field-name-title{background: url("../images/ico-noticias.png") no-repeat 0 0 transparent;}
