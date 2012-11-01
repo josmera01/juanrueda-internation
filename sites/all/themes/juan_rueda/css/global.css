@@ -508,6 +508,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .front #region-content,
 .page-camiones #region-content,
 .page-tips-de-juan-rueda #region-content,
+.page-tips #region-content,
 .page-noticias-y-eventos #region-content,
 .front #region-postscript-fourth.grid-12{margin: 0;}
 
@@ -531,20 +532,29 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 	font-weight: 300;
 	margin-bottom: 0.5em;
 	line-height: 1.2;
-	min-height: 1.85em;
 }
-.front .bloque-gris .masonry-item h2, .page-noticias-y-eventos .bloque-gris .masonry-item h2 {padding-left: 2em;}
+.front .bloque-gris .masonry-item h2 a, .page-noticias-y-eventos .bloque-gris .masonry-item h2 a {
+	padding-left: 2em;
+	min-height: 1.85em;
+	display: block;
+}
 
-.bloque-gris .field-name-title{background-size: 28px;}
-.front .bloque-gris .node-article .field-name-title,
-.page-noticias-y-eventos .bloque-gris .node-article .field-name-title
-{background: url("../images/ico-noticias.png") no-repeat 0 0 transparent;}
-.bloque-gris .categoria- .field-name-title{background: url("../images/ico-camiones.png") no-repeat 0 0 transparent;}
-.bloque-gris .categoria-3 .field-name-title{background: url("../images/ico-repuestos.png") no-repeat 0 0 transparent;}
-.bloque-gris .categoria-4 .field-name-title{background: url("../images/ico-latec.png") no-repeat 0 0 transparent;}
-.bloque-gris .categoria-5 .field-name-title{background: url("../images/ico-servicios.png") no-repeat 0 0 transparent;}
+.bloque-gris .node-article .field-name-title a{background-image: url("../images/ico-noticias.png");}
+.bloque-gris .categoria- .field-name-title a{background-image: url("../images/ico-camiones.png");}
+.bloque-gris .categoria-3 .field-name-title a{background-image: url("../images/ico-repuestos.png");}
+.bloque-gris .categoria-4 .field-name-title a{background-image: url("../images/ico-latec.png");}
+.bloque-gris .categoria-5 .field-name-title a{background-image: url("../images/ico-servicios.png");}
+.bloque-gris .node-evento .field-name-title a{background-image: url("../images/ico-eventos.png");}
 
-.bloque-gris .node-evento .field-name-title{background: url("../images/ico-eventos.png") no-repeat 0 -6px transparent;}
+.bloque-gris .field-name-title a{
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+.bloque-gris .node-article .field-name-title a:link, .bloque-gris .node-evento .field-name-title a:link{background-position: 0 -3px;}
+.bloque-gris .node-article .field-name-title a:hover, .bloque-gris .node-evento .field-name-title a:hover{background-position: 0 -305px;}
+.bloque-gris .node-article .field-name-title a:visited, .bloque-gris .node-evento .field-name-title a:visited{background-position: 0 -496px;}
+
 
 .bloque-gris a:link {color: #1B457A;}
 .bloque-gris a:hover, .bloque-gris a:visited{text-decoration: underline;}
