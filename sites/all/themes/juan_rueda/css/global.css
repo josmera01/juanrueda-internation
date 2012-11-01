@@ -340,8 +340,8 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 	float: left;
 	margin-left: 4%;
 }
-#zone-footer .block#block-menu-menu-cont-ctenos{width: 30%;}
-#zone-footer #block-menu-menu-cont-ctenos .leaf {
+#zone-footer .block#block-menu-menu-paises{width: 30%;}
+#zone-footer #block-menu-menu-paises .leaf {
 	float: left;
 	width: 31%;
 }
@@ -379,7 +379,6 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 #zone-footer #block-menu-menu-paises h2{background: url("../images/ico-contactenos-footer.png") no-repeat scroll center 0 transparent;}
 #zone-footer #block-block-13 h2{background: url("../images/ico-siguenos-footer.png") no-repeat scroll center 0 transparent;}
 #block-menu-menu-international-menu-inferior h2{background: url("../images/ico-international.png") no-repeat scroll center 0 transparent;}
-#block-widgets-s-socialmedia-profile-buttons  div.widgets-element-horizontal {float: none;}
 
 /***************************************HOME***********************************************/
 
