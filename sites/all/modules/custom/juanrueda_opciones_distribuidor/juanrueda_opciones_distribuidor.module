@@ -7,7 +7,7 @@ function juanrueda_opciones_distribuidor_webform_select_options_info() {
   $items = array();
 
   $items['opciones_distribuidor'] = array(
-    'title' => t('Empresario'),
+    'title' => t('Distribuidor'),
     'options callback' => 'opciones_distribuidor_email',
 
   );
@@ -27,7 +27,8 @@ function opciones_distribuidor_email() {
 
     $options = array();
     while($record = $result->fetchAssoc()) {
-      $array[$record->tid] = $record->name;
+      //$array[$record->tid] = $record->name;
+      dpm($record);
     }
 
     return $options;
