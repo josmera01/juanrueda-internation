@@ -43,10 +43,9 @@ function consultar_email_tax($id) {
 
     $result = $query->execute();
 
-    $options = array();
     $record = $result->fetchAssoc();
 
-    return reset($record['field_correo_electronico_value']);
+    return reset($record);
 
 }
 
