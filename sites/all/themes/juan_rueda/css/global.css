@@ -395,12 +395,14 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 
 /***************************************CONTACTO***********************************************/
 
-#block-webform-client-block-62 .webform-component-textfield, #block-webform-client-block-62 .webform-component-select {
+#block-webform-client-block-62 .webform-component-textfield, #block-webform-client-block-62 .webform-component-select,
+#block-webform-client-block-62 .webform-component-email {
 	float: left;
-	width: 25.5%;
+	width: 47%;
 }
 #block-webform-client-block-62 .form-text, #block-webform-client-block-62 .form-select {width: 100%;}
-#block-webform-client-block-62 .webform-component-textarea, #block-webform-client-block-62 #edit-actions {width: 52.5%;}
+#block-webform-client-block-62 .webform-component-textarea {float: left;}
+#block-webform-client-block-62 .webform-component-textarea, #block-webform-client-block-62 #edit-actions {width: 98%;}
 #block-webform-client-block-62 #edit-actions {overflow: hidden;}
 #block-webform-client-block-62 label {padding-left: 10px;}
 .marker, .form-required {color: #FF7B00;}
