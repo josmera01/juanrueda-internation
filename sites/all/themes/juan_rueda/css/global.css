@@ -754,6 +754,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .responsive-layout-narrow .front #region-content.grid-12,
 .responsive-layout-narrow .page-camiones #region-content.grid-12,
 .responsive-layout-narrow .page-tips-de-juan-rueda #region-content.grid-12,
+.responsive-layout-narrow .page-tips #region-content.grid-12,
 .responsive-layout-narrow .front #region-postscript-fourth.grid-12{
 	width: 720px;
 }
@@ -779,6 +780,11 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 /***************************************** CSS PLUGINS REDES SOCIALES ************************************************/
 
 .fb-like-box.fb_iframe_widget, .fb-like-box.fb_iframe_widget span, .fb-like-box.fb_iframe_widget iframe{width: 100% !important;}
+
+#block-block-3 .content{padding: 0;}
+#block-block-3 p{margin-bottom: 0;}
+#block-block-3 iframe#fr{width: 100% !important;}
+#block-block-3 iframe#fr #container{border: none;}
 
 
 
