@@ -1,0 +1,42 @@
+<?php
+
+/**
+ * Implemtation hook_webform_select_options_info()
+ */
+function juanrueda_opciones_distribuidor_webform_select_options_info() {
+  $items = array();
+
+  $items['opciones_distribuidor'] = array(
+    'title' => t('Empresario'),
+    'options callback' => 'opciones_distribuidor_email',
+
+  );
+
+  return $items;
+}
+
+function opciones_distribuidor_email() {
+    $query = db_select('taxonomy_term_data', 't');
+
+    $query->join('field_data_field_correo_electronico', 'c', 't.tid = c.entity_id'); //JOIN node with users
+
+    $query->fields('t', array('name', 'tid'));
+    $query->fields('c', array('field_correo_electronico_value'));
+
+    $result = $query->execute();
+
+    $options = array();
+    while($record = $result->fetchAssoc()) {
+      $array[$record->tid] = $record->name;
+    }
+
+    return $options;
+
+}
+
+/**
+ * Implementation hook_form_alter()
+ **/
+function juanrueda_opciones_distribuidor_form_alter(&$form, &$form_state, $form_id) {
+  dpm($form_id);
+}
