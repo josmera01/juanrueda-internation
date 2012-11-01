@@ -8,7 +8,8 @@
 @import url("provicional.css");
 
 body {
-	background: url("../images/home-background.jpg") repeat-x scroll 0 0 #212121;
+	background: url("../images/home-background.jpg") no-repeat scroll center 0 #212121;
+	background-size: 100%;
 	color: #FFFFFF;
 	font-family: 'Lato', sans-serif;
 }
