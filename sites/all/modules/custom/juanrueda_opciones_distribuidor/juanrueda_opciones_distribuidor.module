@@ -27,7 +27,7 @@ function opciones_distribuidor_email() {
 
     $options = array();
     while($record = $result->fetchAssoc()) {
-      $options[$record['tid']] = $record['name'];
+      $options[$record['field_correo_electronico_value']] = $record['name'];
 
     }
 
