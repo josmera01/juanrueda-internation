@@ -8,7 +8,8 @@
 @import url("provicional.css");
 
 body {
-	background: url("../images/home-background.jpg") repeat-x scroll 0 0 #212121;
+	background: url("../images/home-background.jpg") no-repeat scroll center 0 #212121;
+	background-size: 100%;
 	color: #FFFFFF;
 	font-family: 'Lato', sans-serif;
 }
@@ -430,10 +431,18 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render {
 	color: #1B457A;
 	font-size: 1.5em;
 	font-weight: 300;
-	margin-bottom: 0.7em;
+	margin-bottom: 0.5em;
 	line-height: 1.2;
-	padding-left: 1.5em;
+	padding-left: 2em;
+	min-height 1.8em;
 }
+.bloque-gris .categoria- .field-name-title{background: url("../images/ico-camiones.png") no-repeat 0 0 transparent;}
+.bloque-gris .categoria-1 .field-name-title{background: url("../images/ico-eventos.png") no-repeat 0 0 transparent;}
+.bloque-gris .categoria-2 .field-name-title{background: url("../images/ico-noticias.png") no-repeat 0 0 transparent;}
+.bloque-gris .categoria-3 .field-name-title{background: url("../images/ico-repuestos.png") no-repeat 0 0 transparent;}
+.bloque-gris .categoria-4 .field-name-title{background: url("../images/ico-latec.png") no-repeat 0 0 transparent;}
+.bloque-gris .categoria-5 .field-name-title{background: url("../images/ico-servicios.png") no-repeat 0 0 transparent;}
+
 .bloque-gris .node-camion h2{padding-left: 0;}
 .bloque-gris .node-evento h2{background: url("../images/ico-eventos.png") no-repeat 0 0 transparent;}
 .bloque-gris a:link {color: #1B457A;}
@@ -463,6 +472,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render {
 .bloque-gris #carousel .es-nav span.es-nav-prev{background: transparent url(../images/flecha-bloque-izq.png) no-repeat top left;}
 .bloque-gris #carousel .es-nav span.es-nav-next{background: transparent url(../images/flecha-bloque-der.png) no-repeat top left;}
 .bloque-gris .node #carousel ol, .bloque-gris .node #carousel ul{padding-left: 0;}
+
 .view-art-culos-relacionados .item-list ul li {margin: 0;}
 .view-art-culos-relacionados .views-row p {margin: 0;}
 .view-art-culos-relacionados .views-row{

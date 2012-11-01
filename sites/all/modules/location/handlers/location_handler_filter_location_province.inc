@@ -34,7 +34,7 @@ class location_handler_filter_location_province extends views_handler_filter {
     }
     $form['value'] = array(
       '#type' => 'textfield',
-      '#title' => t('State/Province'),
+      '#title' => t('Prueba colombia tu ṕapa'),
       '#autocomplete_path' => 'location/autocomplete/'. $ac,
       '#default_value' => $this->value,
       '#size' => 64,
