@@ -23,3 +23,9 @@ body.responsive-layout-normal #block-menu-menu-menu-secciones-principales .conte
 body.responsive-layout-normal #block-menu-menu-menu-secciones-principales .content ul li a span.texto{
 	padding: 2.5% 6%;
 }
+
+/******** Footer *******/
+
+body.responsive-layout-normal #zone-footer .block {margin-left: 3%;}
+body.responsive-layout-normal #zone-footer .block#block-menu-menu-paises {width: 33%;}
+
