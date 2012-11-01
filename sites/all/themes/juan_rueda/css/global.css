@@ -47,7 +47,7 @@ iframe{max-width: 100%}
 	width: 100%;
 }
 #block-block-3  {background: url("../images/cabecera-youtube.png") repeat-x scroll 0 0 #FFFFFF;}
-#block-block-3 h2.block-title, #block-block-4 h2.block-title, #block-block-5 h2.block-title {
+#block-block-3 h2.block-title, #block-block-4 h2.block-title, #block-block-5 h2.block-title, #block-widgets-s-facebook-like-box h2.block-title {
 	background: url("../images/logo-youtube.png") no-repeat scroll 10px 7px transparent;
 	color: white;
 	font-size: 1.2em;
@@ -58,7 +58,7 @@ iframe{max-width: 100%}
 	text-indent: 69px;
 }
 #block-block-4 h2.block-title {background: url("../images/logo-twitter.png") no-repeat scroll 10px 7px transparent;}
-#block-block-5 h2.block-title {background: url("../images/logo-facebook.png") no-repeat scroll 10px 7px transparent;}
+#block-block-5 h2.block-title, #block-widgets-s-facebook-like-box h2.block-title  {background: url("../images/logo-facebook.png") no-repeat scroll 10px 7px transparent;}
 #block-block-5 #fb-root {display: none;}
 #block-block-5 .fb-like-box {margin-top: -10px;}
 #page-title {
