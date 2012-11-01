@@ -238,6 +238,7 @@ div.widgets-element-horizontal {margin-right: 5px;}
 	width: 100%;
 	font-family: "Lato";
 	font-weight: 300;
+	line-height: 2;
 }
 #region-user-second #block-search-form #edit-actions{
 	float: left;
