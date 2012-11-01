@@ -144,11 +144,13 @@ label {color: #FFFFFF;}
 	width: 13%;
 }
 #block-views-bloque-todos-los-camiones-block .views-row.views-row-last {margin-right: 0;}
-#block-views-bloque-todos-los-camiones-block .field-name-field-imagen-destacada img{
+#block-views-bloque-todos-los-camiones-block .field-name-field-imagen-destacada img,
+#carousel-camion li img{
 	border-top-right-radius: 0.5em;
 	border-top-left-radius: 0.5em;
 }
-#block-views-bloque-todos-los-camiones-block .field-name-title a{
+#block-views-bloque-todos-los-camiones-block .field-name-title a,
+#carousel-camion li a span{
 	background: #DBDBDB;
 	border-bottom-right-radius: 0.5em;
 	border-bottom-left-radius: 0.5em;
@@ -160,7 +162,9 @@ label {color: #FFFFFF;}
 	text-align: center;
 	width: 100%;
 }
-#block-views-bloque-todos-los-camiones-block .views-row:hover .field-name-title a, #block-views-bloque-todos-los-camiones-block .field-name-title a.active {
+#block-views-bloque-todos-los-camiones-block .views-row:hover .field-name-title a,
+#block-views-bloque-todos-los-camiones-block .field-name-title a.active,
+#carousel-camion li a:hover span, #carousel-camion li a.active span {
 	background: #E55500;
 	color: #FFFFFF;
 }
