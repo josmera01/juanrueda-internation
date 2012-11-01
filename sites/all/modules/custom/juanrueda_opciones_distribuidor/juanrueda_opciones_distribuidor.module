@@ -39,5 +39,11 @@ function opciones_distribuidor_email() {
  * Implementation hook_form_alter()
  **/
 function juanrueda_opciones_distribuidor_form_alter(&$form, &$form_state, $form_id) {
-  dpm($form_id);
+
+  switch ($form_id) {
+    case 'webform_client_form_62':
+      dpm($form);
+      break;
+
+  }
 }
