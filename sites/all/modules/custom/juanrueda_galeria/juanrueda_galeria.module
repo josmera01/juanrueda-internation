@@ -161,16 +161,16 @@ function galeria_nuestra_historia() {
     $node = node_load($value);
     $image = $node->field_imagen_hito[LANGUAGE_NONE][0];
 
-
+    $imagen_render = theme('image', array(
+          'path' => image_style_url('square_thumbnail', $image['uri'])
+          )
+        );
 
      $links[] = array(
       'title' =>
-     '<span>' . $node->title.'</span>' .
-      theme('image', array(
-        'path' => image_style_url('square_thumbnail', $image['uri'])
-        )
-      )
-      . '<p>' $node->field_body[LANGUAGE_NONE][0] . '</p>'
+       '<span>' . $node->title .'</span>' . $imagen_render
+
+        . '<p>' . $node->field_body[LANGUAGE_NONE][0] .'</p>'
       ,
       'html' => TRUE,
       'href' => 'node/' . $node->nid,
