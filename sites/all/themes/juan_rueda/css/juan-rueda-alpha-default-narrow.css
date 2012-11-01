@@ -19,6 +19,8 @@
 	height: 2.6em;
 	background-position: center 0.3em;
 }
+.responsive-layout-narrow #block-menu-menu-menu-secciones-principales .content ul li:hover a,
+.responsive-layout-narrow #block-menu-menu-menu-secciones-principales .content ul li.active-trail a{background-position: center -12.5em;}
 .responsive-layout-narrow #block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu{padding: 0 6%;}
 .responsive-layout-narrow #block-menu-menu-menu-secciones-principales .content ul li.first a span.titulo_menu{
 	padding: 4% 6% 0;
