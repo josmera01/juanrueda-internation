@@ -374,8 +374,8 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 }
 #zone-footer #block-views-menu-block h2{background: url("../images/ico-camion-footer.png") no-repeat scroll center 0 transparent;}
 #zone-footer #block-menu-block-1 h2{background: url("../images/ico-tips-footer.png") no-repeat scroll center 0 transparent;}
-#zone-footer #block-menu-menu-cont-ctenos h2{background: url("../images/ico-contactenos-footer.png") no-repeat scroll center 0 transparent;}
-#zone-footer #block-widgets-s-socialmedia-profile-buttons h2{background: url("../images/ico-siguenos-footer.png") no-repeat scroll center 0 transparent;}
+#zone-footer #block-menu-menu-paises h2{background: url("../images/ico-contactenos-footer.png") no-repeat scroll center 0 transparent;}
+#zone-footer #block-block-13 h2{background: url("../images/ico-siguenos-footer.png") no-repeat scroll center 0 transparent;}
 #block-menu-menu-international-menu-inferior h2{background: url("../images/ico-international.png") no-repeat scroll center 0 transparent;}
 #block-widgets-s-socialmedia-profile-buttons  div.widgets-element-horizontal {float: none;}
 
