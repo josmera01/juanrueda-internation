@@ -29,3 +29,13 @@
 .responsive-layout-narrow #block-menu-menu-menu-secciones-principales .content ul li a span.texto{display: none;}
 
 .responsive-layout-narrow #section-header{background-size: 30%;}
+
+
+.responsive-layout-narrow .social_networks_links li a {
+	height: 1.85em;
+	width: 1.8em;
+	border-radius: 0.3em;
+}
+.responsive-layout-narrow .social_networks_links li#twitter a {background-position: -60px -18px;}
+.responsive-layout-narrow .social_networks_links li#facebook a {background-position: -18px -17px;}
+.responsive-layout-narrow .social_networks_links li#youtube a {background-position: -101px -16px;}
