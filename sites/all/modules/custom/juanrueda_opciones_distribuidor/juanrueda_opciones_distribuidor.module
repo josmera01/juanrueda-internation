@@ -1,0 +1,67 @@
+<?php
+
+/**
+ * Implemtation hook_webform_select_options_info()
+ */
+function juanrueda_opciones_distribuidor_webform_select_options_info() {
+  $items = array();
+
+  $items['opciones_distribuidor'] = array(
+    'title' => t('Distribuidor'),
+    'options callback' => 'opciones_distribuidor_email',
+
+  );
+
+  return $items;
+}
+
+function opciones_distribuidor_email() {
+    $query = db_select('taxonomy_term_data', 't');
+
+    $query->join('field_data_field_correo_electronico', 'c', 't.tid = c.entity_id'); //JOIN node with users
+
+    $query->fields('t', array('name', 'tid'));
+    $query->fields('c', array('field_correo_electronico_value'));
+
+    $result = $query->execute();
+
+    $options = array();
+    while($record = $result->fetchAssoc()) {
+      $options[$record['field_correo_electronico_value']] = $record['name'];
+
+    }
+
+    return $options;
+
+}
+
+function consultar_email_tax($id) {
+
+    $query = db_select('field_data_field_correo_electronico', 'c');
+    $query->fields('c', array('field_correo_electronico_value'));
+    $query->condition('entity_id', $id);
+
+    $result = $query->execute();
+
+    $record = $result->fetchAssoc();
+
+    return reset($record);
+
+}
+
+/**
+ * Implementation hook_form_alter()
+ **/
+function juanrueda_opciones_distribuidor_form_alter(&$form, &$form_state, $form_id) {
+
+  switch ($form_id) {
+    case 'webform_client_form_62':
+
+      if (isset($_GET['pais'])) {
+        $form['submitted']['pais']['#default_value'] = consultar_email_tax($_GET['pais']);
+      }
+
+      break;
+
+  }
+}

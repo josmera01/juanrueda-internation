@@ -4,7 +4,9 @@
  * Default view template to display items in a jQuery Masonry grid.
  */
 ?>
-<?php $i = 0;?>
+<?php $i = 0;
+$nombre_clase = '';
+?>
 <?php foreach ($rows as $id => $row):
   $clase = $view->result;
 

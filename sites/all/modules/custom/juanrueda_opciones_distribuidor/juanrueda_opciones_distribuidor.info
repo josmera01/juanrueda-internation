@@ -1,0 +1,4 @@
+name = Opciones distribuidor
+description = Opciones que trae el distribuidor
+core = 7.x
+package = juanRueda International

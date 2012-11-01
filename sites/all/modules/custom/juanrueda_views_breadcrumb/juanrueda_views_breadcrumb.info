@@ -1,0 +1,7 @@
+name = Custom views breadcrumb
+description = Provides a personalized breadcrumb
+core = 7.x
+package = juanRueda International
+
+; Module dependencies
+dependencies[] = views

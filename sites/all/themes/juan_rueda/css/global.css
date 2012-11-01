@@ -4,11 +4,12 @@
 
 /***************************************GENERAL STYLES***********************************************/
 
-@import url(http://fonts.googleapis.com/css?family=Lato:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,700,900);
 @import url("provicional.css");
 
 body {
-	background: url("../images/home-background.jpg") repeat-x scroll 0 0 #212121;
+	background: url("../images/home-background.jpg") no-repeat scroll center 0 #212121;
+	background-size: 100%;
 	color: #FFFFFF;
 	font-family: 'Lato', sans-serif;
 }
@@ -163,12 +164,14 @@ label {color: #FFFFFF;}
 }
 /***************************************HEADER***********************************************/
 
+#section-header{background: url("../images/juan-rueda.png") no-repeat left bottom transparent;}
+
 .branding-data {text-align: center;}
 .site-name-slogan {float: none;}
-.branding-data  h1.site-name {
-	font-size: 7em;
-	font-weight: 700;
-	margin: 35px 0;
+.branding-data  h1.site-name, .branding-data h2.site-name {
+	font-size: 5em;
+	font-weight: 900;
+	margin: 0.7em 0;
 	text-transform: uppercase;
 }
 #region-user-second .region-inner {overflow: hidden;}
@@ -180,7 +183,11 @@ label {color: #FFFFFF;}
 }
 div.widgets-element-horizontal {margin-right: 5px;}
 #block-widgets-s-socialmedia-profile-default {margin-right: 10px;}
-#block-block-12{width: 30%;}
+#block-block-12{
+	width: 40%;
+	float: left;
+}
+.social_networks_links{margin-bottom: 0;}
 .social_networks_links li{
 	float: left;
 	margin: 0.2em;
@@ -198,6 +205,36 @@ div.widgets-element-horizontal {margin-right: 5px;}
 .social_networks_links li#twitter a:hover{background-position: -57px -43px }
 .social_networks_links li#facebook a:hover{background-position: -15px -43px}
 .social_networks_links li#youtube a:hover{background-position: -98px -43px }
+
+#region-user-second #block-search-form{
+	width: 60%;
+	float: left;
+}
+#region-user-second #block-search-form h2{display: none;}
+#region-user-second #block-search-form .content{border: 1px solid #777;}
+#region-user-second #block-search-form .form-item-search-block-form{
+	width: 100%;
+	margin: 0;
+	float: left;
+}
+#region-user-second #block-search-form #edit-search-block-form--2{
+	background: #000000;
+	border: none;
+	width: 100%;
+}
+#region-user-second #block-search-form #edit-submit {
+	text-indent: -9999px;
+	background: url("../images/jr-images.png") no-repeat -12.85em -1.25em transparent;
+	width: 2em;
+	margin: 0;
+	height: 2em;
+	border-radius: 0 !important;
+	padding: 0;
+}
+#region-user-second #block-search-form #edit-actions{
+	float: left;
+	margin-left: -2em;
+}
 
 /***************************************MENU***********************************************/
 
@@ -231,14 +268,14 @@ div.widgets-element-horizontal {margin-right: 5px;}
 }
 #block-system-main-menu ul li.first a {border-radius: 5px 0 0 5px;}
 #block-system-main-menu ul li.last a {border-radius: 0 5px 5px 0;}
-#block-menu-menu-menu-secciones-principales {margin-bottom: 30px;}
+#block-menu-menu-menu-secciones-principales {margin-bottom: 1em;}
 #block-menu-menu-menu-secciones-principales .content {
 	margin: 0 auto;
 	width: 100%;
 }
 #block-menu-menu-menu-secciones-principales ul {
 	overflow: hidden;
-	padding: 3%;
+	padding: 0 3%;
 }
 #block-menu-menu-menu-secciones-principales ul li.leaf {
 	background: url("../images/menu-bg.png") repeat-x scroll top left transparent;
@@ -430,10 +467,18 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render {
 	color: #1B457A;
 	font-size: 1.5em;
 	font-weight: 300;
-	margin-bottom: 0.7em;
+	margin-bottom: 0.5em;
 	line-height: 1.2;
-	padding-left: 1.5em;
+	padding-left: 2em;
+	min-height 1.8em;
 }
+.bloque-gris .categoria- .field-name-title{background: url("../images/ico-camiones.png") no-repeat 0 0 transparent;}
+.bloque-gris .categoria-1 .field-name-title{background: url("../images/ico-eventos.png") no-repeat 0 0 transparent;}
+.bloque-gris .categoria-2 .field-name-title{background: url("../images/ico-noticias.png") no-repeat 0 0 transparent;}
+.bloque-gris .categoria-3 .field-name-title{background: url("../images/ico-repuestos.png") no-repeat 0 0 transparent;}
+.bloque-gris .categoria-4 .field-name-title{background: url("../images/ico-latec.png") no-repeat 0 0 transparent;}
+.bloque-gris .categoria-5 .field-name-title{background: url("../images/ico-servicios.png") no-repeat 0 0 transparent;}
+
 .bloque-gris .node-camion h2{padding-left: 0;}
 .bloque-gris .node-evento h2{background: url("../images/ico-eventos.png") no-repeat 0 0 transparent;}
 .bloque-gris a:link {color: #1B457A;}
@@ -463,6 +508,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render {
 .bloque-gris #carousel .es-nav span.es-nav-prev{background: transparent url(../images/flecha-bloque-izq.png) no-repeat top left;}
 .bloque-gris #carousel .es-nav span.es-nav-next{background: transparent url(../images/flecha-bloque-der.png) no-repeat top left;}
 .bloque-gris .node #carousel ol, .bloque-gris .node #carousel ul{padding-left: 0;}
+
 .view-art-culos-relacionados .item-list ul li {margin: 0;}
 .view-art-culos-relacionados .views-row p {margin: 0;}
 .view-art-culos-relacionados .views-row{
@@ -598,12 +644,81 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render {
 }
 .view-calendario-de-eventos .view-footer .node-evento label {font-weight: 300;}
 
+
+
+/***************************************** CSS WIDE ************************************************/
+
+/**
+.front #region-content.grid-12,
+.page-camiones #region-content.grid-12,
+.page-tips-de-juan-rueda #region-content.grid-12,
+.front #region-postscript-fourth.grid-12{
+	width: 1200px;
+}
+.page-noticias-y-eventos #region-content.grid-8{
+	width: 800px;
+}
+**/
+
+/***************************************** CSS NORMAL ************************************************/
+
+/*
+.responsive-layout-normal .front #region-content.grid-12,
+.responsive-layout-normal .page-camiones #region-content.grid-12,
+.responsive-layout-normal .page-tips-de-juan-rueda #region-content.grid-12,
+.responsive-layout-normal .front #region-postscript-fourth.grid-12{
+	width: 960px;
+}
+.responsive-layout-normal .page-noticias-y-eventos #region-content.grid-8{
+	width: 640px;
+}
+
+.responsive-layout-normal #block-menu-menu-menu-secciones-principales .content ul li a{
+	width: 100%;
+	padding: 3.2em 0 0 0;
+}
+
+.responsive-layout-normal #block-menu-menu-menu-secciones-principales .content ul li.first a span.titulo_menu{
+	padding: 4% 12% 0;
+}
+.responsive-layout-normal #block-menu-menu-menu-secciones-principales .content ul li a span.texto{
+	padding: 2.5% 6%;
+}
+*/
+
+/***************************************** CSS NARROW ************************************************/
+
+.responsive-layout-narrow .front #region-content.grid-12,
+.responsive-layout-narrow .page-camiones #region-content.grid-12,
+.responsive-layout-narrow .page-tips-de-juan-rueda #region-content.grid-12,
+.responsive-layout-narrow .front #region-postscript-fourth.grid-12{
+	width: 720px;
+}
+.responsive-layout-narrow .page-noticias-y-eventos #region-content.grid-8{
+	width: 480px;
+}
+
+.responsive-layout-narrow #block-menu-menu-menu-secciones-principales .content ul li a{
+	width: 100%;
+	padding: 3.2em 0 0 0;
+	height: 2.6em;
+	background-position: center 0.3em;
+}
+.responsive-layout-narrow #block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu{padding: 0 6%;}
+.responsive-layout-narrow #block-menu-menu-menu-secciones-principales .content ul li.first a span.titulo_menu{
+	padding: 4% 6% 0;
+	background-position: center 0.5em;
+}
+.responsive-layout-narrow #block-menu-menu-menu-secciones-principales .content ul li a span.texto{display: none;}
+
+
 /***************************************** CSS MOBILE ************************************************/
 
+.responsive-layout-mobile #section-header{background-size: 30%;}
 .responsive-layout-mobile .branding-data h1.site-name{
 	font-size: 2.5em;
 	text-align: right;
-	padding-right: 1em;
+	padding: 1em 1em 0 0;
 }
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales, .responsive-layout-mobile #block-multiblock-1{
 	clear: both;
@@ -660,6 +775,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render {
 	height: auto;
 }
 .responsive-layout-mobile .menu-buscador, .responsive-layout-mobile .home-movil, .responsive-layout-mobile .menu-render{margin-right: 0.5em;}
+.responsive-layout-wide .home-movil, .responsive-layout-normal .home-movil, .responsive-layout-narrow .home-movil{display: none;}
 .responsive-layout-mobile .menu-buscador, .responsive-layout-mobile .home-movil{
 	border-radius: 0.5em;
 	display: block;
