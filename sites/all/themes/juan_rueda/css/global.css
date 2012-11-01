@@ -539,12 +539,9 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .front .bloque-gris .node-article .field-name-title, .page-noticias-y-eventos .bloque-gris .node-article .field-name-title
 {background: url("../images/ico-noticias.png") no-repeat 0 0 transparent;}
 .bloque-gris .categoria- .field-name-title{background: url("../images/ico-camiones.png") no-repeat 0 0 transparent;}
-.bloque-gris .categoria-1 .field-name-title{background: url("../images/ico-eventos.png") no-repeat 0 0 transparent;}
-.bloque-gris .categoria-2 .field-name-title{background: url("../images/ico-noticias.png") no-repeat 0 0 transparent;}
 .bloque-gris .categoria-3 .field-name-title{background: url("../images/ico-repuestos.png") no-repeat 0 0 transparent;}
 .bloque-gris .categoria-4 .field-name-title{background: url("../images/ico-latec.png") no-repeat 0 0 transparent;}
-.bloque-gris .categoria-5 .field-name-title{background: url("../images/ico-servicios.png") no-repeat 0 0 transparent;}
-
+.bloque-gris .categoria-5 .field-name-title{background: url("../images/ico-servicios.png") no-repeat 0 0 transparent;
 .bloque-gris .node-evento .field-name-title{background: url("../images/ico-eventos.png") no-repeat 0 -6px transparent;}
 
 .bloque-gris a:link {color: #1B457A;}
