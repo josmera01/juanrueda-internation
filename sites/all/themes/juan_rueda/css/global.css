@@ -1,3 +1,4 @@
+@import url("provicional.css");
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
@@ -5,7 +6,7 @@
 /***************************************GENERAL STYLES***********************************************/
 
 @import url(http://fonts.googleapis.com/css?family=Lato:400,300,700,900);
-@import url("provicional.css");
+
 
 body {
 	background: url("../images/home-background.jpg") no-repeat scroll center 0 #212121;
@@ -359,6 +360,7 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 	padding: 0.8em 0.5em 0 0.5em;
 	margin: 0;
 }
+#zone-footer #block-block-1 a, #zone-footer #block-block-2 a{color: #777777 !important;}
 #zone-footer #block-block-1{float: left;}
 #zone-footer #block-block-2{
 	float: right;
@@ -395,6 +397,7 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 
 /***************************************CONTACTO***********************************************/
 
+#block-webform-client-block-62 {margin-top: 12%;}
 #block-webform-client-block-62 .webform-component-textfield, #block-webform-client-block-62 .webform-component-select,
 #block-webform-client-block-62 .webform-component-email {
 	float: left;
@@ -406,7 +409,7 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 #block-webform-client-block-62 #edit-actions {overflow: hidden;}
 #block-webform-client-block-62 label {padding-left: 10px;}
 .marker, .form-required {color: #FF7B00;}
-form .form-submit {
+form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 a {
 	background-image: linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
 	background-image: -o-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
 	background-image: -moz-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
@@ -426,7 +429,7 @@ form .form-submit {
 	float: right;
 	padding: 8px 20px;
 }
-form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render {
+form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-mapa-contacto .attachment .views-field-php-1 a:hover {
 	background-image: linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
 	background-image: -o-linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
 	background-image: -moz-linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
@@ -442,6 +445,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render {
 }
 #webform-component-nombre-completo, #webform-component-correo-electronico {margin-right: 20px;}
 #webform-component-correo-electronico {clear: left;}
+
 
 /**********************************MASONRY VIEWS - BLOQUES GRISES***********************************/
 
