@@ -35,6 +35,21 @@ function opciones_distribuidor_email() {
 
 }
 
+function consultar_email_tax($id) {
+
+    $query = db_select('field_data_field_correo_electronico', 'c');
+    $query->fields('c', array('field_correo_electronico_value'));
+    $query->condition('entity_id', $id);
+
+    $result = $query->execute();
+
+    $options = array();
+    $record = $result->fetchAssoc();
+
+    return reset($record['field_correo_electronico_value']);
+
+}
+
 /**
  * Implementation hook_form_alter()
  **/
@@ -42,6 +57,7 @@ function juanrueda_opciones_distribuidor_form_alter(&$form, &$form_state, $form_
 
   switch ($form_id) {
     case 'webform_client_form_62':
+      $_GET['field_correo_electronico_value']
       dpm($form);
       $form['submitted']['pais']['#default_value'] = $_GET['pais'];
       break;
