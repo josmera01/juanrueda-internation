@@ -10,7 +10,7 @@
         minItems  : 3,
         margin    : 5,
         border    : 0,
-        current   : 8
+        current   : 3
       });
 
 
