@@ -232,11 +232,18 @@ div.widgets-element-horizontal {margin-right: 5px;}
 	float: left;
 }
 #region-user-second #block-search-form #edit-search-block-form--2{
+	color: #ffffff;
 	background: #000000;
 	border: none;
 	width: 100%;
+	font-family: "Lato";
+	font-weight: 300;
 }
-#region-user-second #block-search-form #edit-submit {
+#region-user-second #block-search-form #edit-actions{
+	float: left;
+	margin-left: -2em;
+}
+#region-user-second #block-search-form #edit-submit, #region-user-second #block-search-form #edit-actions input{
 	text-indent: -9999px;
 	background: url("../images/jr-images.png") no-repeat -12.85em -1.25em transparent;
 	width: 2em;
@@ -244,10 +251,6 @@ div.widgets-element-horizontal {margin-right: 5px;}
 	height: 2em;
 	border-radius: 0 !important;
 	padding: 0;
-}
-#region-user-second #block-search-form #edit-actions{
-	float: left;
-	margin-left: -2em;
 }
 
 /***************************************MENU***********************************************/
@@ -528,7 +531,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 	margin-bottom: 0.5em;
 	line-height: 1.2;
 	padding-left: 2em;
-	min-height 1.8em;
+	min-height: 1.85em;
 }
 .bloque-gris .field-name-title{background-size: 28px;}
 .bloque-gris .categoria- .field-name-title{background: url("../images/ico-camiones.png") no-repeat 0 0 transparent;}
