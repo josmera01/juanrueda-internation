@@ -30,7 +30,7 @@
 
 .responsive-layout-narrow #section-header{background-size: 30%;}
 
-
+.responsive-layout-narrow .social_networks_links li{margin-top: 0;}
 .responsive-layout-narrow .social_networks_links li a {
 	height: 1.85em;
 	width: 1.8em;
@@ -46,3 +46,5 @@
 .responsive-layout-narrow .social_networks_links li#facebook a.active {background-position: -18px -44px;}
 .responsive-layout-narrow .social_networks_links li#youtube a:hover,
 .responsive-layout-narrow .social_networks_links li#youtube a.active {background-position: -101px -43px;}
+
+.responsive-layout-narrow #block-views-bloque-todos-los-camiones-block{display: none;}

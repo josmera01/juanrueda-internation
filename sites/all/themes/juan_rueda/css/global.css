@@ -164,10 +164,18 @@ label {color: #FFFFFF;}
 }
 #block-views-bloque-todos-los-camiones-block .views-row:hover .field-name-title a,
 #block-views-bloque-todos-los-camiones-block .field-name-title a.active,
+
 #carousel-camion li a:hover span, #carousel-camion li a.active span {
 	background: #E55500;
 	color: #FFFFFF;
 }
+#carousel-camion.es-carousel-wrapper, #carousel-camion .es-carousel{background: none;}
+#carousel-camion.es-carousel-wrapper{padding: 0 2.5em;}
+
+#carousel-camion .es-nav span.es-nav-prev{background: transparent url(../images/flecha-bloque-izq.png) no-repeat top left;}
+#carousel-camion .es-nav span.es-nav-next{background: transparent url(../images/flecha-bloque-der.png) no-repeat top left;}
+
+
 /***************************************HEADER***********************************************/
 
 #section-header{background: url("../images/juan-rueda.png") no-repeat left bottom transparent;}
