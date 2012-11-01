@@ -57,7 +57,7 @@ function juanrueda_opciones_distribuidor_form_alter(&$form, &$form_state, $form_
 
   switch ($form_id) {
     case 'webform_client_form_62':
-      $_GET['field_correo_electronico_value']
+
       dpm($form);
       $form['submitted']['pais']['#default_value'] = $_GET['pais'];
       break;
