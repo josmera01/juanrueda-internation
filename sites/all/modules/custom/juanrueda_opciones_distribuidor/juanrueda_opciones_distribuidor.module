@@ -57,8 +57,10 @@ function juanrueda_opciones_distribuidor_form_alter(&$form, &$form_state, $form_
   switch ($form_id) {
     case 'webform_client_form_62':
 
-      dpm($form);
-      $form['submitted']['pais']['#default_value'] = $_GET['pais'];
+      if (isset($_GET)) {
+        $form['submitted']['pais']['#default_value'] = consultar_email_tax($_GET['pais']);
+      }
+
       break;
 
   }
