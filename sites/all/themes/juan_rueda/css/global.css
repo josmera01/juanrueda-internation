@@ -531,10 +531,13 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 	font-weight: 300;
 	margin-bottom: 0.5em;
 	line-height: 1.2;
-	padding-left: 2em;
 	min-height: 1.85em;
 }
+.front .bloque-gris .masonry-item h2, .page-noticias-y-eventos .bloque-gris .masonry-item h2 {padding-left: 2em;}
+
 .bloque-gris .field-name-title{background-size: 28px;}
+.front .bloque-gris .node-article .field-name-title, .page-noticias-y-eventos .bloque-gris .node-article .field-name-title
+{background: url("../images/ico-noticias.png") no-repeat 0 0 transparent;}
 .bloque-gris .categoria- .field-name-title{background: url("../images/ico-camiones.png") no-repeat 0 0 transparent;}
 .bloque-gris .categoria-1 .field-name-title{background: url("../images/ico-eventos.png") no-repeat 0 0 transparent;}
 .bloque-gris .categoria-2 .field-name-title{background: url("../images/ico-noticias.png") no-repeat 0 0 transparent;}
@@ -542,8 +545,8 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .bloque-gris .categoria-4 .field-name-title{background: url("../images/ico-latec.png") no-repeat 0 0 transparent;}
 .bloque-gris .categoria-5 .field-name-title{background: url("../images/ico-servicios.png") no-repeat 0 0 transparent;}
 
-.bloque-gris .node-camion h2{padding-left: 0;}
-.bloque-gris .node-evento h2{background: url("../images/ico-eventos.png") no-repeat 0 0 transparent;}
+.bloque-gris .node-evento .field-name-title{background: url("../images/ico-eventos.png") no-repeat 0 -6px transparent;}
+
 .bloque-gris a:link {color: #1B457A;}
 .bloque-gris a:hover, .bloque-gris a:visited{text-decoration: underline;}
 .bloque-gris a:hover{color: #E55700;}
