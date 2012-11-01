@@ -166,7 +166,7 @@ label {color: #FFFFFF;}
 
 .branding-data {text-align: center;}
 .site-name-slogan {float: none;}
-.branding-data  h1.site-name {
+.branding-data  h1.site-name, .branding-data h2.site-name {
 	font-size: 5em;
 	font-weight: 900;
 	margin: 0.7em 0;
