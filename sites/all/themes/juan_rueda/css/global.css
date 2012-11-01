@@ -433,7 +433,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render {
 	margin-bottom: 0.5em;
 	line-height: 1.2;
 	padding-left: 2em;
-	min-heignt: 1.8em;
+	min-height 1.8em;
 }
 .bloque-gris .node-camion h2{padding-left: 0;}
 .bloque-gris .node-evento h2{background: url("../images/ico-eventos.png") no-repeat 0 0 transparent;}
