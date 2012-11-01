@@ -436,6 +436,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render {
 	padding-left: 2em;
 	min-height 1.8em;
 }
+.bloque-gris .categoria- .field-name-title{background: url("../images/ico-camiones.png") no-repeat 0 0 transparent;}
 .bloque-gris .categoria-1 .field-name-title{background: url("../images/ico-eventos.png") no-repeat 0 0 transparent;}
 .bloque-gris .categoria-2 .field-name-title{background: url("../images/ico-noticias.png") no-repeat 0 0 transparent;}
 .bloque-gris .categoria-3 .field-name-title{background: url("../images/ico-repuestos.png") no-repeat 0 0 transparent;}
