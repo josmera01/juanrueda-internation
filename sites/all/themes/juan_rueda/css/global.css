@@ -858,3 +858,4 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 	text-align: center;
     width: 16em;
 }
+.responsive-layout-mobile .view-mapa-contacto .attachment, .responsive-layout-mobile .view-mapa-contacto .view-content {float: none;}
