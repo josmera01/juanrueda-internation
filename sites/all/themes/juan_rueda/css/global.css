@@ -4,7 +4,7 @@
 
 /***************************************GENERAL STYLES***********************************************/
 
-@import url(http://fonts.googleapis.com/css?family=Lato:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,700,900);
 @import url("provicional.css");
 
 body {
@@ -167,9 +167,9 @@ label {color: #FFFFFF;}
 .branding-data {text-align: center;}
 .site-name-slogan {float: none;}
 .branding-data  h1.site-name {
-	font-size: 7em;
-	font-weight: 700;
-	margin: 35px 0;
+	font-size: 5em;
+	font-weight: 900;
+	margin: 0.7em 0;
 	text-transform: uppercase;
 }
 #region-user-second .region-inner {overflow: hidden;}
@@ -181,7 +181,11 @@ label {color: #FFFFFF;}
 }
 div.widgets-element-horizontal {margin-right: 5px;}
 #block-widgets-s-socialmedia-profile-default {margin-right: 10px;}
-#block-block-12{width: 30%;}
+#block-block-12{
+	width: 40%;
+	float: left;
+}
+.social_networks_links{margin-bottom: 0;}
 .social_networks_links li{
 	float: left;
 	margin: 0.2em;
@@ -199,6 +203,36 @@ div.widgets-element-horizontal {margin-right: 5px;}
 .social_networks_links li#twitter a:hover{background-position: -57px -43px }
 .social_networks_links li#facebook a:hover{background-position: -15px -43px}
 .social_networks_links li#youtube a:hover{background-position: -98px -43px }
+
+#region-user-second #block-search-form{
+	width: 60%;
+	float: left;
+}
+#region-user-second #block-search-form h2{display: none;}
+#region-user-second #block-search-form .content{border: 1px solid #777;}
+#region-user-second #block-search-form .form-item-search-block-form{
+	width: 100%;
+	margin: 0;
+	float: left;
+}
+#region-user-second #block-search-form #edit-search-block-form--2{
+	background: #000000;
+	border: none;
+	width: 100%;
+}
+#region-user-second #block-search-form #edit-submit {
+	text-indent: -9999px;
+	background: url("../images/jr-images.png") no-repeat -12.85em -1.25em transparent;
+	width: 2em;
+	margin: 0;
+	height: 2em;
+	border-radius: 0 !important;
+	padding: 0;
+}
+#region-user-second #block-search-form #edit-actions{
+	float: left;
+	margin-left: -2em;
+}
 
 /***************************************MENU***********************************************/
 
@@ -239,7 +273,7 @@ div.widgets-element-horizontal {margin-right: 5px;}
 }
 #block-menu-menu-menu-secciones-principales ul {
 	overflow: hidden;
-	padding: 3%;
+	padding: 0 3%;
 }
 #block-menu-menu-menu-secciones-principales ul li.leaf {
 	background: url("../images/menu-bg.png") repeat-x scroll top left transparent;
@@ -738,6 +772,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render {
 	height: auto;
 }
 .responsive-layout-mobile .menu-buscador, .responsive-layout-mobile .home-movil, .responsive-layout-mobile .menu-render{margin-right: 0.5em;}
+.responsive-layout-wide .home-movil, .responsive-layout-normal .home-movil, .responsive-layout-narrow .home-movil{display: none;}
 .responsive-layout-mobile .menu-buscador, .responsive-layout-mobile .home-movil{
 	border-radius: 0.5em;
 	display: block;
