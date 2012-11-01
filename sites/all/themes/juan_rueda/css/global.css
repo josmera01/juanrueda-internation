@@ -457,7 +457,9 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     font-size: 1.06em;
     font-weight: bold;
 }
-.view-mapa-contacto .view-content {width: 60%;}
+.view-mapa-contacto .view-mapa-contacto .view-content {width: 60%;}
+.view-mapa-contacto .attachment .views-field-php-1 , .view-mapa-contacto .attachment .views-field-php  {overflow: hidden;}
+.view-mapa-contacto .attachment .views-field-php-1 a, .view-mapa-contacto .attachment .views-field-php a {float: left;}
 
 /**********************************MASONRY VIEWS - BLOQUES GRISES***********************************/
 
