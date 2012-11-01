@@ -775,6 +775,13 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .responsive-layout-narrow #block-menu-menu-menu-secciones-principales .content ul li a span.texto{display: none;}
 
 
+
+/***************************************** CSS PLUGINS REDES SOCIALES ************************************************/
+
+.fb-like-box.fb_iframe_widget, .fb-like-box.fb_iframe_widget span, .fb-like-box.fb_iframe_widget iframe{width: 100% !important;}
+
+
+
 /***************************************** CSS MOBILE ************************************************/
 
 .responsive-layout-mobile #section-header{background-size: 30%;}
