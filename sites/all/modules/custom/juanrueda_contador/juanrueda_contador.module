@@ -33,12 +33,12 @@ function html_contador_personalizado($nid = NULL) {
   $content = array();
 
   $links['comentario'] = array(
-      'title' => t('@total <span>Comentarios</span>', array('@total' => _contador_comentarios($nid))),
+      'title' => t('<span>@total</span> <span>Comentarios</span>', array('@total' => _contador_comentarios($nid))),
       'html' => true,
     );
 
  $links['flag'] = array(
-      'title' => t('@total <span>Me gusta</span>', array('@total' => _contador_like_drupal($nid))),
+      'title' => t('<span>@total</span> <span>Me gusta</span>', array('@total' => _contador_like_drupal($nid))),
       'html' => true,
     );
  /*$link['visitas'] = array(
