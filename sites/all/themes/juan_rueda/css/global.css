@@ -847,3 +847,32 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     width: 16em;
 }
 .responsive-layout-mobile .view-mapa-contacto .attachment, .responsive-layout-mobile .view-mapa-contacto .view-content {float: none;}
+
+.responsive-layout-mobile #block-views-featured-slider-block .nivo-caption p {
+	display: none;
+}
+.responsive-layout-mobile #block-block-5 , .responsive-layout-mobile  #block-block-4, .responsive-layout-mobile #block-block-3 {
+    background: none;
+    width: 30%;
+    float: left;
+}
+.responsive-layout-mobile #zone-footer #block-menu-menu-paises .leaf {
+    float: none;
+    text-align: center;
+    width: 100%;
+}
+.responsive-layout-mobile #zone-footer #block-menu-menu-paises.block {
+    width: 100%;
+}
+.responsive-layout-mobile #zone-footer .block {
+    float: none;
+    margin-left: 0;
+    text-align: center;
+}
+.responsive-layout-mobile #region-footer-first .block ul li {
+    text-align: center;
+}
+.responsive-layout-mobile #region-footer-first .block ul li > div {
+    display: inline-block;
+    margin: 0;
+}

@@ -49,31 +49,3 @@
 .responsive-layout-narrow .social_networks_links li#youtube a.active {background-position: -101px -43px;}
 
 .responsive-layout-narrow #block-views-bloque-todos-los-camiones-block{display: none;}
-.responsive-layout-narrow #block-views-featured-slider-block .nivo-caption p {
-	display: none;
-}
-.responsive-layout-narrow #block-block-5 , .responsive-layout-narrow  #block-block-4, .responsive-layout-narrow #block-block-3 {
-    background: none;
-    width: 30%;
-    float: left;
-}
-.responsive-layout-narrow #zone-footer #block-menu-menu-paises .leaf {
-    float: none;
-    text-align: center;
-    width: 100%;
-}
-.responsive-layout-narrow #zone-footer #block-menu-menu-paises.block {
-    width: 100%;
-}
-.responsive-layout-narrow #zone-footer .block {
-    float: none;
-    margin-left: 0;
-    text-align: center;
-}
-.responsive-layout-narrow #region-footer-first .block ul li {
-    text-align: center;
-}
-.responsive-layout-narrow #region-footer-first .block ul li > div {
-    display: inline-block;
-    margin: 0;
-}
