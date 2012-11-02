@@ -761,16 +761,15 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 }
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales, .responsive-layout-mobile #block-multiblock-1{
 	clear: both;
-	float: right;
-	margin: 0 auto;
-	width: 50%;
 }
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales .block-inner {clear: both;}
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul.menu {
-	border: 3px solid #FD8900;
+    border: 3px solid #FD8900;
     border-radius: 5px 5px 5px 5px;
     display: block;
+    margin: 1px auto;
     padding: 0;
+    width: 96%;
 }
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf {
 	border-bottom: 2px solid #9EAAB0;
@@ -793,20 +792,14 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 	background-image: -moz-linear-gradient(bottom, #FF6201 42%, #FF9900 71%);
 	background-image: -webkit-linear-gradient(bottom, #FF6201 42%, #FF9900 71%);
 	background-image: -ms-linear-gradient(bottom, #FF6201 42%, #FF9900 71%);
-	background-image: -webkit-gradient(
-	linear,
-	left bottom,
-	left top,
-	color-stop(0.42, #FF6201),
-	color-stop(0.71, #FF9900)
-	);
-	border-radius: 5px;
-	color: #554747;
-	float: left;
-	font-size: 1.3em;
-	font-weight: 700;
-	padding: 0.3em 1em;
-	width: 25%;
+    border-radius: 5px 5px 5px 5px;
+    color: #554747;
+    float: right;
+    font-size: 1.3em;
+    font-weight: 700;
+    padding: 0.3em 1em;
+    text-align: center;
+    width: 10%;
 }
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content ul li a span.texto{display: none;}
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu{
@@ -818,7 +811,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .responsive-layout-mobile .menu-buscador, .responsive-layout-mobile .home-movil{
 	border-radius: 0.5em;
 	display: block;
-	float: left;
+	float: right;
 	height: 1.7em;
 	padding: 0.5em;
 	text-indent: -9999px;

@@ -10,8 +10,10 @@ $clase = '';
 ?>
 <?php foreach ($rows as $id => $row):
   $clase = $view->result;
+  if (!empty($clase)) {
+    $nombre_clase = 'categoria-' . $clase[$i]->field_field_tipo_articulo[0]['raw']['tid'];
+  }
 
-  $nombre_clase = 'categoria-' . $clase[$i]->field_field_tipo_articulo[0]['raw']['tid'];
   ?>
   <div class="<?php print $nombre_clase ?> masonry-item<?php if ($classes_array[$id]) print ' ' . $classes_array[$id]; ?>">
     <?php print $row; ?>
