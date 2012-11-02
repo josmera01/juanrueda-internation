@@ -6,6 +6,7 @@
 .front #region-content.grid-12,
 .page-camiones #region-content.grid-12,
 .page-tips-de-juan-rueda #region-content.grid-12,
+.page-tips #region-content.grid-12,
 .front #region-postscript-fourth.grid-12{
 	width: 720px;
 }
@@ -29,3 +30,22 @@
 .responsive-layout-narrow #block-menu-menu-menu-secciones-principales .content ul li a span.texto{display: none;}
 
 .responsive-layout-narrow #section-header{background-size: 30%;}
+
+.responsive-layout-narrow .social_networks_links li{margin-top: 0;}
+.responsive-layout-narrow .social_networks_links li a {
+	height: 1.85em;
+	width: 1.8em;
+	border-radius: 0.3em;
+}
+.responsive-layout-narrow .social_networks_links li#twitter a {background-position: -60px -18px;}
+.responsive-layout-narrow .social_networks_links li#facebook a {background-position: -18px -17px;}
+.responsive-layout-narrow .social_networks_links li#youtube a {background-position: -101px -16px;}
+
+.responsive-layout-narrow .social_networks_links li#twitter a:hover,
+.responsive-layout-narrow .social_networks_links li#twitter a.active {background-position: -60px -45px;}
+.responsive-layout-narrow .social_networks_links li#facebook a:hover,
+.responsive-layout-narrow .social_networks_links li#facebook a.active {background-position: -18px -44px;}
+.responsive-layout-narrow .social_networks_links li#youtube a:hover,
+.responsive-layout-narrow .social_networks_links li#youtube a.active {background-position: -101px -43px;}
+
+.responsive-layout-narrow #block-views-bloque-todos-los-camiones-block{display: none;}
