@@ -490,13 +490,13 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     color: #252526;
     font-size: 1em;
 	margin-right: 5%;
-    width: 35%;
+   /* width: 35%;*/
 }
 .view-mapa-contacto .attachment .views-field-title {
     font-size: 1.06em;
     font-weight: bold;
 }
-.view-mapa-contacto .view-content {width: 60%;}
+/*.view-mapa-contacto .view-content {width: 60%;}*/
 .view-mapa-contacto .view-mapa-contacto .view-content {
 	margin-left: 0;
 	width: 100%;
@@ -752,7 +752,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 
 #carousel-historico {	
 	border: 1px solid #FFFFFF;
-	margin-top: 4% 0 2%;
+	margin: 4% 0 2%;
 }
 #carousel-historico ul {
 	overflow: hiddden !important;
