@@ -61,7 +61,10 @@ function html_contador_personalizado($nid = NULL) {
   $links = array();
   $content = array();
 
-  $links['comentario'] = _contador_comentarios($nid);
+  //$links['comentario'] = _contador_comentarios($nid);
+  $links['comentario'] = array(
+      'title' => _contador_comentarios($nid)
+      );
 
   $content['link']= array(
      '#theme' => 'links',
