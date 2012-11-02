@@ -525,6 +525,10 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 	border: 9px solid #FFFFFF;
 	border-radius: 5px;
 }
+.page-contacte-su-distribuidor #block-system-main {
+	float: left;
+	width: 100%;
+}
 
 /**********************************MASONRY VIEWS - BLOQUES GRISES***********************************/
 
