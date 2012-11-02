@@ -868,6 +868,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     padding: 0.3em 1em;
     text-align: center;
     width: 10%;
+    cursor: pointer;
 }
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content ul li a span.texto{display: none;}
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu{
@@ -884,6 +885,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 	padding: 0.5em;
 	text-indent: -9999px;
 	width: 2em;
+	cursor: pointer;
 }
 .responsive-layout-mobile .menu-buscador{background: transparent url(../images/ico-search-mobile.png) no-repeat 0 -3px;}
 .responsive-layout-mobile .home-movil{background: transparent url(../images/ico-home-mobile.png) no-repeat top left;}
