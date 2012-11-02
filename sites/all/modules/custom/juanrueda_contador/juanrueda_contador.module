@@ -2,35 +2,6 @@
 
 
 /**
- *Implementation hook_block_info()
- **/
-function juanrueda_contador_block_info() {
-  $blocks = array();
-
-  $blocks['contador_personalizado'] = array(
-    'info' => t('Contador personalizado'),
-    );
-
-   return $blocks;
-}
-
-/**
- *Implementation hook_block_view()
- **/
-function juanrueda_contador_block_view($delta = '') {
-  $blocks = array();
-
-  switch ($delta) {
-    case 'contador_personalizado':
-      $blocks['content'] = html_contador_personalizado();
-      break;
-  }
-
-  return $blocks;
-
-}
-
-/**
  * Implements hook_field_extra_fields().
  */
 function juanrueda_contador_field_extra_fields() {
