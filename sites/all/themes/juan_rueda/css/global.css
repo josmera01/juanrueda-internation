@@ -305,7 +305,7 @@ div.widgets-element-horizontal {margin-right: 5px;}
 }
 #block-menu-menu-menu-secciones-principales .content ul li a {
 	background-repeat: no-repeat;
-	background-position: center 0.5em;
+	background-position: center 0.2em;
 	display: block;
 	font-weight: 700;
 	font-family: gotham medium, "lato", arial;
@@ -329,12 +329,12 @@ div.widgets-element-horizontal {margin-right: 5px;}
 }
 #block-menu-menu-menu-secciones-principales .content ul li a span.texto{
 	color: #272727;
-	/*padding: 2.5% 10%;*/padding: 2.5% 10%0.5% 9%;
+	padding: 2.5% 10%0.5% 9%;
 	font-weight: 400;
 }
 #block-menu-menu-menu-secciones-principales ul li:hover{background-position: 128px;}
 #block-menu-menu-menu-secciones-principales ul li.active-trail{background-position: 256px;}
-#block-menu-menu-menu-secciones-principales ul li a:hover, #block-menu-menu-menu-secciones-principales ul li a.active {background-position: center -12.1em;}
+#block-menu-menu-menu-secciones-principales ul li a:hover, #block-menu-menu-menu-secciones-principales ul li a.active {background-position: center -11.5em;}
 #block-menu-menu-menu-secciones-principales ul li a:hover span.titulo_menu, 
 #block-menu-menu-menu-secciones-principales ul li a.active span.titulo_menu, 
 #block-menu-menu-menu-secciones-principales ul li a:hover span.texto,
