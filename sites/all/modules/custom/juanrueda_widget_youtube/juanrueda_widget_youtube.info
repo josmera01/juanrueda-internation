@@ -1,0 +1,4 @@
+name = Widget de youtube personalizado
+description = Widget personalizado para juan rueda
+core = 7.x
+package = juanRueda International

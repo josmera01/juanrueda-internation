@@ -1,0 +1,4 @@
+name = Contador visitas
+description = Contador de visitas
+core = 7.x
+package = juanRueda International
