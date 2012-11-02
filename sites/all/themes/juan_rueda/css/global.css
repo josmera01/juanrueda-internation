@@ -551,9 +551,9 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 	background-color: transparent;
 }
 
-.bloque-gris .node-article .field-name-title a:link, .bloque-gris .node-evento .field-name-title a:link{background-position: 0 -3px;}
-.bloque-gris .node-article .field-name-title a:visited, .bloque-gris .node-evento .field-name-title a:visited{background-position: 0 -496px;}
-.bloque-gris .node-article .field-name-title a:hover, .bloque-gris .node-evento .field-name-title a:hover{background-position: 0 -305px;}
+.bloque-gris .node-article .field-name-title a:link, .bloque-gris .node-evento .field-name-title a:link{background-position: 0 -6px;}
+.bloque-gris .node-article .field-name-title a:visited, .bloque-gris .node-evento .field-name-title a:visited{background-position: 0 -459px;}
+.bloque-gris .node-article .field-name-title a:hover, .bloque-gris .node-evento .field-name-title a:hover{background-position: 0 -308px;}
 
 
 .bloque-gris a:link {color: #1B457A;}
