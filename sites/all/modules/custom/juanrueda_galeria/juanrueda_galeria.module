@@ -186,7 +186,7 @@ function galeria_nuestra_historia() {
   $content['galeria']= array(
      '#theme' => 'links',
      '#links' => $links,
-     '#prefix' => '<div id="carousel" class="es-carousel-wrapper"><div class="es-carousel">',
+     '#prefix' => '<div id="carousel-historico" class="es-carousel-wrapper"><div class="es-carousel">',
      '#suffix' => '</div></div>',
     );
 
