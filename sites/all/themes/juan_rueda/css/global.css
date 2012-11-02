@@ -175,11 +175,11 @@ label {color: #FFFFFF;}
 	background: #E55500;
 	color: #FFFFFF;
 }
-#carousel-camion.es-carousel-wrapper, #carousel-camion .es-carousel{background: none;}
-#carousel-camion.es-carousel-wrapper{padding: 0 2.5em;}
+#carousel-camion.es-carousel-wrapper, #carousel-camion .es-carousel, #carousel-historico.es-carousel-wrapper, #carousel-historico .es-carousel{background: none;}
+#carousel-camion.es-carousel-wrapper, #carousel-historico.es-carousel-wrapper{padding: 0 2.5em;}
 
-#carousel-camion .es-nav span.es-nav-prev{background: transparent url(../images/flecha-bloque-izq.png) no-repeat top left;}
-#carousel-camion .es-nav span.es-nav-next{background: transparent url(../images/flecha-bloque-der.png) no-repeat top left;}
+#carousel-camion .es-nav span.es-nav-prev, #carousel-historico .es-nav span.es-nav-prev{background: transparent url(../images/flecha-bloque-izq.png) no-repeat top left;}
+#carousel-camion .es-nav span.es-nav-next, #carousel-historico .es-nav span.es-nav-next{background: transparent url(../images/flecha-bloque-der.png) no-repeat top left;}
 
 
 /***************************************HEADER***********************************************/
