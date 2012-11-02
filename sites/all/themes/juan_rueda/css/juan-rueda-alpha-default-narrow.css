@@ -57,3 +57,23 @@
     width: 30%;
     float: left;
 }
+.responsive-layout-narrow #zone-footer #block-menu-menu-paises .leaf {
+    float: none;
+    text-align: center;
+    width: 100%;
+}
+.responsive-layout-narrow #zone-footer #block-menu-menu-paises.block {
+    width: 100%;
+}
+.responsive-layout-narrow #zone-footer .block {
+    float: none;
+    margin-left: 0;
+    text-align: center;
+}
+.responsive-layout-narrow #region-footer-first .block ul li {
+    text-align: center;
+}
+.responsive-layout-narrow #region-footer-first .block ul li > div {
+    display: inline-block;
+    margin: 0;
+}
