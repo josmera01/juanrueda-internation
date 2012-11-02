@@ -411,14 +411,17 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 
 #block-webform-client-block-1{padding: 1em;}
 #block-webform-client-block-1 h2.block-title {
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: 400;
     line-height: 1.2;
     margin: 0 auto;
     text-align: center;
     padding: 0 1.8em;
 }
-#block-webform-client-block-1 #edit-actions--2{text-align: center;}
+#block-webform-client-block-1 .form-actions{
+	text-align: center;
+	margin-bottom: 0;
+}
 #block-webform-client-block-1 .form-text {width: 70%;}
 #block-webform-client-block-1 .form-submit {float: none;}
 
@@ -512,8 +515,6 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .page-noticias-y-eventos #region-content,
 .front #region-postscript-fourth.grid-12{margin: 0;}
 
-/**********************************BARRA DERECHA***********************************/
-
 .bloque-gris {}
 .bloque-gris .views-row, #block-webform-client-block-1{
 	background: #d8d8d8;
@@ -583,6 +584,8 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .bloque-gris #carousel .es-nav span.es-nav-prev{background: transparent url(../images/flecha-bloque-izq.png) no-repeat top left;}
 .bloque-gris #carousel .es-nav span.es-nav-next{background: transparent url(../images/flecha-bloque-der.png) no-repeat top left;}
 .bloque-gris .node #carousel ol, .bloque-gris .node #carousel ul{padding-left: 0;}
+
+/**********************************BARRA DERECHA***********************************/
 
 .view-art-culos-relacionados .item-list ul li {margin: 0;}
 .view-art-culos-relacionados .views-row p {margin: 0;}
