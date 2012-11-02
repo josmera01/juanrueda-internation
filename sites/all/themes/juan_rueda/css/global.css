@@ -534,7 +534,26 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 	margin-top: 4%;
 	width: 100%;
 }
+.view-mapa-contacto .attachment h3 {
+	background-image: linear-gradient(bottom, #B3B3B3 16%, #CFCFCF 58%);
+	background-image: -o-linear-gradient(bottom, #B3B3B3 16%, #CFCFCF 58%);
+	background-image: -moz-linear-gradient(bottom, #B3B3B3 16%, #CFCFCF 58%);
+	background-image: -webkit-linear-gradient(bottom, #B3B3B3 16%, #CFCFCF 58%);
+	background-image: -ms-linear-gradient(bottom, #B3B3B3 16%, #CFCFCF 58%);
 
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.16, #B3B3B3),
+		color-stop(0.58, #CFCFCF)
+	);
+	border-radius: 5px 5px 0 0;
+	color: #FFFFFF;
+	font-size: 1.19em;
+	font-weight: normal;
+	padding: 3% 0 3% 8%;
+}
 /**********************************MASONRY VIEWS - BLOQUES GRISES***********************************/
 
 .front #region-content,
