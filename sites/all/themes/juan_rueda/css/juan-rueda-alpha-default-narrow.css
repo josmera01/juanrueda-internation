@@ -52,3 +52,8 @@
 .responsive-layout-narrow #block-views-featured-slider-block .nivo-caption p {
 	display: none;
 }
+.responsive-layout-narrow #block-block-5 , .responsive-layout-narrow  #block-block-4, .responsive-layout-narrow #block-block-3 {
+    background: none;
+    width: 30%;
+    float: left;
+}
