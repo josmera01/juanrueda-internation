@@ -65,9 +65,9 @@ function html_contador_personalizado($nid = NULL) {
       'title' => t('@total Comentarios', array('@total' => _contador_comentarios($nid)))
       );
 
-  $links['flag'] = array(
+ /* $links['flag'] = array(
       'title' => t('@total Me gusta', array('@total' => _contador_like_drupal($nid)))
-      );
+      );*/
 
   $content['link']= array(
      '#theme' => 'links',
