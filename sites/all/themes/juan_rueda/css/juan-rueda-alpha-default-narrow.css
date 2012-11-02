@@ -49,3 +49,6 @@
 .responsive-layout-narrow .social_networks_links li#youtube a.active {background-position: -101px -43px;}
 
 .responsive-layout-narrow #block-views-bloque-todos-los-camiones-block{display: none;}
+.responsive-layout-narrow #block-views-featured-slider-block .nivo-caption p {
+	display: none;
+}
