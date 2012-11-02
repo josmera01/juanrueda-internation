@@ -115,23 +115,6 @@ label {color: #FFFFFF;}
 #block-views-featured-slider-block .nivo-controlNav a.active{background: url("../images/jr-images.png") no-repeat scroll -25px -415px transparent;}
 #block-views-featured-slider-block .nivo-directionNav{display: none;}
 
-.nivo-caption {
-	background: #000000;
-	background: -moz-linear-gradient(left, transparent 10%, black 80%);
-	background: -webkit-gradient(linear, left top, right top, color-stop(10%,transparent), color-stop(80%,black));
-	background: -webkit-linear-gradient(left, transparent 10%,black 80%);
-	background: -o-linear-gradient(left, transparent 10%,black 80%);
-	background: -ms-linear-gradient(left, transparent 10%,black 80%);
-	background: linear-gradient(to right, transparent 10%,black 80%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='transparent', endColorstr='#000000',GradientType=1 );
-	height: 100%;
-	left: 65%;
-	opacity: 0.9;
-	padding: 1em 3em;
-	top: 0px;
-	width: 35%;
-}
-
 #views-nivo-slider-featured_slider-block {
 	border: 2px solid #FFFFFF;
 	border-radius: 5px;
