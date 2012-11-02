@@ -41,7 +41,10 @@ function juanrueda_contador_field_extra_fields() {
       'label' => t('Contador general'),
       'weight' => -4,
     ),
-  ),
+  )
+  );
+
+  return $extra;
 
 }
 
