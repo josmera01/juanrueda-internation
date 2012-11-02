@@ -746,6 +746,22 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 #block-block-3 iframe#fr{width: 100% !important;}
 #block-block-3 iframe#fr #container{border: none;}
 
+/***************************************** HISTORIA ************************************************/
+
+#carousel-historico {border: 1px solid #FFFFFF;}
+#carousel-historico ul {
+	overflow: hiddden;
+	width: 100%;
+}
+#carousel-historico li {
+	margin-right: 2%;
+	width: 22%;
+}
+#carousel-historico span {
+	color: #FE7C0C;
+	font-size: 1.7em;
+}
+#carousel-historico img {margin-bottom: 5%;}
 
 
 /***************************************** CSS MOBILE ************************************************/
