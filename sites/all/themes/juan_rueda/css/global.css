@@ -534,7 +534,10 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .page-tips-de-juan-rueda #region-content,
 .page-tips #region-content,
 .page-noticias-y-eventos #region-content,
-.front #region-postscript-fourth.grid-12{margin: 0;}
+.front #region-postscript-fourth.grid-12,
+.page-contacte-su-distribuidor #region-content{
+	margin: 0;
+}
 
 .bloque-gris {}
 .bloque-gris .views-row, #block-webform-client-block-1{
@@ -890,6 +893,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 	background: none repeat scroll 0 0 transparent;
 	float: left;
 	width: 25%;
+	text-align: center;
 }
 .responsive-layout-mobile #zone-footer #block-menu-menu-paises .leaf {
 	float: none;
@@ -923,20 +927,22 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 	margin: 0;
 }
 
-.responsive-layout-mobile  #block-block-3 h2.block-title {
+.responsive-layout-mobile  #block-block-5 h2.block-title {
 	background: url("../images/ico-facebook-mobile.jpg") no-repeat scroll 0 0 transparent;
 }
 .responsive-layout-mobile  #block-block-4 h2.block-title {
 	background: url("../images/ico-twitter-mobile.jpg") no-repeat scroll 0 0 transparent;
 }
-.responsive-layout-mobile  #block-block-5 h2.block-title {
+.responsive-layout-mobile  #block-block-3 h2.block-title {
 	background: url("../images/ico-youtube-mobile.jpg") no-repeat scroll 0 0 transparent;
 }
 .responsive-layout-mobile  #block-block-3 h2.block-title , #block-block-4 h2.block-title, #block-block-5 h2.block-title{
-	font-size: 0;
-	height: 65px;
-	display: block;
-	width: 68px;	
+    display: block;
+    float: none;
+    font-size: 0;
+    height: 65px;
+    margin: 0 auto 25px;
+    width: 68px;
 }
 .html.responsive-layout-mobile  #region-postscript-fourth{
     background: none repeat scroll 0 0 #000000;
@@ -963,7 +969,10 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 }
 .responsive-layout-mobile  #block-block-6,
 .responsive-layout-mobile  #block-block-7,
-.responsive-layout-mobile.front #block-system-main .content {
+.responsive-layout-mobile.front #block-system-main .content,
+.responsive-layout-mobile  #block-block-5 .content .fb-like-box,
+.responsive-layout-mobile  #block-block-3 .content  .subscribe-youtube,
+.responsive-layout-mobile  #block-block-4 .content  .twitter-follow-big {
 	display: none;
 }
 body.responsive-layout-mobile {
@@ -975,4 +984,17 @@ body.responsive-layout-mobile {
 .responsive-layout-mobile #block-webform-client-block-1 {
     margin: auto;
     width: 60%;
+}
+.responsive-layout-mobile #block-block-5 .content, 
+.responsive-layout-mobile #block-block-4 .content, 
+.responsive-layout-mobile #block-block-3 .content {
+    padding: 0;
+}
+.mobile-subscribe-youtube a{
+  background:  -moz-linear-gradient(#CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
+  background: -webkit-linear-gradient(#CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
+   background: -o-linear-gradient(#CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
+  background:  linear-gradient(#CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
+  padding: 10px;
+  color: #666;
 }
