@@ -211,6 +211,7 @@ div.widgets-element-horizontal {margin-right: 5px;}
 .social_networks_links li{
 	float: left;
 	margin: 0.2em;
+	list-style: none;
 }
 .social_networks_links li a{
 	background: url("../images/jr-images.png") no-repeat transparent;
