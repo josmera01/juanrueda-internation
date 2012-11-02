@@ -1,0 +1,4 @@
+name = Contador personalizado
+description = Contadores de comentarios, like y visitas
+core = 7.x
+package = juanRueda International

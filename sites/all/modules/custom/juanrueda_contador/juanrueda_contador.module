@@ -1,0 +1,77 @@
+<?php
+
+
+/**
+ * Implements hook_field_extra_fields().
+ */
+function juanrueda_contador_field_extra_fields() {
+
+  $extra['node']['article'] = array(
+  'display' => array(
+    'node_contador' => array(
+      'label' => t('Contador general'),
+      'weight' => -4,
+    ),
+  )
+  );
+
+  return $extra;
+
+}
+
+
+/**
+ * Implements hook_node_view().
+ */
+function juanrueda_contador_node_view($node, $view_mode, $langcode) {
+  $node->content['node_contador'][0]['#markup'] = drupal_render(html_contador_personalizado($node->nid));
+}
+
+function html_contador_personalizado($nid = NULL) {
+
+  $links = array();
+  $content = array();
+
+  $links['comentario'] = array(
+      'title' => t('@total Comentarios', array('@total' => _contador_comentarios($nid)))
+    );
+
+ $links['flag'] = array(
+      'title' => t('@total Me gusta', array('@total' => _contador_like_drupal($nid)))
+    );
+
+  $content['link']= array(
+     '#theme' => 'links',
+     '#links' => $links,
+     '#prefix' => '<div class="link-conteo">',
+     '#suffix' => '</div>',
+  );
+
+  return $content;
+}
+
+function _contador_comentarios($nid) {
+
+  $db = db_select('comment', 'c')
+    ->fields('c', array('nid'));
+  $db->addExpression('count(c.nid)', 'total');
+  $db->condition('nid', $nid);
+  $result = $db->execute();
+  $record = $result->fetchAssoc();
+
+  return $record['total'];
+
+}
+
+function _contador_like_drupal($nid) {
+
+  $db = db_select('flag_counts', 'f')
+    ->fields('f', array('content_id'));
+  $db->addExpression('count(f.content_id)', 'total');
+  $db->condition('content_id', $nid);
+  $result = $db->execute();
+  $record = $result->fetchAssoc();
+
+  return $record['total'];
+
+}
