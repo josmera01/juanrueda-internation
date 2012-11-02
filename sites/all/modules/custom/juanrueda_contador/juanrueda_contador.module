@@ -94,7 +94,7 @@ function _contador_comentarios($nid) {
 
 function _contador_like_drupal($nid) {
 
-  $db = db_select('flag_count', 'f')
+  $db = db_select('flag_counts', 'f')
     ->fields('f', array('content_id'));
   $db->addExpression('count(f.content_id)', 'total');
   $db->condition('content_id', $nid);
