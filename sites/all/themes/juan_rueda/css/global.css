@@ -20,8 +20,8 @@ a:link, a:visited {
 	text-decoration: none;
 }
 ul li.leaf {
-    list-style-image: none;
-    list-style-type: none;
+	list-style-image: none;
+	list-style-type: none;
 }
 img{
 	height: auto;
@@ -126,21 +126,21 @@ label {color: #FFFFFF;}
 	background: -ms-linear-gradient(left, transparent 10%,black 80%);
 	background: linear-gradient(to right, transparent 10%,black 80%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='transparent', endColorstr='#000000',GradientType=1 );
-    bottom: 10%;
-    height: auto;
-    left: auto;
-    line-height: 1.1;
-    opacity: 0.9;
-    padding: 1% 3%;
-    right: 1%;
-    top: auto;
-    width: 35%;
+	bottom: 10%;
+	height: auto;
+	left: auto;
+	line-height: 1.1;
+	opacity: 0.9;
+	padding: 1% 3%;
+	right: 1%;
+	top: auto;
+	width: 35%;
 }
 #views-nivo-slider-featured_slider-block {
-    border: 2px solid #FFFFFF;
-    border-radius: 5px 5px 5px 5px;
-    height: auto !important;
-    width: 100% !important;
+	border: 2px solid #FFFFFF;
+	border-radius: 5px 5px 5px 5px;
+	height: auto !important;
+	width: 100% !important;
 }
 .views-nivo-slider-view  {padding: 0;}
 
@@ -196,10 +196,10 @@ label {color: #FFFFFF;}
 }
 #region-user-second .region-inner {overflow: hidden;}
 #region-user-second a.twitter-timeline {
-    display: block;
-    font-size: 0;
-    height: 28px;
-    width: 30px;
+	display: block;
+	font-size: 0;
+	height: 28px;
+	width: 30px;
 }
 div.widgets-element-horizontal {margin-right: 5px;}
 #block-widgets-s-socialmedia-profile-default {margin-right: 10px;}
@@ -271,9 +271,9 @@ div.widgets-element-horizontal {margin-right: 5px;}
 #block-system-main-menu ul{float: right;}
 #block-system-main-menu ul li.leaf {
 	float: left;
-    height: 27px;
-    margin: 0;
-    padding: 0;
+	height: 27px;
+	margin: 0;
+	padding: 0;
 }
 #block-system-main-menu ul li a {
 	background: url("../images/menu_1.png") repeat-x scroll 0 0 transparent;
@@ -289,7 +289,7 @@ div.widgets-element-horizontal {margin-right: 5px;}
 }
 #block-system-main-menu ul li a:hover, #block-system-main-menu ul li a.active {
 	background-position: 0 -27px;
-    color: #FFFFFF;
+	color: #FFFFFF;
 }
 #block-system-main-menu ul li.first a {border-radius: 5px 0 0 5px;}
 #block-system-main-menu ul li.last a {border-radius: 0 5px 5px 0;}
@@ -369,14 +369,13 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 	width: 31%;
 }
 #zone-footer a {text-decoration: none;}
-#region-footer-first {
-	border-bottom: 1px solid #1D1D1D;
+#region-footer-first > .region-inner{
 	padding: 30px 0;
 }
 #region-footer-first .block .content {text-align: center;}
 #region-footer-first .block ul {text-align: left;}
 #region-footer-first .block ul li{
-	list-style: circle inside;
+	list-style: disc outside none;
 	margin: 0;
 }
 #region-footer-second .block {
@@ -391,11 +390,11 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 	text-align: right;
 }
 #zone-footer .block-title {
-    height: auto;
-    margin-bottom: 15px;
-    min-height: 18px;
-    padding-top: 50px;
-    text-align: center;
+	height: auto;
+	margin-bottom: 15px;
+	min-height: 18px;
+	padding-top: 50px;
+	text-align: center;
 }
 #block-menu-menu-international-menu-inferior h2{background: url("../images/ico-international.png") no-repeat scroll center 0 transparent;}
 #zone-footer #block-views-menu-block h2{background: url("../images/ico-camion-footer.png") no-repeat scroll center 0 transparent;}
@@ -418,12 +417,12 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 
 #block-webform-client-block-1{padding: 1em;}
 #block-webform-client-block-1 h2.block-title {
-    font-size: 1.4em;
-    font-weight: 400;
-    line-height: 1.2;
-    margin: 0 auto;
-    text-align: center;
-    padding: 0 1.8em;
+	font-size: 1.4em;
+	font-weight: 400;
+	line-height: 1.2;
+	margin: 0 auto;
+	text-align: center;
+	padding: 0 1.8em;
 }
 #block-webform-client-block-1 .form-actions{
 	text-align: center;
@@ -446,25 +445,39 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 #block-webform-client-block-62 #edit-actions {overflow: hidden;}
 #block-webform-client-block-62 label {padding-left: 10px;}
 .marker, .form-required {color: #FF7B00;}
-form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 a, .view-mapa-contacto .attachment .views-field-php a {
+form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 a, .view-mapa-contacto .attachment .views-field-php a,
+.pager li a {
 	background-image: linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
 	background-image: -o-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
 	background-image: -moz-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
 	background-image: -webkit-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
 	background-image: -ms-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
 	background-image: -webkit-gradient(
-	linear,
-	left bottom,
-	left top,
-	color-stop(0.22, #133155),
-	color-stop(0.61, #133B6C),
-	color-stop(0.81, #224B88)
-	);
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.22, #133155),
+		color-stop(0.61, #133B6C),
+		color-stop(0.81, #224B88)
+		);
 	border: 0;
 	border-radius: 7px 7px 7px 7px !important;
 	color: #FFFFFF;
 	float: right;
 	padding: 8px 20px;
+}
+.pager li.pager-next{
+	border-left: 0;
+}
+.pager li a {
+	color: #fff !important;
+}
+.pager {
+    border-width: 0;
+    background: none repeat scroll 0 0 transparent;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
 }
 form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-mapa-contacto .attachment .views-field-php-1 a:hover,
 .view-mapa-contacto .attachment .views-field-php a:hover {
@@ -474,12 +487,12 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 	background-image: -webkit-linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
 	background-image: -ms-linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
 	background-image: -webkit-gradient(
-	linear,
-	left bottom,
-	left top,
-	color-stop(0.45, #194E99),
-	color-stop(0.73, #2E78C1)
-	);
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.45, #194E99),
+		color-stop(0.73, #2E78C1)
+		);
 }
 #webform-component-nombre-completo, #webform-component-correo-electronico {margin-right: 20px;}
 #webform-component-correo-electronico {clear: left;}
@@ -487,16 +500,16 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .view-mapa-contacto .attachment {
 	background: none repeat scroll 0 0 #EEEEEE;
 	border-radius: 5px;
-    color: #252526;
-    font-size: 1em;
+	color: #252526;
+	font-size: 1em;
 	margin-right: 5%;
-   /* width: 35%;*/
+	width: 35%;
 }
 .view-mapa-contacto .attachment .views-field-title {
-    font-size: 1.06em;
-    font-weight: bold;
+	font-size: 1.06em;
+	font-weight: bold;
 }
-/*.view-mapa-contacto .view-content {width: 60%;}*/
+.view-mapa-contacto .view-content {width: 60%;}
 .view-mapa-contacto .view-mapa-contacto .view-content {
 	margin-left: 0;
 	width: 100%;
@@ -520,7 +533,10 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .page-tips-de-juan-rueda #region-content,
 .page-tips #region-content,
 .page-noticias-y-eventos #region-content,
-.front #region-postscript-fourth.grid-12{margin: 0;}
+.front #region-postscript-fourth.grid-12,
+.page-contacte-su-distribuidor #region-content{
+	margin: 0;
+}
 
 .bloque-gris {}
 .bloque-gris .views-row, #block-webform-client-block-1{
@@ -631,9 +647,9 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .view-calendario-de-eventos.view .date-nav-wrapper  .date-prev, 
 .view-calendario-de-eventos.view .date-nav-wrapper  .date-next {background: transparent;}
 .view-calendario-de-eventos .calendar-calendar th.days {
-    background: transparent;
-    border: 0;
-    color: #000000;
+	background: transparent;
+	border: 0;
+	color: #000000;
 }
 .view-calendario-de-eventos.view .date-nav-wrapper .date-heading h3 a {font-size: 0.8em;}
 .view-calendario-de-eventos.view .date-nav-wrapper .date-heading {
@@ -643,13 +659,13 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 	background-image: -webkit-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
 	background-image: -ms-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
 	background-image: -webkit-gradient(
-	linear,
-	left bottom,
-	left top,
-	color-stop(0.22, #133155),
-	color-stop(0.61, #133B6C),
-	color-stop(0.81, #224B88)
-	);
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.22, #133155),
+		color-stop(0.61, #133B6C),
+		color-stop(0.81, #224B88)
+		);
 	margin: 0 3px;
 	width: 98%;
 }
@@ -681,7 +697,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 }
 .view-calendario-de-eventos .month {
 	background: none repeat scroll 0 0 #E7E7E7;
-    border: 1px solid #DADADA;
+	border: 1px solid #DADADA;
 	color: #575c56 !important;
 	height: 25px;
 }
@@ -752,7 +768,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 
 #carousel-historico {	
 	border: 1px solid #FFFFFF;
-	margin: 4% 0 2%;
+	margin-top: 4% 0 2%;
 }
 #carousel-historico ul {
 	overflow: hiddden !important;
@@ -772,8 +788,8 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 /***************************************** CSS MOBILE ************************************************/
 
 .responsive-layout-mobile #section-header{
-    background-position: left top;
-    background-size: 30% auto;
+	background-position: left top;
+	background-size: 30% auto;
 }
 .responsive-layout-mobile .branding-data h1.site-name{
 	font-size: 2.5em;
@@ -785,12 +801,12 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 }
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales .block-inner {clear: both;}
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul.menu {
-    border: 3px solid #FD8900;
-    border-radius: 5px 5px 5px 5px;
-    display: block;
-    margin: 1px auto;
-    padding: 0;
-    width: 96%;
+	border: 3px solid #FD8900;
+	border-radius: 5px 5px 5px 5px;
+	display: block;
+	margin: 1px auto;
+	padding: 0;
+	width: 96%;
 }
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf {
 	border-bottom: 2px solid #9EAAB0;
@@ -801,8 +817,8 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 }
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content ul li a {
 	background-position: 2em 0.8em;
-    height: 2.7em;
-    padding: 1.3em 0 0 70px;
+	height: 2.7em;
+	padding: 1.3em 0 0 70px;
 	text-align: left;
 	width: auto;
 }
@@ -813,15 +829,15 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 	background-image: -moz-linear-gradient(bottom, #FF6201 42%, #FF9900 71%);
 	background-image: -webkit-linear-gradient(bottom, #FF6201 42%, #FF9900 71%);
 	background-image: -ms-linear-gradient(bottom, #FF6201 42%, #FF9900 71%);
-    border-radius: 5px 5px 5px 5px;
-    color: #554747;
-    float: right;
-    font-size: 1.3em;
-    font-weight: 700;
-    padding: 0.3em 1em;
-    text-align: center;
-    width: 10%;
-    cursor: pointer;
+	border-radius: 5px 5px 5px 5px;
+	color: #554747;
+	float: right;
+	font-size: 1.3em;
+	font-weight: 700;
+	padding: 0.3em 1em;
+	text-align: center;
+	width: 10%;
+	cursor: pointer;
 }
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content ul li a span.texto{display: none;}
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu{
@@ -844,11 +860,11 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .responsive-layout-mobile .home-movil{background: transparent url(../images/ico-home-mobile.png) no-repeat top left;}
 .responsive-layout-mobile #zone-user, #block-multiblock-1{display: none;}
 .responsive-layout-mobile #block-search-form {
-    display: block;
-    left: 40%;
-    position: absolute;
-    top: 251px;
-    z-index: 100;
+	display: block;
+	left: 40%;
+	position: absolute;
+	top: 251px;
+	z-index: 100;
 	padding: 3% 10%;
 	width: 20%;
 	font-size: 1.3em;
@@ -858,42 +874,139 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .responsive-layout-wide #carousel-camion{display: none;}
 .responsive-layout-mobile #carousel-camion{display:block;}
 .responsive-layout-mobile .mapa-sitio-render {
-    border-radius: 0.5em 0.5em 0.5em 0.5em;
+	border-radius: 0.5em 0.5em 0.5em 0.5em;
 	cursor: pointer;
-    display: block;
-    height: 1.7em;
+	display: block;
+	height: 1.7em;
 	margin: 0 auto;
-    padding: 0.5em;
+	padding: 0.5em;
 	text-align: center;
-    width: 16em;
+	width: 16em;
 }
 .responsive-layout-mobile .view-mapa-contacto .attachment, .responsive-layout-mobile .view-mapa-contacto .view-content {float: none;}
 
 .responsive-layout-mobile #block-views-featured-slider-block .nivo-caption p {
 	display: none;
 }
-.responsive-layout-mobile #block-block-5 , .responsive-layout-mobile  #block-block-4, .responsive-layout-mobile #block-block-3 {
-    background: none;
-    width: 30%;
-    float: left;
+.responsive-layout-mobile #block-block-5 , .responsive-layout-mobile  #block-block-4, .responsive-layout-mobile #block-block-3  {
+	background: none repeat scroll 0 0 transparent;
+	float: left;
+	width: 25%;
+	text-align: center;
 }
 .responsive-layout-mobile #zone-footer #block-menu-menu-paises .leaf {
-    float: none;
-    text-align: center;
-    width: 100%;
+	float: none;
+	width: 100%;
 }
 .responsive-layout-mobile #zone-footer #block-menu-menu-paises.block {
-    width: 100%;
+	width: 45%;
 }
 .responsive-layout-mobile #zone-footer .block {
-    float: none;
-    margin-left: 0;
-    text-align: center;
+	float: none;
+	margin: 0 auto;
+	text-align: left;
+	width: 45%;
+	margin-bottom: 30px;
 }
-.responsive-layout-mobile #region-footer-first .block ul li {
-    text-align: center;
+.responsive-layout-mobile #zone-footer .block h2{
+	background-position: 0 0 !important;
+	font-size: 17px;
+	font-weight: normal;
+	height: auto;
+	margin-bottom: 15px;
+	padding: 5px 0 5px 40px;
+	text-align: left;
+}
+.responsive-layout-mobile #region-footer-first .block .content{
+	clear: both;
+	padding-left: 50px;
 }
 .responsive-layout-mobile #region-footer-first .block ul li > div {
-    display: inline-block;
-    margin: 0;
+	display: inline-block;
+	margin: 0;
+}
+
+.responsive-layout-mobile  #block-block-5 h2.block-title {
+	background: url("../images/ico-facebook-mobile.jpg") no-repeat scroll 0 0 transparent;
+}
+.responsive-layout-mobile  #block-block-4 h2.block-title {
+	background: url("../images/ico-twitter-mobile.jpg") no-repeat scroll 0 0 transparent;
+}
+.responsive-layout-mobile  #block-block-3 h2.block-title {
+	background: url("../images/ico-youtube-mobile.jpg") no-repeat scroll 0 0 transparent;
+}
+.responsive-layout-mobile  #block-block-3 h2.block-title , #block-block-4 h2.block-title, #block-block-5 h2.block-title{
+    display: block;
+    float: none;
+    font-size: 0;
+    height: 65px;
+    margin: 0 auto 25px;
+    width: 68px;
+}
+.html.responsive-layout-mobile  #region-postscript-fourth{
+    background: none repeat scroll 0 0 #000000;
+    border-bottom: 1px solid #222222;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    overflow: hidden;
+    padding: 30px 15%;
+}
+.html.responsive-layout-mobile #section-content {
+    margin-bottom: 0;
+}
+.html.responsive-layout-mobile #section-footer{
+    background-color: #000000;
+    border-top: 1px solid #111111;
+    color: #FFFFFF;
+    padding-top: 15px;
+}
+.responsive-layout-mobile #region-footer-second{
+    border-top: 1px solid #222222;
+    margin: 15px 0 0;
+    overflow: hidden;
+}
+.responsive-layout-mobile  #block-block-6,
+.responsive-layout-mobile  #block-block-7,
+.responsive-layout-mobile.front #block-system-main .content,
+.responsive-layout-mobile  #block-block-5 .content .fb-like-box,
+.responsive-layout-mobile  #block-block-3 .content  .subscribe-youtube,
+.responsive-layout-mobile  #block-block-4 .content  .twitter-follow-big {
+	display: none;
+}
+body.responsive-layout-mobile {
+	background-color: #000;
+}
+.responsive-layout-mobile #zone-postscript-wrapper{
+	padding-top: 30px;
+}
+.responsive-layout-mobile #block-webform-client-block-1 {
+    margin: auto;
+    width: 60%;
+}
+.responsive-layout-mobile #block-block-5 .content, 
+.responsive-layout-mobile #block-block-4 .content, 
+.responsive-layout-mobile #block-block-3 .content {
+    padding: 0;
+}
+.mobile-subscribe-youtube a{
+  background:  -moz-linear-gradient(#CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
+  background: -webkit-linear-gradient(#CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
+   background: -o-linear-gradient(#CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
+  background:  linear-gradient(#CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
+  padding: 10px;
+  color: #666;
+}
+.mobile-subscribe-youtube a.youtube-name-label {
+    background: none repeat scroll 0 0 transparent;
+    color: red;
+    display: block;
+    margin: 0 0 10px;
+    padding: 0;
+}
+.item-list ul.pager {
+    clear: both;
+    margin: 30px auto;
+    text-align: center;
+    width: 70%;
 }
