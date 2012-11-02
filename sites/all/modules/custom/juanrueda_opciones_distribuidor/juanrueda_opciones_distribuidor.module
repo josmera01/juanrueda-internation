@@ -65,7 +65,7 @@ function juanrueda_opciones_distribuidor_form_alter(&$form, &$form_state, $form_
       $form['search_block_form']['#attributes']['placeholder'] = t('Buscar...');
     break;
     case 'webform_client_form_1':
-      $form['submitted']['email_newsletter']['#attributes']['placeholder'] = t('Escribe a aquí tu e-mail...');
+      $form['submitted']['email_newsletter']['#attributes']['placeholder'] = t('Escribe aquí tu e-mail');
     break;
 
   }
