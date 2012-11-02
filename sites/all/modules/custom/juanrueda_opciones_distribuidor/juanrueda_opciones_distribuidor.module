@@ -62,7 +62,7 @@ function juanrueda_opciones_distribuidor_form_alter(&$form, &$form_state, $form_
       }
     break;
     case 'search_block_form':
-    dpm($form);
+    $form['search_block_form']['#attributes']['placeholder'] = t('Buscar...');
 
       break;
 
