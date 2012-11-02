@@ -53,7 +53,7 @@ function consultar_email_tax($id) {
  * Implementation hook_form_alter()
  **/
 function juanrueda_opciones_distribuidor_form_alter(&$form, &$form_state, $form_id) {
-  dpm($form_id);
+
   switch ($form_id) {
     case 'webform_client_form_62':
 
@@ -65,7 +65,7 @@ function juanrueda_opciones_distribuidor_form_alter(&$form, &$form_state, $form_
       $form['search_block_form']['#attributes']['placeholder'] = t('Buscar...');
     break;
     case 'webform_client_form_1':
-      dpm($form);
+      $form['submitted']['email_newsletter']['#attributes']['placeholder'] = t('Escribe a aquí tu e-mail...');
     break;
 
   }
