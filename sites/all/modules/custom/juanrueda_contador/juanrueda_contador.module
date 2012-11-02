@@ -35,7 +35,7 @@ function juanrueda_contador_block_view($delta = '') {
  */
 function juanrueda_contador_field_extra_fields() {
 
-  $extra['node']['contador'] = array(
+  $extra['node']['article'] = array(
   'display' => array(
     'node_contador' => array(
       'label' => t('Contador general'),
