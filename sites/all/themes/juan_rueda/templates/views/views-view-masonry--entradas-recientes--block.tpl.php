@@ -6,6 +6,7 @@
 ?>
 <?php $i = 0;
 $nombre_clase = '';
+$clase = '';
 ?>
 <?php foreach ($rows as $id => $row):
   $clase = $view->result;
