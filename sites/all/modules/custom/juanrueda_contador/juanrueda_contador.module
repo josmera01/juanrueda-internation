@@ -61,9 +61,12 @@ function html_contador_personalizado($nid = NULL) {
   $links = array();
   $content = array();
 
-  //$links['comentario'] = _contador_comentarios($nid);
   $links['comentario'] = array(
-      'title' => _contador_comentarios($nid)
+      'title' => t('@total Comentarios', array('@total' => _contador_comentarios($nid)))
+      );
+
+  $links['flag'] = array(
+      'title' => t('@total Me gusta', array('@total' => _contador_like_drupal($nid)))
       );
 
   $content['link']= array(
@@ -82,6 +85,19 @@ function _contador_comentarios($nid) {
     ->fields('c', array('nid'));
   $db->addExpression('count(c.nid)', 'total');
   $db->condition('nid', $nid);
+  $result = $db->execute();
+  $record = $result->fetchAssoc();
+
+  return $record['total'];
+
+}
+
+function _contador_like_drupal($nid) {
+
+  $db = db_select('flag_count', 'f')
+    ->fields('f', array('content_id'));
+  $db->addExpression('count(f.content_id)', 'total');
+  $db->condition('content_id', $nid);
   $result = $db->execute();
   $record = $result->fetchAssoc();
 
