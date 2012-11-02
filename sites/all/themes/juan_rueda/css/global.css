@@ -750,12 +750,12 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 
 #carousel-historico {border: 1px solid #FFFFFF;}
 #carousel-historico ul {
-	overflow: hiddden;
-	width: 100%;
+	overflow: hiddden !important;
+	width: 100% !important;
 }
 #carousel-historico li {
-	margin-right: 2%;
-	width: 22%;
+	margin-right: 2% !important;
+	width: 22% !important;
 }
 #carousel-historico span {
 	color: #FE7C0C;
