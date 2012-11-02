@@ -503,13 +503,13 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 	color: #252526;
 	font-size: 1em;
 	margin-right: 5%;
-	width: 35%;
+	width: 25%;
 }
 .view-mapa-contacto .attachment .views-field-title {
 	font-size: 1.06em;
 	font-weight: bold;
 }
-.view-mapa-contacto .view-content {width: 60%;}
+.view-mapa-contacto .view-content {width: 70%;}
 
 .responsive-layout-mobile .view-mapa-contacto .view-content, .responsive-layout-mobile .view-mapa-contacto .attachment {width: 100%;}
 
@@ -527,9 +527,11 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .view-mapa-contacto  .gmap-control {
 	border: 9px solid #FFFFFF;
 	border-radius: 5px;
+	width: 97% !important;
 }
 .page-contacte-su-distribuidor #block-system-main {
 	float: left;
+	margin-top: 4%;
 	width: 100%;
 }
 
