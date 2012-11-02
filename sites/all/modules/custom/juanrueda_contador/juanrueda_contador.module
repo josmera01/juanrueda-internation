@@ -1,0 +1,49 @@
+<?php
+
+
+/**
+ *Implementation hook_block_info()
+ **/
+function juanrueda_contador_block_info() {
+  $blocks = array();
+
+  $blocks['contador_personalizado'] = array(
+    'info' => t('Contador personalizado'),
+    );
+
+   return $blocks;
+}
+
+/**
+ *Implementation hook_block_view()
+ **/
+function juanrueda_contador_block_view($delta = '') {
+  $blocks = array();
+
+  switch ($delta) {
+    case 'contador_personalizado':
+      $blocks['content'] = html_contador_personalizado();
+      break;
+  }
+
+  return $blocks;
+
+}
+
+
+function html_contador_personalizado() {
+  dpm(menu_get_object());
+}
+
+function _contador_comentarios($nid) {
+
+  $db = db_select('comment', 'c')
+    ->fields('c', array('nid'));
+  $db->addExpression('count(c.nid)', 'total');
+  $db->condition('nid', $nid);
+  $result = $db->execute();
+  $record = $result->fetchAssoc();
+
+  return $record['total'];
+
+}
