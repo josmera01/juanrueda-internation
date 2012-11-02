@@ -7,10 +7,10 @@
 
       $('#carousel-historico').elastislide({
         imageW    : 150,
-        minItems  : 5,
+        minItems  : 4,
         margin    : 5,
         border    : 0,
-        current   : 5
+        current   : 12
       });
 
 
