@@ -7,7 +7,8 @@
 .page-tips-de-juan-rueda #region-content.grid-12,
 .page-tips #region-content.grid-12,
 .front #region-postscript-fourth.grid-12,
-.page-contacte-su-distribuidor #region-content.grid-12{
+.page-contacte-su-distribuidor #region-content.grid-12,
+.node-type-camion #region-content.grid-12{
 	width: 960px;
 }
 .page-noticias-y-eventos #region-content.grid-8{
