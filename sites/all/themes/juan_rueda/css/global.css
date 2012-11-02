@@ -585,6 +585,14 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .bloque-gris #carousel .es-nav span.es-nav-next{background: transparent url(../images/flecha-bloque-der.png) no-repeat top left;}
 .bloque-gris .node #carousel ol, .bloque-gris .node #carousel ul{padding-left: 0;}
 
+/**************************** PAGINA CAMIONES **********************************/
+.page-camiones .view-header h2{
+	color: #ffffff;
+	font-size: 1.8em;
+	margin-top: 1.5em;
+}
+
+
 /**********************************BARRA DERECHA***********************************/
 
 .view-art-culos-relacionados .item-list ul li {margin: 0;}
