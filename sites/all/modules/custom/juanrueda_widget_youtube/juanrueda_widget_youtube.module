@@ -1,0 +1,33 @@
+<?php
+
+/**
+ *Implementation hoo_block_view()
+ **/
+function juanrueda_widget_youtube_block_view($delta = '') {
+  $blocks = array();
+
+  switch ($delta) {
+    case 'widget_youtube_custom':
+      $blocks['content'] = html_widget_youtube_custom();
+      break;
+  }
+
+  return $blocks;
+}
+
+/**
+ *Implementation hoo_block_info()
+ **/
+function juanrueda_widget_youtube_block_info() {
+   $blocks['widget_youtube_custom'] = array(
+    'info' => t('Widget youtube personalizado'),
+    );
+
+   return $blocks;
+}
+
+
+function html_widget_youtube_custom() {
+  $output = '';
+  return 'Prueba youtube';
+}

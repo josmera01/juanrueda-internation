@@ -1,0 +1,48 @@
+<?php
+
+define('CANTIDAD_NUMERO', 1);
+
+
+/**
+ * Implementacion hook_node_view()
+ **/
+function juanrueda_visitas_node_view($node, $view_mode, $langcode) {
+  $tipos_de_contenido_soportados = array('producto', 'espectaculo', 'festivales');
+
+  if ($view_mode == 'full' && $node->status == 1 && in_array($node->type, $tipos_de_contenido_soportados)) {
+    _creacion_contador_visita($node->nid);
+  }
+}
+
+/**
+ * Crea las visitas del nodo, que se le pasa por parametro
+ **/
+function _creacion_contador_visita($nid) {
+    // Trae el total de las visitas
+    $total = consultar_visitia_nid($nid);
+
+    db_merge('masvisto_node')
+      ->key(array(
+        'nid' => $nid,
+      ))
+      ->fields(array(
+        'cantidad' => $total,
+        'tiempo' => REQUEST_TIME,
+      ))
+      ->execute();
+}
+
+/**
+ * Consulta las visitas de nodo, y retorna el total
+ **/
+
+function consultar_visitia_nid($nid) {
+
+  $db = db_select('masvisto_node', 'm')
+    ->fields('m', array('cantidad')
+    ->condition('nid', $nid)
+    ->execute()
+    ->fetchAllAssoc('nid');
+
+  return $db;
+}
