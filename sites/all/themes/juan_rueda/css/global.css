@@ -534,7 +534,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 	line-height: 1.2;
 }
 .front .bloque-gris .masonry-item h2 a, .page-noticias-y-eventos .bloque-gris .masonry-item h2 a {
-	padding-left: 2em;
+	padding-left: 2.5em;
 	min-height: 1.85em;
 	display: block;
 }
@@ -552,8 +552,8 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 }
 
 .bloque-gris .node-article .field-name-title a:link, .bloque-gris .node-evento .field-name-title a:link{background-position: 0 -3px;}
-.bloque-gris .node-article .field-name-title a:hover, .bloque-gris .node-evento .field-name-title a:hover{background-position: 0 -305px;}
 .bloque-gris .node-article .field-name-title a:visited, .bloque-gris .node-evento .field-name-title a:visited{background-position: 0 -496px;}
+.bloque-gris .node-article .field-name-title a:hover, .bloque-gris .node-evento .field-name-title a:hover{background-position: 0 -305px;}
 
 
 .bloque-gris a:link {color: #1B457A;}
