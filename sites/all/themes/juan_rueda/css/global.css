@@ -442,7 +442,6 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 
 /***************************************CONTACTO***********************************************/
 
-#block-webform-client-block-62 {margin-bottom: 12%;}
 #block-webform-client-block-62 .webform-component-textfield, #block-webform-client-block-62 .webform-component-select,
 #block-webform-client-block-62 .webform-component-email {
     float: left;
@@ -542,7 +541,6 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 }
 .page-contacte-su-distribuidor #block-system-main {
     float: left;
-    margin-top: 4%;
     width: 100%;
 }
 .view-mapa-contacto .attachment h3 {
