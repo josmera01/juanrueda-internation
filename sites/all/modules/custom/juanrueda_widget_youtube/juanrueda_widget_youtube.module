@@ -40,13 +40,13 @@ function html_widget_youtube_custom() {
     $output .= '<img alt="Logotipo de YouTube" src="ytimg/youtube_icon_small.jpg">';
     $output .= '</div>';
       $output .= '<div>';
-      <a href="http://www.youtube.com/InternationalTruck">InternationalTrucks</a><br/>
-      <?php echo $subs?> Suscriptores<br/>
-      <?php echo $countVideos?> Videos
-    </div>
-    <div>
-      <a href="http://www.youtube.com/subscription_center?add_user=InternationalTruck">Suscribirme</a><br/>
-    </div>
+      $output .= '<a href="http://www.youtube.com/InternationalTruck">InternationalTrucks</a><br/>';
+        $output .= t('@cantidad Suscriptores', array('@cantida' => $subs));
+        $output .= t('@cantidad Videos', array('@cantidad' => $countVideos));
+    $output .= '</div>';
+    $output .= '<div>';
+      $output .= '<a href="http://www.youtube.com/subscription_center?add_user=InternationalTruck">Suscribirme</a><br/>';
+    $output .= '</div>';
 
-  return 'Prueba youtube';
+  return $output;
 }
