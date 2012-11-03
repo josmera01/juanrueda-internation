@@ -442,12 +442,33 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 
 /***************************************CONTACTO***********************************************/
 
-#block-webform-client-block-62 .webform-component-textfield, #block-webform-client-block-62 .webform-component-select,
+#block-webform-client-block-62 field-name-body{position: relative;}
+#block-webform-client-block-62 p.obligatory {color: #FF7B00;}
+#block-webform-client-block-62 p.intro-contact-form{
+	position: absolute;
+	top: 1em;
+	left: 1em;
+	background: rgba(0, 0, 0, 0.6);
+	padding: 0.5em;
+	border-radius: 0.5em;
+	max-width: 50%;
+	text-align: left;
+}
+
+#block-webform-client-block-62 .webform-component-textfield,
+#block-webform-client-block-62 .webform-component-select,
 #block-webform-client-block-62 .webform-component-email {
     float: left;
     width: 47%;
 }
-#block-webform-client-block-62 .form-text, #block-webform-client-block-62 .form-select {width: 100%;}
+.responsive-layout-mobile #block-webform-client-block-62 .webform-component-textfield,
+.responsive-layout-mobile #block-webform-client-block-62 .webform-component-select,
+.responsive-layout-mobile #block-webform-client-block-62 .webform-component-email {width: 98%}
+
+#block-webform-client-block-62 .form-text, #block-webform-client-block-62 .form-select {
+	width: 100%;
+	height: 2.3em;
+}
 #block-webform-client-block-62 .webform-component-textarea {float: left;}
 #block-webform-client-block-62 .webform-component-textarea, #block-webform-client-block-62 #edit-actions {width: 98%;}
 #block-webform-client-block-62 #edit-actions {overflow: hidden;}
@@ -504,6 +525,12 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 }
 #webform-component-nombre-completo, #webform-component-correo-electronico {margin-right: 20px;}
 #webform-component-correo-electronico {clear: left;}
+
+.view-mapa-contacto h2{
+	font-size: 2em;
+	font-weight: 300;
+	letter-spacing: normal;
+}
 .view-mapa-contacto .attachment, .view-mapa-contacto .view-content {float: left;}
 .view-mapa-contacto .attachment {
     background: none repeat scroll 0 0 #EEEEEE;
