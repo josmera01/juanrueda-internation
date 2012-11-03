@@ -1,0 +1,80 @@
+/**FIELDSETS**/
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+.fieldset-wrapper {
+  overflow: hidden;
+}
+.fieldset-legend {
+  color: #868686;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+fieldset.checkout-buttons .fieldset-wrapper {
+  border: 0;
+  padding: 0;
+}
+/**FORM ITEMS**/
+
+.form-item, .form-actions {
+  margin: 5px 0;
+}
+/**LABELS, TEXTAREAS, SELECTS & INPUTS**/
+
+label {
+  font-weight: normal;
+  font-size: 0.85em;
+}
+.form-textarea-wrapper textarea {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 1px solid #000000;
+  max-width: 500px;
+  font-size: 0.9em;
+  min-height: 90px;
+  padding: 5px;
+}
+.resizable-textarea .grippie {
+  display: none
+}
+select {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 1px solid #000000;
+  color: #FFFFFF;
+  font-size: 0.75em;
+  padding: 1px 0 1px 5px;
+  width: 100%;
+}
+input[type="text"], input[type="password"], textarea, input[type="search"] {
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
+  color: #999999;
+  font-size: 0.8em;
+  padding: 5px;
+}
+.page-user input[type="text"], .page-user input[type="password"] {
+  width: 50%;
+}
+/***BOTONES */
+
+input[type="submit"], .form-actions input {
+  background: url("../images/none.png") repeat-x scroll left top #000000;
+  border:none;
+  border-radius: 20px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 0.7em;
+  font-weight: bold;
+  margin: 1em 0;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+input[type="submit"]:active {
+  background: #333333;
+}
+input[type="submit"]:hover {
+  background: url("../images/none.png") repeat-x scroll left top #333333;
+  color: #FFFFFF;
+}

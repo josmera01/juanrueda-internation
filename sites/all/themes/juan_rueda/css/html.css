@@ -1,0 +1,224 @@
+html {
+  background: none repeat scroll 0 0 #FFFFFF;
+  display: block;
+}
+body {
+  background: url("../images/none.jpg") fixed no-repeat center top #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  line-height: 1;
+  color: #000000;
+  margin: 0;
+}
+p {
+  font-size: 0.8em;
+  margin: 0;
+}
+::selection {
+  background: #CCCCCC;
+  color: #000000;
+  text-shadow: none;
+}
+/* LINKS */
+
+a {
+  color: #000000;
+  text-decoration: none
+}
+a:hover {
+  color: #333333;
+}
+a:active, a.active {
+  color: #666666;
+}
+/**HEADINGS**/
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+h1 {
+  color: #000000;
+  font-size: 2.5em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+h2 {
+  color: #000000;
+}
+h3 {
+  color: #000000;
+  margin-top: 1em;
+}
+/*TEXTO: TITULOS  Y CUERPOS*/
+
+h1.title {
+  margin: auto;
+}
+h2.block-title {
+  color: #000000;
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+.block-title-wrapper h2.block-title {
+  background: url("../images/none.png") no-repeat scroll left center transparent;
+  cursor: pointer;
+}
+h2 span {
+  background: none repeat scroll 0 0 #000000;
+  color: #ffffff;
+  font-size: 1.5em;
+}
+
+
+/**LISTS**/
+
+ul {
+  font-weight: normal;
+  list-style-type: disc;
+  margin: 0;
+  padding: 0;
+}
+ul  p {
+  color: #666666;
+  font-size: 1em;
+}
+.item-list ul {
+  margin: 0;
+}
+/*FULLTABS*/
+
+ul.primary {
+    float: left;
+    font-weight: bold;
+    height: auto;
+    line-height: normal;
+    list-style: none outside none;
+    width: 100%;
+    cursor:pointer;
+}
+ul.primary li {
+  display: inline;
+}
+ul.primary li a {
+  background-color: #666666;
+  color: #FFFFFF;
+  text-decoration: none;
+  display: block;
+  float: left;
+  font-size: 1em;
+  padding: 10px 15px;
+  text-transform: uppercase;
+}
+ul.primary li.active a {
+  background-color: #333333;
+}
+ul.primary li a:hover {
+  background-color: #999999;
+}
+ul.secondary {
+  padding: 1em;
+  margin: 5px;
+  cursor:pointer;
+}
+ul.secondary li {
+  display: inline;
+  padding: 0 1em;
+}
+ul.secondary a {
+  padding: 0;
+  text-decoration: none;
+}
+ul.secondary a.active {
+  border: none;
+}
+ol li, ol li p, .date-publication {
+  margin: auto;
+  font-size: 1em
+}
+ul.menu li {
+  margin: 0 0 5px;
+}
+/*BLOCKQUOTE*/
+
+.blockquote {
+  color: #333;
+  font-style: italic;
+}
+/***PAGER***/
+ul.pager {
+  list-style: none outside none;
+}
+ul.pager li {
+  margin: 0 3px;
+  padding: 0;
+}
+ul.pager li.pager-item a, ul.pager li.pager-next a, ul.pager li.pager-last a, ul.pager li.pager-previous a, ul.pager li.pager-current {
+  font-weight: bold;
+}
+ul.pager li.pager-first a, ul.pager li.pager-next a, ul.pager li.pager-last a, ul.pager li.pager-previous a{
+    display: inline-block;
+    font-size: 0;
+    line-height: 1;
+    padding-bottom: 2px;
+    padding-top: 19px;
+    width: 22px;
+}
+ul.pager li.pager-first a:hover, ul.pager li.pager-next a:hover, ul.pager li.pager-last a:hover, 
+ul.pager li.pager-previous a:hover{
+  background-position: 0 -22px;
+}
+ul.pager li.pager-first a{
+    /*background: url("../images/pager-first.png") no-repeat scroll 0 0 transparent;*/
+  }
+ul.pager li.pager-next a{
+    /*background: url("../images/pager-next.png") no-repeat scroll 0 0 transparent;*/
+  }
+ul.pager li.pager-last a{
+  /*background: url("../images/pager-last.png") no-repeat scroll 0 0 transparent;*/
+}
+ul.pager li.pager-previous a{
+    /*background: url("../images/pager-prev.png") no-repeat scroll 0 0 transparent;*/
+  }
+/*****TABLAS****/
+table{
+  width: 100%;
+}
+th{
+    border: 0 none;
+    font-size: 0.9em;
+    padding: 10px 15px;
+}
+tbody {
+}
+table input[type="text"] {
+  width: auto;
+}
+tr.even, tr.odd {
+  border-bottom: none;
+  padding: 0.1em 0.6em;
+}
+tr.even {
+}
+tr.odd {
+}
+tr.even td, tr.odd td {
+  font-size: 0.9em;
+  padding: 5px 15px;
+}
+/***RELOJ AJAX***/
+
+.ajax-progress.ajax-progress-throbber {
+  position: relative;
+}
+.ajax-progress .throbber {
+  position: absolute;
+}
+.ajax-progress.ajax-progress-throbber .message {
+  display: none;
+}
+.sticky-table .ajax-progress .throbber {
+  float: none;
+  position: absolute;
+}

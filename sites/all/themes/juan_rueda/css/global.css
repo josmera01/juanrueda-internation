@@ -470,7 +470,7 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 a, .view-m
 	border-left: 0;
 }
 .pager li a {
-	color: #fff;
+	color: #fff !important;
 }
 .pager {
     border-width: 0;
@@ -478,7 +478,6 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 a, .view-m
     margin: auto;
     overflow: hidden;
     padding: 20px 0;
-    width: 50%;
 }
 form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-mapa-contacto .attachment .views-field-php-1 a:hover,
 .view-mapa-contacto .attachment .views-field-php a:hover {
@@ -535,7 +534,8 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .page-tips #region-content,
 .page-noticias-y-eventos #region-content,
 .front #region-postscript-fourth.grid-12,
-.page-contacte-su-distribuidor #region-content{
+.page-contacte-su-distribuidor #region-content.grid-12,
+.node-type-camion #region-content.grid-12{
 	margin: 0;
 }
 
@@ -580,7 +580,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .bloque-gris .node-article .field-name-title a:visited, .bloque-gris .node-evento .field-name-title a:visited{background-position: 0 -459px;}
 .bloque-gris .node-article .field-name-title a:hover, .bloque-gris .node-evento .field-name-title a:hover{background-position: 0 -308px;}
 
-.page-tips .bloque-gris .node-article .field-name-title a{background: none;}
+.page-tips .bloque-gris .node-article .field-name-title a, .node-type-camion .bloque-gris .node-article .field-name-title a{background: none;}
 
 .bloque-gris a:link {color: #1B457A;}
 .bloque-gris a:hover, .bloque-gris a:visited{text-decoration: underline;}
@@ -997,4 +997,31 @@ body.responsive-layout-mobile {
   background:  linear-gradient(#CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
   padding: 10px;
   color: #666;
+}
+.mobile-subscribe-youtube a.youtube-name-label {
+    background: none repeat scroll 0 0 transparent;
+    color: red;
+    display: block;
+    margin: 0 0 10px;
+    padding: 0;
+}
+.item-list ul.pager {
+    clear: both;
+    margin: 30px auto;
+    text-align: center;
+    width: 70%;
+}
+.link-conteo li{
+    float: left;
+    list-style: none outside none;
+}
+.link-conteo li.comentario {
+	background: url("../images/bg-comentarios.png") no-repeat scroll 0 0 transparent;
+}
+.link-conteo li.flag {
+	background: url("../images/bg-like.png") no-repeat scroll 0 0 transparent;
+}
+.link-conteo li{
+	padding: 3px 0 3px 35px;
+	margin-right: 15px;
 }
