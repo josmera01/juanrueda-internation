@@ -442,6 +442,7 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 
 /***************************************CONTACTO***********************************************/
 
+#block-webform-client-block-62 h2.node-title{display: none;}
 #block-webform-client-block-62 field-name-body{position: relative;}
 #block-webform-client-block-62 p.obligatory {color: #FF7B00;}
 #block-webform-client-block-62 p.intro-contact-form{
@@ -476,6 +477,7 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 .marker, .form-required {color: #FF7B00;}
 form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 a, .view-mapa-contacto .attachment .views-field-php a,
 .pager li a {
+	background-color: #133155;
     background-image: linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
     background-image: -o-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
     background-image: -moz-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
@@ -510,6 +512,7 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 a, .view-m
 }
 form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-mapa-contacto .attachment .views-field-php-1 a:hover,
 .view-mapa-contacto .attachment .views-field-php a:hover {
+	background-color: #194E99;
     background-image: linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
     background-image: -o-linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
     background-image: -moz-linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
