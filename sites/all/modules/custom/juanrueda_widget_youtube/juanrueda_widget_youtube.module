@@ -29,5 +29,24 @@ function juanrueda_widget_youtube_block_info() {
 
 function html_widget_youtube_custom() {
   $output = '';
+
+  $json = file_get_contents("http://gdata.youtube.com/feeds/api/users/internationaltruck?alt=json");
+  $data = json_decode($json, true);
+  $subs = $data['entry']['yt$statistics']['subscriberCount'];
+  $countVideos = $data['entry']['gd$feedLink'][4]['countHint'];
+
+  $output .= '<div>';
+    $output .= '<img alt="Imagen del perfil" src="ytimg/international_trucks.jpg">';
+    $output .= '<img alt="Logotipo de YouTube" src="ytimg/youtube_icon_small.jpg">';
+    $output .= '</div>';
+      $output .= '<div>';
+      <a href="http://www.youtube.com/InternationalTruck">InternationalTrucks</a><br/>
+      <?php echo $subs?> Suscriptores<br/>
+      <?php echo $countVideos?> Videos
+    </div>
+    <div>
+      <a href="http://www.youtube.com/subscription_center?add_user=InternationalTruck">Suscribirme</a><br/>
+    </div>
+
   return 'Prueba youtube';
 }
