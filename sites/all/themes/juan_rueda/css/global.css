@@ -70,6 +70,10 @@ iframe{max-width: 100%}
 label {color: #FFFFFF;}
 #section-content {margin-bottom: 10%;}
 
+.breadcrumb{color: #2F76CD;}
+.breadcrumb a{color: #e3e3e3;}
+
+
 /***************************************SLIDER***********************************************/
 
 .nivo-caption{
