@@ -42,7 +42,7 @@ function galeria_render_camiones() {
 
      $links[] = array(
       'title' => theme('image', array(
-        'path' => image_style_url('square_thumbnail', $image['uri'])
+        'path' => image_style_url('180x130', $image['uri'])
         )
       ) . '<span>' . $node->title.'</span>',
       'html' => TRUE,

@@ -12,3 +12,5 @@
 .page-noticias-y-eventos #region-content.grid-8{
 	width: 800px;
 }
+
+.twitter-follow-small, .fb_edge_widget_with_comment, .mobile-subscribe-youtube{display: none;}

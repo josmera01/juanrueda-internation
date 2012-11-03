@@ -1,0 +1,46 @@
+<?php
+
+/**
+ * Implements hook_schema().
+ */
+function juanrueda_visitas_schema() {
+  $schema['masvisto_node'] = array(
+    'description' => '',
+    'fields' => array(
+      'id' => array(
+        'type' => 'serial',
+        'not null' => TRUE,
+        'description' => '',
+      ),
+      'nid' => array(
+        'description' => '',
+        'type' => 'int',
+        'unsigned' => TRUE,
+      ),
+      'cantidad' => array(
+        'description' => '',
+        'type' => 'int',
+        'unsigned' => TRUE,
+      ),
+      'tiempo' => array(
+        'description' => '',
+        'type' => 'int',
+        'unsigned' => TRUE,
+      ),
+    ),
+
+    'primary key' => array('id'),
+    'indexes' => array(
+      'expire' => array('nid', 'cantidad'),
+    ),
+  );
+
+  return $schema;
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function juanrueda_visitas_uninstall() {
+  drupal_uninstall_schema('masvisto_node');
+}

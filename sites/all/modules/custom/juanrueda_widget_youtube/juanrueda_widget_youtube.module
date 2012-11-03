@@ -1,0 +1,52 @@
+<?php
+
+/**
+ *Implementation hoo_block_view()
+ **/
+function juanrueda_widget_youtube_block_view($delta = '') {
+  $blocks = array();
+
+  switch ($delta) {
+    case 'widget_youtube_custom':
+      $blocks['content'] = html_widget_youtube_custom();
+      break;
+  }
+
+  return $blocks;
+}
+
+/**
+ *Implementation hoo_block_info()
+ **/
+function juanrueda_widget_youtube_block_info() {
+   $blocks['widget_youtube_custom'] = array(
+    'info' => t('Widget youtube personalizado'),
+    );
+
+   return $blocks;
+}
+
+
+function html_widget_youtube_custom() {
+  $output = '';
+
+  $json = file_get_contents("http://gdata.youtube.com/feeds/api/users/internationaltruck?alt=json");
+  $data = json_decode($json, true);
+  $subs = $data['entry']['yt$statistics']['subscriberCount'];
+  $countVideos = $data['entry']['gd$feedLink'][4]['countHint'];
+
+  $output .= '<div>';
+    $output .= '<img alt="Imagen del perfil" src="ytimg/international_trucks.jpg">';
+    $output .= '<img alt="Logotipo de YouTube" src="ytimg/youtube_icon_small.jpg">';
+    $output .= '</div>';
+      $output .= '<div>';
+      $output .= '<a href="http://www.youtube.com/InternationalTruck">InternationalTrucks</a><br/>';
+        $output .= t('@cantidad Suscriptores', array('@cantida' => $subs));
+        $output .= t('@cantidad Videos', array('@cantidad' => $countVideos));
+    $output .= '</div>';
+    $output .= '<div>';
+      $output .= '<a href="http://www.youtube.com/subscription_center?add_user=InternationalTruck">Suscribirme</a><br/>';
+    $output .= '</div>';
+
+  return $output;
+}
