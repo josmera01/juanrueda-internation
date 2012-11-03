@@ -202,10 +202,12 @@ label {color: #FFFFFF;}
 .branding-data {text-align: center;}
 .site-name-slogan {float: none;}
 .branding-data  h1.site-name, .branding-data h2.site-name {
-    font-size: 5em;
-    font-weight: 900;
-    margin: 0.7em 0;
-    text-transform: uppercase;
+	margin: 1.5em 0;
+	background-image: url("../images/jr-texto.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 1.5em;
+	text-indent: -9999px;
 }
 #region-user-second .region-inner {overflow: hidden;}
 #region-user-second a.twitter-timeline {
@@ -944,10 +946,6 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     width: 20%;
     font-size: 1.3em;
 }
-
-
-.responsive-layout-wide #block-views-bloque-todos-los-camiones-block {display:block;}
-.responsive-layout-mobile #block-views-bloque-todos-los-camiones-block {display: none;}
 
 
 .responsive-layout-mobile #carousel-camion{display:block;}
