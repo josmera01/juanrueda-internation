@@ -23,25 +23,7 @@ iframe{max-width: 100%}
     margin: 20px 0 30px;
     text-align: center;
 }
-#block-block-5, #block-block-4, #block-juanrueda-widget-youtube-widget-youtube-custom {border-radius: 0.5em 0.5em 0 0;}
-#block-block-5 .content, #block-block-4 .content, #block-juanrueda-widget-youtube-widget-youtube-custom .content {padding: 0 1em;}
-#block-block-5, #block-widgets-s-facebook-like-box  {background: url("../images/cabecera-facebook.png") repeat-x scroll 0 0 #FFFFFF;}
-#block-block-4, #block-block-9 {background: url("../images/cabecera-twitter.png") repeat-x scroll 0 0 #FFFFFF;}
-#block-block-4 .content p{
-    text-align: center;
-    width: 100%;
-}
 
-#block-juanrueda-widget-youtube-widget-youtube-custom h2.block-title, #block-block-4 h2.block-title, 
-#block-block-5 h2.block-title, #block-widgets-s-facebook-like-box h2.block-title,
-#block-block-9 h2.block-title{
-    border: 0 none;
-    color: white;
-    font-size: 0.9em;
-    line-height: 2;
-    padding: 10px 0 22px 70px;
-    margin: 0;
-}
 .page-contacte-su-distribuidor .container-12 .grid-4 {
    
 }
@@ -49,32 +31,11 @@ iframe{max-width: 100%}
     background: url("../images/ico-contacto.png") no-repeat scroll left -294px transparent;
     padding-left: 50px;
 }
+
 #block-block-9{
     margin-bottom: 4%;
 }
 
-#block-juanrueda-widget-youtube-widget-youtube-custom  {
-    background: url("../images/cabecera-youtube.png") repeat-x scroll 0 0 #FFFFFF;
-}
-#block-block-4 h2.block-title, #block-block-9 h2.block-title {
-    background: url("../images/logo-twitter.png") no-repeat scroll 10px 7px transparent;
-}
-#block-block-5 h2.block-title, #block-widgets-s-facebook-like-box h2.block-title  {
-    background: url("../images/logo-facebook.png") no-repeat scroll 10px 7px transparent;
-}
-.fb-like.fb_edge_widget_with_comment.fb_iframe_widget, #footer-container #branding{
-    display: none;
-}
-#picture-floater {
-    float: left;
-    margin: 0 15px 0 0;
-}
-#publisher{
-    float: left;
-    width: 50%;
-}
-#block-block-5 #fb-root {display: none;}
-#block-block-5 .fb-like-box {margin-top: -10px;}
 #page-title {
     border-bottom: 1px solid #FF7B00;
     color: #FF7B00;
@@ -971,12 +932,53 @@ padding-bottom: 4%;
 
 /***************************************** CSS PLUGINS REDES SOCIALES ************************************************/
 
+#block-block-5, #block-block-4, #block-juanrueda-widget-youtube-widget-youtube-custom {border-radius: 0.5em 0.5em 0 0;}
+#block-block-5 .content, #block-block-4 .content, #block-juanrueda-widget-youtube-widget-youtube-custom .content {padding: 0 1em;}
+#block-block-5, #block-widgets-s-facebook-like-box  {background: url("../images/cabecera-facebook.png") repeat-x scroll 0 0 #FFFFFF;}
+#block-block-4, #block-block-9 {background: url("../images/cabecera-twitter.png") repeat-x scroll 0 0 #FFFFFF;}
+#block-juanrueda-widget-youtube-widget-youtube-custom  {background: url("../images/cabecera-youtube.png") repeat-x scroll 0 0 #FFFFFF;}
+#block-block-4 .content p{
+    text-align: center;
+    width: 100%;
+}
+
+#block-juanrueda-widget-youtube-widget-youtube-custom h2.block-title, #block-block-4 h2.block-title, 
+#block-block-5 h2.block-title, #block-widgets-s-facebook-like-box h2.block-title,
+#block-block-9 h2.block-title{
+    border: 0 none;
+    color: white;
+    font-size: 0.9em;
+    line-height: 2;
+    padding: 10px 0 22px 70px;
+    margin: 0;
+}
+
+#block-juanrueda-widget-youtube-widget-youtube-custom h2.block-title {
+    background: url("../images/logo-youtube.png") no-repeat scroll 10px 7px transparent;
+}
+#block-block-4 h2.block-title, #block-block-9 h2.block-title {
+    background: url("../images/logo-twitter.png") no-repeat scroll 10px 7px transparent;
+}
+#block-block-5 h2.block-title, #block-widgets-s-facebook-like-box h2.block-title  {
+    background: url("../images/logo-facebook.png") no-repeat scroll 10px 7px transparent;
+}
+.fb-like.fb_edge_widget_with_comment.fb_iframe_widget, #footer-container #branding{
+    display: none;
+}
+#picture-floater {
+    float: left;
+    margin: 0 15px 0 0;
+}
+#publisher{
+    float: left;
+    width: 50%;
+}
+#block-block-5 #fb-root {display: none;}
+#block-block-5 .fb-like-box {margin-top: -10px;}
+
 .fb-like-box.fb_iframe_widget, .fb-like-box.fb_iframe_widget span, .fb-like-box.fb_iframe_widget iframe{width: 100% !important;}
 
-#block-juanrueda-widget-youtube-widget-youtube-custom .content{padding: 0;}
-#block-juanrueda-widget-youtube-widget-youtube-custom p{margin-bottom: 0;}
-#block-juanrueda-widget-youtube-widget-youtube-custom iframe#fr{width: 100% !important;}
-#block-juanrueda-widget-youtube-widget-youtube-custom iframe#fr #container{border: none;}
+#block-juanrueda-widget-youtube-widget-youtube-custom .content{padding: 1em;}
 
 
 
@@ -1165,7 +1167,7 @@ padding-bottom: 4%;
 .responsive-layout-mobile  #block-block-7,
 .responsive-layout-mobile.front #block-system-main .content,
 .responsive-layout-mobile  #block-block-5 .content .fb-like-box,
-.responsive-layout-mobile  #block-juanrueda-widget-youtube-widget-youtube-custom .content  .subscribe-youtube,
+.responsive-layout-mobile  #block-juanrueda-widget-youtube-widget-youtube-custom .content .subscribe-youtube,
 .responsive-layout-mobile  #block-block-4 .content  .twitter-follow-big {
     display: none;
 }
