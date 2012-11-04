@@ -700,11 +700,9 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     width: 100%;
 }
 .bloque-gris .field-name-body {
-    border-bottom: 1px solid #fff;
     color: #181818;
     font-size: 1em;
     font-weight: 300;
-    padding-bottom: 1em;
 }
 .bloque-gris .field-name-body p{margin: 0;}
 .bloque-gris .node-article, .bloque-gris .node-evento, .bloque-gris .node-camion {padding: 1em 1.2em 1.2em 1.2em;}
