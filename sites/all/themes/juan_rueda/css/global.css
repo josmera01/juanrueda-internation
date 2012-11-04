@@ -32,7 +32,7 @@ iframe{max-width: 100%}
     padding-left: 50px;
 }
 
-#block-block-9{
+#block-block-9, #block-widgets-s-facebook-like-box{
     margin-bottom: 4%;
 }
 
@@ -545,7 +545,6 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
     color: #FFFFFF;
     float: right;
     padding: 8px 20px;
-    margin-right: 3%;
 }
 .pager li.pager-next{
     border-left: 0;
@@ -766,6 +765,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 }
 .link-conteo li.visitas .number{
     background: url("../images/visitas.png") no-repeat scroll 0 0 transparent;
+    padding: 5px 0 5px 27px
 }
 .link-conteo li .number{
         padding: 5px 0 5px 32px;
