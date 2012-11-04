@@ -1,0 +1,94 @@
+/**FIELDSETS**/
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+.fieldset-wrapper {
+  overflow: hidden;
+}
+.fieldset-legend {
+  color: #868686;
+  font-size: 1.5em;
+}
+fieldset.checkout-buttons .fieldset-wrapper {
+  border: 0;
+  padding: 0;
+}
+/**FORM ITEMS**/
+
+.form-item, .form-actions {
+  margin: 5px 0;
+}
+/**LABELS, TEXTAREAS, SELECTS & INPUTS**/
+
+label {
+  font-weight: normal;
+  font-size: 0.85em;
+}
+.form-textarea-wrapper textarea {min-height: 90px;}
+
+.resizable-textarea .grippie {
+  display: none
+}
+.select-jr {
+    background: url("../images/flecha-select.png") no-repeat scroll right 0 #FFFFFF;
+    border: 1px solid #666666;
+    font-size: 0.8em;
+    margin: 5px 0;
+    overflow: hidden;
+    padding: 1.5%;
+    width: 100%;
+    padding-right: 30px;
+    max-width: 315px;
+}
+select{
+  width: 120%;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+}
+ .form-textarea-wrapper textarea , textarea {
+    border: 1px solid #666666;
+    font-size: 0.8em;
+    margin: 5px 0;
+    padding: 1.5%;
+    width: 97%;
+}
+input[type="text"], input[type="password"], input[type="search"], input[type="email"] {
+    border: 1px solid #666666;
+    font-size: 0.8em;
+    margin: 5px 0;
+    padding: 1.5%;
+    width: 100%;
+    max-width: 340px;
+}
+input[type="search"] {
+  background-color: #000;
+  color: #999999;
+}
+input[type="text"], input[type="password"], input[type="email"], .form-textarea-wrapper textarea  {
+  background-color: #fff;
+  color: #666666;
+}
+
+/***BOTONES */
+
+input[type="submit"], .form-actions input {
+    background-color: #133155;
+    background-image: linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+    background-image: -o-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+    background-image: -moz-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+    background-image: -webkit-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+    background-image: -ms-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+    border: 0 none;
+    border-radius: 7px 7px 7px 7px !important;
+    color: #FFFFFF;
+    float: right;
+    padding: 8px 20px;
+}
+input[type="submit"]:active {
+}
+input[type="submit"]:hover {
+}
