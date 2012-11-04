@@ -453,13 +453,12 @@ ul.menu {
     padding-top: 50px;
     text-align: center;
 }
-.responsive-layout-wide #carousel-camion .es-carousel ul li{margin-right: 1.5% !important;}
+
 #block-menu-menu-international-menu-inferior h2{background: url("../images/ico-international.png") no-repeat scroll center 0 transparent;}
 #zone-footer #block-views-menu-block h2{background: url("../images/ico-camion-footer.png") no-repeat scroll center 0 transparent;}
 #zone-footer #block-menu-menu-tips-de-juan-rueda h2{background: url("../images/ico-tips-footer.png") no-repeat scroll center 0 transparent;}
 #zone-footer #block-menu-menu-paises h2{background: url("../images/ico-contactenos-footer.png") no-repeat scroll center 0 transparent;}
 #zone-footer #block-block-13 h2{background: url("../images/ico-siguenos-footer.png") no-repeat scroll center 0 transparent;}
-
 
 .block ul.social_networks_sitemap{padding-left: 0;}
 #region-footer-first .block ul.social_networks_sitemap li{
