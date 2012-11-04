@@ -35,7 +35,7 @@ zones[postscript] = 'Postscript'
 
 
 ;scripts
-scripts[] = js/jm_selects.js
+scripts[] = js/jr_selects.js
 scripts[] = js/html5.js
 
 stylesheets[all][] = 'css/forms.css'
