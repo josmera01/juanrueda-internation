@@ -136,7 +136,9 @@ label {color: #FFFFFF;}
 }
 .views-nivo-slider-view  {padding: 0;}
 
-
+#carousel-historico{
+ background: url("../images/fondo-slider-historia.jpg") repeat-x scroll 0 0 transparent;   
+}
 #carousel-camion li img{
     border-top-right-radius: 0.5em;
     border-top-left-radius: 0.5em;
