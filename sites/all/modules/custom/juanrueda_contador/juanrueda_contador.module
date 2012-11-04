@@ -42,7 +42,7 @@ function html_contador_personalizado($nid = NULL) {
       'html' => true,
     );
 
-$link['visitas'] = array(
+$links['visitas'] = array(
     'title' => t('@total Visitas', array('@total' => 1))
   );
 
