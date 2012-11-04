@@ -23,8 +23,8 @@ iframe{max-width: 100%}
     margin: 20px 0 30px;
     text-align: center;
 }
-#block-block-5, #block-block-4, #block-block-3 {border-radius: 0.5em 0.5em 0 0;}
-#block-block-5 .content, #block-block-4 .content, #block-block-3 .content {padding: 0 1em;}
+#block-block-5, #block-block-4, #block-juanrueda-widget-youtube-widget-youtube-custom {border-radius: 0.5em 0.5em 0 0;}
+#block-block-5 .content, #block-block-4 .content, #block-juanrueda-widget-youtube-widget-youtube-custom .content {padding: 0 1em;}
 #block-block-5, #block-widgets-s-facebook-like-box  {background: url("../images/cabecera-facebook.png") repeat-x scroll 0 0 #FFFFFF;}
 #block-block-4, #block-block-9 {background: url("../images/cabecera-twitter.png") repeat-x scroll 0 0 #FFFFFF;}
 #block-block-4 .content p{
@@ -32,7 +32,7 @@ iframe{max-width: 100%}
     width: 100%;
 }
 
-#block-block-3 h2.block-title, #block-block-4 h2.block-title, 
+#block-juanrueda-widget-youtube-widget-youtube-custom h2.block-title, #block-block-4 h2.block-title, 
 #block-block-5 h2.block-title, #block-widgets-s-facebook-like-box h2.block-title,
 #block-block-9 h2.block-title{
     border: 0 none;
@@ -53,7 +53,7 @@ iframe{max-width: 100%}
     margin-bottom: 4%;
 }
 
-#block-block-3  {
+#block-juanrueda-widget-youtube-widget-youtube-custom  {
     background: url("../images/cabecera-youtube.png") repeat-x scroll 0 0 #FFFFFF;
 }
 #block-block-4 h2.block-title, #block-block-9 h2.block-title {
@@ -973,10 +973,10 @@ padding-bottom: 4%;
 
 .fb-like-box.fb_iframe_widget, .fb-like-box.fb_iframe_widget span, .fb-like-box.fb_iframe_widget iframe{width: 100% !important;}
 
-#block-block-3 .content{padding: 0;}
-#block-block-3 p{margin-bottom: 0;}
-#block-block-3 iframe#fr{width: 100% !important;}
-#block-block-3 iframe#fr #container{border: none;}
+#block-juanrueda-widget-youtube-widget-youtube-custom .content{padding: 0;}
+#block-juanrueda-widget-youtube-widget-youtube-custom p{margin-bottom: 0;}
+#block-juanrueda-widget-youtube-widget-youtube-custom iframe#fr{width: 100% !important;}
+#block-juanrueda-widget-youtube-widget-youtube-custom iframe#fr #container{border: none;}
 
 
 
@@ -1080,7 +1080,7 @@ padding-bottom: 4%;
 .responsive-layout-mobile #block-views-featured-slider-block .nivo-caption p {
     display: none;
 }
-.responsive-layout-mobile #block-block-5 , .responsive-layout-mobile  #block-block-4, .responsive-layout-mobile #block-block-3  {
+.responsive-layout-mobile #block-block-5 , .responsive-layout-mobile  #block-block-4, .responsive-layout-mobile #block-juanrueda-widget-youtube-widget-youtube-custom  {
     background: none repeat scroll 0 0 transparent;
     float: left;
     width: 25%;
@@ -1124,10 +1124,10 @@ padding-bottom: 4%;
 .responsive-layout-mobile  #block-block-4 h2.block-title {
     background: url("../images/ico-twitter-mobile.jpg") no-repeat scroll 0 0 transparent;
 }
-.responsive-layout-mobile  #block-block-3 h2.block-title {
+.responsive-layout-mobile  #block-juanrueda-widget-youtube-widget-youtube-custom h2.block-title {
     background: url("../images/ico-youtube-mobile.jpg") no-repeat scroll 0 0 transparent;
 }
-.responsive-layout-mobile  #block-block-3 h2.block-title , 
+.responsive-layout-mobile  #block-juanrueda-widget-youtube-widget-youtube-custom h2.block-title , 
 .responsive-layout-mobile #block-block-4 h2.block-title, 
 .responsive-layout-mobile #block-block-5 h2.block-title{
     display: block;
@@ -1165,7 +1165,7 @@ padding-bottom: 4%;
 .responsive-layout-mobile  #block-block-7,
 .responsive-layout-mobile.front #block-system-main .content,
 .responsive-layout-mobile  #block-block-5 .content .fb-like-box,
-.responsive-layout-mobile  #block-block-3 .content  .subscribe-youtube,
+.responsive-layout-mobile  #block-juanrueda-widget-youtube-widget-youtube-custom .content  .subscribe-youtube,
 .responsive-layout-mobile  #block-block-4 .content  .twitter-follow-big {
     display: none;
 }
@@ -1181,7 +1181,7 @@ body.responsive-layout-mobile {
 }
 .responsive-layout-mobile #block-block-5 .content, 
 .responsive-layout-mobile #block-block-4 .content, 
-.responsive-layout-mobile #block-block-3 .content {
+.responsive-layout-mobile #block-juanrueda-widget-youtube-widget-youtube-custom .content {
     padding: 0;
 }
 .mobile-subscribe-youtube a{
