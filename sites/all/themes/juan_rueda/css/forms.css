@@ -47,12 +47,19 @@ select {
   width: 100%;
 }
 input[type="text"], input[type="password"], textarea, input[type="search"], input[type="email"] {
-  background-color: #000;
   border: 1px solid #666;
-  color: #999999;
   font-size: 0.8em;
   padding: 5px;
 }
+input[type="search"] {
+  background-color: #000;
+  color: #999999;
+}
+input[type="text"], input[type="password"], input[type="email"] {
+  background-color: #fff;
+  color: #666666;
+}
+
 .page-user input[type="text"], .page-user input[type="password"] {
   width: 50%;
 }
