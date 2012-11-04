@@ -171,7 +171,7 @@ label {color: #FFFFFF;}
     width: 100%;
 }
 .es-carousel ul li {
-    display: inline-block;
+    x;
     height: 100%;
     float: none;
     *display: inline;
@@ -1118,6 +1118,8 @@ padding-bottom: 4%;
 .responsive-layout-mobile #region-footer-first .block ul li > div {
     display: inline-block;
     margin: 0;
+        *display: inline;
+    *zoom: 1;
 }
 
 .responsive-layout-mobile  #block-block-5 h2.block-title {
@@ -1204,6 +1206,9 @@ body.responsive-layout-mobile {
 .item-list ul.pager {
     clear: both;
     display: inline-block;
+        *display: inline;
+    *zoom: 1;
+
 }
 .view > .item-list{
     display: block;
@@ -1228,3 +1233,11 @@ body.responsive-layout-mobile {
 .page-tips-conozca-su-maquina  #page-title {background: url("../images/ico-repuestos.png") no-repeat scroll left -294px transparent;}
 .page-tips-disfrute-su-camion  #page-title{background: url("../images/ico-servicios.png") no-repeat scroll left -294px transparent;}
 .page-tips-conviertase-en-experto #page-title {background: url("../images/ico-latec.png") no-repeat scroll left -294px transparent;}
+
+.theme-dark .nivoSlider img {
+    border: 2px solid #888888;
+    border-radius: 10px 10px 10px 10px;
+}
+.theme-dark .nivoSlider{
+    background-color: transparent !important;
+}
