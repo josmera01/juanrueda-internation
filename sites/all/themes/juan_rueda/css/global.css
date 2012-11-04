@@ -764,6 +764,9 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .link-conteo li.flag .number{
 	background: url("../images/bg-like.png") no-repeat scroll 0 0 transparent;
 }
+.link-conteo li.visitas .number{
+    background: url("../images/visitas.png") no-repeat scroll 0 0 transparent;
+}
 .link-conteo li .number{
         padding: 5px 0 5px 32px;
     width: 35px;
