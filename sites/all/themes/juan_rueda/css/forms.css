@@ -46,7 +46,7 @@ select {
   padding: 1px 0 1px 5px;
   width: 100%;
 }
-input[type="text"], input[type="password"], textarea, input[type="search"] {
+input[type="text"], input[type="password"], textarea, input[type="search"], input[type="email"] {
   background-color: #000;
   border: 1px solid #666;
   color: #999999;
