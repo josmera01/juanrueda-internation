@@ -775,7 +775,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 }
 .bloque-gris .es-carousel-wrapper, .bloque-gris .es-carousel{background: none;}
 .bloque-gris #carousel .es-nav span.es-nav-prev{background: transparent url(../images/flecha-bloque-izq.png) no-repeat top left;}
-.bloque-gris #carousel .es-nav span.es-nav-next{background: transparent url(../images/flecha-bloque-der.png) no-repeat top left;}
+.bloque-gris #carousel .es-nav span.es-nav-next{background: transparent url(../images/flecha-bloque-der.png) no-repeat top right;}
 .bloque-gris .node #carousel ol, .bloque-gris .node #carousel ul{padding-left: 0;}
 .link-conteo{
     border-top: 1px solid #CCCCCC;
