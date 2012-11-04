@@ -30,14 +30,16 @@ function juanrueda_widget_youtube_block_info() {
 function html_widget_youtube_custom() {
   $output = '';
 
+  $path = drupal_get_path('module', 'juanrueda_widget_youtube');
+
   $json = file_get_contents("http://gdata.youtube.com/feeds/api/users/internationaltruck?alt=json");
   $data = json_decode($json, true);
   $subs = $data['entry']['yt$statistics']['subscriberCount'];
   $countVideos = $data['entry']['gd$feedLink'][4]['countHint'];
 
   $output .= '<div>';
-    $output .= '<img alt="Imagen del perfil" src="ytimg/international_trucks.jpg">';
-    $output .= '<img alt="Logotipo de YouTube" src="ytimg/youtube_icon_small.jpg">';
+    $output .= '<img alt="Imagen del perfil" src="' .$path. '/ytimg/international_trucks.jpg">';
+    $output .= '<img alt="Logotipo de YouTube" src="' .$path. '/ytimg/youtube_icon_small.jpg">';
     $output .= '</div>';
       $output .= '<div>';
       $output .= '<a href="http://www.youtube.com/InternationalTruck">InternationalTrucks</a><br/>';
