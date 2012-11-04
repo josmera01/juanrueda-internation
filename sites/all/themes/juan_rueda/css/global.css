@@ -8,7 +8,12 @@
 /*@import url(http://fonts.googleapis.com/css?family=Lato:400,300,700,900);*/
 
 iframe{max-width: 100%}
-
+.breadcrumb{
+    background: url("../images/ico-migadepan.png") no-repeat scroll 0 0 transparent;
+    margin-top: 20px;
+    padding-bottom: 0;
+    padding-left: 20px;
+}
 #zone-user {margin-top: 20px;}
 .block-title{color: #2D6CB4;}
 .block-title .field-name-body {text-align: center;}
@@ -76,6 +81,7 @@ iframe{max-width: 100%}
     color: #FF7B00;
     font-size: 2.51em;
     font-weight: 400;
+    margin: 0 0 4%;
 }
 label {color: #FFFFFF;}
 #section-content {
@@ -86,7 +92,7 @@ label {color: #FFFFFF;}
 .breadcrumb a{color: #e3e3e3;}
 
 #region-content.grid-12{
-    margin: 50px 0 !important;
+    margin: 20px 0 40px !important;
 }
 
 /***************************************SLIDER***********************************************/
