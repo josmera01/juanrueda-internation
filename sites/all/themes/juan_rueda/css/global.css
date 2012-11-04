@@ -1241,7 +1241,8 @@ body.responsive-layout-mobile {
 .theme-dark .nivoSlider{
     background-color: transparent !important;
 }
-.node-type-camion .field-name-field-galeria-usos-camion .field-label, .node-type-camion .block-ventaja-display-block h2 {
+.node-type-camion .field-name-field-galeria-usos-camion .field-label, 
+.node-type-camion .block-ventaja-display-block .block-inner > h2 {
     color: #999999;
     display: block;
     font-size: 1.4em;
