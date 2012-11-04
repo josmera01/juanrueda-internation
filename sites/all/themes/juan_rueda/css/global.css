@@ -94,10 +94,14 @@ label {color: #FFFFFF;}
 }
 #block-views-featured-slider-block .nivo-caption h1,
 .field-name-field-slider-camion .nivo-caption h1 {
-    font-size: 2em;
-    font-weight: 400;
+    font-size: 1.3em;
+    font-weight: 100;
+    text-transform: uppercase;
 }
-#block-views-featured-slider-block .nivo-caption p,   .field-name-field-slider-camion .nivo-caption p{font-size: 1.06em;}
+#block-views-featured-slider-block .nivo-caption p,   .field-name-field-slider-camion .nivo-caption p{
+    font-size: 0.9em;
+    margin: 10px 0;
+}
 #block-views-featured-slider-block  .nivo-controlNav, .field-name-field-slider-camion .nivo-controlNav {
     background-image: linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
     background-image: -o-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
@@ -659,6 +663,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     font-size: 1.3em;
     font-weight: 400;
     line-height: 1;
+    padding: 5px 0 10px 50px;
 }
 .page-noticias-y-eventos .bloque-gris .masonry-item h2 a {
     padding-left: 40px;
