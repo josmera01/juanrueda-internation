@@ -1218,9 +1218,10 @@ body.responsive-layout-mobile {
 .front #region-content #page-title{
     display: none;
 }
-
-
-
 .html #region-postscript-fourth.grid-12 {
     margin: 30px 0;
+}
+.page-camiones  #page-title {
+    background: url("../images/ico-camiones.png") no-repeat scroll left -294px transparent;
+    padding-left: 50px;
 }
