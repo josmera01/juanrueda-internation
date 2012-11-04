@@ -21,7 +21,7 @@ iframe{max-width: 100%}
 #block-block-5, #block-block-4, #block-block-3 {border-radius: 0.5em 0.5em 0 0;}
 #block-block-5 .content, #block-block-4 .content, #block-block-3 .content {padding: 0 1em;}
 #block-block-5, #block-widgets-s-facebook-like-box  {background: url("../images/cabecera-facebook.png") repeat-x scroll 0 0 #FFFFFF;}
-#block-block-4 {background: url("../images/cabecera-twitter.png") repeat-x scroll 0 0 #FFFFFF;}
+#block-block-4, #block-block-9 {background: url("../images/cabecera-twitter.png") repeat-x scroll 0 0 #FFFFFF;}
 #block-block-4 .content p{
     text-align: center;
     width: 100%;
@@ -29,7 +29,7 @@ iframe{max-width: 100%}
 
 #block-block-3 h2.block-title, #block-block-4 h2.block-title, 
 #block-block-5 h2.block-title, #block-widgets-s-facebook-like-box h2.block-title,
-#h2.block-title h2.block-title{
+#block-block-9 h2.block-title{
     border: 0 none;
     color: white;
     font-size: 0.9em;
