@@ -714,22 +714,47 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .bloque-gris #carousel .es-nav span.es-nav-prev{background: transparent url(../images/flecha-bloque-izq.png) no-repeat top left;}
 .bloque-gris #carousel .es-nav span.es-nav-next{background: transparent url(../images/flecha-bloque-der.png) no-repeat top left;}
 .bloque-gris .node #carousel ol, .bloque-gris .node #carousel ul{padding-left: 0;}
-
+.link-conteo{
+    border-top: 1px solid #CCCCCC;
+    overflow: hidden;
+    padding-top: 4%;
+}
 .link-conteo li{
     float: left;
     list-style: none outside none;
 }
-.link-conteo li.comentario {
+.link-conteo li.comentario .number{
 	background: url("../images/bg-comentarios.png") no-repeat scroll 0 0 transparent;
 }
-.link-conteo li.flag {
+.link-conteo li.flag .number{
 	background: url("../images/bg-like.png") no-repeat scroll 0 0 transparent;
 }
-.link-conteo li{
-	padding: 3px 0 3px 35px;
-	margin-right: 15px;
+.link-conteo li .number{
+        padding: 5px 0 5px 32px;
+    width: 35px;
 }
-
+.link-conteo li .label{
+    font-weight: 600;
+    text-align: right;
+}
+.link-conteo li{
+    font-size: 0.7em;
+    margin: 0 4%;
+}
+.link-conteo li span{
+    display: block;
+    text-align: center;
+}
+.view-entradas-recientes .field-name-body{
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 4%;
+}
+.field-name-node-link a{
+    background: url("../images/ver_mas.png") no-repeat scroll right 0 transparent;
+    font-size: 0.8em;
+    font-weight: 600;
+    padding-right: 15px;
+}
 /**************************** PAGINA CAMIONES **********************************/
 
 .page-camiones .view-header h2{
