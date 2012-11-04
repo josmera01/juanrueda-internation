@@ -28,7 +28,8 @@ img{
     max-width: 100%;
 }
 p{
-  font-size: 0.85em;
+    font-size: 0.85em;
+    margin: 10px 0;
 }
 /*FULLTABS*/
 

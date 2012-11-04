@@ -739,7 +739,6 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     font-size: 1em;
     font-weight: 300;
 }
-.bloque-gris .field-name-body p{margin: 0;}
 .bloque-gris .node-article, .bloque-gris .node-evento, .bloque-gris .node-camion {padding: 1em 1.2em 1.2em 1.2em;}
 .bloque-gris .node-evento .field-label{float: left;}
 .bloque-gris .node-evento .field-name-field-fecha{
