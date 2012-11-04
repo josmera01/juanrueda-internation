@@ -668,21 +668,25 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     background-image: -webkit-linear-gradient(bottom, #B3B3B3 16%, #CFCFCF 58%);
     background-image: -ms-linear-gradient(bottom, #B3B3B3 16%, #CFCFCF 58%);
     border-radius: 5px 5px 0 0;
-    color: #000000;
-    font-size: 1.19em;
+    background-color: #B3B3B3;
+    border-radius: 5px 5px 0 0;
+    color: #555555;
+    font-size: 1.1em;
     font-weight: normal;
     margin: 0;
-    padding: 3% 0 3% 8%;
+    padding: 4% 0 4% 8%;
 }
 .view-mapa-contacto .views-field-php span,
 .view-mapa-contacto .views-field-php-1 span{
-    padding: 0;
+    padding: 0 !important;
 }
 .view-mapa-contacto .views-field-php a,
 .view-mapa-contacto .views-field-php-1 a{
     color: #FFFFFF;
-    display: block;
+    display: inline-block;
     padding: 8px 15px 10px 25px;
+    *display: inline;
+    *zoom: 1;
 }
 .view-mapa-contacto .views-field-php a{
     background: url("../images/ico-contactar-mini.png") no-repeat 5px center transparent;
