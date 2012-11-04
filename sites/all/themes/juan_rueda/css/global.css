@@ -813,7 +813,7 @@ border-bottom: 1px solid white;
 padding-bottom: 4%;
 }
 .field-name-node-link a{
-    background: url("../images/ver_mas.png") no-repeat scroll right 0 transparent;
+    background: url("../images/ver_mas.png") no-repeat scroll right 3px transparent;
     font-size: 0.8em;
     font-weight: 600;
     padding-right: 15px;
@@ -1224,4 +1224,22 @@ body.responsive-layout-mobile {
 .page-camiones  #page-title {
     background: url("../images/ico-camiones.png") no-repeat scroll left -294px transparent;
     padding-left: 50px;
+}
+.page-tips-conozca-su-maquina  #page-title {
+    background: url("../images/ico-repuestos.png") no-repeat scroll left -294px transparent;
+    padding-left
+}
+.page-tips-disfrute-su-camion  #page-title{
+    background: url("../images/ico-servicios.png") no-repeat scroll left -294px transparent;
+    padding-left
+}
+.page-tips-conviertase-en-experto #page-title {
+    background: url("../images/ico-latec.png") no-repeat scroll left -294px transparent;
+    padding-left
+}
+.view-pagina-por-t-rmino-de-taxonom-a .field-name-title {
+    font-size: 1em;
+}
+.view-camiones .field-name-title {
+    font-size: 1.4em;
 }
