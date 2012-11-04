@@ -173,6 +173,9 @@ label {color: #FFFFFF;}
     padding: 5px 0;
     text-align: center;
 }
+#region-content.grid-12{
+    margin: 50px 0 !important;
+}
 
 #block-views-bloque-todos-los-camiones-block .views-row:hover .field-name-title a,
 #block-views-bloque-todos-los-camiones-block .field-name-title a.active,
@@ -187,16 +190,19 @@ label {color: #FFFFFF;}
 .responsive-layout-wide #carousel-camion.es-carousel-wrapper{padding: 0;}
 .responsive-layout-wide #carousel-camion .es-nav {display: none;}
 .responsive-layout-wide #carousel-camion ul{width: 100% !important;}
-.responsive-layout-wide #carousel-camion ul li{margin-right: 1.5em !important;}
 .responsive-layout-wide #carousel-camion ul li.last{margin-right: 0 !important;}
 
+.es-carousel ul li a img {
+    display: block;
+    width: 100%;
+}
 #carousel-camion .es-nav span.es-nav-prev, #carousel-historico .es-nav span.es-nav-prev{background: transparent url(../images/flecha-bloque-izq.png) no-repeat top left;}
 #carousel-camion .es-nav span.es-nav-next, #carousel-historico .es-nav span.es-nav-next{background: transparent url(../images/flecha-bloque-der.png) no-repeat top left;}
 
 
 /***************************************HEADER***********************************************/
 
-#section-header{background: url("../images/juan-rueda.png") no-repeat left bottom transparent;}
+#section-header{background: url("../images/juan-rueda.png") no-repeat left top transparent;}
 
 .branding-data {text-align: center;}
 .site-name-slogan {float: none;}
