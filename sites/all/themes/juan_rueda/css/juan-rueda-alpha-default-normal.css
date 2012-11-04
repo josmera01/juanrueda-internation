@@ -14,22 +14,11 @@
 .page-noticias-y-eventos #region-content.grid-8{
 	width: 640px;
 }
-
-body.responsive-layout-normal #block-menu-menu-menu-secciones-principales .content ul li a{
-	width: 100%;
-	padding: 3.2em 0 0 0;
-}
-
-body.responsive-layout-normal #block-menu-menu-menu-secciones-principales .content ul li.first a span.titulo_menu{
-	padding: 4% 12% 0;
-}
-body.responsive-layout-normal #block-menu-menu-menu-secciones-principales .content ul li a span.texto{
-	padding: 2.5% 6%;
+#block-menu-menu-menu-secciones-principales .content ul li a span.texto {
+    font-size: 0.85em;
+    width: auto;
 }
 
 /******** Footer *******/
-
-body.responsive-layout-normal #zone-footer .block {margin-left: 3%;}
-body.responsive-layout-normal #zone-footer .block#block-menu-menu-paises {width: 33%;}
 
 .twitter-follow-small, .fb_edge_widget_with_comment, .mobile-subscribe-youtube{display: none;}

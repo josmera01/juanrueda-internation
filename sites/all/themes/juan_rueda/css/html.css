@@ -1,0 +1,131 @@
+body {
+    background: url("../images/home-background.jpg") no-repeat scroll center 0 #212121;
+    background-size: 100%;
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.2;
+    font-weight: lighter;
+    font-size: 1em;
+}
+h1, h2, h3, h4, h5, h6 {font-family: 'Lato', sans-serif;}
+a:link, a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+ul li.leaf {
+    list-style: none outside none;
+}
+#zone-footer .item-list ul li,  #zone-footer .item-list ul li.leaf {
+    list-style-image: url("../../../../../misc/menu-leaf.png");
+    list-style-type: square;
+}
+
+img{
+    height: auto;
+    max-width: 100%;
+}
+p{
+  font-size: 0.85em;
+}
+/*FULLTABS*/
+
+ul.primary {
+    float: left;
+    font-weight: bold;
+    height: auto;
+    line-height: normal;
+    list-style: none outside none;
+    width: 100%;
+    cursor:pointer;
+}
+ul.primary li {
+  display: inline;
+}
+ul.primary li a {
+  background-color: #666666;
+  color: #FFFFFF;
+  text-decoration: none;
+  display: block;
+  float: left;
+  font-size: 1em;
+  padding: 10px 15px;
+  text-transform: uppercase;
+}
+ul.primary li.active a {
+  background-color: #333333;
+}
+ul.primary li a:hover {
+  background-color: #999999;
+}
+ul.secondary {
+  padding: 1em;
+  margin: 5px;
+  cursor:pointer;
+}
+ul.secondary li {
+  display: inline;
+  padding: 0 1em;
+}
+ul.secondary a {
+  padding: 0;
+  text-decoration: none;
+}
+ul.secondary a.active {
+  border: none;
+}
+ol li, ol li p, .date-publication {
+  margin: auto;
+  font-size: 1em
+}
+ul.menu li {
+  margin: 0 0 5px;
+}
+
+.item-list .pager li {
+    display: inline;
+    font-size: 0.9em;
+    font-weight: lighter;
+    margin: 5px;
+    padding: 0;
+}
+/*****TABLAS****/
+table{
+  width: 100%;
+}
+th{
+    border: 0 none;
+    font-size: 0.9em;
+    padding: 10px 15px;
+}
+tbody {
+}
+table input[type="text"] {
+  width: auto;
+}
+tr.even, tr.odd {
+  border-bottom: none;
+  padding: 0.1em 0.6em;
+}
+tr.even {
+}
+tr.odd {
+}
+tr.even td, tr.odd td {
+  font-size: 0.9em;
+  padding: 5px 15px;
+}
+/***RELOJ AJAX***/
+
+.ajax-progress.ajax-progress-throbber {
+  position: relative;
+}
+.ajax-progress .throbber {
+  position: absolute;
+}
+.ajax-progress.ajax-progress-throbber .message {
+  display: none;
+}
+.sticky-table .ajax-progress .throbber {
+  float: none;
+  position: absolute;
+}

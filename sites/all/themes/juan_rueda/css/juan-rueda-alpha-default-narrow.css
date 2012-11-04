@@ -15,7 +15,6 @@
 .page-noticias-y-eventos #region-content.grid-8{
 	width: 480px;
 }
-
 .responsive-layout-narrow #block-menu-menu-menu-secciones-principales .content ul li a{
 	width: 100%;
 	padding: 3.2em 0 0 0;
@@ -32,12 +31,13 @@
 .responsive-layout-narrow #block-menu-menu-menu-secciones-principales .content ul li a span.texto{display: none;}
 
 .responsive-layout-narrow #section-header{background-size: 30%;}
+.responsive-layout-narrow .branding-data h1.site-name, .responsive-layout-narrow .branding-data h2.site-name{background-size: 50%;}
 
 .responsive-layout-narrow .social_networks_links li{margin-top: 0;}
-.responsive-layout-narrow .social_networks_links li a {
-	height: 1.85em;
-	width: 1.8em;
-	border-radius: 0.3em;
+.responsive-layout-narrow .social_networks_links li a  {
+    border-radius: 0.3em 0.3em 0.3em 0.3em;
+    height: 25px;
+    width: 30px;
 }
 .responsive-layout-narrow .social_networks_links li#twitter a {background-position: -60px -18px;}
 .responsive-layout-narrow .social_networks_links li#facebook a {background-position: -18px -17px;}
@@ -50,6 +50,9 @@
 .responsive-layout-narrow .social_networks_links li#youtube a:hover,
 .responsive-layout-narrow .social_networks_links li#youtube a.active {background-position: -101px -43px;}
 
-.responsive-layout-narrow #block-views-bloque-todos-los-camiones-block{display: none;}
-
 .twitter-follow-small, .fb_edge_widget_with_comment, .mobile-subscribe-youtube{display: none;}
+
+.responsive-layout-narrow  #zone-footer #block-menu-menu-paises .leaf {
+
+    width: 45%;
+}
