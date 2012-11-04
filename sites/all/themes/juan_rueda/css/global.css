@@ -189,7 +189,17 @@ label {color: #FFFFFF;}
 
 .responsive-layout-wide #carousel-camion.es-carousel-wrapper{padding: 0;}
 .responsive-layout-wide #carousel-camion .es-nav {display: none;}
-.responsive-layout-wide #carousel-camion ul{width: 100% !important;}
+.responsive-layout-wide #carousel-camion ul{
+    width: 100% !important;
+    text-align: center;
+}
+.es-carousel ul li {
+    display: inline-block;
+    height: 100%;
+    float: none;
+    *display: inline;
+    *zoom:1;
+}
 .responsive-layout-wide #carousel-camion ul li.last{margin-right: 0 !important;}
 
 .es-carousel ul li a img {
@@ -414,10 +424,13 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
     width: auto;
 }
 #region-footer-second{
-    border-top: 1px solid #222222;
-    margin-top: 20px;
-    overflow: hidden;
-    padding: 5px 0 20px;
+    font-size: 1.1em;
+    font-weight: lighter;
+    height: auto;
+    margin-bottom: 15px;
+    min-height: 18px;
+    padding-top: 50px;
+    text-align: center;
 }
 #zone-footer #block-block-2{
     float: right;
