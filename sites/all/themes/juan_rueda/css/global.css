@@ -750,8 +750,20 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .bloque-gris .node-article .field-name-title a:link, .bloque-gris .node-evento .field-name-title a:link{background-position: 0 -6px;}
 .bloque-gris .node-article .field-name-title a:hover, .bloque-gris .node-evento .field-name-title a:hover{background-position: 0 -308px;}
 .page-tips .bloque-gris .node-article .field-name-title a, .node-type-camion .bloque-gris .node-article .field-name-title a{background: none;}
+
 .page-tips .bloque-gris .node-article .field-name-title a,
-.node-type-camion .bloque-gris .node-article .field-name-title a{background: none;}
+.node-type-camion .bloque-gris .node-article .field-name-title a{
+	background: none;
+	padding-left: 0;
+}
+
+.view-pagina-por-t-rmino-de-taxonom-a .field-name-title {
+    font-size: 0.8em;
+}
+.view-camiones .field-name-title {
+    font-size: 1.2em;
+}
+
 
 .bloque-gris a:link {color: #1B457A;}
 .bloque-gris a:hover{text-decoration: underline;}
@@ -966,25 +978,6 @@ padding-bottom: 4%;
 #block-block-3 iframe#fr{width: 100% !important;}
 #block-block-3 iframe#fr #container{border: none;}
 
-/***************************************** HISTORIA ************************************************
-
-#carousel-historico {    
-    border: 1px solid #FFFFFF;
-    margin-top: 4% 0 2%;
-}
-#carousel-historico ul {
-    overflow: hiddden !important;
-    width: 100% !important;
-}
-#carousel-historico li {
-    margin-right: 2% !important;
-    width: 22% !important;
-}
-#carousel-historico span {
-    color: #FE7C0C;
-    font-size: 1.7em;
-}
-#carousel-historico img {margin-bottom: 5%;}
 
 
 /***************************************** CSS MOBILE ************************************************/
@@ -1229,15 +1222,7 @@ body.responsive-layout-mobile {
 	padding-left: 50px;
     padding-bottom: 12px;
 }
-
 .page-camiones #page-title {background: url("../images/ico-camiones.png") no-repeat scroll left -300px transparent;}
 .page-tips-conozca-su-maquina  #page-title {background: url("../images/ico-repuestos.png") no-repeat scroll left -294px transparent;}
 .page-tips-disfrute-su-camion  #page-title{background: url("../images/ico-servicios.png") no-repeat scroll left -294px transparent;}
 .page-tips-conviertase-en-experto #page-title {background: url("../images/ico-latec.png") no-repeat scroll left -294px transparent;}
-
-.view-pagina-por-t-rmino-de-taxonom-a .field-name-title {
-    font-size: 0.8em;
-}
-.view-camiones .field-name-title {
-    font-size: 1.2em;
-}
