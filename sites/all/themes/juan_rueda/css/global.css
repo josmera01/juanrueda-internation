@@ -487,7 +487,9 @@ ul.menu {
     line-height: 1;
     margin-bottom: 0.5em;
 }
-.block ul.social_networks_sitemap li#twitter {background-position: 0px -29px;}
+.block ul.social_networks_sitemap li#twitter {
+background-position: 0px -28px;
+}
 .block ul.social_networks_sitemap li#facebook {background-position: 0px 1px;}
 .block ul.social_networks_sitemap li#youtube {background-position: 0px -60px;}
 .block ul.social_networks_sitemap li#twitter:hover {background-position: 0px -41px;}
