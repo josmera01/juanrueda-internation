@@ -452,7 +452,7 @@ ul.menu {
     padding-top: 50px;
     text-align: center;
 }
-
+.responsive-layout-wide #carousel-camion .es-carousel ul li{margin-right: 1.75% !important;}
 #block-menu-menu-international-menu-inferior h2{background: url("../images/ico-international.png") no-repeat scroll center 0 transparent;}
 #zone-footer #block-views-menu-block h2{background: url("../images/ico-camion-footer.png") no-repeat scroll center 0 transparent;}
 #zone-footer #block-menu-menu-tips-de-juan-rueda h2{background: url("../images/ico-tips-footer.png") no-repeat scroll center 0 transparent;}
@@ -660,11 +660,9 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     font-weight: 400;
     line-height: 1;
 }
-.front .bloque-gris .masonry-item h2 a, .page-noticias-y-eventos .bloque-gris .masonry-item h2 a {
-    display: block;
-    font-size: 1em;
-    min-height: auto;
+.page-noticias-y-eventos .bloque-gris .masonry-item h2 a {
     padding-left: 40px;
+    font-size: 1em;
 }
 .front #block-system-main{
     display: none;
@@ -1115,7 +1113,7 @@ body.responsive-layout-mobile {
 .view > .item-list{
     text-align: center;
 }
-#region-content #page-title{
+.front #region-content #page-title{
     display: none;
 }
 .link-conteo li{
