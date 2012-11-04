@@ -32,12 +32,19 @@ label {
 .resizable-textarea .grippie {
   display: none
 }
-select{
+.select-jr {
+  background: url("../images/flecha-select.png") no-repeat #fff;
     border: 1px solid #666666;
     font-size: 0.8em;
     margin: 5px 0;
     padding: 1.5%;
     width: 100%;
+}
+select{
+  width: 130%;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
 }
 input[type="text"], input[type="password"], textarea, input[type="search"], input[type="email"], .form-textarea-wrapper textarea  {
     border: 1px solid #666666;
