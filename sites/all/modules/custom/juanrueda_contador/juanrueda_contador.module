@@ -43,7 +43,7 @@ function html_contador_personalizado($nid = NULL) {
     );
 
 $links['visitas'] = array(
-    'title' => t('@total Visitas', array('@total' => 1))
+    'title' => t('<span class="number">@total</span> <span class="label">Visitas</span>', array('@total' => _contador_like_drupal($nid))),
   );
 
   $content['link']= array(
