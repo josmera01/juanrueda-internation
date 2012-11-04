@@ -171,7 +171,7 @@ label {color: #FFFFFF;}
     width: 100%;
 }
 .es-carousel ul li {
-    x;
+    display: inline-block;
     height: 100%;
     float: none;
     *display: inline;
@@ -1240,4 +1240,7 @@ body.responsive-layout-mobile {
 }
 .theme-dark .nivoSlider{
     background-color: transparent !important;
+}
+.field-name-field-galeria-usos-camion {
+
 }
