@@ -28,17 +28,19 @@ iframe{max-width: 100%}
 }
 
 #block-block-3 h2.block-title, #block-block-4 h2.block-title, 
-#block-block-5 h2.block-title, #block-widgets-s-facebook-like-box h2.block-title {
+#block-block-5 h2.block-title, #block-widgets-s-facebook-like-box h2.block-title,
+#h2.block-title h2.block-title{
     border: 0 none;
     color: white;
     font-size: 0.9em;
     line-height: 2;
     padding: 10px 0 22px 70px;
+    margin: 0;
 }
 #block-block-3  {
     background: url("../images/cabecera-youtube.png") repeat-x scroll 0 0 #FFFFFF;
 }
-#block-block-4 h2.block-title {
+#block-block-4 h2.block-title, #block-block-9 h2.block-title {
     background: url("../images/logo-twitter.png") no-repeat scroll 10px 7px transparent;
 }
 #block-block-5 h2.block-title, #block-widgets-s-facebook-like-box h2.block-title  {
