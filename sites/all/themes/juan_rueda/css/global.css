@@ -127,7 +127,6 @@ label {color: #FFFFFF;}
 #block-views-featured-slider-block .nivo-controlNav a.active, .field-name-field-slider-camion  .nivo-controlNav a.active{background: url("../images/jr-images.png") no-repeat scroll -25px -415px transparent;}
 #block-views-featured-slider-block .nivo-directionNav, .field-name-field-slider-camion  .nivo-directionNav{display: none;}
 
-<<<<<<< HEAD/*
 .nivo-caption {
     background: #000000;
     background: -moz-linear-gradient(left, transparent 10%, black 80%);
@@ -146,7 +145,8 @@ label {color: #FFFFFF;}
     right: 1%;
     top: auto;
     width: 35%;
-}*/
+}
+
 #views-nivo-slider-featured_slider-block {
     border: 2px solid #FFFFFF;
     border-radius: 5px 5px 5px 5px;
@@ -224,6 +224,7 @@ label {color: #FFFFFF;}
     background-image: url("../images/jr-texto.png");
     background-position: center top;
     background-repeat: no-repeat;
+    background-size: 50% auto;
     height: 48px;
     margin: 1.5em 0;
     text-indent: -9999px;
@@ -456,7 +457,7 @@ ul.menu {
     padding-top: 50px;
     text-align: center;
 }
-.responsive-layout-wide #carousel-camion .es-carousel ul li{margin-right: 1.75% !important;}
+.responsive-layout-wide #carousel-camion .es-carousel ul li{margin-right: 1.5% !important;}
 #block-menu-menu-international-menu-inferior h2{background: url("../images/ico-international.png") no-repeat scroll center 0 transparent;}
 #zone-footer #block-views-menu-block h2{background: url("../images/ico-camion-footer.png") no-repeat scroll center 0 transparent;}
 #zone-footer #block-menu-menu-tips-de-juan-rueda h2{background: url("../images/ico-tips-footer.png") no-repeat scroll center 0 transparent;}
@@ -660,9 +661,11 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 }
 .bloque-gris h2 a{
     color: #1B457A;
+    display: block;
     font-size: 1.3em;
     font-weight: 400;
     line-height: 1;
+    margin-bottom: 20px;
     padding: 5px 0 10px 50px;
 }
 .page-noticias-y-eventos .bloque-gris .masonry-item h2 a {
@@ -921,7 +924,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content ul li a {
     background-position: 2em 0.8em;
     height: 2.7em;
-    padding: 1.3em 0 0 70px;
+    padding: 1.3em 0 0 85px;
     text-align: left;
     width: auto;
 }
@@ -1047,7 +1050,8 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     float: none;
     font-size: 0;
     height: 65px;
-    margin: 0 auto 25px;
+    margin: 0 auto;
+    padding: 0;
     width: 68px;
 }
 .html.responsive-layout-mobile  #region-postscript-fourth{
@@ -1116,6 +1120,8 @@ body.responsive-layout-mobile {
     display: inline-block;
 }
 .view > .item-list{
+    display: block;
+    margin-top: 40px;
     text-align: center;
 }
 .front #region-content #page-title{
