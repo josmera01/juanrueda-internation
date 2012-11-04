@@ -41,6 +41,7 @@ label {
     padding: 1.5%;
     width: 100%;
     padding-right: 30px;
+    max-width: 315px;
 }
 select{
   width: 120%;
@@ -48,12 +49,20 @@ select{
   border: 0;
   -webkit-appearance: none;
 }
-input[type="text"], input[type="password"], textarea, input[type="search"], input[type="email"], .form-textarea-wrapper textarea  {
+ .form-textarea-wrapper textarea , textarea {
     border: 1px solid #666666;
     font-size: 0.8em;
     margin: 5px 0;
     padding: 1.5%;
     width: 100%;
+}
+input[type="text"], input[type="password"], input[type="search"], input[type="email"] {
+    border: 1px solid #666666;
+    font-size: 0.8em;
+    margin: 5px 0;
+    padding: 1.5%;
+    width: 100%;
+    max-width: 340px;
 }
 input[type="search"] {
   background-color: #000;
@@ -64,19 +73,20 @@ input[type="text"], input[type="password"], input[type="email"], .form-textarea-
   color: #666666;
 }
 
-.page-user input[type="text"], .page-user input[type="password"] {
-  width: 50%;
-}
 /***BOTONES */
 
 input[type="submit"], .form-actions input {
-  border:none;
-  cursor: pointer;
-  font-size: 0.7em;
-  font-weight: bold;
-  margin: 1em 0;
-  padding: 5px 10px;
-  text-transform: uppercase;
+    background-color: #133155;
+    background-image: linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+    background-image: -o-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+    background-image: -moz-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+    background-image: -webkit-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+    background-image: -ms-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+    border: 0 none;
+    border-radius: 7px 7px 7px 7px !important;
+    color: #FFFFFF;
+    float: right;
+    padding: 8px 20px;
 }
 input[type="submit"]:active {
 }
