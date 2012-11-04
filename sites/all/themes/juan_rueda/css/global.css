@@ -8,7 +8,12 @@
 /*@import url(http://fonts.googleapis.com/css?family=Lato:400,300,700,900);*/
 
 iframe{max-width: 100%}
-
+.breadcrumb {
+    background: url("../images/ico-migadepan.png") no-repeat scroll 0 4px transparent;
+    margin-top: 20px;
+    padding-bottom: 0;
+    padding-left: 25px;
+}
 #zone-user {margin-top: 20px;}
 .block-title{color: #2D6CB4;}
 .block-title .field-name-body {text-align: center;}
@@ -18,50 +23,25 @@ iframe{max-width: 100%}
     margin: 20px 0 30px;
     text-align: center;
 }
-#block-block-5, #block-block-4, #block-block-3 {border-radius: 0.5em 0.5em 0 0;}
-#block-block-5 .content, #block-block-4 .content, #block-block-3 .content {padding: 0 1em;}
-#block-block-5, #block-widgets-s-facebook-like-box  {background: url("../images/cabecera-facebook.png") repeat-x scroll 0 0 #FFFFFF;}
-#block-block-4 {background: url("../images/cabecera-twitter.png") repeat-x scroll 0 0 #FFFFFF;}
-#block-block-4 .content p{
-    text-align: center;
-    width: 100%;
+
+.page-contacte-su-distribuidor .container-12 .grid-4 {
+   
+}
+.page-contacte-su-distribuidor #page-title {
+    background: url("../images/ico-contacto.png") no-repeat scroll left -294px transparent;
+    padding-left: 50px;
 }
 
-#block-block-3 h2.block-title, #block-block-4 h2.block-title, 
-#block-block-5 h2.block-title, #block-widgets-s-facebook-like-box h2.block-title {
-    border: 0 none;
-    color: white;
-    font-size: 0.9em;
-    line-height: 2;
-    padding: 10px 0 22px 70px;
+#block-block-9{
+    margin-bottom: 4%;
 }
-#block-block-3  {
-    background: url("../images/cabecera-youtube.png") repeat-x scroll 0 0 #FFFFFF;
-}
-#block-block-4 h2.block-title {
-    background: url("../images/logo-twitter.png") no-repeat scroll 10px 7px transparent;
-}
-#block-block-5 h2.block-title, #block-widgets-s-facebook-like-box h2.block-title  {
-    background: url("../images/logo-facebook.png") no-repeat scroll 10px 7px transparent;
-}
-.fb-like.fb_edge_widget_with_comment.fb_iframe_widget, #footer-container #branding{
-    display: none;
-}
-#picture-floater {
-    float: left;
-    margin: 0 15px 0 0;
-}
-#publisher{
-    float: left;
-    width: 50%;
-}
-#block-block-5 #fb-root {display: none;}
-#block-block-5 .fb-like-box {margin-top: -10px;}
+
 #page-title {
     border-bottom: 1px solid #FF7B00;
     color: #FF7B00;
     font-size: 2.51em;
     font-weight: 400;
+    margin: 0 0 4%;
 }
 label {color: #FFFFFF;}
 #section-content {
@@ -72,7 +52,7 @@ label {color: #FFFFFF;}
 .breadcrumb a{color: #e3e3e3;}
 
 #region-content.grid-12{
-    margin: 50px 0 !important;
+    margin: 20px 0 40px !important;
 }
 
 /***************************************SLIDER***********************************************/
@@ -191,7 +171,7 @@ label {color: #FFFFFF;}
     width: 100%;
 }
 .es-carousel ul li {
-    display: inline-block;
+    x;
     height: 100%;
     float: none;
     *display: inline;
@@ -487,7 +467,9 @@ ul.menu {
     line-height: 1;
     margin-bottom: 0.5em;
 }
-.block ul.social_networks_sitemap li#twitter {background-position: 0px -29px;}
+.block ul.social_networks_sitemap li#twitter {
+background-position: 0px -28px;
+}
 .block ul.social_networks_sitemap li#facebook {background-position: 0px 1px;}
 .block ul.social_networks_sitemap li#youtube {background-position: 0px -60px;}
 .block ul.social_networks_sitemap li#twitter:hover {background-position: 0px -41px;}
@@ -545,16 +527,12 @@ ul.menu {
 .responsive-layout-mobile #block-webform-client-block-62 .webform-component-select,
 .responsive-layout-mobile #block-webform-client-block-62 .webform-component-email {width: 98%}
 
-#block-webform-client-block-62 .form-text, #block-webform-client-block-62 .form-select {
-	width: 100%;
-	height: 2.3em;
-}
 #block-webform-client-block-62 .webform-component-textarea {float: left;}
 #block-webform-client-block-62 .webform-component-textarea, #block-webform-client-block-62 #edit-actions {width: 98%;}
 #block-webform-client-block-62 #edit-actions {overflow: hidden;}
 #block-webform-client-block-62 label {padding-left: 10px;}
 .marker, .form-required {color: #FF7B00;}
-form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 a, .view-mapa-contacto .attachment .views-field-php a,
+form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .view-mapa-contacto .attachment .views-field-php span,
 .pager li a {
 	background-color: #133155;
     background-image: linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
@@ -567,6 +545,7 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 a, .view-m
     color: #FFFFFF;
     float: right;
     padding: 8px 20px;
+    margin-right: 3%;
 }
 .pager li.pager-next{
     border-left: 0;
@@ -581,8 +560,8 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 a, .view-m
     overflow: hidden;
     padding: 20px 0;
 }
-form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-mapa-contacto .attachment .views-field-php-1 a:hover,
-.view-mapa-contacto .attachment .views-field-php a:hover {
+form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-mapa-contacto .attachment .views-field-php-1 span:hover,
+.view-mapa-contacto .attachment .views-field-php span:hover {
 	background-color: #194E99;
     background-image: linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
     background-image: -o-linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
@@ -594,9 +573,8 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 #webform-component-correo-electronico {clear: left;}
 
 .view-mapa-contacto h2{
-	font-size: 2em;
-	font-weight: 300;
-	letter-spacing: normal;
+    font-size: 1.5em;
+    font-weight: lighter;
 }
 .view-mapa-contacto .attachment, .view-mapa-contacto .view-content {float: left;}
 .view-mapa-contacto .attachment {
@@ -607,17 +585,24 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     margin-right: 5%;
     width: 25%;
 }
-.view-mapa-contacto .attachment .views-field-title {
+.view-mapa-contacto .attachment .views-field-field-ciudad {
     font-size: 1.06em;
     font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.view-mapa-contacto .views-row {
+    font-size: 0.85em;
+    margin: 5% 10% 0;
 }
 .view-mapa-contacto .view-content {width: 70%;}
-.view-mapa-contacto .attachment p {margin: 0;}
 
 .responsive-layout-mobile .view-mapa-contacto .view-content, .responsive-layout-mobile .view-mapa-contacto .attachment {width: 100%;}
 
 .view-mapa-contacto .view-mapa-contacto .view-content {
+    height: 375px;
     margin-left: 0;
+    overflow: auto;
     width: 100%;
 }
 .view-mapa-contacto .view-mapa-contacto ul, .view-mapa-contacto .view-mapa-contacto li {overflow: hidden;}
@@ -645,11 +630,31 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     background-image: -webkit-linear-gradient(bottom, #B3B3B3 16%, #CFCFCF 58%);
     background-image: -ms-linear-gradient(bottom, #B3B3B3 16%, #CFCFCF 58%);
     border-radius: 5px 5px 0 0;
-    color: #000000;
-    font-size: 1.19em;
+    background-color: #B3B3B3;
+    border-radius: 5px 5px 0 0;
+    color: #555555;
+    font-size: 1.1em;
     font-weight: normal;
     margin: 0;
-    padding: 3% 0 3% 8%;
+    padding: 4% 0 4% 8%;
+}
+.view-mapa-contacto .views-field-php span,
+.view-mapa-contacto .views-field-php-1 span{
+    padding: 0 !important;
+}
+.view-mapa-contacto .views-field-php a,
+.view-mapa-contacto .views-field-php-1 a{
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 8px 15px 10px 25px;
+    *display: inline;
+    *zoom: 1;
+}
+.view-mapa-contacto .views-field-php a{
+    background: url("../images/ico-contactar-mini.png") no-repeat 5px center transparent;
+}
+.view-mapa-contacto .views-field-php-1 a{
+    background: url("../images/ico-ubicar-mapa.png") no-repeat 5px center transparent;
 }
 /**********************************MASONRY VIEWS - BLOQUES GRISES***********************************/
 
@@ -706,8 +711,20 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .bloque-gris .node-article .field-name-title a:link, .bloque-gris .node-evento .field-name-title a:link{background-position: 0 -6px;}
 .bloque-gris .node-article .field-name-title a:hover, .bloque-gris .node-evento .field-name-title a:hover{background-position: 0 -308px;}
 .page-tips .bloque-gris .node-article .field-name-title a, .node-type-camion .bloque-gris .node-article .field-name-title a{background: none;}
+
 .page-tips .bloque-gris .node-article .field-name-title a,
-.node-type-camion .bloque-gris .node-article .field-name-title a{background: none;}
+.node-type-camion .bloque-gris .node-article .field-name-title a{
+	background: none;
+	padding-left: 0;
+}
+
+.view-pagina-por-t-rmino-de-taxonom-a .field-name-title {
+    font-size: 0.8em;
+}
+.view-camiones .field-name-title {
+    font-size: 1.2em;
+}
+
 
 .bloque-gris a:link {color: #1B457A;}
 .bloque-gris a:hover{text-decoration: underline;}
@@ -731,7 +748,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 }
 .bloque-gris .es-carousel-wrapper, .bloque-gris .es-carousel{background: none;}
 .bloque-gris #carousel .es-nav span.es-nav-prev{background: transparent url(../images/flecha-bloque-izq.png) no-repeat top left;}
-.bloque-gris #carousel .es-nav span.es-nav-next{background: transparent url(../images/flecha-bloque-der.png) no-repeat top left;}
+.bloque-gris #carousel .es-nav span.es-nav-next{background: transparent url(../images/flecha-bloque-der.png) no-repeat top right;}
 .bloque-gris .node #carousel ol, .bloque-gris .node #carousel ul{padding-left: 0;}
 .link-conteo{
     border-top: 1px solid #CCCCCC;
@@ -764,12 +781,12 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     display: block;
     text-align: center;
 }
-.view-entradas-recientes .field-name-body{
-    border-bottom: 1px solid #FFFFFF;
-    padding-bottom: 4%;
+.view-entradas-recientes .field-name-node-link {
+border-bottom: 1px solid white;
+padding-bottom: 4%;
 }
 .field-name-node-link a{
-    background: url("../images/ver_mas.png") no-repeat scroll right 0 transparent;
+    background: url("../images/ver_mas.png") no-repeat scroll right 3px transparent;
     font-size: 0.8em;
     font-weight: 600;
     padding-right: 15px;
@@ -915,32 +932,54 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 
 /***************************************** CSS PLUGINS REDES SOCIALES ************************************************/
 
+#block-block-5, #block-block-4, #block-juanrueda-widget-youtube-widget-youtube-custom {border-radius: 0.5em 0.5em 0 0;}
+#block-block-5 .content, #block-block-4 .content, #block-juanrueda-widget-youtube-widget-youtube-custom .content {padding: 0 1em;}
+#block-block-5, #block-widgets-s-facebook-like-box  {background: url("../images/cabecera-facebook.png") repeat-x scroll 0 0 #FFFFFF;}
+#block-block-4, #block-block-9 {background: url("../images/cabecera-twitter.png") repeat-x scroll 0 0 #FFFFFF;}
+#block-juanrueda-widget-youtube-widget-youtube-custom  {background: url("../images/cabecera-youtube.png") repeat-x scroll 0 0 #FFFFFF;}
+#block-block-4 .content p{
+    text-align: center;
+    width: 100%;
+}
+
+#block-juanrueda-widget-youtube-widget-youtube-custom h2.block-title, #block-block-4 h2.block-title, 
+#block-block-5 h2.block-title, #block-widgets-s-facebook-like-box h2.block-title,
+#block-block-9 h2.block-title{
+    border: 0 none;
+    color: white;
+    font-size: 0.9em;
+    line-height: 2;
+    padding: 10px 0 22px 70px;
+    margin: 0;
+}
+
+#block-juanrueda-widget-youtube-widget-youtube-custom h2.block-title {
+    background: url("../images/logo-youtube.png") no-repeat scroll 10px 7px transparent;
+}
+#block-block-4 h2.block-title, #block-block-9 h2.block-title {
+    background: url("../images/logo-twitter.png") no-repeat scroll 10px 7px transparent;
+}
+#block-block-5 h2.block-title, #block-widgets-s-facebook-like-box h2.block-title  {
+    background: url("../images/logo-facebook.png") no-repeat scroll 10px 7px transparent;
+}
+.fb-like.fb_edge_widget_with_comment.fb_iframe_widget, #footer-container #branding{
+    display: none;
+}
+#picture-floater {
+    float: left;
+    margin: 0 15px 0 0;
+}
+#publisher{
+    float: left;
+    width: 50%;
+}
+#block-block-5 #fb-root {display: none;}
+#block-block-5 .fb-like-box {margin-top: -10px;}
+
 .fb-like-box.fb_iframe_widget, .fb-like-box.fb_iframe_widget span, .fb-like-box.fb_iframe_widget iframe{width: 100% !important;}
 
-#block-block-3 .content{padding: 0;}
-#block-block-3 p{margin-bottom: 0;}
-#block-block-3 iframe#fr{width: 100% !important;}
-#block-block-3 iframe#fr #container{border: none;}
+#block-juanrueda-widget-youtube-widget-youtube-custom .content{padding: 1em;}
 
-/***************************************** HISTORIA ************************************************
-
-#carousel-historico {    
-    border: 1px solid #FFFFFF;
-    margin-top: 4% 0 2%;
-}
-#carousel-historico ul {
-    overflow: hiddden !important;
-    width: 100% !important;
-}
-#carousel-historico li {
-    margin-right: 2% !important;
-    width: 22% !important;
-}
-#carousel-historico span {
-    color: #FE7C0C;
-    font-size: 1.7em;
-}
-#carousel-historico img {margin-bottom: 5%;}
 
 
 /***************************************** CSS MOBILE ************************************************/
@@ -1043,7 +1082,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .responsive-layout-mobile #block-views-featured-slider-block .nivo-caption p {
     display: none;
 }
-.responsive-layout-mobile #block-block-5 , .responsive-layout-mobile  #block-block-4, .responsive-layout-mobile #block-block-3  {
+.responsive-layout-mobile #block-block-5 , .responsive-layout-mobile  #block-block-4, .responsive-layout-mobile #block-juanrueda-widget-youtube-widget-youtube-custom  {
     background: none repeat scroll 0 0 transparent;
     float: left;
     width: 25%;
@@ -1079,6 +1118,8 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .responsive-layout-mobile #region-footer-first .block ul li > div {
     display: inline-block;
     margin: 0;
+        *display: inline;
+    *zoom: 1;
 }
 
 .responsive-layout-mobile  #block-block-5 h2.block-title {
@@ -1087,10 +1128,10 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .responsive-layout-mobile  #block-block-4 h2.block-title {
     background: url("../images/ico-twitter-mobile.jpg") no-repeat scroll 0 0 transparent;
 }
-.responsive-layout-mobile  #block-block-3 h2.block-title {
+.responsive-layout-mobile  #block-juanrueda-widget-youtube-widget-youtube-custom h2.block-title {
     background: url("../images/ico-youtube-mobile.jpg") no-repeat scroll 0 0 transparent;
 }
-.responsive-layout-mobile  #block-block-3 h2.block-title , 
+.responsive-layout-mobile  #block-juanrueda-widget-youtube-widget-youtube-custom h2.block-title , 
 .responsive-layout-mobile #block-block-4 h2.block-title, 
 .responsive-layout-mobile #block-block-5 h2.block-title{
     display: block;
@@ -1128,7 +1169,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .responsive-layout-mobile  #block-block-7,
 .responsive-layout-mobile.front #block-system-main .content,
 .responsive-layout-mobile  #block-block-5 .content .fb-like-box,
-.responsive-layout-mobile  #block-block-3 .content  .subscribe-youtube,
+.responsive-layout-mobile  #block-juanrueda-widget-youtube-widget-youtube-custom .content .subscribe-youtube,
 .responsive-layout-mobile  #block-block-4 .content  .twitter-follow-big {
     display: none;
 }
@@ -1144,7 +1185,7 @@ body.responsive-layout-mobile {
 }
 .responsive-layout-mobile #block-block-5 .content, 
 .responsive-layout-mobile #block-block-4 .content, 
-.responsive-layout-mobile #block-block-3 .content {
+.responsive-layout-mobile #block-juanrueda-widget-youtube-widget-youtube-custom .content {
     padding: 0;
 }
 .mobile-subscribe-youtube a{
@@ -1165,6 +1206,9 @@ body.responsive-layout-mobile {
 .item-list ul.pager {
     clear: both;
     display: inline-block;
+        *display: inline;
+    *zoom: 1;
+
 }
 .view > .item-list{
     display: block;
@@ -1174,9 +1218,26 @@ body.responsive-layout-mobile {
 .front #region-content #page-title{
     display: none;
 }
-
-
-
 .html #region-postscript-fourth.grid-12 {
     margin: 30px 0;
+}
+
+
+
+.page-camiones #page-title, .page-tips-conozca-su-maquina #page-title, 
+.page-tips-disfrute-su-camion #page-title, .page-tips-conviertase-en-experto #page-title {
+	padding-left: 50px;
+    padding-bottom: 12px;
+}
+.page-camiones #page-title {background: url("../images/ico-camiones.png") no-repeat scroll left -300px transparent;}
+.page-tips-conozca-su-maquina  #page-title {background: url("../images/ico-repuestos.png") no-repeat scroll left -294px transparent;}
+.page-tips-disfrute-su-camion  #page-title{background: url("../images/ico-servicios.png") no-repeat scroll left -294px transparent;}
+.page-tips-conviertase-en-experto #page-title {background: url("../images/ico-latec.png") no-repeat scroll left -294px transparent;}
+
+.theme-dark .nivoSlider img {
+    border: 2px solid #888888;
+    border-radius: 10px 10px 10px 10px;
+}
+.theme-dark .nivoSlider{
+    background-color: transparent !important;
 }
