@@ -793,6 +793,13 @@ padding-bottom: 4%;
     font-weight: 600;
     padding-right: 15px;
 }
+.field-name-node-link{
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 10px;
+}
+.bloque-gris a:visited{
+    color: #1B457A !important; 
+}
 /**************************** PAGINA CAMIONES **********************************/
 
 .page-camiones .view-header h2{
