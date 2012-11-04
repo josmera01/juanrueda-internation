@@ -45,6 +45,10 @@ iframe{max-width: 100%}
     background: url("../images/ico-contacto.png") no-repeat scroll left -294px transparent;
     padding-left: 50px;
 }
+#block-block-9{
+    margin-bottom: 4%;
+}
+
 #block-block-3  {
     background: url("../images/cabecera-youtube.png") repeat-x scroll 0 0 #FFFFFF;
 }

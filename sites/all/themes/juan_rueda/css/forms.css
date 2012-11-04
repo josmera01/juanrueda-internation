@@ -32,8 +32,14 @@ label {
 .resizable-textarea .grippie {
   display: none
 }
-
-input[type="text"], input[type="password"], textarea, input[type="search"], input[type="email"], select, .form-textarea-wrapper textarea  {
+select{
+    border: 1px solid #666666;
+    font-size: 0.8em;
+    margin: 5px 0;
+    padding: 1.5%;
+    width: 100%;
+}
+input[type="text"], input[type="password"], textarea, input[type="search"], input[type="email"], .form-textarea-wrapper textarea  {
     border: 1px solid #666666;
     font-size: 0.8em;
     margin: 5px 0;
