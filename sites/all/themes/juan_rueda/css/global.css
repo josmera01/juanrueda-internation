@@ -236,7 +236,9 @@ div.widgets-element-horizontal {margin-right: 5px;}
 #block-block-12{
     float: left;
 }
-.social_networks_links{margin-bottom: 0;}
+.social_networks_links{
+    margin: 0;
+}
 .social_networks_links li{
     float: left;
     margin: 0.2em;
@@ -431,6 +433,13 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
     min-height: 18px;
     padding-top: 50px;
     text-align: center;
+}
+ul.menu {
+    border: medium none;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
 }
 #zone-footer #block-block-2{
     float: right;
@@ -652,9 +661,10 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     line-height: 1;
 }
 .front .bloque-gris .masonry-item h2 a, .page-noticias-y-eventos .bloque-gris .masonry-item h2 a {
-    padding-left: 2.5em;
-    min-height: 1.85em;
     display: block;
+    font-size: 1em;
+    min-height: auto;
+    padding-left: 40px;
 }
 .front #block-system-main{
     display: none;
