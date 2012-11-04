@@ -680,13 +680,15 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 }
 .view-mapa-contacto .views-field-php a,
 .view-mapa-contacto .views-field-php-1 a{
-    padding: 8px 20px;
+    color: #FFFFFF;
+    display: block;
+    padding: 8px 15px 10px 25px;
 }
 .view-mapa-contacto .views-field-php a{
-    background: url("../images/ico-contactar-mini.png") no-repeat transparent;
+    background: url("../images/ico-contactar-mini.png") no-repeat 5px center transparent;
 }
 .view-mapa-contacto .views-field-php-1 a{
-    background: url("../images/ico-ubicar-mapa.png") no-repeat transparent;
+    background: url("../images/ico-ubicar-mapa.png") no-repeat 5px center transparent;
 }
 /**********************************MASONRY VIEWS - BLOQUES GRISES***********************************/
 
