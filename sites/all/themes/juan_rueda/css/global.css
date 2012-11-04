@@ -598,8 +598,8 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
     overflow: hidden;
     padding: 20px 0;
 }
-form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-mapa-contacto .attachment .views-field-php-1 a:hover,
-.view-mapa-contacto .attachment .views-field-php a:hover {
+form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-mapa-contacto .attachment .views-field-php-1 span:hover,
+.view-mapa-contacto .attachment .views-field-php span:hover {
 	background-color: #194E99;
     background-image: linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
     background-image: -o-linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
@@ -673,6 +673,14 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     font-weight: normal;
     margin: 0;
     padding: 3% 0 3% 8%;
+}
+.view-mapa-contacto .views-field-php span,
+.view-mapa-contacto .views-field-php-1 span{
+    padding: 0;
+}
+.view-mapa-contacto .views-field-php a,
+.view-mapa-contacto .views-field-php-1 a{
+    padding: 8px 20px;
 }
 .view-mapa-contacto .views-field-php a{
     background: url("../images/ico-contactar-mini.png") no-repeat transparent;
