@@ -260,7 +260,7 @@ div.widgets-element-horizontal {margin-right: 5px;}
 
 #region-user-second #block-search-form{
     float: right;
-    width: 50%;
+    width: 45%;
 }
 #region-user-second #block-search-form h2{display: none;}
 #region-user-second #block-search-form .content{
@@ -283,8 +283,6 @@ div.widgets-element-horizontal {margin-right: 5px;}
 #block-system-main-menu {
     float: right;
     margin-right: 4%;
-    max-width: 100%;
-    width: 330px;
 }
 #block-system-main-menu ul{float: right;}
 #block-system-main-menu ul li.leaf {
@@ -446,13 +444,15 @@ ul.menu {
     text-align: right;
     width: auto;
 }
-#zone-footer .block-title {
+#zone-footer .block-title  {
+    font-size: 1.1em;
     height: auto;
     margin-bottom: 15px;
     min-height: 18px;
     padding-top: 50px;
     text-align: center;
 }
+
 #block-menu-menu-international-menu-inferior h2{background: url("../images/ico-international.png") no-repeat scroll center 0 transparent;}
 #zone-footer #block-views-menu-block h2{background: url("../images/ico-camion-footer.png") no-repeat scroll center 0 transparent;}
 #zone-footer #block-menu-menu-tips-de-juan-rueda h2{background: url("../images/ico-tips-footer.png") no-repeat scroll center 0 transparent;}
