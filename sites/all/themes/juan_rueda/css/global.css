@@ -41,8 +41,9 @@ iframe{max-width: 100%}
     margin-left: 40px;
     width: 350px !important ;
 }
-.page-contacte-su-distribuidor #page-title{
-    background: url("../images/ico-contacto.png")  no-repeat 0 -19.5em;
+.page-contacte-su-distribuidor #page-title {
+    background: url("../images/ico-contacto.png") no-repeat scroll left -294px transparent;
+    padding-left: 50px;
 }
 #block-block-3  {
     background: url("../images/cabecera-youtube.png") repeat-x scroll 0 0 #FFFFFF;

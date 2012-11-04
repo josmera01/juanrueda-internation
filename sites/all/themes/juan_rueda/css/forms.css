@@ -34,10 +34,11 @@ label {
 }
 
 input[type="text"], input[type="password"], textarea, input[type="search"], input[type="email"], select, .form-textarea-wrapper textarea  {
-  border: 1px solid #666;
-  font-size: 0.8em;
-  padding: 5px;
-  width: 98%;
+    border: 1px solid #666666;
+    font-size: 0.8em;
+    margin: 5px 0;
+    padding: 1.5%;
+    width: 100%;
 }
 input[type="search"] {
   background-color: #000;
