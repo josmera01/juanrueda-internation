@@ -7,8 +7,6 @@
 
 /*@import url(http://fonts.googleapis.com/css?family=Lato:400,300,700,900);*/
 
-
-
 iframe{max-width: 100%}
 
 #zone-user {margin-top: 20px;}
@@ -73,6 +71,9 @@ label {color: #FFFFFF;}
 .breadcrumb{color: #2F76CD;}
 .breadcrumb a{color: #e3e3e3;}
 
+#region-content.grid-12{
+    margin: 50px 0 !important;
+}
 
 /***************************************SLIDER***********************************************/
 
@@ -92,17 +93,17 @@ label {color: #FFFFFF;}
     top: 0px;
     width: 30%;
 }
-#block-views-featured-slider-block .nivo-caption h1,
-.field-name-field-slider-camion .nivo-caption h1 {
+#block-views-featured-slider-block .nivo-caption h1, .field-name-field-slider-camion .nivo-caption h1{
     font-size: 1.3em;
     font-weight: 100;
     text-transform: uppercase;
 }
-#block-views-featured-slider-block .nivo-caption p,   .field-name-field-slider-camion .nivo-caption p{
+#block-views-featured-slider-block .nivo-caption p, .field-name-field-slider-camion .nivo-caption p {
     font-size: 0.9em;
     margin: 10px 0;
 }
-#block-views-featured-slider-block  .nivo-controlNav, .field-name-field-slider-camion .nivo-controlNav {
+#block-views-featured-slider-block .nivo-controlNav, .field-name-field-slider-camion .nivo-controlNav {
+    background-color: #224B88;
     background-image: linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
     background-image: -o-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
     background-image: -moz-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
@@ -115,37 +116,17 @@ label {color: #FFFFFF;}
     margin: -3.4em 1.5em 0 0;
     float: right;
 }
-#block-views-featured-slider-block  .nivo-controlNav a,
-.field-name-field-slider-camion  .nivo-controlNav a
-{
+#block-views-featured-slider-block .nivo-controlNav a, .field-name-field-slider-camion .nivo-controlNav a{
     background: url("../images/jr-images.png") no-repeat scroll -25px -428px transparent;
     border-radius: 10px;
     height: 1em;
     margin: 0 6px;
     width: 1em;
 }
-#block-views-featured-slider-block .nivo-controlNav a.active, .field-name-field-slider-camion  .nivo-controlNav a.active{background: url("../images/jr-images.png") no-repeat scroll -25px -415px transparent;}
-#block-views-featured-slider-block .nivo-directionNav, .field-name-field-slider-camion  .nivo-directionNav{display: none;}
-
-.nivo-caption {
-    background: #000000;
-    background: -moz-linear-gradient(left, transparent 10%, black 80%);
-    background: -webkit-gradient(linear, left top, right top, color-stop(10%,transparent), color-stop(80%,black));
-    background: -webkit-linear-gradient(left, transparent 10%,black 80%);
-    background: -o-linear-gradient(left, transparent 10%,black 80%);
-    background: -ms-linear-gradient(left, transparent 10%,black 80%);
-    background: linear-gradient(to right, transparent 10%,black 80%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='transparent', endColorstr='#000000',GradientType=1 );
-    bottom: 10%;
-    height: auto;
-    left: auto;
-    line-height: 1.1;
-    opacity: 0.9;
-    padding: 1% 3%;
-    right: 1%;
-    top: auto;
-    width: 35%;
+#block-views-featured-slider-block .nivo-controlNav a.active, .field-name-field-slider-camion .nivo-controlNav a.active{
+	background: url("../images/jr-images.png") no-repeat scroll -25px -415px transparent;
 }
+#block-views-featured-slider-block .nivo-directionNav, .field-name-field-slider-camion .nivo-directionNav{display: none;}
 
 #views-nivo-slider-featured_slider-block {
     border: 2px solid #FFFFFF;
@@ -155,18 +136,11 @@ label {color: #FFFFFF;}
 }
 .views-nivo-slider-view  {padding: 0;}
 
-#block-views-bloque-todos-los-camiones-block .views-row {
-    float: left;
-    margin-right: 1.5%;
-    width: 13%;
-}
-#block-views-bloque-todos-los-camiones-block .views-row.views-row-last {margin-right: 0;}
-#block-views-bloque-todos-los-camiones-block .field-name-field-imagen-destacada img,
+
 #carousel-camion li img{
     border-top-right-radius: 0.5em;
     border-top-left-radius: 0.5em;
 }
-#block-views-bloque-todos-los-camiones-block .field-name-title a,
 #carousel-camion li a span{
     background: none repeat scroll 0 0 #DBDBDB;
     border-bottom-left-radius: 0.5em;
@@ -177,25 +151,25 @@ label {color: #FFFFFF;}
     padding: 5px 0;
     text-align: center;
 }
-#region-content.grid-12{
-    margin: 50px 0 !important;
-}
-
-#block-views-bloque-todos-los-camiones-block .views-row:hover .field-name-title a,
-#block-views-bloque-todos-los-camiones-block .field-name-title a.active,
-
 #carousel-camion li a:hover span, #carousel-camion li a.active span {
     background: #E55500;
     color: #FFFFFF;
 }
-#carousel-camion.es-carousel-wrapper, #carousel-camion .es-carousel, #carousel-historico.es-carousel-wrapper, #carousel-historico .es-carousel{background: none;}
-#carousel-camion.es-carousel-wrapper, #carousel-historico.es-carousel-wrapper{padding: 0 2.5em;}
+#carousel-camion.es-carousel-wrapper, #carousel-camion .es-carousel{background: none;}
+#carousel-camion.es-carousel-wrapper{padding: 0 2.5em;}
 
 .responsive-layout-wide #carousel-camion.es-carousel-wrapper{padding: 0;}
 .responsive-layout-wide #carousel-camion .es-nav {display: none;}
 .responsive-layout-wide #carousel-camion ul{
     width: 100% !important;
     text-align: center;
+}
+.responsive-layout-wide #carousel-camion ul li{margin-right: 1.7% !important;}
+.responsive-layout-wide #carousel-camion ul li.last{margin-right: 0 !important;}
+
+.es-carousel ul li a img {
+    display: block;
+    width: 100%;
 }
 .es-carousel ul li {
     display: inline-block;
@@ -204,19 +178,17 @@ label {color: #FFFFFF;}
     *display: inline;
     *zoom:1;
 }
-.responsive-layout-wide #carousel-camion ul li.last{margin-right: 0 !important;}
-
-.es-carousel ul li a img {
-    display: block;
-    width: 100%;
-}
-#carousel-camion .es-nav span.es-nav-prev, #carousel-historico .es-nav span.es-nav-prev{background: transparent url(../images/flecha-bloque-izq.png) no-repeat top left;}
-#carousel-camion .es-nav span.es-nav-next, #carousel-historico .es-nav span.es-nav-next{background: transparent url(../images/flecha-bloque-der.png) no-repeat top left;}
+#carousel-camion .es-nav span.es-nav-prev{background: transparent url(../images/flecha-bloque-izq.png) no-repeat top left;}
+#carousel-camion .es-nav span.es-nav-next{background: transparent url(../images/flecha-bloque-der.png) no-repeat top left;}
 
 
 /***************************************HEADER***********************************************/
 
-#section-header{background: url("../images/juan-rueda.png") no-repeat left top transparent;}
+.responsive-layout-wide #section-header{background: url("../images/juan-logo-home.png") no-repeat center bottom transparent;}
+.responsive-layout-normal #section-header,
+.responsive-layout-narrow #section-header,
+.responsive-layout-mobile #section-header
+{background: url("../images/juan-rueda.png") no-repeat left bottom transparent;}
 
 .branding-data {text-align: center;}
 .site-name-slogan {float: none;}
@@ -224,11 +196,15 @@ label {color: #FFFFFF;}
     background-image: url("../images/jr-texto.png");
     background-position: center top;
     background-repeat: no-repeat;
-    background-size: 50% auto;
     height: 48px;
     margin: 1.5em 0;
     text-indent: -9999px;
 }
+.responsive-layout-normal .branding-data  h1.site-name, .responsive-layout-normal .branding-data h2.site-name,
+.responsive-layout-narrow .branding-data  h1.site-name, .responsive-layout-narrow .branding-data h2.site-name,
+.responsive-layout-mobile .branding-data  h1.site-name, .responsive-layout-mobile .branding-data h2.site-name
+{background-size: 50% auto;}
+
 #region-user-second .region-inner {overflow: hidden;}
 #region-user-second a.twitter-timeline {
     display: block;
@@ -263,6 +239,8 @@ div.widgets-element-horizontal {margin-right: 5px;}
 .social_networks_links li#facebook a:hover{background-position: -15px -43px}
 .social_networks_links li#youtube a:hover{background-position: -98px -43px }
 
+/***search***/
+
 #region-user-second #block-search-form{
     float: right;
     width: 45%;
@@ -282,8 +260,25 @@ div.widgets-element-horizontal {margin-right: 5px;}
     width: 25px;
     float: right;
 }
+.block-search form .form-item {
+  margin: 0;
+}
+.block-search form input.form-text {
+  background: none repeat scroll 0 0 transparent;
+  border: 0 none;
+  float: left;
+  font-size: 0.8em;
+  line-height: 1;
+  margin: 1px 5px 0 0;
+  padding: 5px 10px;
+  width: 50%;
+  -webkit-appearance: none;
+}
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
 
-/***************************************MENU***********************************************/
+/*************************************** MENUS HEADER ***********************************************/
 
 #block-system-main-menu {
     float: right;
@@ -417,6 +412,7 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 }
 #region-footer-first .block ul li{
     margin: 0;
+    list-style: circle;
 }
 #region-footer-second .block {
     color: #4E4E4E;
@@ -465,15 +461,20 @@ ul.menu {
 #zone-footer #block-block-13 h2{background: url("../images/ico-siguenos-footer.png") no-repeat scroll center 0 transparent;}
 
 
-/*#region-footer-first .block ul.social_networks_sitemap li{
-    background: url("../images/jr-images.png") no-repeat transparent;
+.block ul.social_networks_sitemap{padding-left: 0;}
+#region-footer-first .block ul.social_networks_sitemap li{
+    background: url("../images/ico-footer-redes.png") no-repeat transparent;
     list-style: none;
-    padding-left: 0.5em;
-    line-height: 1.4;
+    padding-left: 1.5em;
+    line-height: 1;
+    margin-bottom: 0.5em;
 }
-.social_networks_sitemap li#twitter {background-position: -9px -7px;}
-.social_networks_sitemap li#facebook {background-position: -9px -7px;}
-.social_networks_sitemap li#youtube {background-position: -9px -7px;}*/
+.block ul.social_networks_sitemap li#twitter {background-position: 0px -29px;}
+.block ul.social_networks_sitemap li#facebook {background-position: 0px 1px;}
+.block ul.social_networks_sitemap li#youtube {background-position: 0px -60px;}
+.block ul.social_networks_sitemap li#twitter:hover {background-position: 0px -41px;}
+.block ul.social_networks_sitemap li#facebook:hover {background-position: 0px -11px;}
+.block ul.social_networks_sitemap li#youtube:hover {background-position: 0px -72px;}
 
 /***************************************HOME***********************************************/
 
@@ -619,6 +620,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     width: 100%;
 }
 .view-mapa-contacto .attachment h3 {
+	background-color: #B3B3B3;
     background-image: linear-gradient(bottom, #B3B3B3 16%, #CFCFCF 58%);
     background-image: -o-linear-gradient(bottom, #B3B3B3 16%, #CFCFCF 58%);
     background-image: -moz-linear-gradient(bottom, #B3B3B3 16%, #CFCFCF 58%);
@@ -628,7 +630,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     color: #000000;
     font-size: 1.19em;
     font-weight: normal;
-    margin-bottom: 5%;
+    margin: 0;
     padding: 3% 0 3% 8%;
 }
 /**********************************MASONRY VIEWS - BLOQUES GRISES***********************************/
@@ -643,13 +645,9 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .node-type-camion #region-content.grid-12{
 	margin: 0;
 }
-.page-contacte-su-distribuidor #region-content, .node-type-camion #region-content.grid-12{
-    margin: 0;
-}
 
-.bloque-gris {}
 .bloque-gris .views-row, #block-webform-client-block-1{
-    background: #d8d8d8;
+    background-color: #d8d8d8;
     background-image: linear-gradient(bottom, #DBD8DB 12%, #E9E9E9 56%, #FFFFFF 78%);
     background-image: -o-linear-gradient(bottom, #DBD8DB 12%, #E9E9E9 56%, #FFFFFF 78%);
     background-image: -moz-linear-gradient(bottom, #DBD8DB 12%, #E9E9E9 56%, #FFFFFF 78%);
@@ -688,16 +686,14 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 }
 
 .bloque-gris .node-article .field-name-title a:link, .bloque-gris .node-evento .field-name-title a:link{background-position: 0 -6px;}
-/*.bloque-gris .node-article .field-name-title a:visited, .bloque-gris .node-evento .field-name-title a:visited{background-position: 0 -459px;}*/
 .bloque-gris .node-article .field-name-title a:hover, .bloque-gris .node-evento .field-name-title a:hover{background-position: 0 -308px;}
 .page-tips .bloque-gris .node-article .field-name-title a, .node-type-camion .bloque-gris .node-article .field-name-title a{background: none;}
 .page-tips .bloque-gris .node-article .field-name-title a,
 .node-type-camion .bloque-gris .node-article .field-name-title a{background: none;}
 
 .bloque-gris a:link {color: #1B457A;}
-.bloque-gris a:hover, .bloque-gris a:visited{text-decoration: underline;}
+.bloque-gris a:hover{text-decoration: underline;}
 .bloque-gris a:hover{color: #E55700;}
-/*.bloque-gris a:visited{color: #6E7072;}*/
 .bloque-gris .field-type-image img{
     height: auto;
     margin-bottom: 0.5em;
@@ -721,6 +717,21 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .bloque-gris #carousel .es-nav span.es-nav-prev{background: transparent url(../images/flecha-bloque-izq.png) no-repeat top left;}
 .bloque-gris #carousel .es-nav span.es-nav-next{background: transparent url(../images/flecha-bloque-der.png) no-repeat top left;}
 .bloque-gris .node #carousel ol, .bloque-gris .node #carousel ul{padding-left: 0;}
+
+.link-conteo li{
+    float: left;
+    list-style: none outside none;
+}
+.link-conteo li.comentario {
+	background: url("../images/bg-comentarios.png") no-repeat scroll 0 0 transparent;
+}
+.link-conteo li.flag {
+	background: url("../images/bg-like.png") no-repeat scroll 0 0 transparent;
+}
+.link-conteo li{
+	padding: 3px 0 3px 35px;
+	margin-right: 15px;
+}
 
 /**************************** PAGINA CAMIONES **********************************/
 
@@ -894,13 +905,8 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 /***************************************** CSS MOBILE ************************************************/
 
 .responsive-layout-mobile #section-header{
-    background-position: left top;
+    background-position: left bottom;
     background-size: 30% auto;
-}
-.responsive-layout-mobile .branding-data h1.site-name{
-    font-size: 2.5em;
-    text-align: right;
-    padding: 1em 1em 0 0;
 }
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales, .responsive-layout-mobile #block-multiblock-1{
     clear: both;
@@ -1127,39 +1133,9 @@ body.responsive-layout-mobile {
 .front #region-content #page-title{
     display: none;
 }
-.link-conteo li{
-    float: left;
-    list-style: none outside none;
-}
-.link-conteo li.comentario {
-	background: url("../images/bg-comentarios.png") no-repeat scroll 0 0 transparent;
-}
-.link-conteo li.flag {
-	background: url("../images/bg-like.png") no-repeat scroll 0 0 transparent;
-}
-.link-conteo li{
-	padding: 3px 0 3px 35px;
-	margin-right: 15px;
-}
-.link-conteo{display: none;}
-/***search***/
-.block-search  form .form-item {
-  margin: 0;
-}
-.block-search  form input.form-text {
-  background: none repeat scroll 0 0 transparent;
-  border: 0 none;
-  float: left;
-  font-size: 0.8em;
-  line-height: 1;
-  margin: 1px 5px 0 0;
-  padding: 5px 10px;
-  width: 50%;
-  -webkit-appearance: none;
-}
-input[type="search"]::-webkit-search-cancel-button {
-  -webkit-appearance: none;
-}
+
+
+
 .html #region-postscript-fourth.grid-12 {
     margin: 30px 0;
 }
