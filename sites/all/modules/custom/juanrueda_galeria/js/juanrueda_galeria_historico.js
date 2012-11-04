@@ -6,7 +6,7 @@
     attach: function(context, settings) {
 
       $('#carousel-historico').elastislide({
-        imageW    : 180,
+        imageW    : 250,
         minItems  : 4,
         margin    : 5,
         border    : 0,
