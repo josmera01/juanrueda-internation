@@ -1221,23 +1221,20 @@ body.responsive-layout-mobile {
 .html #region-postscript-fourth.grid-12 {
     margin: 30px 0;
 }
-.page-camiones  #page-title {
-    background: url("../images/ico-camiones.png") no-repeat scroll left -300px transparent;
+
+
+
+.page-camiones #page-title, .page-tips-conozca-su-maquina #page-title, 
+.page-tips-disfrute-su-camion #page-title, .page-tips-conviertase-en-experto #page-title {
+	padding-left: 50px;
     padding-bottom: 12px;
-    padding-left: 50px;
 }
-.page-tips-conozca-su-maquina  #page-title {
-    background: url("../images/ico-repuestos.png") no-repeat scroll left -294px transparent;
-    padding-left
-}
-.page-tips-disfrute-su-camion  #page-title{
-    background: url("../images/ico-servicios.png") no-repeat scroll left -294px transparent;
-    padding-left
-}
-.page-tips-conviertase-en-experto #page-title {
-    background: url("../images/ico-latec.png") no-repeat scroll left -294px transparent;
-    padding-left
-}
+
+.page-camiones #page-title {background: url("../images/ico-camiones.png") no-repeat scroll left -300px transparent;}
+.page-tips-conozca-su-maquina  #page-title {background: url("../images/ico-repuestos.png") no-repeat scroll left -294px transparent;}
+.page-tips-disfrute-su-camion  #page-title{background: url("../images/ico-servicios.png") no-repeat scroll left -294px transparent;}
+.page-tips-conviertase-en-experto #page-title {background: url("../images/ico-latec.png") no-repeat scroll left -294px transparent;}
+
 .view-pagina-por-t-rmino-de-taxonom-a .field-name-title {
     font-size: 0.8em;
 }
