@@ -571,7 +571,7 @@ background-position: 0px -28px;
 #block-webform-client-block-62 #edit-actions {overflow: hidden;}
 #block-webform-client-block-62 label {padding-left: 10px;}
 .marker, .form-required {color: #FF7B00;}
-form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 a, .view-mapa-contacto .attachment .views-field-php a,
+form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .view-mapa-contacto .attachment .views-field-php span,
 .pager li a {
 	background-color: #133155;
     background-image: linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
@@ -673,6 +673,12 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     font-weight: normal;
     margin: 0;
     padding: 3% 0 3% 8%;
+}
+.view-mapa-contacto .views-field-php a{
+    background: url("../images/ico-contactar-mini.png") no-repeat transparent;
+}
+.view-mapa-contacto .views-field-php-1 a{
+    background: url("../images/ico-ubicar-mapa.png") no-repeat transparent;
 }
 /**********************************MASONRY VIEWS - BLOQUES GRISES***********************************/
 
