@@ -12,10 +12,14 @@ a:link, a:visited {
     color: #FFFFFF;
     text-decoration: none;
 }
-ul li {
+ul li.leaf {
+    list-style: none outside none;
+}
+#zone-footer .item-list ul li,  #zone-footer .item-list ul li.leaf {
     list-style-image: url("../../../../../misc/menu-leaf.png");
     list-style-type: square;
 }
+
 img{
     height: auto;
     max-width: 100%;
@@ -76,41 +80,14 @@ ol li, ol li p, .date-publication {
 ul.menu li {
   margin: 0 0 5px;
 }
-/***PAGER***/
-ul.pager {
-  list-style: none outside none;
+
+.item-list .pager li {
+    display: inline;
+    font-size: 0.9em;
+    font-weight: lighter;
+    margin: 5px;
+    padding: 0;
 }
-ul.pager li {
-  margin: 0 3px;
-  padding: 0;
-}
-ul.pager li.pager-item a, ul.pager li.pager-next a, ul.pager li.pager-last a, ul.pager li.pager-previous a, ul.pager li.pager-current {
-  font-weight: bold;
-}
-ul.pager li.pager-first a, ul.pager li.pager-next a, ul.pager li.pager-last a, ul.pager li.pager-previous a{
-    display: inline-block;
-    font-size: 0;
-    line-height: 1;
-    padding-bottom: 2px;
-    padding-top: 19px;
-    width: 22px;
-}
-ul.pager li.pager-first a:hover, ul.pager li.pager-next a:hover, ul.pager li.pager-last a:hover, 
-ul.pager li.pager-previous a:hover{
-  background-position: 0 -22px;
-}
-ul.pager li.pager-first a{
-    /*background: url("../images/pager-first.png") no-repeat scroll 0 0 transparent;*/
-  }
-ul.pager li.pager-next a{
-    /*background: url("../images/pager-next.png") no-repeat scroll 0 0 transparent;*/
-  }
-ul.pager li.pager-last a{
-  /*background: url("../images/pager-last.png") no-repeat scroll 0 0 transparent;*/
-}
-ul.pager li.pager-previous a{
-    /*background: url("../images/pager-prev.png") no-repeat scroll 0 0 transparent;*/
-  }
 /*****TABLAS****/
 table{
   width: 100%;

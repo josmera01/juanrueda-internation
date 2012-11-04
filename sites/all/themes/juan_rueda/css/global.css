@@ -164,17 +164,16 @@ label {color: #FFFFFF;}
 }
 #block-views-bloque-todos-los-camiones-block .field-name-title a,
 #carousel-camion li a span{
-    background: #DBDBDB;
-    border-bottom-right-radius: 0.5em;
+    background: none repeat scroll 0 0 #DBDBDB;
     border-bottom-left-radius: 0.5em;
-    color: #272727;
+    border-bottom-right-radius: 0.5em;
+    color: #777777;
     display: block;
-    font-size: 1.2em;
-    font-weight: 300;
-    padding: 0.3em 0;
+    font-size: 1em;
+    padding: 5px 0;
     text-align: center;
-    width: 100%;
 }
+
 #block-views-bloque-todos-los-camiones-block .views-row:hover .field-name-title a,
 #block-views-bloque-todos-los-camiones-block .field-name-title a.active,
 
@@ -372,7 +371,7 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 #zone-footer .block#block-menu-menu-paises{width: 30%;}
 #zone-footer #block-menu-menu-paises .leaf {
     float: left;
-    width: 31%;
+    width: 30%;
 }
 #zone-footer a {
     text-decoration: none;
@@ -447,24 +446,31 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 
 #block-webform-client-block-1{padding: 1em;}
 #block-webform-client-block-1 h2.block-title {
-    font-size: 1.4em;
-    font-weight: 400;
+    font-size: 1.3em;
+    font-weight: 100;
     line-height: 1.2;
-    margin: 0 auto;
+    margin-bottom: 15px;
     text-align: center;
-    padding: 0 1.8em;
 }
 #block-webform-client-block-1 .form-actions{
     text-align: center;
     margin-bottom: 0;
 }
-#block-webform-client-block-1 .form-text {width: 70%;}
+#block-webform-client-block-1 input[type="text"] {
+    border: 1px solid #B0B0B0;
+    background: #fff;
+    display: block;
+    margin: auto;
+}
+#block-webform-client-block-1 label{
+    display: none;
+}
 #block-webform-client-block-1 .form-submit {float: none;}
 
 /***************************************CONTACTO***********************************************/
 
 #block-webform-client-block-62 h2.node-title{display: none;}
-#block-webform-client-block-62 field-name-body{position: relative;}
+#block-webform-client-block-62 .field-name-body{position: relative;}
 #block-webform-client-block-62 p.obligatory {color: #FF7B00;}
 #block-webform-client-block-62 p.intro-contact-form{
 	position: absolute;
@@ -620,19 +626,20 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     color: #1C1C1C;
     border-radius: 0.5em;
 }
-.bloque-gris h2 {
+.bloque-gris h2 a{
     color: #1B457A;
-    font-size: 1.5em;
-    font-weight: 300;
-    margin-bottom: 0.5em;
-    line-height: 1.2;
+    font-size: 1.3em;
+    font-weight: 400;
+    line-height: 1;
 }
 .front .bloque-gris .masonry-item h2 a, .page-noticias-y-eventos .bloque-gris .masonry-item h2 a {
     padding-left: 2.5em;
     min-height: 1.85em;
     display: block;
 }
-
+.front #block-system-main{
+    display: none;
+}
 .bloque-gris .node-article .field-name-title a{background-image: url("../images/ico-noticias.png");}
 .bloque-gris .categoria- .field-name-title a{background-image: url("../images/ico-camiones.png");}
 .bloque-gris .categoria-3 .field-name-title a{background-image: url("../images/ico-repuestos.png");}
@@ -1074,9 +1081,13 @@ body.responsive-layout-mobile {
 }
 .item-list ul.pager {
     clear: both;
-    margin: 30px auto;
+    display: inline-block;
+}
+.view > .item-list{
     text-align: center;
-    width: 70%;
+}
+#region-content #page-title{
+    display: none;
 }
 .link-conteo li{
     float: left;
