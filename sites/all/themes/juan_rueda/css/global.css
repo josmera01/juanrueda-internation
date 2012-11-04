@@ -1222,7 +1222,8 @@ body.responsive-layout-mobile {
     margin: 30px 0;
 }
 .page-camiones  #page-title {
-    background: url("../images/ico-camiones.png") no-repeat scroll left -294px transparent;
+    background: url("../images/ico-camiones.png") no-repeat scroll left -300px transparent;
+    padding-bottom: 12px;
     padding-left: 50px;
 }
 .page-tips-conozca-su-maquina  #page-title {
