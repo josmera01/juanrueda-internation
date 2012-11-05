@@ -350,6 +350,7 @@ input[type="search"]::-webkit-search-cancel-button {
     padding: 0;
     width: 18%;
 }
+#block-menu-menu-menu-secciones-principales ul li.leaf.menu-1183, #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1745{display: none;}
 #block-menu-menu-menu-secciones-principales .content ul li a  {
     background-position: center 0.2em;
     background-repeat: no-repeat;
