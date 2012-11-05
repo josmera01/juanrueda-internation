@@ -1040,7 +1040,36 @@ padding-bottom: 4%;
 
 .fb-like-box.fb_iframe_widget, .fb-like-box.fb_iframe_widget span, .fb-like-box.fb_iframe_widget iframe{width: 100% !important;}
 
-#block-juanrueda-widget-youtube-widget-youtube-custom .content{padding: 1em;}
+#block-juanrueda-widget-youtube-widget-youtube-custom .content{
+	padding: 1em;
+	font-size: 0.95em;
+}
+#block-juanrueda-widget-youtube-widget-youtube-custom .content div{
+	float: left;
+	margin-left: 1em;
+}
+#block-juanrueda-widget-youtube-widget-youtube-custom .youtube-contenido-header{
+	color: #777777;
+	margin-bottom: 1em;
+}
+#block-juanrueda-widget-youtube-widget-youtube-custom .youtube-contenido-header a {
+	color: #A11717;
+	font-weight: bold;
+}
+#block-juanrueda-widget-youtube-widget-youtube-custom .contenido-youtube-footer a{
+  background-color: #d8d8d8;
+  background-image: linear-gradient(bottom, #CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
+  background-image: -o-linear-gradient(bottom, #CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
+  background-image: -moz-linear-gradient(bottom, #CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
+  background-image: -webkit-linear-gradient(bottom, #CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
+  background-image: -ms-linear-gradient(bottom, #CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
+  background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.15, #CCCCCC),color-stop(0.50, #dfdfdf),color-stop(#FAFAFA));
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#CCCCCC', endColorstr='#FAFAFA',GradientType=0 );
+  padding: 5px 10px;
+  color: #666;
+  display: block;
+  border: 1px solid #CCC;
+}
 
 
 
@@ -1291,21 +1320,7 @@ body.responsive-layout-mobile {
 .responsive-layout-mobile #block-juanrueda-widget-youtube-widget-youtube-custom .content {
     padding: 0;
 }
-.mobile-subscribe-youtube a{
-  background:  -moz-linear-gradient(#CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
-  background: -webkit-linear-gradient(#CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
-  background: -o-linear-gradient(#CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
-  background:  linear-gradient(#CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
-  padding: 10px;
-  color: #666;
-}
-.mobile-subscribe-youtube a.youtube-name-label {
-    background: none repeat scroll 0 0 transparent;
-    color: red;
-    display: block;
-    margin: 0 0 10px;
-    padding: 0;
-}
+
 .item-list ul.pager {
     clear: both;
     display: inline-block;
