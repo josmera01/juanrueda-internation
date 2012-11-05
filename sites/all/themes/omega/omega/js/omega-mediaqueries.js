@@ -18,6 +18,7 @@ Drupal.omega = Drupal.omega || {};
     index = parseInt(index);
     previous = current;
     if (Drupal.settings.ie7 == 1) {
+      alert('h');
       current =  'wide';
     }
     else {
