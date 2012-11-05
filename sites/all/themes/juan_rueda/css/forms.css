@@ -1,4 +1,4 @@
-/**FIELDSETS**/
+/**FIELDSETS**
 
 fieldset {
   border: none;
@@ -16,12 +16,12 @@ fieldset.checkout-buttons .fieldset-wrapper {
   border: 0;
   padding: 0;
 }
-/**FORM ITEMS**/
+/**FORM ITEMS**
 
 .form-item, .form-actions {
   margin: 5px 0;
 }
-/**LABELS, TEXTAREAS, SELECTS & INPUTS**/
+/**LABELS, TEXTAREAS, SELECTS & INPUTS**
 
 label {
   font-weight: normal;
@@ -73,7 +73,7 @@ input[type="text"], input[type="password"], input[type="email"], .form-textarea-
   color: #666666;
 }
 
-/***BOTONES */
+/***BOTONES *
 
 input[type="submit"], .form-actions input {
     background-color: #133155;
@@ -91,4 +91,11 @@ input[type="submit"], .form-actions input {
 input[type="submit"]:active {
 }
 input[type="submit"]:hover {
-}
+}*/
+
+.node-article h2,
+.node-article .comment-form  .form-type-item,
+.node-article .comment-form  .form-item-subject
+.node-article .comment-form  .field-name-comment-body label,
+.node-article .comment-form  .field-name-comment-body  fieldset.filter-wrapper,
+.node-article .comment-form  .field-name-comment-body .wysiwyg-toggle-wrapper {display: none;}
