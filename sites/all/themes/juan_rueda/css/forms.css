@@ -102,4 +102,9 @@ input[type="submit"]:hover {
 #comments .form-item-name,
 #comments .form-item-subject{display: none;}
 #block-search .form-submit {*color: transparent;}
-.view-art-culos-relacionados li {margin-bottom: 5%;}
+.view-art-culos-relacionados  li.first {border-radius:0.5em 0.5em 0 0;}
+.view-art-culos-relacionados  li.last {border-radius: 0 0 0.5em 0.5em;}
+.view-art-culos-relacionados .views-field-field-image {
+	float: left;
+	margin-right: 10px;
+}
