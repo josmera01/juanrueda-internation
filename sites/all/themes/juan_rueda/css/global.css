@@ -1048,9 +1048,12 @@ padding-bottom: 4%;
 	float: left;
 	margin-left: 1em;
 }
+#block-juanrueda-widget-youtube-widget-youtube-custom .contenido-youtube{margin-left: 0;}
+#block-juanrueda-widget-youtube-widget-youtube-custom .contenido-youtube img{width: 60px}
 #block-juanrueda-widget-youtube-widget-youtube-custom .youtube-contenido-header{
 	color: #777777;
 	margin-bottom: 1em;
+	font-size: 0.9em;
 }
 #block-juanrueda-widget-youtube-widget-youtube-custom .youtube-contenido-header a {
 	color: #A11717;
