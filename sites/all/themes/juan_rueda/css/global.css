@@ -1067,7 +1067,7 @@ padding-bottom: 4%;
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#CCCCCC', endColorstr='#FAFAFA',GradientType=0 );
   padding: 5px 10px;
   color: #666;
-  display: block;
+  display: inline-block;
   border: 1px solid #CCC;
 }
 #block-juanrueda-widget-youtube-widget-youtube-custom .contenido-youtube-footer a:hover{
@@ -1222,7 +1222,8 @@ padding-bottom: 4%;
 .responsive-layout-mobile #block-block-5 , .responsive-layout-mobile  #block-block-4, .responsive-layout-mobile #block-juanrueda-widget-youtube-widget-youtube-custom  {
     background: none repeat scroll 0 0 transparent;
     float: left;
-    width: 25%;
+    width: 30%;
+    margin: 1.5%;
     text-align: center;
 }
 .responsive-layout-mobile #zone-footer #block-menu-menu-paises .leaf {
@@ -1290,7 +1291,18 @@ padding-bottom: 4%;
 .responsive-layout-mobile #block-juanrueda-widget-youtube-widget-youtube-custom .content div.youtube-contenido-header a{
 	display: block;
 }
-
+.responsive-layout-mobile .fb-like.fb_edge_widget_with_comment.fb_iframe_widget{
+	display: block;
+	margin-top: 1em;
+}
+#twitter-follow-small a.twitter-name-label{
+	display: block;
+	margin: 1em 0;
+}
+.responsive-layout-mobile .contenido-youtube-footer{
+	float: none;
+	margin: 1em auto;
+}
 
 .html.responsive-layout-mobile  #region-postscript-fourth{
     background: none repeat scroll 0 0 #000000;
@@ -1299,7 +1311,7 @@ padding-bottom: 4%;
     margin-right: auto;
     margin-top: 30px;
     overflow: hidden;
-    padding: 30px 15%;
+    padding: 30px 0;
 }
 .html.responsive-layout-mobile #section-content {
     margin-bottom: 0;
