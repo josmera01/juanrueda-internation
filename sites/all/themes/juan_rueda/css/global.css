@@ -8,12 +8,6 @@
 /*@import url(http://fonts.googleapis.com/css?family=Lato:400,300,700,900);*/
 
 iframe{max-width: 100%}
-.breadcrumb {
-    background: url("../images/ico-migadepan.png") no-repeat scroll 0 4px transparent;
-    margin-top: 20px;
-    padding-bottom: 0;
-    padding-left: 25px;
-}
 #zone-user {margin-top: 20px;}
 .block-title{color: #2D6CB4;}
 .block-title .field-name-body {text-align: center;}
@@ -50,6 +44,12 @@ label {color: #FFFFFF;}
 
 .breadcrumb{color: #2F76CD;}
 .breadcrumb a{color: #e3e3e3;}
+.breadcrumb {
+    background: url("../images/ico-migadepan.png") no-repeat scroll 0 4px transparent;
+    margin-top: 20px;
+    padding-bottom: 0;
+    padding-left: 25px;
+}
 
 #region-content.grid-12{
     margin: 20px 0 40px !important;
@@ -483,7 +483,7 @@ ul.menu {
 #zone-footer #block-menu-menu-paises h2{background: url("../images/ico-contactenos-footer.png") no-repeat scroll center 0 transparent;}
 #zone-footer #block-block-13 h2{background: url("../images/ico-siguenos-footer.png") no-repeat scroll center 0 transparent;}
 
-.block ul.social_networks_sitemap{padding-left: 0;}
+#region-footer-first .block ul.social_networks_sitemap{padding-left: 0;}
 #region-footer-first .block ul.social_networks_sitemap li{
     background: url("../images/ico-footer-redes.png") no-repeat transparent;
     list-style: none;
@@ -821,9 +821,9 @@ padding-bottom: 4%;
     border-bottom: 1px solid #FFFFFF;
     padding-bottom: 10px;
 }
-.bloque-gris a:visited{
+/*.bloque-gris a:visited{
     color: #1B457A !important; 
-}
+}*/
 /**************************** PAGINA CAMIONES **********************************/
 
 .page-camiones .view-header h2{
@@ -950,10 +950,10 @@ padding-bottom: 4%;
     color: #E55700;
     text-decoration: underline;
 }
-.view-calendario-de-eventos .view-footer a:visited{
+/*.view-calendario-de-eventos .view-footer a:visited{
     color: #6E7072;
     text-decoration: underline;
-}
+}*/
 .view-calendario-de-eventos .view-footer .node-evento {
     color: #000000;
     font-size: 1.06em;
@@ -1239,7 +1239,7 @@ body.responsive-layout-mobile {
 .item-list ul.pager {
     clear: both;
     display: inline-block;
-        *display: inline;
+    *display: inline;
     *zoom: 1;
 
 }

@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
   margin-bottom: 3%;
 }
-a:link, a:visited {
+a:link /* a:visited */{
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -86,12 +86,14 @@ ul.menu li {
 }
 
 .item-list .pager li {
-    display: inline;
+    float: left;
     font-size: 0.9em;
     font-weight: lighter;
-    margin: 5px;
+    margin: 0 1em;
     padding: 0;
 }
+.item-list .pager li.pager-current{margin: 0.5em 1em;}
+
 /*****TABLAS****/
 table{
   width: 100%;
