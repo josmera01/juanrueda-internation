@@ -17,15 +17,15 @@
 }
 .responsive-layout-narrow #block-menu-menu-menu-secciones-principales .content ul li a{
 	width: 100%;
-	padding: 3.2em 0 0 0;
+	padding: 2.4em 0 0 0;
 	height: 2.6em;
-	background-position: center 0.3em;
+	background-position: center top;
 }
 .responsive-layout-narrow #block-menu-menu-menu-secciones-principales .content ul li:hover a,
-.responsive-layout-narrow #block-menu-menu-menu-secciones-principales .content ul li.active-trail a{background-position: center -11.6em;}
+.responsive-layout-narrow #block-menu-menu-menu-secciones-principales .content ul li.active-trail a{background-position: center -10em;}
 .responsive-layout-narrow #block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu{padding: 0 6%;}
 .responsive-layout-narrow #block-menu-menu-menu-secciones-principales .content ul li.first a span.titulo_menu{
-	padding: 4% 6% 0;
+	padding: 2% 6% 0;
 	background-position: center 0.5em;
 }
 .responsive-layout-narrow #block-menu-menu-menu-secciones-principales .content ul li a span.texto{display: none;}
@@ -49,6 +49,9 @@
 .responsive-layout-narrow .social_networks_links li#facebook a.active {background-position: -18px -44px;}
 .responsive-layout-narrow .social_networks_links li#youtube a:hover,
 .responsive-layout-narrow .social_networks_links li#youtube a.active {background-position: -101px -43px;}
+
+.responsive-layout-narrow #block-menu-menu-menu-secciones-principales ul{padding: 0 1%;}
+
 
 .twitter-follow-small, .fb_edge_widget_with_comment, .mobile-subscribe-youtube{display: none;}
 
