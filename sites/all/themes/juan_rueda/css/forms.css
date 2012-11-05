@@ -108,5 +108,5 @@ input[type="submit"]:hover {
 .view-art-culos-relacionados .views-field-field-image {
 	float: left;
 	margin-right: 10px;
-	*width: 20%;
+	width: 20%\0/;
 }
