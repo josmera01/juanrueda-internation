@@ -1069,6 +1069,7 @@ padding-bottom: 4%;
   color: #666;
   display: inline-block;
   border: 1px solid #CCC;
+  font-size: 0.9em;
 }
 #block-juanrueda-widget-youtube-widget-youtube-custom .contenido-youtube-footer a:hover{
   background-color: #FAFAFA;
@@ -1165,7 +1166,7 @@ padding-bottom: 4%;
     float: right;
     font-size: 1em;
     font-weight: 300;
-    padding: 0.3em 1em;
+    padding: 0.5em 1em;
     text-align: center;
     width: 13%;
     cursor: pointer;
@@ -1200,6 +1201,31 @@ padding-bottom: 4%;
     padding: 3% 10%;
     width: 20%;
     font-size: 1.3em;
+}
+
+.responsive-layout-mobile #block-views-featured-slider-block .nivo-controlNav,
+.responsive-layout-mobile .field-name-field-slider-camion .nivo-controlNav{
+	display: none;
+}
+.responsive-layout-mobile #views-nivo-slider-featured_slider-block,
+.responsive-layout-mobile .theme-dark .nivoSlider img {
+	border: none;
+	border-radius: 0;
+}
+
+.responsive-layout-mobile .nivo-caption{
+    background: none;
+    height: 100%;
+    left: 50%;
+    opacity: 1;
+    padding: 1em;
+    top: 0px;
+    width: 50%;
+}
+
+.responsive-layout-mobile #block-views-featured-slider-block .nivo-caption h1,
+.responsive-layout-mobile .field-name-field-slider-camion .nivo-caption h1{
+    font-size: 1em;
 }
 
 .responsive-layout-mobile #carousel-camion{display:block;}
@@ -1298,6 +1324,7 @@ padding-bottom: 4%;
 .twitter-follow-small a.twitter-name-label{
 	display: block;
 	margin: 1em 0;
+	font-size: 0.9em;
 }
 .responsive-layout-mobile #block-juanrueda-widget-youtube-widget-youtube-custom .content div.contenido-youtube-footer{
 	float: none;
