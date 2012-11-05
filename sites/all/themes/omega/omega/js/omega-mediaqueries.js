@@ -18,7 +18,7 @@ Drupal.omega = Drupal.omega || {};
     index = parseInt(index);
     previous = current;
     if (Drupal.settings.ie7) {
-      current = Drupal.settings.omega.layouts.order.hasOwnProperty(index) ? Drupal.settings.omega.layouts.order[index] : 'wide';
+      current =  'wide';
     }
     else {
       current = Drupal.settings.omega.layouts.order.hasOwnProperty(index) ? Drupal.settings.omega.layouts.order[index] : 'mobile';
