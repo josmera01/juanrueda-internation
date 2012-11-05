@@ -55,6 +55,23 @@ label {color: #FFFFFF;}
     margin: 20px 0 40px !important;
 }
 
+form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .view-mapa-contacto .attachment .views-field-php span,
+.pager li a {
+	background-color: #133155;
+    background-image: linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+    background-image: -o-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+    background-image: -moz-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+    background-image: -webkit-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+    background-image: -ms-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#133155', endColorstr='#224B88',GradientType=0 );
+    border: 0;
+    border-radius: 7px 7px 7px 7px !important;
+    color: #FFFFFF;
+    float: right;
+    padding: 8px 20px;
+	behaviour: url(/sites/all/themes/juan_rueda/css/PIE.htc);
+}
+
 /***************************************SLIDER***********************************************/
 
 .nivo-caption{
@@ -565,22 +582,7 @@ background-position: 0px -28px;
 #block-webform-client-block-62 #edit-actions {overflow: hidden;}
 #block-webform-client-block-62 label {padding-left: 10px;}
 .marker, .form-required {color: #FF7B00;}
-form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .view-mapa-contacto .attachment .views-field-php span,
-.pager li a {
-	background-color: #133155;
-    background-image: linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
-    background-image: -o-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
-    background-image: -moz-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
-    background-image: -webkit-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
-    background-image: -ms-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#133155', endColorstr='#224B88',GradientType=0 );
-    border: 0;
-    border-radius: 7px 7px 7px 7px !important;
-    color: #FFFFFF;
-    float: right;
-    padding: 8px 20px;
-	behaviour: url(/sites/all/themes/juan_rueda/css/PIE.htc);
-}
+
 .pager li.pager-next{
     border-left: 0;
 }
