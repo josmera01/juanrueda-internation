@@ -1097,7 +1097,7 @@ padding-bottom: 4%;
 /***************************************** CSS MOBILE ************************************************/
 
 .responsive-layout-mobile #section-header{
-    background-position: left bottom;
+    background-position: -30px top;
     background-size: 30% auto;
 }
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales{margin-bottom: 0;}
@@ -1122,11 +1122,11 @@ padding-bottom: 4%;
 }
 
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales .block-inner {clear: both;}
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul.menu{display: block;}
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul.menu,
 .responsive-layout-mobile #block-multiblock-1 {
     border: 3px solid #FD8900;
     border-radius: 5px 5px 5px 5px;
-    display: block;
     margin: 1px auto;
     padding: 0;
     width: 96%;
