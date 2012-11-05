@@ -1057,7 +1057,7 @@ padding-bottom: 4%;
 	font-weight: bold;
 }
 #block-juanrueda-widget-youtube-widget-youtube-custom .contenido-youtube-footer a{
-  background-color: #d8d8d8;
+  background-color: #CCCCCC;
   background-image: linear-gradient(bottom, #CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
   background-image: -o-linear-gradient(bottom, #CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
   background-image: -moz-linear-gradient(bottom, #CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
@@ -1069,6 +1069,16 @@ padding-bottom: 4%;
   color: #666;
   display: block;
   border: 1px solid #CCC;
+}
+#block-juanrueda-widget-youtube-widget-youtube-custom .contenido-youtube-footer a:hover{
+  background-color: #FAFAFA;
+  background-image: linear-gradient(top, #CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
+  background-image: -o-linear-gradient(top, #CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
+  background-image: -moz-linear-gradient(top, #CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
+  background-image: -webkit-linear-gradient(top, #CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
+  background-image: -ms-linear-gradient(top, #CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0.15, #CCCCCC),color-stop(0.50, #dfdfdf),color-stop(#FAFAFA));
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#cccccc',GradientType=0 );
 }
 
 
