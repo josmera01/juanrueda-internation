@@ -55,7 +55,28 @@
 
 .twitter-follow-small, .fb_edge_widget_with_comment, .mobile-subscribe-youtube{display: none;}
 
-.responsive-layout-narrow  #zone-footer #block-menu-menu-paises .leaf {
+.responsive-layout-narrow #zone-footer .block-title{font-size: 1em;}
+.responsive-layout-narrow #block-block-13.block ul,
+.responsive-layout-narrow #block-menu-menu-international-menu-inferior.block ul,
+.responsive-layout-narrow #block-views-menu-block.block ul {width: 100%;}
 
+.responsive-layout-narrow #zone-footer #block-menu-menu-paises{width: 34%;}
+.responsive-layout-narrow #zone-footer #block-menu-menu-paises ul.menu{padding-left: 0;}
+.responsive-layout-narrow #zone-footer #block-menu-menu-paises .leaf {
     width: 45%;
+    list-style-position: inside;
 }
+
+.responsive-layout-narrow #zone-footer #block-block-13{
+	width: 13%;
+	margin: 1% 0;
+}
+
+.responsive-layout-narrow #region-footer-second{font-size: 1em;}
+.responsive-layout-narrow #zone-footer #block-block-1, .responsive-layout-narrow #zone-footer #block-block-2{
+	float: none;
+	width: 100%;
+	padding: 0;
+	text-align: center;
+}
+
