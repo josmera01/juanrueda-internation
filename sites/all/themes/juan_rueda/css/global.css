@@ -350,7 +350,8 @@ input[type="search"]::-webkit-search-cancel-button {
     padding: 0;
     width: 18%;
 }
-#block-menu-menu-menu-secciones-principales ul li.leaf.menu-1183, #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1745{display: none;}
+#block-menu-menu-menu-secciones-principales ul li.leaf.menu-1183,
+#block-menu-menu-menu-secciones-principales ul li.leaf.menu-1745{display: none;}
 #block-menu-menu-menu-secciones-principales .content ul li a  {
     background-position: center 0.2em;
     background-repeat: no-repeat;
@@ -1041,7 +1042,23 @@ padding-bottom: 4%;
     float: none;
     margin: 0;
     width: 100%;
+    display: block;
 }
+#block-menu-menu-menu-secciones-principales ul li.leaf.menu-1183,
+#block-menu-menu-menu-secciones-principales ul li.leaf.menu-1745{
+	float: left;
+	width: 50%;
+}
+#block-menu-menu-menu-secciones-principales ul li.leaf.menu-1183 a,
+#block-menu-menu-menu-secciones-principales ul li.leaf.menu-1745 a{
+	padding-left: 0;
+	margin: 0.5em 0;
+	height: 1.7em;
+}
+#block-menu-menu-menu-secciones-principales ul li.leaf.menu-1183 a{border-right: 2px solid #9EAAB0}
+#block-menu-menu-menu-secciones-principales ul li.leaf.menu-1183 a span.titulo_menu,
+#block-menu-menu-menu-secciones-principales ul li.leaf.menu-1745 a span.titulo_menu{display: block;}
+
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content ul li a {
     background-position: 2em 0.8em;
     height: 2.7em;
