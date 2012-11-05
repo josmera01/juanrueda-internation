@@ -1154,7 +1154,7 @@ padding-bottom: 4%;
     float: none;
     margin: 0 auto;
     text-align: left;
-    width: 45%;
+    width: 50%;
     margin-bottom: 30px;
 }
 .responsive-layout-mobile #zone-footer .block h2{
@@ -1168,8 +1168,13 @@ padding-bottom: 4%;
 }
 .responsive-layout-mobile #region-footer-first .block .content{
     clear: both;
-    padding-left: 50px;
+    padding-left: 25px;
 }
+
+.responsive-layout-mobile #block-block-13.block ul, 
+.responsive-layout-mobile #block-menu-menu-international-menu-inferior.block ul, 
+.responsive-layout-mobile #block-views-menu-block.block ul{width: 100%;}
+
 .responsive-layout-mobile #region-footer-first .block ul li > div {
     display: inline-block;
     margin: 0;
