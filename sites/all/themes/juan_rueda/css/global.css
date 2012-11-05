@@ -351,7 +351,10 @@ input[type="search"]::-webkit-search-cancel-button {
     width: 18%;
 }
 #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1183,
-#block-menu-menu-menu-secciones-principales ul li.leaf.menu-1745{display: none;}
+#block-menu-menu-menu-secciones-principales ul li.leaf.menu-1745,
+#block-menu-menu-menu-secciones-principales ul li.leaf.menu-1747,
+#block-menu-menu-menu-secciones-principales ul li.expanded.menu-1746 a{display: none;}
+
 #block-menu-menu-menu-secciones-principales .content ul li a  {
     background-position: center 0.2em;
     background-repeat: no-repeat;
@@ -1070,7 +1073,9 @@ padding-bottom: 4%;
     width: auto;
 }
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content ul li a.active{background-position: 2em -12em;}
-.responsive-layout-mobile .menu-render {
+.responsive-layout-mobile .menu-render, .responsive-layout-mobile a.mobile {
+	display: block;
+	background-color: #FF6201;
     background-image: linear-gradient(bottom, #FF6201 42%, #FF9900 71%);
     background-image: -o-linear-gradient(bottom, #FF6201 42%, #FF9900 71%);
     background-image: -moz-linear-gradient(bottom, #FF6201 42%, #FF9900 71%);
@@ -1079,8 +1084,8 @@ padding-bottom: 4%;
     border-radius: 5px 5px 5px 5px;
     color: #554747;
     float: right;
-    font-size: 1.3em;
-    font-weight: 700;
+    font-size: 1em;
+    font-weight: 300;
     padding: 0.3em 1em;
     text-align: center;
     width: 13%;
@@ -1118,9 +1123,11 @@ padding-bottom: 4%;
 }
 
 
+
+
+
+
 .responsive-layout-mobile #carousel-camion{display:block;}
-
-
 
 .responsive-layout-mobile .mapa-sitio-render {
     border-radius: 0.5em 0.5em 0.5em 0.5em;
@@ -1148,13 +1155,13 @@ padding-bottom: 4%;
     width: 100%;
 }
 .responsive-layout-mobile #zone-footer #block-menu-menu-paises.block {
-    width: 45%;
+    width: 75%;
 }
 .responsive-layout-mobile #zone-footer .block {
     float: none;
     margin: 0 auto;
     text-align: left;
-    width: 50%;
+    width: 75%;
     margin-bottom: 30px;
 }
 .responsive-layout-mobile #zone-footer .block h2{
