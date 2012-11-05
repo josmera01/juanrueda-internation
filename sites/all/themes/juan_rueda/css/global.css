@@ -179,6 +179,9 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
     background: none repeat scroll 0 0 transparent;
     overflow: hidden;
 }
+
+#block-juanrueda-galeria-camiones-galeria-camiones{margin: 2em 0 1em 0;}
+
 #carousel-camion li img{
     border-top-right-radius: 0.5em;
     border-top-left-radius: 0.5em;
@@ -298,7 +301,7 @@ div.widgets-element-horizontal {margin-right: 5px;}
     border-radius: 4px 4px 4px 4px;
 }
 #region-user-second #block-search-form #edit-submit,
-#region-user-second #block-search-form #edit-actions input
+#region-user-second #block-search-form #edit-actions input,
 #region-user-second #block-search-form .form-actions input{
     filter: none;
     background: url("../images/jr-images.png") no-repeat scroll -155px -13px transparent;
