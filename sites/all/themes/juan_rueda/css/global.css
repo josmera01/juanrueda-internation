@@ -140,6 +140,11 @@ label {color: #FFFFFF;}
 	display: block;
 	float: left;
 }
+#carousel-historico .es-carousel ul li span{
+	color: #FF7B00;
+	font-weight: 300;
+	font-size: 1.5em;
+}
 
 .es-nav span {
     height: 40px;
