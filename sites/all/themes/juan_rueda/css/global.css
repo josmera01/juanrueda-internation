@@ -1057,7 +1057,10 @@ padding-bottom: 4%;
 }
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1183 a{border-right: 2px solid #9EAAB0}
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1183 a span.titulo_menu,
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1745 a span.titulo_menu{display: block;}
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1745 a span.titulo_menu{
+	display: block;
+	margin: auto;
+}
 
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content ul li a {
     background-position: 2em 0.8em;
