@@ -1295,11 +1295,11 @@ padding-bottom: 4%;
 	display: block;
 	margin-top: 1em;
 }
-#twitter-follow-small a.twitter-name-label{
+.twitter-follow-small a.twitter-name-label{
 	display: block;
 	margin: 1em 0;
 }
-.responsive-layout-mobile .contenido-youtube-footer{
+.responsive-layout-mobile #block-juanrueda-widget-youtube-widget-youtube-custom .content div.contenido-youtube-footer{
 	float: none;
 	margin: 1em auto;
 }
