@@ -294,6 +294,7 @@ div.widgets-element-horizontal {margin-right: 5px;}
     border-radius: 4px 4px 4px 4px;
 }
 #region-user-second #block-search-form #edit-submit, #region-user-second #block-search-form #edit-actions input{
+    filter: none;
     background: url("../images/jr-images.png") no-repeat scroll -155px -13px transparent;
     border-radius: 0 0 0 0 !important;
     height: 25px;
