@@ -747,12 +747,13 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     font-weight: 400;
     line-height: 1;
     margin-bottom: 20px;
-    padding: 5px 0 10px 50px;
+    padding: 0 0 10px 50px;
 }
-.page-noticias-y-eventos .bloque-gris .masonry-item h2 a {
-    padding-left: 40px;
-    font-size: 1em;
-}
+
+.page-camiones .bloque-gris h2 a{padding-left: 0;}
+.page-noticias-y-eventos .bloque-gris h2 a {font-size: 1em;}
+
+
 .front #block-system-main{
     display: none;
 }
