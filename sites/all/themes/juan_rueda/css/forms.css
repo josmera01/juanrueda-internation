@@ -123,6 +123,8 @@ input[type="submit"]:hover {
 	*width: 32.4% !important;
 }
 .nivo-caption {
-	*height: 65%;
-	*width: 22%;
+	*height: 65% !important;
+	*width: 22% !important;
 }
+.nivo-controlNav a {*float: left !important;}
+.nivo-controlNav a span{*width: 60%;}
