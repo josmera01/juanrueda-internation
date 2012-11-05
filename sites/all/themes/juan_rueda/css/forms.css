@@ -98,4 +98,6 @@ input[type="submit"]:hover {
 .node-type-article .comment-form  .form-item-subject
 .node-type-article .comment-form  .field-name-comment-body label,
 .node-type-article .comment-form  .field-name-comment-body  fieldset.filter-wrapper,
-.node-type-article .comment-form  .field-name-comment-body .wysiwyg-toggle-wrapper {display: none;}
+.node-type-article .comment-form  .field-name-comment-body .wysiwyg-toggle-wrapper, 
+#comments .form-item-name,
+#comments .form-item-subject{display: none;}
