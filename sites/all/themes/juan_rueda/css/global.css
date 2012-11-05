@@ -8,12 +8,6 @@
 /*@import url(http://fonts.googleapis.com/css?family=Lato:400,300,700,900);*/
 
 iframe{max-width: 100%}
-.breadcrumb {
-    background: url("../images/ico-migadepan.png") no-repeat scroll 0 4px transparent;
-    margin-top: 20px;
-    padding-bottom: 0;
-    padding-left: 25px;
-}
 #zone-user {margin-top: 20px;}
 .block-title{color: #2D6CB4;}
 .block-title .field-name-body {text-align: center;}
@@ -32,7 +26,7 @@ iframe{max-width: 100%}
     padding-left: 50px;
 }
 
-#block-block-9{
+#block-block-9, #block-widgets-s-facebook-like-box{
     margin-bottom: 4%;
 }
 
@@ -50,9 +44,32 @@ label {color: #FFFFFF;}
 
 .breadcrumb{color: #2F76CD;}
 .breadcrumb a{color: #e3e3e3;}
+.breadcrumb {
+    background: url("../images/ico-migadepan.png") no-repeat scroll 0 4px transparent;
+    margin-top: 20px;
+    padding-bottom: 0;
+    padding-left: 25px;
+}
 
 #region-content.grid-12{
     margin: 20px 0 40px !important;
+}
+
+form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .view-mapa-contacto .attachment .views-field-php span,
+.pager li a {
+	background-color: #133155;
+    background-image: linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+    background-image: -o-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+    background-image: -moz-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+    background-image: -webkit-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+    background-image: -ms-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#133155', endColorstr='#224B88',GradientType=0 );
+    border: 0;
+    border-radius: 7px 7px 7px 7px !important;
+    color: #FFFFFF;
+    float: right;
+    padding: 8px 20px;
+	behaviour: url(/sites/all/themes/juan_rueda/css/PIE.htc);
 }
 
 /***************************************SLIDER***********************************************/
@@ -65,7 +82,7 @@ label {color: #FFFFFF;}
     background: -o-linear-gradient(left, transparent 10%,black 80%);
     background: -ms-linear-gradient(left, transparent 10%,black 80%);
     background: linear-gradient(to right, transparent 10%,black 80%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='transparent', endColorstr='#000000',GradientType=1 );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#777777', endColorstr='#000000',GradientType=1 );
     height: 100%;
     left: 70%;
     opacity: 0.9;
@@ -73,6 +90,19 @@ label {color: #FFFFFF;}
     top: 0px;
     width: 30%;
 }
+
+.theme-dark .nivoSlider img {
+    border: 2px solid #888888;
+    border-radius: 10px 10px 10px 10px;
+}
+.theme-dark .nivoSlider{
+    background-color: transparent !important;
+}
+.theme-dark.slider-wrapper{
+	padding: 0;
+	background: none;
+}
+
 #block-views-featured-slider-block .nivo-caption h1, .field-name-field-slider-camion .nivo-caption h1{
     font-size: 1.3em;
     font-weight: 100;
@@ -90,11 +120,13 @@ label {color: #FFFFFF;}
     background-image: -webkit-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
     background-image: -ms-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
     background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.22, #133155),color-stop(0.61, #133B6C),    color-stop(0.81, #224B88));
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#133155', endColorstr='#224B88',GradientType=0 );
     border-radius: 5px 5px 0 0;
     width: auto;
     padding: 0.5em 1em;
     margin: -3em 1.5em 0 0;
     float: right;
+    behaviour: url(/sites/all/themes/juan_rueda/css/PIE.htc);
 }
 #block-views-featured-slider-block .nivo-controlNav a, .field-name-field-slider-camion .nivo-controlNav a{
     background: url("../images/jr-images.png") no-repeat scroll -25px -428px transparent;
@@ -117,11 +149,22 @@ label {color: #FFFFFF;}
 .views-nivo-slider-view  {padding: 0;}
 
 #carousel-historico{
-    background: url("../images/fondo-slider-historia.jpg") repeat-x scroll 0 0 transparent;
+    background: url("../images/fondo-slider-historia.jpg") repeat-x scroll 0 0 #000000;
     border: 3px solid #555555;
     margin: 20px 0;
     padding: 2% 5%;
 }
+
+#carousel-historico .es-carousel ul li{
+	display: block;
+	float: left;
+}
+#carousel-historico .es-carousel ul li span{
+	color: #FF7B00;
+	font-weight: 300;
+	font-size: 1.5em;
+}
+
 .es-nav span {
     height: 40px;
     width: 40px;
@@ -196,13 +239,17 @@ label {color: #FFFFFF;}
     background-position: center top;
     background-repeat: no-repeat;
     height: 48px;
-    margin: 1.5em 0;
+    margin: 3em 0 1.5em 0;
     text-indent: -9999px;
 }
 .responsive-layout-normal .branding-data  h1.site-name, .responsive-layout-normal .branding-data h2.site-name,
-.responsive-layout-narrow .branding-data  h1.site-name, .responsive-layout-narrow .branding-data h2.site-name,
-.responsive-layout-mobile .branding-data  h1.site-name, .responsive-layout-mobile .branding-data h2.site-name
+.responsive-layout-narrow .branding-data  h1.site-name, .responsive-layout-narrow .branding-data h2.site-name
 {background-size: 50% auto;}
+.responsive-layout-mobile .branding-data  h1.site-name, .responsive-layout-mobile .branding-data h2.site-name{
+	background-position: center right;
+	margin: 3em 1em 1em 0;
+	background-size: 60%;
+}
 
 #region-user-second .region-inner {overflow: hidden;}
 #region-user-second a.twitter-timeline {
@@ -218,6 +265,7 @@ div.widgets-element-horizontal {margin-right: 5px;}
 }
 .social_networks_links{
     margin: 0;
+    padding: 0;
 }
 .social_networks_links li{
     float: left;
@@ -242,7 +290,7 @@ div.widgets-element-horizontal {margin-right: 5px;}
 
 #region-user-second #block-search-form{
     float: right;
-    width: 45%;
+    width: 50%;
 }
 #region-user-second #block-search-form h2{display: none;}
 #region-user-second #block-search-form .content{
@@ -250,7 +298,8 @@ div.widgets-element-horizontal {margin-right: 5px;}
     border-radius: 4px 4px 4px 4px;
 }
 #region-user-second #block-search-form #edit-submit, #region-user-second #block-search-form #edit-actions input{
-    background: url("../images/jr-images.png") no-repeat scroll -13.85em -1.25em transparent;
+    filter: none;
+    background: url("../images/jr-images.png") no-repeat scroll -155px -13px transparent;
     border-radius: 0 0 0 0 !important;
     height: 25px;
     margin: 0;
@@ -313,18 +362,24 @@ input[type="search"]::-webkit-search-cancel-button {
     margin: 0 auto;
     width: 100%;
 }
-#block-menu-menu-menu-secciones-principales ul {
+#block-menu-menu-menu-secciones-principales .expanded ul.menu {
     overflow: hidden;
     padding: 0 3%;
 }
 #block-menu-menu-menu-secciones-principales ul li.leaf {
     background: url("../images/menu-bg.png") repeat-x scroll top left transparent;
     border-radius: 0.5em;
+    behaviour: url(/sites/all/themes/juan_rueda/css/PIE.htc);
     float: left;
     margin: 1%;
     padding: 0;
     width: 18%;
 }
+#block-menu-menu-menu-secciones-principales ul li.leaf.menu-1183,
+#block-menu-menu-menu-secciones-principales ul li.leaf.menu-1745,
+#block-menu-menu-menu-secciones-principales ul li.leaf.menu-1747,
+#block-menu-menu-menu-secciones-principales ul li.expanded.menu-1746 a.mobile{display: none;}
+
 #block-menu-menu-menu-secciones-principales .content ul li a  {
     background-position: center 0.2em;
     background-repeat: no-repeat;
@@ -459,7 +514,7 @@ ul.menu {
 #zone-footer #block-menu-menu-paises h2{background: url("../images/ico-contactenos-footer.png") no-repeat scroll center 0 transparent;}
 #zone-footer #block-block-13 h2{background: url("../images/ico-siguenos-footer.png") no-repeat scroll center 0 transparent;}
 
-.block ul.social_networks_sitemap{padding-left: 0;}
+#region-footer-first .block ul.social_networks_sitemap{padding-left: 0;}
 #region-footer-first .block ul.social_networks_sitemap li{
     background: url("../images/ico-footer-redes.png") no-repeat transparent;
     list-style: none;
@@ -532,21 +587,7 @@ background-position: 0px -28px;
 #block-webform-client-block-62 #edit-actions {overflow: hidden;}
 #block-webform-client-block-62 label {padding-left: 10px;}
 .marker, .form-required {color: #FF7B00;}
-form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .view-mapa-contacto .attachment .views-field-php span,
-.pager li a {
-	background-color: #133155;
-    background-image: linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
-    background-image: -o-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
-    background-image: -moz-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
-    background-image: -webkit-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
-    background-image: -ms-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
-    border: 0;
-    border-radius: 7px 7px 7px 7px !important;
-    color: #FFFFFF;
-    float: right;
-    padding: 8px 20px;
-    margin-right: 3%;
-}
+
 .pager li.pager-next{
     border-left: 0;
 }
@@ -568,6 +609,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     background-image: -moz-linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
     background-image: -webkit-linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
     background-image: -ms-linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#194E99', endColorstr='#2E78C1',GradientType=0 );
 }
 #webform-component-nombre-completo, #webform-component-correo-electronico {margin-right: 20px;}
 #webform-component-correo-electronico {clear: left;}
@@ -629,6 +671,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     background-image: -moz-linear-gradient(bottom, #B3B3B3 16%, #CFCFCF 58%);
     background-image: -webkit-linear-gradient(bottom, #B3B3B3 16%, #CFCFCF 58%);
     background-image: -ms-linear-gradient(bottom, #B3B3B3 16%, #CFCFCF 58%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B3B3B3', endColorstr='#CFCFCF',GradientType=0 );
     border-radius: 5px 5px 0 0;
     background-color: #B3B3B3;
     border-radius: 5px 5px 0 0;
@@ -677,6 +720,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     background-image: -webkit-linear-gradient(bottom, #DBD8DB 12%, #E9E9E9 56%, #FFFFFF 78%);
     background-image: -ms-linear-gradient(bottom, #DBD8DB 12%, #E9E9E9 56%, #FFFFFF 78%);
     background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.12, #DBD8DB),color-stop(0.56, #E9E9E9),color-stop(0.78, #FFFFFF));
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#DBD8DB', endColorstr='#FFFFFF',GradientType=0 );
     color: #1C1C1C;
     border-radius: 0.5em;
 }
@@ -739,7 +783,6 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     font-size: 1em;
     font-weight: 300;
 }
-.bloque-gris .field-name-body p{margin: 0;}
 .bloque-gris .node-article, .bloque-gris .node-evento, .bloque-gris .node-camion {padding: 1em 1.2em 1.2em 1.2em;}
 .bloque-gris .node-evento .field-label{float: left;}
 .bloque-gris .node-evento .field-name-field-fecha{
@@ -764,6 +807,10 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 }
 .link-conteo li.flag .number{
 	background: url("../images/bg-like.png") no-repeat scroll 0 0 transparent;
+}
+.link-conteo li.visitas .number{
+    background: url("../images/visitas.png") no-repeat scroll 0 0 transparent;
+    padding: 5px 0 5px 27px
 }
 .link-conteo li .number{
         padding: 5px 0 5px 32px;
@@ -791,6 +838,13 @@ padding-bottom: 4%;
     font-weight: 600;
     padding-right: 15px;
 }
+.field-name-node-link{
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 10px;
+}
+/*.bloque-gris a:visited{
+    color: #1B457A !important; 
+}*/
 /**************************** PAGINA CAMIONES **********************************/
 
 .page-camiones .view-header h2{
@@ -841,6 +895,7 @@ padding-bottom: 4%;
     background-image: -moz-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
     background-image: -webkit-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
     background-image: -ms-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#133155', endColorstr='#224B88',GradientType=0 );
     margin: 0 3px;
     width: 98%;
 }
@@ -917,10 +972,10 @@ padding-bottom: 4%;
     color: #E55700;
     text-decoration: underline;
 }
-.view-calendario-de-eventos .view-footer a:visited{
+/*.view-calendario-de-eventos .view-footer a:visited{
     color: #6E7072;
     text-decoration: underline;
-}
+}*/
 .view-calendario-de-eventos .view-footer .node-evento {
     color: #000000;
     font-size: 1.06em;
@@ -991,8 +1046,25 @@ padding-bottom: 4%;
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales, .responsive-layout-mobile #block-multiblock-1{
     clear: both;
 }
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1747{
+	display: block;
+	width: auto;
+	background: none;
+}
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1747 a.mobile{
+	background: transparent url(../images/ico-inicio-mobile.png) no-repeat -5px -130px;
+	text-indent: -9999px;
+	height: 35px;
+	width: 37px;
+	margin: 0;
+	padding: 0;
+}
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1747 a.mobile.active{
+	background-position: -5px -6px;
+}
+
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales .block-inner {clear: both;}
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul.menu {
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .menu-1746 ul.menu {
     border: 3px solid #FD8900;
     border-radius: 5px 5px 5px 5px;
     display: block;
@@ -1000,14 +1072,32 @@ padding-bottom: 4%;
     padding: 0;
     width: 96%;
 }
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf {
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .menu-1746 ul li.leaf {
     border-bottom: 2px solid #9EAAB0;
     border-radius: 0;
     float: none;
     margin: 0;
     width: 100%;
+    display: block;
 }
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content ul li a {
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .menu-1746 ul li.leaf.menu-1183,
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .menu-1746 ul li.leaf.menu-1745{
+	float: left;
+	width: 50%;
+}
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .menu-1746 ul li.leaf.menu-1183 a,
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .menu-1746 ul li.leaf.menu-1745 a{
+	padding-left: 0;
+	margin: 0.5em 0;
+	height: 1.7em;
+}
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .menu-1746 ul li.leaf.menu-1183 a{border-right: 2px solid #9EAAB0}
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .menu-1746 ul li.leaf.menu-1183 a span.titulo_menu,
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .menu-1746 ul li.leaf.menu-1745 a span.titulo_menu{
+	display: block;
+	margin: auto;
+}
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content .menu-1746 ul li a {
     background-position: 2em 0.8em;
     height: 2.7em;
     padding: 1.3em 0 0 85px;
@@ -1015,26 +1105,30 @@ padding-bottom: 4%;
     width: auto;
 }
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content ul li a.active{background-position: 2em -12em;}
-.responsive-layout-mobile .menu-render {
+.responsive-layout-mobile .menu-render, .responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.expanded.menu-1746 a.mobile{
+	display: block;
+	background-color: #FF6201;
     background-image: linear-gradient(bottom, #FF6201 42%, #FF9900 71%);
     background-image: -o-linear-gradient(bottom, #FF6201 42%, #FF9900 71%);
     background-image: -moz-linear-gradient(bottom, #FF6201 42%, #FF9900 71%);
     background-image: -webkit-linear-gradient(bottom, #FF6201 42%, #FF9900 71%);
     background-image: -ms-linear-gradient(bottom, #FF6201 42%, #FF9900 71%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF6201', endColorstr='#FF9900',GradientType=0 );
     border-radius: 5px 5px 5px 5px;
     color: #554747;
     float: right;
-    font-size: 1.3em;
-    font-weight: 700;
+    font-size: 1em;
+    font-weight: 300;
     padding: 0.3em 1em;
     text-align: center;
-    width: 10%;
+    width: 13%;
     cursor: pointer;
 }
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content ul li a span.texto{display: none;}
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu{
     padding: 0;
     height: auto;
+    width: 100%
 }
 .responsive-layout-mobile .menu-buscador, .responsive-layout-mobile .home-movil, .responsive-layout-mobile .menu-render{margin-right: 0.5em;}
 .responsive-layout-wide .home-movil, .responsive-layout-normal .home-movil, .responsive-layout-narrow .home-movil{display: none;}
@@ -1062,10 +1156,7 @@ padding-bottom: 4%;
     font-size: 1.3em;
 }
 
-
 .responsive-layout-mobile #carousel-camion{display:block;}
-
-
 
 .responsive-layout-mobile .mapa-sitio-render {
     border-radius: 0.5em 0.5em 0.5em 0.5em;
@@ -1093,13 +1184,13 @@ padding-bottom: 4%;
     width: 100%;
 }
 .responsive-layout-mobile #zone-footer #block-menu-menu-paises.block {
-    width: 45%;
+    width: 75%;
 }
 .responsive-layout-mobile #zone-footer .block {
     float: none;
     margin: 0 auto;
     text-align: left;
-    width: 45%;
+    width: 75%;
     margin-bottom: 30px;
 }
 .responsive-layout-mobile #zone-footer .block h2{
@@ -1113,8 +1204,13 @@ padding-bottom: 4%;
 }
 .responsive-layout-mobile #region-footer-first .block .content{
     clear: both;
-    padding-left: 50px;
+    padding-left: 25px;
 }
+
+.responsive-layout-mobile #block-block-13.block ul, 
+.responsive-layout-mobile #block-menu-menu-international-menu-inferior.block ul, 
+.responsive-layout-mobile #block-views-menu-block.block ul{width: 100%;}
+
 .responsive-layout-mobile #region-footer-first .block ul li > div {
     display: inline-block;
     margin: 0;
@@ -1191,7 +1287,7 @@ body.responsive-layout-mobile {
 .mobile-subscribe-youtube a{
   background:  -moz-linear-gradient(#CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
   background: -webkit-linear-gradient(#CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
-   background: -o-linear-gradient(#CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
+  background: -o-linear-gradient(#CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
   background:  linear-gradient(#CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
   padding: 10px;
   color: #666;
@@ -1206,7 +1302,7 @@ body.responsive-layout-mobile {
 .item-list ul.pager {
     clear: both;
     display: inline-block;
-        *display: inline;
+    *display: inline;
     *zoom: 1;
 
 }
@@ -1222,8 +1318,6 @@ body.responsive-layout-mobile {
     margin: 30px 0;
 }
 
-
-
 .page-camiones #page-title, .page-tips-conozca-su-maquina #page-title, 
 .page-tips-disfrute-su-camion #page-title, .page-tips-conviertase-en-experto #page-title {
 	padding-left: 50px;
@@ -1234,18 +1328,13 @@ body.responsive-layout-mobile {
 .page-tips-disfrute-su-camion  #page-title{background: url("../images/ico-servicios.png") no-repeat scroll left -294px transparent;}
 .page-tips-conviertase-en-experto #page-title {background: url("../images/ico-latec.png") no-repeat scroll left -294px transparent;}
 
-.theme-dark .nivoSlider img {
-    border: 2px solid #888888;
-    border-radius: 10px 10px 10px 10px;
-}
-.theme-dark .nivoSlider{
-    background-color: transparent !important;
-}
-.node-type-camion .field-name-field-galeria-usos-camion,
-.node-type-camion .block-ventaja-display-block h2 {
-    color: #777;
-    font-size: 1.4em;
-    text-transform: uppercase;
-    margin: 30px 0 20px 0;
+
+.node-type-camion .field-name-field-galeria-usos-camion .field-label, 
+.node-type-camion .block-ventaja-display-block .block-inner > h2 {
+    color: #999999;
     display: block;
+    font-size: 1.4em;
+    font-weight: lighter;
+    margin: 40px 0 20px;
+    text-transform: uppercase;
 }

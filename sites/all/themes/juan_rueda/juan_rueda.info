@@ -40,6 +40,8 @@ scripts[] = js/html5.js
 
 stylesheets[all][] = 'css/forms.css'
 stylesheets[all][] = 'css/html.css'
+stylesheets[all][] = 'css/soporte.css'
+
 
 css[global.css][name] = 'Your custom global styles'
 css[global.css][description] = 'This file holds all the globally active custom CSS of your theme.'

@@ -1,5 +1,5 @@
 body {
-    background: url("../images/home-background.jpg") no-repeat scroll center 0 #212121;
+    background: url("../images/seccion-background.jpg") no-repeat scroll center 0 #212121;
     background-size: 100%;
     color: #FFFFFF;
     font-family: 'Lato', sans-serif;
@@ -7,11 +7,13 @@ body {
     font-weight: lighter;
     font-size: 1em;
 }
+body.front {background: url("../images/home-background.jpg") no-repeat scroll center 0 #212121;}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
   margin-bottom: 3%;
 }
-a:link, a:visited {
+a:link /* a:visited */{
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -28,7 +30,8 @@ img{
     max-width: 100%;
 }
 p{
-  font-size: 0.85em;
+    font-size: 0.85em;
+    margin: 10px 0;
 }
 /*FULLTABS*/
 
@@ -85,12 +88,14 @@ ul.menu li {
 }
 
 .item-list .pager li {
-    display: inline;
+    float: left;
     font-size: 0.9em;
     font-weight: lighter;
-    margin: 5px;
+    margin: 0 1em;
     padding: 0;
 }
+.item-list .pager li.pager-current{margin: 0.5em 1em;}
+
 /*****TABLAS****/
 table{
   width: 100%;

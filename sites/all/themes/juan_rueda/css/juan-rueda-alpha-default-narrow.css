@@ -17,15 +17,15 @@
 }
 .responsive-layout-narrow #block-menu-menu-menu-secciones-principales .content ul li a{
 	width: 100%;
-	padding: 3.2em 0 0 0;
+	padding: 2.4em 0 0 0;
 	height: 2.6em;
-	background-position: center 0.3em;
+	background-position: center top;
 }
 .responsive-layout-narrow #block-menu-menu-menu-secciones-principales .content ul li:hover a,
-.responsive-layout-narrow #block-menu-menu-menu-secciones-principales .content ul li.active-trail a{background-position: center -11.6em;}
+.responsive-layout-narrow #block-menu-menu-menu-secciones-principales .content ul li.active-trail a{background-position: center -10em;}
 .responsive-layout-narrow #block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu{padding: 0 6%;}
 .responsive-layout-narrow #block-menu-menu-menu-secciones-principales .content ul li.first a span.titulo_menu{
-	padding: 4% 6% 0;
+	padding: 2% 6% 0;
 	background-position: center 0.5em;
 }
 .responsive-layout-narrow #block-menu-menu-menu-secciones-principales .content ul li a span.texto{display: none;}
@@ -37,7 +37,7 @@
 .responsive-layout-narrow .social_networks_links li a  {
     border-radius: 0.3em 0.3em 0.3em 0.3em;
     height: 25px;
-    width: 30px;
+    width: 25px;
 }
 .responsive-layout-narrow .social_networks_links li#twitter a {background-position: -60px -18px;}
 .responsive-layout-narrow .social_networks_links li#facebook a {background-position: -18px -17px;}
@@ -50,9 +50,33 @@
 .responsive-layout-narrow .social_networks_links li#youtube a:hover,
 .responsive-layout-narrow .social_networks_links li#youtube a.active {background-position: -101px -43px;}
 
+.responsive-layout-narrow #block-menu-menu-menu-secciones-principales ul{padding: 0 1%;}
+
+
 .twitter-follow-small, .fb_edge_widget_with_comment, .mobile-subscribe-youtube{display: none;}
 
-.responsive-layout-narrow  #zone-footer #block-menu-menu-paises .leaf {
+.responsive-layout-narrow #zone-footer .block-title{font-size: 1em;}
+.responsive-layout-narrow #block-block-13.block ul,
+.responsive-layout-narrow #block-menu-menu-international-menu-inferior.block ul,
+.responsive-layout-narrow #block-views-menu-block.block ul {width: 100%;}
 
+.responsive-layout-narrow #zone-footer #block-menu-menu-paises{width: 34%;}
+.responsive-layout-narrow #zone-footer #block-menu-menu-paises ul.menu{padding-left: 0;}
+.responsive-layout-narrow #zone-footer #block-menu-menu-paises .leaf {
     width: 45%;
+    list-style-position: inside;
 }
+
+.responsive-layout-narrow #zone-footer #block-block-13{
+	width: 13%;
+	margin: 1% 0;
+}
+
+.responsive-layout-narrow #region-footer-second{font-size: 1em;}
+.responsive-layout-narrow #zone-footer #block-block-1, .responsive-layout-narrow #zone-footer #block-block-2{
+	float: none;
+	width: 100%;
+	padding: 0;
+	text-align: center;
+}
+
