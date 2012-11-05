@@ -1035,15 +1035,15 @@ padding-bottom: 4%;
 }
 
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1747 a.mobile{
-	background: transparent url(../images/ico-inicio-mobile.png) no-repeat bottom left;
+	background: transparent url(../images/ico-inicio-mobile.png) no-repeat -5px -130px;
 	text-indent: -9999px;
-	height: 40px;
-	width: 40px;
+	height: 35px;
+	width: 37px;
 	margin: 0;
 	padding: 0;
 }
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1747 a.mobile.active{
-	background: transparent url(../images/ico-inicio-mobile.png) no-repeat top left;
+	background-position: -5px -6px;
 }
 
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales .block-inner {clear: both;}
@@ -1089,7 +1089,7 @@ padding-bottom: 4%;
     width: auto;
 }
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content ul li a.active{background-position: 2em -12em;}
-.responsive-layout-mobile .menu-render, .responsive-layout-mobile a.mobile {
+.responsive-layout-mobile .menu-render, .responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.expanded.menu-1746 a.mobile{
 	display: block;
 	background-color: #FF6201;
     background-image: linear-gradient(bottom, #FF6201 42%, #FF9900 71%);
