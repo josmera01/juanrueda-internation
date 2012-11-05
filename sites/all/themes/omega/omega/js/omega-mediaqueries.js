@@ -17,7 +17,7 @@ Drupal.omega = Drupal.omega || {};
   var setCurrentLayout = function (index) {
     index = parseInt(index);
     previous = current;
-    if (Drupal.settings.ie7 == 1) {
+    if (Drupal.settings.ei7 == 1) {
       alert('h');
       current =  'wide';
     }
