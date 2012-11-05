@@ -6,7 +6,8 @@
     attach: function(context) {
       $('body').bind('responsiveIE', function(e, d) {
         if($(this).hasClass("responsive-layout-mobile")) {
-          $('body').addClass('responsive-layout-wide');
+          //$('body').addClass('responsive-layout-wide');
+          alert('hola');
         }
       }
 
