@@ -93,7 +93,7 @@ input[type="submit"]:active {
 input[type="submit"]:hover {
 }*/
 
-.node-type-article h2,
+.node-type-article #comments h2,
 .node-type-article .comment-form  .form-type-item,
 .node-type-article .comment-form  .form-item-subject
 .node-type-article .comment-form  .field-name-comment-body label,
