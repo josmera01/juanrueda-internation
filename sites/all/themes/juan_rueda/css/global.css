@@ -50,7 +50,7 @@ label {color: #FFFFFF;}
     padding-left: 25px;
 }
 .breadcrumb a{color: #e3e3e3;}
-.breadcrumb:first-letter{text-transform: uppercase;}
+.breadcrumb a:first-letter{text-transform: uppercase;}
 
 #region-content.grid-12{
     margin: 20px 0 40px !important;
