@@ -1100,6 +1100,7 @@ padding-bottom: 4%;
     background-position: left bottom;
     background-size: 30% auto;
 }
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales{margin-bottom: 0;}
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales, .responsive-layout-mobile #block-multiblock-1{
     clear: both;
 }
@@ -1121,7 +1122,8 @@ padding-bottom: 4%;
 }
 
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales .block-inner {clear: both;}
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul.menu {
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul.menu,
+.responsive-layout-mobile #block-multiblock-1 {
     border: 3px solid #FD8900;
     border-radius: 5px 5px 5px 5px;
     display: block;
@@ -1129,7 +1131,18 @@ padding-bottom: 4%;
     padding: 0;
     width: 96%;
 }
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf {
+.responsive-layout-mobile #block-multiblock-1{background: #DDD;}
+.responsive-layout-mobile #block-multiblock-1 .form-item input{
+	width: 60%;
+	margin: 1%;
+}
+.responsive-layout-mobile #block-multiblock-1 .form-actions input{
+	width: 30%;
+	margin: 1%;
+	font-size: 0.8em;
+}
+
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf{
     border-bottom: 2px solid #9EAAB0;
     border-radius: 0;
     float: none;
@@ -1189,18 +1202,20 @@ padding-bottom: 4%;
 }
 .responsive-layout-mobile .menu-buscador, .responsive-layout-mobile .home-movil, .responsive-layout-mobile .menu-render{margin-right: 0.5em;}
 .responsive-layout-wide .home-movil, .responsive-layout-normal .home-movil, .responsive-layout-narrow .home-movil{display: none;}
+
+.responsive-layout-mobile .menu-buscador{background: url("../images/icono-buscar-mobile.png") no-repeat -5px -132px; transparent;}
+.responsive-layout-mobile .home-movil{background: url("../images/ico-inicio-mobile.png") no-repeat -5px -131px; transparent;}
+
 .responsive-layout-mobile .menu-buscador, .responsive-layout-mobile .home-movil{
-    border-radius: 0.5em;
     display: block;
     float: right;
-    height: 1.7em;
-    padding: 0.5em;
+    height: 35px;
     text-indent: -9999px;
-    width: 2em;
+    width: 37px;
     cursor: pointer;
 }
-.responsive-layout-mobile .menu-buscador{background: transparent url(../images/ico-search-mobile.png) no-repeat 0 -3px;}
-.responsive-layout-mobile .home-movil{background: transparent url(../images/ico-home-mobile.png) no-repeat top left;}
+.responsive-layout-mobile .menu-buscador.active, .responsive-layout-mobile .home-movil.active{background-position: -5px -6px;}
+
 .responsive-layout-mobile #zone-user, #block-multiblock-1{display: none;}
 .responsive-layout-mobile #block-search-form {
     display: block;
