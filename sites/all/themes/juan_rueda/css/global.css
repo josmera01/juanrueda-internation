@@ -169,12 +169,17 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
     height: 40px;
     width: 40px;
 }
-.es-nav span.es-nav-next{
-    background: url("../images/flecha-camioes-der.png") repeat-x scroll 0 0 transparent;
+.es-nav span{
+	background: url("../images/flechas-slider.png") no-repeat transparent;
+	background-size: 100%;
 }
-.es-nav span.es-nav-prev{
-    background: url("../images/flecha-camiones-izq.png") repeat-x scroll 0 0 transparent;
-}
+.es-nav span.es-nav-next {background-position: 0 0;}
+.es-nav span.es-nav-prev {background-position: 0 -223px;}
+
+.es-nav span:hover{opacity: 1;}
+.es-nav span.es-nav-next:hover {background-position: 0 -75px;}
+.es-nav span.es-nav-prev:hover {background-position: 0 -298px;}
+
 .es-carousel {
     background: none repeat scroll 0 0 transparent;
     overflow: hidden;
@@ -201,7 +206,7 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
     color: #FFFFFF;
 }
 #carousel-camion.es-carousel-wrapper, #carousel-camion .es-carousel{background: none;}
-#carousel-camion.es-carousel-wrapper{padding: 0 2.5em;}
+#carousel-camion.es-carousel-wrapper{padding: 0 2em;}
 
 .responsive-layout-wide #carousel-camion.es-carousel-wrapper{padding: 0;}
 .responsive-layout-wide #carousel-camion .es-nav {display: none;}
@@ -223,8 +228,6 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
     *display: inline;
     *zoom:1;
 }
-#carousel-camion .es-nav span.es-nav-prev{background: transparent url(../images/flecha-bloque-izq.png) no-repeat top left;}
-#carousel-camion .es-nav span.es-nav-next{background: transparent url(../images/flecha-bloque-der.png) no-repeat top left;}
 
 
 /***************************************HEADER***********************************************/
@@ -825,11 +828,12 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 }
 .link-conteo li .label{
     font-weight: 600;
-    text-align: right;
+    text-align: center;
 }
 .link-conteo li{
     font-size: 0.7em;
     margin: 0 4%;
+    width: 25%;
 }
 .link-conteo li span{
     display: block;
