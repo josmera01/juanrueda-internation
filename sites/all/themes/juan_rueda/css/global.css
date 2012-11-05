@@ -1225,7 +1225,8 @@ padding-bottom: 4%;
 
 .responsive-layout-mobile #block-views-featured-slider-block .nivo-caption h1,
 .responsive-layout-mobile .field-name-field-slider-camion .nivo-caption h1{
-    font-size: 1em;
+    font-size: 0.8em;
+    font-weight: lighter;
 }
 
 .responsive-layout-mobile #carousel-camion{display:block;}
