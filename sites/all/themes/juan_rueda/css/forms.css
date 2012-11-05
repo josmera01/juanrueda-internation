@@ -122,6 +122,7 @@ input[type="submit"]:hover {
 	*width: 32.4% !important;
 }
 .container-12 .grid-8 {*width: 66.5%!important;}
+.container-12 .grid-8 .grid-4 {*width: 45%!important;}
 
 .front .view-id-entradas_recientes .view-content{*width: auto !important;}
 .front  #block-views-entradas-recientes-block {*padding-left: 2% !important;}
