@@ -814,6 +814,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     overflow: hidden;
     padding-top: 4%;
 }
+.link-conteo ul{padding: 0;}
 .link-conteo li{
     float: left;
     list-style: none outside none;
@@ -898,8 +899,31 @@ padding-bottom: 4%;
     border: 0;
     color: #000000;
 }
-.view-calendario-de-eventos.view .date-nav-wrapper  .date-prev, 
-.view-calendario-de-eventos.view .date-nav-wrapper  .date-next {background: transparent;}
+.view-calendario-de-eventos.view .date-nav-wrapper {
+	overflow: hidden;
+}
+.view-calendario-de-eventos.view .date-nav-wrapper .date-nav{
+	padding: 0;
+	margin: 0;
+}
+.view-calendario-de-eventos.view .date-nav-wrapper .date-prev, 
+.view-calendario-de-eventos.view .date-nav-wrapper .date-next {
+	background: none;
+	padding: 1.1em 0;
+}
+.view .date-nav-wrapper .date-prev a, .view .date-nav-wrapper .date-next a {
+	font-size: 16px;
+	background: white;
+	padding: 0 5px 5px 5px;
+	float: none;
+	height: 15px;
+	width: 10px;
+	display: inline-block;
+	border-radius: 16px;
+	color: darkBlue !important;
+	text-align: center;
+}
+
 .view-calendario-de-eventos .calendar-calendar th.days {
     background: transparent;
     border: 0;
@@ -913,30 +937,21 @@ padding-bottom: 4%;
     background-image: -webkit-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
     background-image: -ms-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#133155', endColorstr='#224B88',GradientType=0 );
-    margin: 0 3px;
+    margin: 3px auto;
+    border-radius: 5px;
+    padding: 2% 0;
     width: 98%;
 }
-.view-calendario-de-eventos  .date-prev, #view-calendario-de-eventos  .date-next {background: transparent;}
-.view-calendario-de-eventos ul.pager, .view-calendario-de-eventos ul li {
-    border: 0;
-    top: -30px;
+.view-calendario-de-eventos table.mini{
+	width: 98%;
+	margin: auto;
 }
 .view-calendario-de-eventos .calendar-calendar th.days {
     background: transparent;
     border: 0;
     color: #000000;
 }
-.view-calendario-de-eventos.view .date-nav-wrapper  .date-prev, 
-.view-calendario-de-eventos.view .date-nav-wrapper  .date-next {background: transparent;}
-.view-calendario-de-eventos ul.pager a {
-    border-radius: 10px;
-    font-size: 0.9em !important;
-    height: 10px;
-    line-height: 0.8;
-    padding: 0;
-    text-align: center;
-    width: 10px;
-}
+
 .view-calendario-de-eventos .calendar-calendar th.days {
     background: transparent;
     border: 0;
@@ -954,7 +969,7 @@ padding-bottom: 4%;
 }
 .view-calendario-de-eventos .view-content {
     position: relative;
-    top: -22px;    
+    top: -10px;    
 }
 .view-calendario-de-eventos .view-footer {
     border-top: 1px solid #e4e4e4;
