@@ -72,6 +72,7 @@ label {color: #FFFFFF;}
     padding: 3em;
     top: 0px;
     width: 30%;
+    behaviour: url(/sites/all/themes/juan_rueda/css/PIE.htc);
 }
 
 .theme-dark .nivoSlider img {
