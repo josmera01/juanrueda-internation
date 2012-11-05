@@ -37,16 +37,15 @@ function html_widget_youtube_custom() {
   $subs = $data['entry']['yt$statistics']['subscriberCount'];
   $countVideos = $data['entry']['gd$feedLink'][4]['countHint'];
 
-  $output .= '<div>';
+  $output .= '<div class="contenido-youtube">';
     $output .= '<img alt="Imagen del perfil" src="' .$path. '/ytimg/international_trucks.jpg">';
-    $output .= '<img alt="Logotipo de YouTube" src="' .$path. '/ytimg/youtube_icon_small.jpg">';
     $output .= '</div>';
-      $output .= '<div>';
+      $output .= '<div class="youtube-contenido-header">';
       $output .= '<a href="http://www.youtube.com/InternationalTruck">InternationalTrucks</a><br/>';
         $output .= t('@cantidad Suscriptores', array('@cantida' => $subs));
         $output .= t('@cantidad Videos', array('@cantidad' => $countVideos));
     $output .= '</div>';
-    $output .= '<div>';
+    $output .= '<div class="contenido-youtube-footer">';
       $output .= '<a href="http://www.youtube.com/subscription_center?add_user=InternationalTruck">Suscribirme</a><br/>';
     $output .= '</div>';
 
