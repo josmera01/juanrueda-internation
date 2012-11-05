@@ -242,6 +242,7 @@ div.widgets-element-horizontal {margin-right: 5px;}
 }
 .social_networks_links{
     margin: 0;
+    padding: 0;
 }
 .social_networks_links li{
     float: left;
@@ -266,7 +267,7 @@ div.widgets-element-horizontal {margin-right: 5px;}
 
 #region-user-second #block-search-form{
     float: right;
-    width: 45%;
+    width: 50%;
 }
 #region-user-second #block-search-form h2{display: none;}
 #region-user-second #block-search-form .content{

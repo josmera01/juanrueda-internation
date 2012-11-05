@@ -37,7 +37,7 @@
 .responsive-layout-narrow .social_networks_links li a  {
     border-radius: 0.3em 0.3em 0.3em 0.3em;
     height: 25px;
-    width: 30px;
+    width: 25px;
 }
 .responsive-layout-narrow .social_networks_links li#twitter a {background-position: -60px -18px;}
 .responsive-layout-narrow .social_networks_links li#facebook a {background-position: -18px -17px;}
