@@ -101,11 +101,12 @@ input[type="submit"]:hover {
 .node-type-article .comment-form  .field-name-comment-body .wysiwyg-toggle-wrapper, 
 #comments .form-item-name,
 #comments .form-item-subject{display: none;}
-#block-search .form-submit {*color: transparent;}
+#block-search-form .form-submit {*color: transparent;}
 .view-art-culos-relacionados  li.views-row {border-radius:0;}
 .view-art-culos-relacionados  li.views-row-first {border-radius:0.5em 0.5em 0 0;}
 .view-art-culos-relacionados  li.views-row-last {border-radius: 0 0 0.5em 0.5em;}
 .view-art-culos-relacionados .views-field-field-image {
 	float: left;
 	margin-right: 10px;
+	*width: 20%;
 }
