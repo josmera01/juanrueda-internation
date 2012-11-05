@@ -140,3 +140,12 @@ select{width: 123%;}
 	*padding-top: 0 !important;
 	*padding-bottom: 0 !important;
 }
+
+.es-nav span {
+	*height: 46px !important;
+	*width: 40px !important;
+}
+.es-nav span.es-nav-next {*background-position: -4px 0 !important;}
+.es-nav span.es-nav-next:hover {*background-position: -4px -125px !important;}
+.es-nav span.es-nav-prev {*background-position: -4px -370px !important;}
+.es-nav span.es-nav-prev:hover {*background-position: -4px -495px !important;}
