@@ -347,6 +347,7 @@ input[type="search"]::-webkit-search-cancel-button {
 #block-menu-menu-menu-secciones-principales ul li.leaf {
     background: url("../images/menu-bg.png") repeat-x scroll top left transparent;
     border-radius: 0.5em;
+    behaviour: url(/sites/all/themes/juan_rueda/css/PIE.htc);
     float: left;
     margin: 1%;
     padding: 0;
@@ -1032,6 +1033,19 @@ padding-bottom: 4%;
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales, .responsive-layout-mobile #block-multiblock-1{
     clear: both;
 }
+
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1747 a.mobile{
+	background: transparent url(../images/ico-inicio-mobile.png) no-repeat bottom left;
+	text-indent: -9999px;
+	height: 40px;
+	width: 40px;
+	margin: 0;
+	padding: 0;
+}
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1747 a.mobile.active{
+	background: transparent url(../images/ico-inicio-mobile.png) no-repeat top left;
+}
+
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales .block-inner {clear: both;}
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul.menu {
     border: 3px solid #FD8900;
@@ -1123,11 +1137,6 @@ padding-bottom: 4%;
     width: 20%;
     font-size: 1.3em;
 }
-
-
-
-
-
 
 .responsive-layout-mobile #carousel-camion{display:block;}
 
@@ -1290,8 +1299,6 @@ body.responsive-layout-mobile {
 .html #region-postscript-fourth.grid-12 {
     margin: 30px 0;
 }
-
-
 
 .page-camiones #page-title, .page-tips-conozca-su-maquina #page-title, 
 .page-tips-disfrute-su-camion #page-title, .page-tips-conviertase-en-experto #page-title {
