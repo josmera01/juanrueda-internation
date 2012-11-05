@@ -6,7 +6,9 @@ function juanrueda_response_init() {
 
 
   if(strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE 7.0') !== FALSE) {
-    dpm('entro');
+
+    $js = "jQuery(document).ready(function () { $('body').addClass('responsive-layout-normal'); });";
+    drupal_add_js($js, 'inline');
   }
 
 
