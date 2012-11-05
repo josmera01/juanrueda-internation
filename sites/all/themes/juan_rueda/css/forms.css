@@ -111,3 +111,11 @@ input[type="submit"]:hover {
 	list-style: none\0/;
 	width: 20%\0/;
 }
+
+/*IE*/
+
+.container-12, .container-12 .grid-12 {
+    *width: 1180px !important;
+}
+.front .view-id-entradas_recientes .view-content{*width: auto !important;}
+/*.front .view-id-entradas_recientes */

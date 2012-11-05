@@ -74,9 +74,7 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
 }
 
 /***************************************SLIDER***********************************************/
-.container-12, .container-12 .grid-12 {
-    *width: 1180px !important;
-}
+
 .nivo-caption{
     background: #000000;
     background: -moz-linear-gradient(left, transparent 10%, black 80%);
