@@ -109,6 +109,7 @@ label {color: #FFFFFF;}
     padding: 0.5em 1em;
     margin: -3em 1.5em 0 0;
     float: right;
+    behaviour: url(/sites/all/themes/juan_rueda/css/PIE.htc);
 }
 #block-views-featured-slider-block .nivo-controlNav a, .field-name-field-slider-camion .nivo-controlNav a{
     background: url("../images/jr-images.png") no-repeat scroll -25px -428px transparent;
