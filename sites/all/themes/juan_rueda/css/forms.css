@@ -133,4 +133,8 @@ input[type="submit"]:hover {
 }
 .nivo-controlNav a {*float: left !important;}
 #block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu{*width: 60% !important;}
-#zone-footer .block {*width: 14% !important;}
+#zone-footer .block {*width: 10% !important;}
+#views-exposed-form-noticias-y-eventos-page .select-jr {
+	*padding-top: 0 !important;
+	*padding-bottom: 0 !important;
+}
