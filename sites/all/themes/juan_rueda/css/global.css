@@ -297,7 +297,9 @@ div.widgets-element-horizontal {margin-right: 5px;}
     border: 1px solid #777777;
     border-radius: 4px 4px 4px 4px;
 }
-#region-user-second #block-search-form #edit-submit, #region-user-second #block-search-form #edit-actions input{
+#region-user-second #block-search-form #edit-submit,
+#region-user-second #block-search-form #edit-actions input
+#region-user-second #block-search-form .form-actions input{
     filter: none;
     background: url("../images/jr-images.png") no-repeat scroll -155px -13px transparent;
     border-radius: 0 0 0 0 !important;
@@ -362,7 +364,7 @@ input[type="search"]::-webkit-search-cancel-button {
     margin: 0 auto;
     width: 100%;
 }
-#block-menu-menu-menu-secciones-principales .expanded ul.menu {
+#block-menu-menu-menu-secciones-principales ul.menu {
     overflow: hidden;
     padding: 0 3%;
 }
@@ -375,10 +377,12 @@ input[type="search"]::-webkit-search-cancel-button {
     padding: 0;
     width: 18%;
 }
+
+/*#block-menu-menu-menu-secciones-principales ul li.leaf.menu-1747,
+#block-menu-menu-menu-secciones-principales ul li.expanded.menu-1746 a.mobile,*/
 #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1183,
-#block-menu-menu-menu-secciones-principales ul li.leaf.menu-1745,
-#block-menu-menu-menu-secciones-principales ul li.leaf.menu-1747,
-#block-menu-menu-menu-secciones-principales ul li.expanded.menu-1746 a.mobile{display: none;}
+#block-menu-menu-menu-secciones-principales ul li.leaf.menu-1745
+{display: none;}
 
 #block-menu-menu-menu-secciones-principales .content ul li a  {
     background-position: center 0.2em;
@@ -1064,7 +1068,7 @@ padding-bottom: 4%;
 }
 
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales .block-inner {clear: both;}
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .menu-1746 ul.menu {
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul.menu {
     border: 3px solid #FD8900;
     border-radius: 5px 5px 5px 5px;
     display: block;
@@ -1072,7 +1076,7 @@ padding-bottom: 4%;
     padding: 0;
     width: 96%;
 }
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .menu-1746 ul li.leaf {
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf {
     border-bottom: 2px solid #9EAAB0;
     border-radius: 0;
     float: none;
@@ -1080,24 +1084,24 @@ padding-bottom: 4%;
     width: 100%;
     display: block;
 }
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .menu-1746 ul li.leaf.menu-1183,
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .menu-1746 ul li.leaf.menu-1745{
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1183,
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1745{
 	float: left;
 	width: 50%;
 }
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .menu-1746 ul li.leaf.menu-1183 a,
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .menu-1746 ul li.leaf.menu-1745 a{
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1183 a,
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1745 a{
 	padding-left: 0;
 	margin: 0.5em 0;
 	height: 1.7em;
 }
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .menu-1746 ul li.leaf.menu-1183 a{border-right: 2px solid #9EAAB0}
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .menu-1746 ul li.leaf.menu-1183 a span.titulo_menu,
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .menu-1746 ul li.leaf.menu-1745 a span.titulo_menu{
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1183 a{border-right: 2px solid #9EAAB0}
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1183 a span.titulo_menu,
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1745 a span.titulo_menu{
 	display: block;
 	margin: auto;
 }
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content .menu-1746 ul li a {
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content ul li a {
     background-position: 2em 0.8em;
     height: 2.7em;
     padding: 1.3em 0 0 85px;
