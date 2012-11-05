@@ -36,13 +36,13 @@
 
         }
         else {
-          $('#block-menu-menu-menu-secciones-principales .content ul').css('display', 'block');
+        /*  $('#block-menu-menu-menu-secciones-principales .content ul').css('display', 'block');
           $('.menu-render').hide();
           $('.menu-buscador').hide();
           $(".home-movil").hide();
 
           $('#zone-footer .region-footer-first-inner').css('display', 'block');
-          $('.mapa-sitio-render').hide();
+          $('.mapa-sitio-render').hide();*/
 
 
         }
