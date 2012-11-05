@@ -55,6 +55,23 @@ label {color: #FFFFFF;}
     margin: 20px 0 40px !important;
 }
 
+form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .view-mapa-contacto .attachment .views-field-php span,
+.pager li a {
+	background-color: #133155;
+    background-image: linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+    background-image: -o-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+    background-image: -moz-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+    background-image: -webkit-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+    background-image: -ms-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#133155', endColorstr='#224B88',GradientType=0 );
+    border: 0;
+    border-radius: 7px 7px 7px 7px !important;
+    color: #FFFFFF;
+    float: right;
+    padding: 8px 20px;
+	behaviour: url(/sites/all/themes/juan_rueda/css/PIE.htc);
+}
+
 /***************************************SLIDER***********************************************/
 
 .nivo-caption{
@@ -65,14 +82,13 @@ label {color: #FFFFFF;}
     background: -o-linear-gradient(left, transparent 10%,black 80%);
     background: -ms-linear-gradient(left, transparent 10%,black 80%);
     background: linear-gradient(to right, transparent 10%,black 80%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='transparent', endColorstr='#000000',GradientType=1 );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#777777', endColorstr='#000000',GradientType=1 );
     height: 100%;
     left: 70%;
     opacity: 0.9;
     padding: 3em;
     top: 0px;
     width: 30%;
-    behaviour: url(/sites/all/themes/juan_rueda/css/PIE.htc);
 }
 
 .theme-dark .nivoSlider img {
@@ -104,6 +120,7 @@ label {color: #FFFFFF;}
     background-image: -webkit-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
     background-image: -ms-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
     background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.22, #133155),color-stop(0.61, #133B6C),    color-stop(0.81, #224B88));
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#133155', endColorstr='#224B88',GradientType=0 );
     border-radius: 5px 5px 0 0;
     width: auto;
     padding: 0.5em 1em;
@@ -222,13 +239,17 @@ label {color: #FFFFFF;}
     background-position: center top;
     background-repeat: no-repeat;
     height: 48px;
-    margin: 1.5em 0;
+    margin: 3em 0 1.5em 0;
     text-indent: -9999px;
 }
 .responsive-layout-normal .branding-data  h1.site-name, .responsive-layout-normal .branding-data h2.site-name,
-.responsive-layout-narrow .branding-data  h1.site-name, .responsive-layout-narrow .branding-data h2.site-name,
-.responsive-layout-mobile .branding-data  h1.site-name, .responsive-layout-mobile .branding-data h2.site-name
+.responsive-layout-narrow .branding-data  h1.site-name, .responsive-layout-narrow .branding-data h2.site-name
 {background-size: 50% auto;}
+.responsive-layout-mobile .branding-data  h1.site-name, .responsive-layout-mobile .branding-data h2.site-name{
+	background-position: center right;
+	margin: 3em 1em 1em 0;
+	background-size: 60%;
+}
 
 #region-user-second .region-inner {overflow: hidden;}
 #region-user-second a.twitter-timeline {
@@ -277,7 +298,8 @@ div.widgets-element-horizontal {margin-right: 5px;}
     border-radius: 4px 4px 4px 4px;
 }
 #region-user-second #block-search-form #edit-submit, #region-user-second #block-search-form #edit-actions input{
-    background: url("../images/jr-images.png") no-repeat scroll -13.85em -1.25em transparent;
+    filter: none;
+    background: url("../images/jr-images.png") no-repeat scroll -155px -13px transparent;
     border-radius: 0 0 0 0 !important;
     height: 25px;
     margin: 0;
@@ -565,21 +587,7 @@ background-position: 0px -28px;
 #block-webform-client-block-62 #edit-actions {overflow: hidden;}
 #block-webform-client-block-62 label {padding-left: 10px;}
 .marker, .form-required {color: #FF7B00;}
-form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .view-mapa-contacto .attachment .views-field-php span,
-.pager li a {
-	background-color: #133155;
-    background-image: linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
-    background-image: -o-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
-    background-image: -moz-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
-    background-image: -webkit-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
-    background-image: -ms-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
-    border: 0;
-    border-radius: 7px 7px 7px 7px !important;
-    color: #FFFFFF;
-    float: right;
-    padding: 8px 20px;
-	behaviour: url(/sites/all/themes/juan_rueda/css/PIE.htc);
-}
+
 .pager li.pager-next{
     border-left: 0;
 }
@@ -601,6 +609,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     background-image: -moz-linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
     background-image: -webkit-linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
     background-image: -ms-linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#194E99', endColorstr='#2E78C1',GradientType=0 );
 }
 #webform-component-nombre-completo, #webform-component-correo-electronico {margin-right: 20px;}
 #webform-component-correo-electronico {clear: left;}
@@ -662,6 +671,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     background-image: -moz-linear-gradient(bottom, #B3B3B3 16%, #CFCFCF 58%);
     background-image: -webkit-linear-gradient(bottom, #B3B3B3 16%, #CFCFCF 58%);
     background-image: -ms-linear-gradient(bottom, #B3B3B3 16%, #CFCFCF 58%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B3B3B3', endColorstr='#CFCFCF',GradientType=0 );
     border-radius: 5px 5px 0 0;
     background-color: #B3B3B3;
     border-radius: 5px 5px 0 0;
@@ -710,6 +720,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     background-image: -webkit-linear-gradient(bottom, #DBD8DB 12%, #E9E9E9 56%, #FFFFFF 78%);
     background-image: -ms-linear-gradient(bottom, #DBD8DB 12%, #E9E9E9 56%, #FFFFFF 78%);
     background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.12, #DBD8DB),color-stop(0.56, #E9E9E9),color-stop(0.78, #FFFFFF));
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#DBD8DB', endColorstr='#FFFFFF',GradientType=0 );
     color: #1C1C1C;
     border-radius: 0.5em;
 }
@@ -884,6 +895,7 @@ padding-bottom: 4%;
     background-image: -moz-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
     background-image: -webkit-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
     background-image: -ms-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#133155', endColorstr='#224B88',GradientType=0 );
     margin: 0 3px;
     width: 98%;
 }
@@ -1101,6 +1113,7 @@ padding-bottom: 4%;
     background-image: -moz-linear-gradient(bottom, #FF6201 42%, #FF9900 71%);
     background-image: -webkit-linear-gradient(bottom, #FF6201 42%, #FF9900 71%);
     background-image: -ms-linear-gradient(bottom, #FF6201 42%, #FF9900 71%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF6201', endColorstr='#FF9900',GradientType=0 );
     border-radius: 5px 5px 5px 5px;
     color: #554747;
     float: right;
@@ -1274,7 +1287,7 @@ body.responsive-layout-mobile {
 .mobile-subscribe-youtube a{
   background:  -moz-linear-gradient(#CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
   background: -webkit-linear-gradient(#CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
-   background: -o-linear-gradient(#CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
+  background: -o-linear-gradient(#CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
   background:  linear-gradient(#CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
   padding: 10px;
   color: #666;
