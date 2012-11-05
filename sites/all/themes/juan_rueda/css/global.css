@@ -74,10 +74,11 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
 }
 
 /***************************************SLIDER***********************************************/
-
+.container-12 .grid-12 {
+    *width: 1180px;
+}
 .nivo-caption{
     background: #000000;
-	*background: transparent;
     background: -moz-linear-gradient(left, transparent 10%, black 80%);
     background: -webkit-gradient(linear, left top, right top, color-stop(10%,transparent), color-stop(80%,black));
     background: -webkit-linear-gradient(left, transparent 10%,black 80%);
@@ -91,6 +92,8 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
     padding: 3em;
     top: 0px;
     width: 30%;
+	*background: transparent;
+	
 }
 
 .theme-dark .nivoSlider img {
