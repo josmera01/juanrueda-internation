@@ -121,19 +121,19 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
     background-image: -ms-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
     background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.22, #133155),color-stop(0.61, #133B6C),    color-stop(0.81, #224B88));
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#133155', endColorstr='#224B88',GradientType=0 );
-    border-radius: 5px 5px 0 0;
+    border-radius: 10px 10px 0 0;
     width: auto;
-    padding: 0.5em 1em;
-    margin: -3em 1.5em 0 0;
+    padding: 5px;
+    margin: -2.6em 1.5em 0 0;
     float: right;
     behaviour: url(/sites/all/themes/juan_rueda/css/PIE.htc);
 }
 #block-views-featured-slider-block .nivo-controlNav a, .field-name-field-slider-camion .nivo-controlNav a{
-    background: url("../images/jr-images.png") no-repeat scroll -25px -428px transparent;
+    background: url("../images/jr-images.png") no-repeat scroll -23px -427px transparent;
     border-radius: 10px;
-    height: 1em;
-    margin: 0 6px;
-    width: 1em;
+    height: 14px;
+    margin: 0 3px;
+    width: 14px;
 }
 #block-views-featured-slider-block .nivo-controlNav a.active, .field-name-field-slider-camion .nivo-controlNav a.active{
 	background: url("../images/jr-images.png") no-repeat scroll -25px -415px transparent;
@@ -169,16 +169,30 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
     height: 40px;
     width: 40px;
 }
-.es-nav span.es-nav-next{
-    background: url("../images/flecha-camioes-der.png") repeat-x scroll 0 0 transparent;
+.es-nav span{
+	background: url("../images/flechas-slider.png") no-repeat transparent;
+	background-size: 100%;
+	height: 30px;
+	width: 30px;
+	left: 0;
 }
-.es-nav span.es-nav-prev{
-    background: url("../images/flecha-camiones-izq.png") repeat-x scroll 0 0 transparent;
+.es-nav span.es-nav-prev {background-position: 0 -223px;}
+.es-nav span.es-nav-next {
+	background-position: 0 0;
+	right: 0;
 }
+
+.es-nav span:hover{opacity: 1;}
+.es-nav span.es-nav-next:hover {background-position: 0 -75px;}
+.es-nav span.es-nav-prev:hover {background-position: 0 -298px;}
+
 .es-carousel {
     background: none repeat scroll 0 0 transparent;
     overflow: hidden;
 }
+
+#block-juanrueda-galeria-camiones-galeria-camiones{margin: 2em 0 1em 0;}
+
 #carousel-camion li img{
     border-top-right-radius: 0.5em;
     border-top-left-radius: 0.5em;
@@ -198,7 +212,7 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
     color: #FFFFFF;
 }
 #carousel-camion.es-carousel-wrapper, #carousel-camion .es-carousel{background: none;}
-#carousel-camion.es-carousel-wrapper{padding: 0 2.5em;}
+#carousel-camion.es-carousel-wrapper{padding: 0 2.1em;}
 
 .responsive-layout-wide #carousel-camion.es-carousel-wrapper{padding: 0;}
 .responsive-layout-wide #carousel-camion .es-nav {display: none;}
@@ -220,8 +234,6 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
     *display: inline;
     *zoom:1;
 }
-#carousel-camion .es-nav span.es-nav-prev{background: transparent url(../images/flecha-bloque-izq.png) no-repeat top left;}
-#carousel-camion .es-nav span.es-nav-next{background: transparent url(../images/flecha-bloque-der.png) no-repeat top left;}
 
 
 /***************************************HEADER***********************************************/
@@ -297,7 +309,9 @@ div.widgets-element-horizontal {margin-right: 5px;}
     border: 1px solid #777777;
     border-radius: 4px 4px 4px 4px;
 }
-#region-user-second #block-search-form #edit-submit, #region-user-second #block-search-form #edit-actions input{
+#region-user-second #block-search-form #edit-submit,
+#region-user-second #block-search-form #edit-actions input,
+#region-user-second #block-search-form .form-actions input{
     filter: none;
     background: url("../images/jr-images.png") no-repeat scroll -155px -13px transparent;
     border-radius: 0 0 0 0 !important;
@@ -362,7 +376,7 @@ input[type="search"]::-webkit-search-cancel-button {
     margin: 0 auto;
     width: 100%;
 }
-#block-menu-menu-menu-secciones-principales .expanded ul.menu {
+#block-menu-menu-menu-secciones-principales ul.menu {
     overflow: hidden;
     padding: 0 3%;
 }
@@ -375,10 +389,12 @@ input[type="search"]::-webkit-search-cancel-button {
     padding: 0;
     width: 18%;
 }
+
+/*#block-menu-menu-menu-secciones-principales ul li.leaf.menu-1747,
+#block-menu-menu-menu-secciones-principales ul li.expanded.menu-1746 a.mobile,*/
 #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1183,
-#block-menu-menu-menu-secciones-principales ul li.leaf.menu-1745,
-#block-menu-menu-menu-secciones-principales ul li.leaf.menu-1747,
-#block-menu-menu-menu-secciones-principales ul li.expanded.menu-1746 a.mobile{display: none;}
+#block-menu-menu-menu-secciones-principales ul li.leaf.menu-1745
+{display: none;}
 
 #block-menu-menu-menu-secciones-principales .content ul li a  {
     background-position: center 0.2em;
@@ -818,11 +834,12 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 }
 .link-conteo li .label{
     font-weight: 600;
-    text-align: right;
+    text-align: center;
 }
 .link-conteo li{
     font-size: 0.7em;
     margin: 0 4%;
+    width: 25%;
 }
 .link-conteo li span{
     display: block;
@@ -988,7 +1005,7 @@ padding-bottom: 4%;
 /***************************************** CSS PLUGINS REDES SOCIALES ************************************************/
 
 #block-block-5, #block-block-4, #block-juanrueda-widget-youtube-widget-youtube-custom {border-radius: 0.5em 0.5em 0 0;}
-#block-block-5 .content, #block-block-4 .content, #block-juanrueda-widget-youtube-widget-youtube-custom .content {padding: 0 1em;}
+#block-block-5 .content, #block-block-4 .content, #block-juanrueda-widget-youtube-widget-youtube-custom .content {padding: 0.5em 1em 1em 1em;}
 #block-block-5, #block-widgets-s-facebook-like-box  {background: url("../images/cabecera-facebook.png") repeat-x scroll 0 0 #FFFFFF;}
 #block-block-4, #block-block-9 {background: url("../images/cabecera-twitter.png") repeat-x scroll 0 0 #FFFFFF;}
 #block-juanrueda-widget-youtube-widget-youtube-custom  {background: url("../images/cabecera-youtube.png") repeat-x scroll 0 0 #FFFFFF;}
@@ -1033,16 +1050,57 @@ padding-bottom: 4%;
 
 .fb-like-box.fb_iframe_widget, .fb-like-box.fb_iframe_widget span, .fb-like-box.fb_iframe_widget iframe{width: 100% !important;}
 
-#block-juanrueda-widget-youtube-widget-youtube-custom .content{padding: 1em;}
+#block-juanrueda-widget-youtube-widget-youtube-custom .content{font-size: 0.95em;}
+#block-juanrueda-widget-youtube-widget-youtube-custom .content div{
+	float: left;
+	margin-left: 1em;
+}
+#block-juanrueda-widget-youtube-widget-youtube-custom .content div.contenido-youtube{margin-left: 0;}
+#block-juanrueda-widget-youtube-widget-youtube-custom .contenido-youtube img{width: 60px}
+#block-juanrueda-widget-youtube-widget-youtube-custom .youtube-contenido-header{
+	color: #777777;
+	margin-bottom: 1em;
+	font-size: 0.9em;
+}
+#block-juanrueda-widget-youtube-widget-youtube-custom .youtube-contenido-header a {
+	color: #A11717;
+	font-weight: bold;
+}
+#block-juanrueda-widget-youtube-widget-youtube-custom .contenido-youtube-footer a{
+  background-color: #CCCCCC;
+  background-image: linear-gradient(bottom, #CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
+  background-image: -o-linear-gradient(bottom, #CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
+  background-image: -moz-linear-gradient(bottom, #CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
+  background-image: -webkit-linear-gradient(bottom, #CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
+  background-image: -ms-linear-gradient(bottom, #CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
+  background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.15, #CCCCCC),color-stop(0.50, #dfdfdf),color-stop(#FAFAFA));
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#CCCCCC', endColorstr='#FAFAFA',GradientType=0 );
+  padding: 5px 10px;
+  color: #666;
+  display: inline-block;
+  border: 1px solid #CCC;
+  font-size: 0.9em;
+}
+#block-juanrueda-widget-youtube-widget-youtube-custom .contenido-youtube-footer a:hover{
+  background-color: #FAFAFA;
+  background-image: linear-gradient(top, #CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
+  background-image: -o-linear-gradient(top, #CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
+  background-image: -moz-linear-gradient(top, #CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
+  background-image: -webkit-linear-gradient(top, #CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
+  background-image: -ms-linear-gradient(top, #CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0.15, #CCCCCC),color-stop(0.50, #dfdfdf),color-stop(#FAFAFA));
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#cccccc',GradientType=0 );
+}
 
 
 
 /***************************************** CSS MOBILE ************************************************/
 
 .responsive-layout-mobile #section-header{
-    background-position: left bottom;
+    background-position: -30px top;
     background-size: 30% auto;
 }
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales{margin-bottom: 0;}
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales, .responsive-layout-mobile #block-multiblock-1{
     clear: both;
 }
@@ -1064,15 +1122,27 @@ padding-bottom: 4%;
 }
 
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales .block-inner {clear: both;}
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .menu-1746 ul.menu {
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul.menu{display: block;}
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul.menu,
+.responsive-layout-mobile #block-multiblock-1 {
     border: 3px solid #FD8900;
     border-radius: 5px 5px 5px 5px;
-    display: block;
     margin: 1px auto;
     padding: 0;
     width: 96%;
 }
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .menu-1746 ul li.leaf {
+.responsive-layout-mobile #block-multiblock-1{background: #DDD;}
+.responsive-layout-mobile #block-multiblock-1 .form-item input{
+	width: 60%;
+	margin: 1%;
+}
+.responsive-layout-mobile #block-multiblock-1 .form-actions input{
+	width: 30%;
+	margin: 1%;
+	font-size: 0.8em;
+}
+
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf{
     border-bottom: 2px solid #9EAAB0;
     border-radius: 0;
     float: none;
@@ -1080,24 +1150,24 @@ padding-bottom: 4%;
     width: 100%;
     display: block;
 }
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .menu-1746 ul li.leaf.menu-1183,
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .menu-1746 ul li.leaf.menu-1745{
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1183,
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1745{
 	float: left;
 	width: 50%;
 }
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .menu-1746 ul li.leaf.menu-1183 a,
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .menu-1746 ul li.leaf.menu-1745 a{
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1183 a,
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1745 a{
 	padding-left: 0;
 	margin: 0.5em 0;
 	height: 1.7em;
 }
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .menu-1746 ul li.leaf.menu-1183 a{border-right: 2px solid #9EAAB0}
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .menu-1746 ul li.leaf.menu-1183 a span.titulo_menu,
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .menu-1746 ul li.leaf.menu-1745 a span.titulo_menu{
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1183 a{border-right: 2px solid #9EAAB0}
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1183 a span.titulo_menu,
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1745 a span.titulo_menu{
 	display: block;
 	margin: auto;
 }
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content .menu-1746 ul li a {
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content ul li a {
     background-position: 2em 0.8em;
     height: 2.7em;
     padding: 1.3em 0 0 85px;
@@ -1119,7 +1189,7 @@ padding-bottom: 4%;
     float: right;
     font-size: 1em;
     font-weight: 300;
-    padding: 0.3em 1em;
+    padding: 0.5em 1em;
     text-align: center;
     width: 13%;
     cursor: pointer;
@@ -1132,18 +1202,20 @@ padding-bottom: 4%;
 }
 .responsive-layout-mobile .menu-buscador, .responsive-layout-mobile .home-movil, .responsive-layout-mobile .menu-render{margin-right: 0.5em;}
 .responsive-layout-wide .home-movil, .responsive-layout-normal .home-movil, .responsive-layout-narrow .home-movil{display: none;}
+
+.responsive-layout-mobile .menu-buscador{background: url("../images/icono-buscar-mobile.png") no-repeat -5px -132px; transparent;}
+.responsive-layout-mobile .home-movil{background: url("../images/ico-inicio-mobile.png") no-repeat -5px -131px; transparent;}
+
 .responsive-layout-mobile .menu-buscador, .responsive-layout-mobile .home-movil{
-    border-radius: 0.5em;
     display: block;
     float: right;
-    height: 1.7em;
-    padding: 0.5em;
+    height: 35px;
     text-indent: -9999px;
-    width: 2em;
+    width: 37px;
     cursor: pointer;
 }
-.responsive-layout-mobile .menu-buscador{background: transparent url(../images/ico-search-mobile.png) no-repeat 0 -3px;}
-.responsive-layout-mobile .home-movil{background: transparent url(../images/ico-home-mobile.png) no-repeat top left;}
+.responsive-layout-mobile .menu-buscador.active, .responsive-layout-mobile .home-movil.active{background-position: -5px -6px;}
+
 .responsive-layout-mobile #zone-user, #block-multiblock-1{display: none;}
 .responsive-layout-mobile #block-search-form {
     display: block;
@@ -1154,6 +1226,32 @@ padding-bottom: 4%;
     padding: 3% 10%;
     width: 20%;
     font-size: 1.3em;
+}
+
+.responsive-layout-mobile #block-views-featured-slider-block .nivo-controlNav,
+.responsive-layout-mobile .field-name-field-slider-camion .nivo-controlNav{
+	display: none;
+}
+.responsive-layout-mobile #views-nivo-slider-featured_slider-block,
+.responsive-layout-mobile .theme-dark .nivoSlider img {
+	border: none;
+	border-radius: 0;
+}
+
+.responsive-layout-mobile .nivo-caption{
+    background: none;
+    height: 100%;
+    left: 50%;
+    opacity: 1;
+    padding: 1em;
+    top: 0px;
+    width: 50%;
+}
+
+.responsive-layout-mobile #block-views-featured-slider-block .nivo-caption h1,
+.responsive-layout-mobile .field-name-field-slider-camion .nivo-caption h1{
+    font-size: 0.8em;
+    font-weight: lighter;
 }
 
 .responsive-layout-mobile #carousel-camion{display:block;}
@@ -1176,7 +1274,8 @@ padding-bottom: 4%;
 .responsive-layout-mobile #block-block-5 , .responsive-layout-mobile  #block-block-4, .responsive-layout-mobile #block-juanrueda-widget-youtube-widget-youtube-custom  {
     background: none repeat scroll 0 0 transparent;
     float: left;
-    width: 25%;
+    width: 30%;
+    margin: 1.5%;
     text-align: center;
 }
 .responsive-layout-mobile #zone-footer #block-menu-menu-paises .leaf {
@@ -1238,6 +1337,26 @@ padding-bottom: 4%;
     padding: 0;
     width: 68px;
 }
+.responsive-layout-mobile #block-juanrueda-widget-youtube-widget-youtube-custom .content div.contenido-youtube,
+.responsive-layout-mobile #block-juanrueda-widget-youtube-widget-youtube-custom .content div.youtube-contenido-header
+{display: none;}
+.responsive-layout-mobile #block-juanrueda-widget-youtube-widget-youtube-custom .content div.youtube-contenido-header a{
+	display: block;
+}
+.responsive-layout-mobile .fb-like.fb_edge_widget_with_comment.fb_iframe_widget{
+	display: block;
+	margin-top: 1em;
+}
+.twitter-follow-small a.twitter-name-label{
+	display: block;
+	margin: 1em 0;
+	font-size: 0.9em;
+}
+.responsive-layout-mobile #block-juanrueda-widget-youtube-widget-youtube-custom .content div.contenido-youtube-footer{
+	float: none;
+	margin: 1em auto;
+}
+
 .html.responsive-layout-mobile  #region-postscript-fourth{
     background: none repeat scroll 0 0 #000000;
     border-bottom: 1px solid #222222;
@@ -1245,7 +1364,7 @@ padding-bottom: 4%;
     margin-right: auto;
     margin-top: 30px;
     overflow: hidden;
-    padding: 30px 15%;
+    padding: 30px 0;
 }
 .html.responsive-layout-mobile #section-content {
     margin-bottom: 0;
@@ -1284,21 +1403,7 @@ body.responsive-layout-mobile {
 .responsive-layout-mobile #block-juanrueda-widget-youtube-widget-youtube-custom .content {
     padding: 0;
 }
-.mobile-subscribe-youtube a{
-  background:  -moz-linear-gradient(#CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
-  background: -webkit-linear-gradient(#CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
-  background: -o-linear-gradient(#CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
-  background:  linear-gradient(#CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
-  padding: 10px;
-  color: #666;
-}
-.mobile-subscribe-youtube a.youtube-name-label {
-    background: none repeat scroll 0 0 transparent;
-    color: red;
-    display: block;
-    margin: 0 0 10px;
-    padding: 0;
-}
+
 .item-list ul.pager {
     clear: both;
     display: inline-block;
