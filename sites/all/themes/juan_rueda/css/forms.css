@@ -121,12 +121,14 @@ input[type="submit"]:hover {
 	*margin-left: 0 !important;
 	*width: 32.4% !important;
 }
+.container-12 .grid-4 {*width: 66.5%!important;}
 
 .front .view-id-entradas_recientes .view-content{*width: auto !important;}
-.front  #block-views-entradas-recientes-block {*padding-left: 1.5% !important;}
+.front  #block-views-entradas-recientes-block {*padding-left: 2% !important;}
 .nivo-caption {
 	*height: 65% !important;
 	*width: 22% !important;
 }
 .nivo-controlNav a {*float: left !important;}
 #block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu{*width: 60% !important;}
+#zone-footer .block {*width: 14% !important;}
