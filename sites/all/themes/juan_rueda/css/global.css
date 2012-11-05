@@ -1048,7 +1048,7 @@ padding-bottom: 4%;
 	float: left;
 	margin-left: 1em;
 }
-#block-juanrueda-widget-youtube-widget-youtube-custom .contenido-youtube{margin-left: 0;}
+#block-juanrueda-widget-youtube-widget-youtube-custom .content div.contenido-youtube{margin-left: 0;}
 #block-juanrueda-widget-youtube-widget-youtube-custom .contenido-youtube img{width: 60px}
 #block-juanrueda-widget-youtube-widget-youtube-custom .youtube-contenido-header{
 	color: #777777;
@@ -1287,6 +1287,14 @@ padding-bottom: 4%;
     padding: 0;
     width: 68px;
 }
+.responsive-layout-mobile #block-juanrueda-widget-youtube-widget-youtube-custom .content div.contenido-youtube,
+.responsive-layout-mobile #block-juanrueda-widget-youtube-widget-youtube-custom .content div.youtube-contenido-header
+{display: none;}
+.responsive-layout-mobile #block-juanrueda-widget-youtube-widget-youtube-custom .content div.youtube-contenido-header a{
+	display: block;
+}
+
+
 .html.responsive-layout-mobile  #region-postscript-fourth{
     background: none repeat scroll 0 0 #000000;
     border-bottom: 1px solid #222222;
