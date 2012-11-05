@@ -1047,7 +1047,7 @@ padding-bottom: 4%;
 }
 
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales .block-inner {clear: both;}
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul.menu {
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .menu-1746 ul.menu {
     border: 3px solid #FD8900;
     border-radius: 5px 5px 5px 5px;
     display: block;
@@ -1055,7 +1055,7 @@ padding-bottom: 4%;
     padding: 0;
     width: 96%;
 }
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf {
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .menu-1746 ul li.leaf {
     border-bottom: 2px solid #9EAAB0;
     border-radius: 0;
     float: none;
@@ -1080,8 +1080,7 @@ padding-bottom: 4%;
 	display: block;
 	margin: auto;
 }
-
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content ul li a {
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content .menu-1746 ul li a {
     background-position: 2em 0.8em;
     height: 2.7em;
     padding: 1.3em 0 0 85px;
