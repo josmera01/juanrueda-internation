@@ -101,3 +101,11 @@ input[type="submit"]:hover {
 .node-type-article .comment-form  .field-name-comment-body .wysiwyg-toggle-wrapper, 
 #comments .form-item-name,
 #comments .form-item-subject{display: none;}
+#block-juanrueda-widget-youtube-widget-youtube-custom h2.block-title, #block-block-4 h2.block-title, #block-block-5 h2.block-title, #block-widgets-s-facebook-like-box h2.block-title, #block-block-9 h2.block-title {
+    border: 0 none;
+    color: white;
+    font-size: 0.9em;
+    line-height: 2;
+    margin: 0;
+    padding: 10px 0 22px 70px;
+}
