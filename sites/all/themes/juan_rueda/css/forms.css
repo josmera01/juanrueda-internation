@@ -118,4 +118,4 @@ input[type="submit"]:hover {
     *width: 1180px !important;
 }
 .front .view-id-entradas_recientes .view-content{*width: auto !important;}
-/*.front .view-id-entradas_recientes */
+.front .view-id-entradas_recientes .container-12 .grid-12 {*width: 30% !important;}
