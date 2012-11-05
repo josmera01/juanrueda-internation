@@ -4,7 +4,7 @@ function juanrueda_response_init() {
   $path = drupal_get_path('module', 'juanrueda_response');
   drupal_add_js($path . '/juanrueda_response.js');
 
-  drupal_add_js(array('ei7' => true), 'settings');
+  drupal_add_js(array('ei7' => true), 'setting');
   if(strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE 7.0') !== FALSE) {
 
     drupal_add_js($path . '/juanrueda_responseIE.js', array('type' => 'file', 'scope' => 'footer', 'weight' => 5));
