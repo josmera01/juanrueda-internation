@@ -74,7 +74,7 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
 }
 
 /***************************************SLIDER***********************************************/
-.container-12 .grid-12 {
+.container-12, .container-12 .grid-12 {
     *width: 1180px !important;
 }
 .nivo-caption{
