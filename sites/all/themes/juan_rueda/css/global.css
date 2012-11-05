@@ -578,6 +578,7 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
     color: #FFFFFF;
     float: right;
     padding: 8px 20px;
+	behaviour: url(/sites/all/themes/juan_rueda/css/PIE.htc);
 }
 .pager li.pager-next{
     border-left: 0;
