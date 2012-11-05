@@ -773,6 +773,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .bloque-gris .node-article .field-name-title a:hover, .bloque-gris .node-evento .field-name-title a:hover{background-position: 0 -308px;}
 .page-tips .bloque-gris .node-article .field-name-title a, .node-type-camion .bloque-gris .node-article .field-name-title a{background: none;}
 
+
 .page-tips .bloque-gris .node-article .field-name-title a,
 .node-type-camion .bloque-gris .node-article .field-name-title a{
 	background: none;
@@ -1448,6 +1449,10 @@ body.responsive-layout-mobile {
 .page-tips-conozca-su-maquina  #page-title {background: url("../images/ico-repuestos.png") no-repeat scroll left -294px transparent;}
 .page-tips-disfrute-su-camion  #page-title{background: url("../images/ico-servicios.png") no-repeat scroll left -294px transparent;}
 .page-tips-conviertase-en-experto #page-title {background: url("../images/ico-latec.png") no-repeat scroll left -294px transparent;}
+
+.page-tips #page-title:first-letter{
+	text-transform: uppercase;
+}
 
 
 .node-type-camion .field-name-field-galeria-usos-camion .field-label, 
