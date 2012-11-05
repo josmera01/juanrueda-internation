@@ -340,7 +340,7 @@ input[type="search"]::-webkit-search-cancel-button {
     margin: 0 auto;
     width: 100%;
 }
-#block-menu-menu-menu-secciones-principales ul {
+#block-menu-menu-menu-secciones-principales expanded ul.menu {
     overflow: hidden;
     padding: 0 3%;
 }
@@ -1033,7 +1033,11 @@ padding-bottom: 4%;
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales, .responsive-layout-mobile #block-multiblock-1{
     clear: both;
 }
-
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1747{
+	display: block;
+	width: auto;
+	background: none;
+}
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1747 a.mobile{
 	background: transparent url(../images/ico-inicio-mobile.png) no-repeat -5px -130px;
 	text-indent: -9999px;
@@ -1063,20 +1067,20 @@ padding-bottom: 4%;
     width: 100%;
     display: block;
 }
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1183,
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1745{
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .menu-1746 ul li.leaf.menu-1183,
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .menu-1746 ul li.leaf.menu-1745{
 	float: left;
 	width: 50%;
 }
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1183 a,
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1745 a{
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .menu-1746 ul li.leaf.menu-1183 a,
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .menu-1746 ul li.leaf.menu-1745 a{
 	padding-left: 0;
 	margin: 0.5em 0;
 	height: 1.7em;
 }
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1183 a{border-right: 2px solid #9EAAB0}
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1183 a span.titulo_menu,
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1745 a span.titulo_menu{
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .menu-1746 ul li.leaf.menu-1183 a{border-right: 2px solid #9EAAB0}
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .menu-1746 ul li.leaf.menu-1183 a span.titulo_menu,
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .menu-1746 ul li.leaf.menu-1745 a span.titulo_menu{
 	display: block;
 	margin: auto;
 }
@@ -1110,6 +1114,7 @@ padding-bottom: 4%;
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu{
     padding: 0;
     height: auto;
+    width: 100%
 }
 .responsive-layout-mobile .menu-buscador, .responsive-layout-mobile .home-movil, .responsive-layout-mobile .menu-render{margin-right: 0.5em;}
 .responsive-layout-wide .home-movil, .responsive-layout-normal .home-movil, .responsive-layout-narrow .home-movil{display: none;}
