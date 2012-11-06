@@ -42,13 +42,21 @@ label {color: #FFFFFF;}
     margin-bottom: 40px;
 }
 
-.breadcrumb{
+#breadcrumb{
 	color: #2F76CD;
 	background: url("../images/ico-migadepan.png") no-repeat scroll 0 4px transparent;
     margin-top: 20px;
     padding-bottom: 0;
     padding-left: 25px;
 }
+#breadcrumb h2.element-invisible{
+	position: relative !important;
+	float: left;
+	margin: 0 5px 0 0;
+	font-weight: 300;
+	font-size: 1em;
+}
+
 .breadcrumb a{color: #e3e3e3;}
 .breadcrumb a:first-letter{text-transform: uppercase;}
 
