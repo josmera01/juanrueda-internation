@@ -156,7 +156,7 @@ select{width: 125% !important;}
 #block-menu-menu-menu-secciones-principales ul li.leaf {height: 130px\0/;*height: 130px;}
 #block-menu-menu-menu-secciones-principales .content ul li a {width: 100%\0/;*width: 100%}
 #block-menu-menu-menu-secciones-principales .content ul li.first a {*padding-top: 50px;}
-#block-menu-menu-menu-secciones-principales .content ul li.first a .titulo_menu {
-	padding-left: 10px\0/;
-	*padding-left: 10px;
+#block-menu-menu-menu-secciones-principales .content ul li.first a span.titulo_menu {
+	padding-left: 25px\0/ !important;
+	*padding-left: 25px !important;
 }
