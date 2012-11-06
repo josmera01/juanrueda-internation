@@ -136,7 +136,7 @@ select{width: 123%;}
 .nivo-controlNav a {*float: left !important;}
 #block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu{*width: 60% !important;}
 #zone-footer .block {*margin-right: 0 !important;}
-#views-exposed-form-noticias-y-eventos-page .select-jr {
+.select-jr {
 	*padding-top: 0 !important;
 	*padding-bottom: 0 !important;
 }
