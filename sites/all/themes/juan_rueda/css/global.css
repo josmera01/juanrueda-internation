@@ -253,7 +253,7 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
     background-image: url("../images/jr-texto.png");
     background-position: center top;
     background-repeat: no-repeat;
-    height: 48px;
+    height: 52px;
     margin: 3em 0 1.5em 0;
     text-indent: -9999px;
 }
@@ -429,7 +429,7 @@ input[type="search"]::-webkit-search-cancel-button {
 #block-menu-menu-menu-secciones-principales .content ul li a span.texto {
     color: #272727;
     font-size: 0.9em;
-    font-weight: lighter;
+    font-weight: normal;
     margin: auto;
     width: 85%;
 }
