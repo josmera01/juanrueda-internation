@@ -102,13 +102,12 @@ input[type="submit"]:hover {
 #comments .form-item-name,
 #comments .form-item-subject{display: none;}
 #block-search-form .form-submit {*color: transparent;}
-.view-art-culos-relacionados  li.views-row {border-radius:0;}
+.view-art-culos-relacionados  li.views-row {list-style: none\0/;border-radius:0;}
 .view-art-culos-relacionados  li.views-row-first {border-radius:0.5em 0.5em 0 0;}
 .view-art-culos-relacionados  li.views-row-last {border-radius: 0 0 0.5em 0.5em;}
 .view-art-culos-relacionados .views-field-field-image {
 	float: left;
-	margin-right: 10px;
-	list-style: none\0/;
+	margin-right: 10px;	
 	width: 20%\0/;
 }
 select{width: 123%;}
