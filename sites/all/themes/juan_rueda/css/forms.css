@@ -136,7 +136,7 @@ select{width: 125% !important;}
 	*width: 22% !important;
 }
 .nivo-controlNav a {*float: left !important;}
-#block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu{*width: 60% !important;}
+#block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu{width: 70%\0/ !important;*width: 70% !important;}
 #zone-footer .block {*margin-right: 0 !important;}
 .select-jr {
 	*padding-top: 0 !important;
@@ -144,11 +144,14 @@ select{width: 125% !important;}
 }
 
 .es-nav span {
+	height: 46px\0/ !important;
+	width: 40px\0/ !important;
 	*height: 46px !important;
 	*width: 40px !important;
 }
-.es-nav span.es-nav-next {*background-position: -4px 0 !important;}
-.es-nav span.es-nav-next:hover {*background-position: -4px -125px !important;}
-.es-nav span.es-nav-prev {*background-position: -4px -370px !important;}
-.es-nav span.es-nav-prev:hover {*background-position: -4px -495px !important;}
-#block-menu-menu-menu-secciones-principales ul li.leaf {*height: 130px\0/;*height: 130px;}
+.es-nav span.es-nav-next {background-position: -4px 0\0/ !important;*background-position: -4px 0 !important;}
+.es-nav span.es-nav-next:hover {background-position: -4px -125px\0/ !important;*background-position: -4px -125px !important;}
+.es-nav span.es-nav-prev {background-position: -4px -370px\0/ !important;*background-position: -4px -370px !important;}
+.es-nav span.es-nav-prev:hover {background-position: -4px -495px\0/ !important;*background-position: -4px -495px !important;}
+#block-menu-menu-menu-secciones-principales ul li.leaf {height: 130px\0/;*height: 130px;}
+#block-menu-menu-menu-secciones-principales .content ul li a {width: 100%\0/;*width: 100%}
