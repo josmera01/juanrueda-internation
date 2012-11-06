@@ -155,3 +155,4 @@ select{width: 125% !important;}
 .es-nav span.es-nav-prev:hover {background-position: -4px -495px\0/ !important;*background-position: -4px -495px !important;}
 #block-menu-menu-menu-secciones-principales ul li.leaf {height: 130px\0/;*height: 130px;}
 #block-menu-menu-menu-secciones-principales .content ul li a {width: 100%\0/;*width: 100%}
+#block-menu-menu-menu-secciones-principales .content ul li.first a {*padding-top: 50px;}
