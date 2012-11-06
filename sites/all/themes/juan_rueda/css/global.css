@@ -403,7 +403,8 @@ input[type="search"]::-webkit-search-cancel-button {
     background-position: center 0.2em;
     background-repeat: no-repeat;
     display: block;
-    font-family: gotham medium,"lato",arial;
+    font-family: "lato",sans-serif;
+	font-weight: 400;
     font-size: 0.95em;
     height: 5.9em;
     line-height: 1.1;
