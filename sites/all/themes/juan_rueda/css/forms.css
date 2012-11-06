@@ -116,7 +116,7 @@ select{width: 125% !important;}
 
 .container-12, .container-12 .grid-12 {
 	width: 1180px\0/ !important;
-    *width: 1180px\0/ !important ;
+    *width: 1180px !important ;
 }
 .container-12 .grid-4 {
 	margin-left: 0\0/ !important;
