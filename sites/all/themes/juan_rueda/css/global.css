@@ -421,7 +421,10 @@ input[type="search"]::-webkit-search-cancel-button {
     text-align: center;
     width: 90%;
 }
-#block-menu-menu-menu-secciones-principales .content ul li a span{display: block;}
+#block-menu-menu-menu-secciones-principales .content ul li a span{
+	display: block;
+	text-decoration: none;
+}
 #block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu{
     color: #133156;
     display: table-cell;
