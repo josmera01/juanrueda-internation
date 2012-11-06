@@ -157,6 +157,6 @@ select{width: 125% !important;}
 #block-menu-menu-menu-secciones-principales .content ul li a {width: 100%\0/;*width: 100%}
 #block-menu-menu-menu-secciones-principales .content ul li.first a {*padding-top: 50px;}
 #block-menu-menu-menu-secciones-principales .content ul li.first a .titulo_menu {
-	padding-left: 50px\0/;
-	*padding-left: 50px;
+	padding-left: 10px\0/;
+	*padding-left: 10px;
 }
