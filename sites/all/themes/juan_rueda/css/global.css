@@ -91,7 +91,7 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
     background: -o-linear-gradient(left, transparent 10%,black 80%);
     background: -ms-linear-gradient(left, transparent 10%,black 80%);
     background: linear-gradient(to right, transparent 10%,black 80%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#777777', endColorstr='#000000',GradientType=1 );
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#777777', endColorstr='#000000',GradientType=1 );*/
     height: 100%;
     left: 70%;
     opacity: 0.9;
@@ -99,7 +99,6 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
     top: 0px;
     width: 30%;
 	*background-color: transparent;
-	
 }
 
 .theme-dark .nivoSlider img {
