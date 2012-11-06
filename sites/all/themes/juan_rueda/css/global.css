@@ -874,7 +874,8 @@ padding-bottom: 4%;
 .page-camiones .view-header h2{
     color: #ffffff;
     font-size: 1.8em;
-    margin-top: 1.5em;
+	font-weight: 300;
+    margin-top: 0;
 }
 
 
