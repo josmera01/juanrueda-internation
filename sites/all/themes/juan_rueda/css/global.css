@@ -84,7 +84,6 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
 /***************************************SLIDER***********************************************/
 
 .nivo-caption{
-    background-color: #000000;
     background: -moz-linear-gradient(left, transparent 10%, black 80%);
     background: -webkit-gradient(linear, left top, right top, color-stop(10%,transparent), color-stop(80%,black));
     background: -webkit-linear-gradient(left, transparent 10%,black 80%);
@@ -115,12 +114,13 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
 
 #block-views-featured-slider-block .nivo-caption h1, .field-name-field-slider-camion .nivo-caption h1{
     font-size: 1.3em;
-    font-weight: 100;
+    font-weight: 400;
     text-transform: uppercase;
 }
 #block-views-featured-slider-block .nivo-caption p, .field-name-field-slider-camion .nivo-caption p {
     font-size: 0.9em;
     margin: 10px 0;
+    font-weight: 400;
 }
 #block-views-featured-slider-block .nivo-controlNav, .field-name-field-slider-camion .nivo-controlNav {
     background-color: #224B88;
