@@ -26,6 +26,9 @@
 .twitter-follow-small, .fb_edge_widget_with_comment, .mobile-subscribe-youtube{display: none;}
 
 .responsive-layout-normal #zone-footer .block#block-menu-menu-paises {width: 33%;}
-.responsive-layout-normal #zone-footer .block#block-block-13{width: 14%}
+.responsive-layout-normal #zone-footer .block#block-block-13{
+	width: 14%
+	margin: 0;
+}
 
 .responsive-layout-normal #block-block-13.block ul{width: 65%;}
