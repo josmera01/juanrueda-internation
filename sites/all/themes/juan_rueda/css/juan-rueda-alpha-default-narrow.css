@@ -52,6 +52,12 @@
 
 .responsive-layout-narrow #block-menu-menu-menu-secciones-principales ul{padding: 0 1%;}
 
+.responsive-layout-narrow .nivo-caption{
+	left: 60%;
+	width: 40%;
+	padding: 1em;
+}
+
 
 .twitter-follow-small, .fb_edge_widget_with_comment, .mobile-subscribe-youtube{display: none;}
 
