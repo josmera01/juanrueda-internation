@@ -736,7 +736,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .page-camiones #region-content,
 .page-tips-de-juan-rueda #region-content,
 .page-tips #region-content,
-.page-noticias-y-eventos #region-content,
+.page-noticias-y-eventos #region-content.grid-9,
 .front #region-postscript-fourth.grid-12,
 .page-contacte-su-distribuidor #region-content.grid-12,
 .node-type-camion #region-content.grid-12{
@@ -1263,6 +1263,8 @@ padding-bottom: 4%;
     width: 20%;
     font-size: 1.3em;
 }
+
+.responsive-layout-mobile #region-header-first {margin-bottom: 1em;}
 
 .responsive-layout-mobile #block-views-featured-slider-block .nivo-controlNav,
 .responsive-layout-mobile .field-name-field-slider-camion .nivo-controlNav{
