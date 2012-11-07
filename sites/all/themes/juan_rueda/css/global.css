@@ -90,7 +90,7 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
 	font-size: 1em;
 	line-height: 1.3;
 }
-
+.responsive-layout-mobile #block-system-main .field-name-body p{font-size: 0.85em;}
 
 
 /***************************************SLIDER***********************************************/
