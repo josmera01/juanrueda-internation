@@ -160,3 +160,8 @@ select{width: 125% !important;}
 	padding-left: 25px\0/ !important;
 	*padding-left: 25px !important;
 }
+.view-entradas-recientes .pager li a {
+	*display: block;
+	*float: none;
+}
+.view-entradas-recientes .item-list {*margin-bottom: 35px;}
