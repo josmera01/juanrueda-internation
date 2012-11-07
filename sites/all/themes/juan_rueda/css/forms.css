@@ -166,4 +166,4 @@ select{width: 125% !important;}
 }
 .view-entradas-recientes .item-list {*margin-bottom: 35px !important;}
 #zone-footer .item-list ul li, #zone-footer .item-list ul li.leaf {*list-style-image: none !important;}
-#zone-footer .item-list ul li, #zone-footer .item-list ul li {*overflow: visible !important;}
+#zone-footer .item-list ul li{*overflow: visible !important;}
