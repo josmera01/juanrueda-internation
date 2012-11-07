@@ -47,7 +47,7 @@ function galeria_render_camiones() {
       ) . '<span>' . $node->title.'</span>',
       'html' => TRUE,
       'href' => 'node/' . $node->nid,
-      'attributes' => array('class' => 'link-slider'),
+      //'attributes' => array('class' => 'link-slider'),
 
       );
 
