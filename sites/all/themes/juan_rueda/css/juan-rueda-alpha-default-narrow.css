@@ -17,6 +17,7 @@
 .responsive-layout-narrow.page-noticias-y-eventos #block-system-main{
 	width: 720px;
 	margin-bottom: 2em;
+	float: left;
 }
 .responsive-layout-narrow.page-noticias-y-eventos .grid-4.col-4#block-block-9,
 .responsive-layout-narrow.page-noticias-y-eventos .grid-4.col-4#block-views-calendario-de-eventos-block-1{

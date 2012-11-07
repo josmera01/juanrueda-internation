@@ -13,6 +13,7 @@
 
 .responsive-layout-wide.page-noticias-y-eventos #block-system-main{
 	width: 900px;
+	float: left;
 }
 .responsive-layout-wide.page-noticias-y-eventos .grid-4.col-4#block-block-9,
 .responsive-layout-wide.page-noticias-y-eventos .grid-4.col-4#block-views-calendario-de-eventos-block-1{
