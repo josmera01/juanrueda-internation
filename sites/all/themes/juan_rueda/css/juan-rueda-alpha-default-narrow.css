@@ -13,6 +13,15 @@
 .page-noticias-y-eventos #region-content.grid-12{
 	width: 720px;
 }
+
+.responsive-layout-narrow .page-noticias-y-eventos #block-system-main{
+	width: 720px;
+}
+.responsive-layout-narrow .page-noticias-y-eventos #block-block-9,
+.responsive-layout-narrow .page-noticias-y-eventos #block-views-calendario-de-eventos-block-1{
+	width: 320;
+}
+
 .responsive-layout-narrow #block-menu-menu-menu-secciones-principales .content ul li a{
 	width: 100%;
 	padding: 2.4em 0 0 0;

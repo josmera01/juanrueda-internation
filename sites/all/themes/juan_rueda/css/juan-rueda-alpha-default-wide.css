@@ -11,6 +11,17 @@
 	width: 1200px;
 }
 
+.responsive-layout-wide .page-noticias-y-eventos #block-system-main{
+	width: 900px;
+}
+.responsive-layout-wide .page-noticias-y-eventos #block-block-9,
+.responsive-layout-wide .page-noticias-y-eventos #block-views-calendario-de-eventos-block-1{
+	width: 300;
+}
+
+
+
+
 /*.responsive-layout-wide #block-menu-menu-menu-secciones-principales .content ul li a span.texto{padding: 0 8%;}*/
 
 .twitter-follow-small, .fb_edge_widget_with_comment, .mobile-subscribe-youtube{display: none;}
