@@ -1200,13 +1200,13 @@ padding-bottom: 4%;
 	margin: auto;
 }
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content ul li a {
-    background-position: 2em 0.8em;
+    background-position: 2em 0.7em;
     height: 2.7em;
     padding: 1.3em 0 0 85px;
     text-align: left;
     width: auto;
 }
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content ul li a.active{background-position: 2em -12em;}
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content ul li a.active{background-position: 2em -9.8em;}
 .responsive-layout-mobile .menu-render, .responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.expanded.menu-1746 a.mobile{
 	display: block;
 	background-color: #FF6201;
