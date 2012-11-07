@@ -13,6 +13,12 @@
         current   : 8
       });
 
+      $(".es-carousel a.link-slider").onclick(function() {
+        var url = $(this).attr('href');
+        window.location.href=url;
+        return true;
+      });
+
 
     }
   }
