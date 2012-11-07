@@ -1232,7 +1232,10 @@ padding-bottom: 4%;
     height: auto;
     width: 100%
 }
-.responsive-layout-mobile .menu-buscador, .responsive-layout-mobile .home-movil, .responsive-layout-mobile .menu-render{margin-right: 0.5em;}
+.responsive-layout-mobile .menu-buscador, .responsive-layout-mobile .home-movil, .responsive-layout-mobile .menu-render{
+	margin-right: 0.5em;
+	font-weight: 400;
+}
 .responsive-layout-wide .home-movil, .responsive-layout-normal .home-movil, .responsive-layout-narrow .home-movil{display: none;}
 
 .responsive-layout-mobile .menu-buscador{background: url("../images/icono-buscar-mobile.png") no-repeat -5px -132px; transparent;}
@@ -1246,7 +1249,7 @@ padding-bottom: 4%;
     width: 37px;
     cursor: pointer;
 }
-.responsive-layout-mobile .menu-buscador.active, .responsive-layout-mobile .home-movil.active{background-position: -5px -6px;}
+.responsive-layout-mobile .menu-buscador.active, .responsive-layout-mobile .home-movil.active, .responsive-layout-mobile .home-movil:active{background-position: -5px -6px;}
 
 .responsive-layout-mobile #zone-user, #block-multiblock-1{display: none;}
 .responsive-layout-mobile #block-search-form {
