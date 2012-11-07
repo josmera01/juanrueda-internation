@@ -1306,7 +1306,7 @@ padding-bottom: 4%;
 .responsive-layout-mobile #carousel-camion .es-nav span.es-nav-prev.active{background-position: 0 -179px;}
 .responsive-layout-mobile #carousel-camion .es-nav span.es-nav-next:hover,
 .responsive-layout-mobile #carousel-camion .es-nav span.es-nav-next:active,
-.responsive-layout-mobile #carousel-camion .es-nav span.es-nav-next.active{background-position: -45px;}
+.responsive-layout-mobile #carousel-camion .es-nav span.es-nav-next.active{background-position: 0 -45px;}
 
 .responsive-layout-mobile .mapa-sitio-render {
     border-radius: 0.5em 0.5em 0.5em 0.5em;
