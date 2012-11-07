@@ -168,5 +168,5 @@ select{width: 125% !important;}
 #zone-footer .item-list ul li, #zone-footer .item-list ul li.leaf {*list-style-image: none !important;}
 #zone-footer #block-menu-menu-paises ul li{
 	*background: url("../images/circulo.jpg") no-repeat scroll 0 70% transparent;
-	*padding-left: 5%;
-}
+	
+}*padding-left: 5%;
