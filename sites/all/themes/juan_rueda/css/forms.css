@@ -170,8 +170,8 @@ select{width: 125% !important;}
 	*background: url("../images/circulo.jpg") no-repeat scroll 0 70% transparent;
 	
 }
-#block-menu-menu-paises li.expanded, #block-menu-menu-paises li.collapsed, #block-menu-menu-paises li.leaf {*padding: 0 0 0 5% !important;}
-#region-footer-first #block-menu-menu-paises.block ul {*padding: o !important;}
+#block-menu-menu-paises li.expanded, #block-menu-menu-paises li.collapsed, #block-menu-menu-paises li.leaf {*padding: 0 !important;}
+#region-footer-first #block-menu-menu-paises.block ul {*padding: 0 !important;}
 #region-footer-first #block-menu-menu-paises.block ul a {
-*display: block;*width: 100%;
+*display: block;*width: 100%;*padding-left: 20%;
 }
