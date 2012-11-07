@@ -129,8 +129,8 @@ select{width: 125% !important;}
 .container-12 .grid-4 .grid-4 {width: 100%\0/!important;*width: 100%!important;}
  .section-header .grid-4 {width: 30%\0/!important;*width: 30%!important;}
 
-.front .view-id-entradas_recientes .view-content{*width: auto !important;}
-.front  #block-views-entradas-recientes-block {*padding-left: 2% !important;}
+/*.front .view-id-entradas_recientes .view-content{*width: auto !important;}
+.front  #block-views-entradas-recientes-block {*padding-left: 2% !important;}*/
 .nivo-caption {
 	*height: 77.5% !important;
 	*width: 22% !important;
