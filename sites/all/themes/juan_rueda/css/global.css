@@ -1292,6 +1292,8 @@ padding-bottom: 4%;
 
 .responsive-layout-mobile #carousel-camion{display:block;}
 
+#carousel-camion li a span{font-size: 0.9em;}
+
 .responsive-layout-mobile #carousel-camion .es-nav span{
 	background-size: 90%;
 	height: 20px;	
