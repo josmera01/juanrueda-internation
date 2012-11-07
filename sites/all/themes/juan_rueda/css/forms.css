@@ -170,5 +170,8 @@ select{width: 125% !important;}
 	*background: url("../images/circulo.jpg") no-repeat scroll 0 70% transparent;
 	
 }
-li.expanded, li.collapsed, li.leaf {*padding: 0 0 0 5%;}
-*padding-left: 5%;
+#block-menu-menu-paises li.expanded, #block-menu-menu-paises li.collapsed, #block-menu-menu-paises li.leaf {*padding: 0 0 0 5% !important;}
+#region-footer-first #block-menu-menu-paises.block ul {*padding: o !important;}
+#region-footer-first #block-menu-menu-paises.block ul a {
+*display: block;*width: 100%;
+}
