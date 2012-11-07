@@ -1287,10 +1287,23 @@ padding-bottom: 4%;
 .responsive-layout-mobile #block-views-featured-slider-block .nivo-caption h1,
 .responsive-layout-mobile .field-name-field-slider-camion .nivo-caption h1{
     font-size: 0.8em;
-    font-weight: lighter;
+    font-weight: 300;
 }
 
 .responsive-layout-mobile #carousel-camion{display:block;}
+
+.responsive-layout-mobile #carousel-camion .es-nav span{
+	background-size: 90%;
+	height: 20px;	
+	width: 20px;
+}
+.responsive-layout-mobile #carousel-camion.es-carousel-wrapper{0 1.3em;}
+.responsive-layout-mobile #carousel-camion .es-nav span.es-nav-prev:hover,
+.responsive-layout-mobile #carousel-camion .es-nav span.es-nav-prev:active,
+.responsive-layout-mobile #carousel-camion .es-nav span.es-nav-prev.active{background-position: 0 -179px;}
+.responsive-layout-mobile #carousel-camion .es-nav span.es-nav-next:hover,
+.responsive-layout-mobile #carousel-camion .es-nav span.es-nav-next:active,
+.responsive-layout-mobile #carousel-camion .es-nav span.es-nav-next.active{background-position: -45px;}
 
 .responsive-layout-mobile .mapa-sitio-render {
     border-radius: 0.5em 0.5em 0.5em 0.5em;
