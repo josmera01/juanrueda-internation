@@ -21,8 +21,8 @@
 .responsive-layout-normal .page-noticias-y-eventos #block-system-main{
 	width: 640px;
 }
-.responsive-layout-normal .page-noticias-y-eventos #block-block-9,
-.responsive-layout-normal .page-noticias-y-eventos #block-views-calendario-de-eventos-block-1{
+.responsive-layout-normal .page-noticias-y-eventos .grid-4.col-4#block-block-9,
+.responsive-layout-normal .page-noticias-y-eventos .grid-4.col-4#block-views-calendario-de-eventos-block-1{
 	width: 320;
 }
 
