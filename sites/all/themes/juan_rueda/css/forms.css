@@ -164,5 +164,5 @@ select{width: 125% !important;}
 	*display: block;
 	*float: none;
 }
-.view-entradas-recientes .item-list {*margin-bottom: 35px;}
-#zone-footer .item-list ul li, #zone-footer .item-list ul li.leaf {*list-style-image: none;}
+.view-entradas-recientes .item-list {*margin-bottom: 35px !important;}
+#zone-footer .item-list ul li, #zone-footer .item-list ul li.leaf {*list-style-image: none !important;}
