@@ -47,6 +47,7 @@ function galeria_render_camiones() {
       ) . '<span>' . $node->title.'</span>',
       'html' => TRUE,
       'href' => 'node/' . $node->nid,
+      'attributes' => array('class' => 'link-slider'),
 
       );
 
@@ -75,6 +76,7 @@ function consulta_types($default = 'camion') {
   $db = db_select('node', 'n')
     ->fields('n')
     ->condition('type', $default)
+    ->condition('status', 1)
     ->execute()
     ->fetchAll();
 
