@@ -87,12 +87,12 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
 
 .nivo-caption{
 	background-color: transparent;
-    background: -moz-linear-gradient(left, transparent 10%, black 80%);
+    /*background: -moz-linear-gradient(left, transparent 10%, black 80%);
     background: -webkit-gradient(linear, left top, right top, color-stop(10%,transparent), color-stop(80%,black));
     background: -webkit-linear-gradient(left, transparent 10%,black 80%);
     background: -o-linear-gradient(left, transparent 10%,black 80%);
     background: -ms-linear-gradient(left, transparent 10%,black 80%);
-    background: linear-gradient(to right, transparent 10%,black 80%);
+    background: linear-gradient(to right, transparent 10%,black 80%);*/
     /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#777777', endColorstr='#000000',GradientType=1 );*/
     height: 100%;
     left: 70%;
