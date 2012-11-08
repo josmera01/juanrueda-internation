@@ -850,18 +850,19 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     list-style: none outside none;
 }
 .link-conteo li.comentario .number{
-	background: url("../images/bg-comentarios.png") no-repeat scroll 0 0 transparent;
+	background: url("../images/bg-comentarios.png") no-repeat scroll center top transparent;
 }
 .link-conteo li.flag .number{
-	background: url("../images/bg-like.png") no-repeat scroll 0 0 transparent;
+	background: url("../images/bg-like.png") no-repeat scroll center top transparent;
 }
 .link-conteo li.visitas .number{
-    background: url("../images/visitas.png") no-repeat scroll 0 0 transparent;
+    background: url("../images/visitas.png") no-repeat scroll center top transparent;
     padding: 5px 0 5px 27px
 }
 .link-conteo li .number{
-        padding: 5px 0 5px 32px;
+    padding: 5px 0 5px 32px;
     width: 35px;
+    margin: auto;
 }
 .link-conteo li .label{
     font-weight: 600;
@@ -869,8 +870,8 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 }
 .link-conteo li{
     font-size: 0.7em;
-    margin: 0 4%;
-    width: 25%;
+    margin: 0;
+    width: 33%;
 }
 .link-conteo li span{
     display: block;
