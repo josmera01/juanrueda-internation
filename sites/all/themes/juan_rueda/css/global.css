@@ -1540,3 +1540,12 @@ form .form-submit {margin-right: 4.5%;}
 .responsive-layout-mobile .menu-buscador, .responsive-layout-mobile .home-movil,
 .responsive-layout-mobile .menu-render, .responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.expanded.menu-1746 a.mobile {float: left;}
 .responsive-layout-mobile .menu-render, .responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.expanded.menu-1746 a.mobile {width: 20%;}
+
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .block-inner {
+	position: relative;
+	left: 14.5%;
+}
+
+.responsive-layout-mobile #block-multiblock-1 {width: 64%;}
+
+
