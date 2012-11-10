@@ -1530,3 +1530,8 @@ form .form-submit {margin-right: 4.5%;}
     margin-bottom: 1.5%;
     margin-right: 3%;
 }
+.responsive-layout-mobile .logo-img img {width: 70%;}
+.responsive-layout-mobile .logo-img {width: 25%;}
+
+.responsive-layout-mobile .branding-data h1.site-name, .responsive-layout-mobile .branding-data h2.site-name {background-size: 79% 0;}
+.responsive-layout-mobile .site-name-slogan {width: 75%;}
