@@ -1543,9 +1543,12 @@ form .form-submit {margin-right: 4.5%;}
 
 .responsive-layout-mobile #block-menu-menu-menu-secciones-principales .block-inner {
 	position: relative;
-	left: 14.5%;
+	left: -14.5%;
 }
 
-.responsive-layout-mobile #block-multiblock-1 {width: 64%;}
+.responsive-layout-mobile #block-multiblock-1 {
+	margin-left: 25.5%;
+	width: 64.5%;
+}
 
 
