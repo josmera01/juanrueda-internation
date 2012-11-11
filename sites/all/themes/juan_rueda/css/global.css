@@ -1536,19 +1536,11 @@ form .form-submit {margin-right: 4.5%;}
 .responsive-layout-mobile .branding-data h1.site-name, .responsive-layout-mobile .branding-data h2.site-name {background-size: 79% auto;}
 .responsive-layout-mobile .site-name-slogan {width: 75%;}
 
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales {margin-left: 35%;}
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales, .responsive-layout-mobile #block-multiblock-1 {margin-left: 35%;}
 .responsive-layout-mobile .menu-buscador, .responsive-layout-mobile .home-movil,
 .responsive-layout-mobile .menu-render, .responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.expanded.menu-1746 a.mobile {float: left;}
 .responsive-layout-mobile .menu-render, .responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.expanded.menu-1746 a.mobile {width: 20%;}
 
-.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .block-inner {
-	position: relative;
-	left: -14.5%;
-}
-
-.responsive-layout-mobile #block-multiblock-1 {
-	margin-left: 25.5%;
-	width: 64.5%;
-}
+.responsive-layout-mobile #block-multiblock-1 {width: 64.5%;}
 
 
