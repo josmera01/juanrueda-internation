@@ -5,7 +5,7 @@
  */
 
 function juanrueda_views_breadcrumb_views_post_execute(&$view) {
-    $breadcrumb[] = t('Se encuentra en ');
+
     if ($view->name == 'camiones') {
         $breadcrumb[] = l('Inicio', '<front>');
         $breadcrumb[] = l('Camiones', 'camiones');
