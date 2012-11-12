@@ -42,7 +42,7 @@ function html_widget_youtube_custom() {
     $output .= '</div>';
       $output .= '<div class="youtube-contenido-header">';
       $output .= '<a href="http://www.youtube.com/InternationalTruck">InternationalTrucks</a><br/>';
-        $output .= t('@cantidad Suscriptores', array('@cantida' => $subs));
+        $output .= t('@cantidad Suscriptores ', array('@cantida' => $subs));
         $output .= t('@cantidad Videos', array('@cantidad' => $countVideos));
     $output .= '</div>';
     $output .= '<div class="contenido-youtube-footer">';
