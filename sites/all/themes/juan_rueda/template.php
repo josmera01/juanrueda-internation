@@ -36,7 +36,7 @@ function seed_preprocess_html(&$vars) {
   }
 }
 
-function juan_rueda_page(&$variables) {
+function juan_rueda_preprocess_page(&$variables) {
   $title = drupal_get_title();
   dpm($title);
 }
