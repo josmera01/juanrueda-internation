@@ -35,3 +35,9 @@ function seed_preprocess_html(&$vars) {
     drupal_add_js('http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js',  array('type' => 'external', 'group' => JS_LIBRARY, 'weight' => -100));
   }
 }
+
+function juan_rueda_page(&$variables) {
+  $title = drupal_get_title();
+  dpm($title);
+}
+
