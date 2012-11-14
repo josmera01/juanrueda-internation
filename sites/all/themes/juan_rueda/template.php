@@ -38,6 +38,13 @@ function seed_preprocess_html(&$vars) {
 
 function juan_rueda_preprocess_page(&$variables) {
   $title = drupal_get_title();
-  dpm($title);
+  $caracter = explode(" ", $title);
+  $title = str_replace($caracter[0], "", $title);
+
+  $texto_primero = ucwords(strtolower($caracter[0]));
+
+  drupal_set_title($texto_primero .' '. $title);
+
+  drupal_set_title();
 }
 
