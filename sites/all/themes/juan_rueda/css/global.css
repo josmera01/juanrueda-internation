@@ -586,8 +586,8 @@ background-position: 0px -28px;
 #block-webform-client-block-1 h2.block-title {
     font-size: 1.3em;
     font-weight: 100;
-    line-height: 1.2;
-    margin-bottom: 15px;
+    line-height: 1.15;
+    margin-bottom: 5px;
     text-align: center;
 }
 #block-webform-client-block-1 .form-actions{
@@ -604,6 +604,10 @@ background-position: 0px -28px;
     display: none;
 }
 #block-webform-client-block-1 .form-submit {float: none;}
+
+#region-postscript-first p, #region-postscript-second p{margin: 0;}
+
+
 
 /***************************************CONTACTO***********************************************/
 
@@ -902,6 +906,11 @@ padding-bottom: 4%;
 /*.bloque-gris a:visited{
     color: #1B457A !important; 
 }*/
+
+
+
+
+
 /**************************** PAGINA CAMIONES **********************************/
 
 .page-camiones .view-header h2{
