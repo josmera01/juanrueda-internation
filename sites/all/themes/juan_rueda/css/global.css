@@ -924,6 +924,11 @@ padding-bottom: 4%;
     margin-top: 0;
 }
 
+.view-id-camiones .views-exposed-form{float: right;}
+.view-id-camiones .views-exposed-form label, .view-id-camiones .views-exposed-form .views-widget{float: left;}
+.view-id-camiones .views-exposed-form label{padding: 0.3em 1em;}
+.view-id-camiones .views-exposed-form .views-widget .select-jr{margin: 0;}
+
 
 /**********************************BARRA DERECHA***********************************/
 
