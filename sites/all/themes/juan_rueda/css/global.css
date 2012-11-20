@@ -529,12 +529,14 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
     width: auto;
 }
 #region-footer-second{
-    font-size: 1.1em;
-    font-weight: lighter;
+	border-top: 1px solid #222;
+	margin-top: 2em;
+}
+#region-footer-second p{
+    font-size: 1em;
+    font-weight: 400;
     height: auto;
-    margin-bottom: 15px;
     min-height: 18px;
-    padding-top: 50px;
     text-align: center;
 }
 ul.menu {
