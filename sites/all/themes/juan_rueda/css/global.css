@@ -43,6 +43,7 @@ iframe{max-width: 100%}
 label {color: #FFFFFF;}
 #section-content {
     margin-bottom: 40px;
+    background-color: #222;
 }
 
 #breadcrumb{
@@ -533,7 +534,7 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 	margin-top: 2em;
 }
 #region-footer-second p{
-    font-size: 1em;
+    font-size: 0.85em;
     font-weight: 400;
     height: auto;
     min-height: 18px;
