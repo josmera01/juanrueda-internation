@@ -748,6 +748,9 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .view-mapa-contacto .views-field-php-1 a{
     background: url("../images/ico-ubicar-mapa.png") no-repeat 5px center transparent;
 }
+.view-mapa-contacto .gmnoprint {color: #000000;}
+.view-mapa-contacto .gmnoprint a{color: #133156;}
+
 /**********************************MASONRY VIEWS - BLOQUES GRISES***********************************/
 
 .front #region-content,
