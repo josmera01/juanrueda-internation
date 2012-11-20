@@ -27,8 +27,11 @@
 	width: 300px;
 }
 
-
-
+.responsive-layout-normal #block-juanrueda-widget-youtube-widget-youtube-custom .contenido-youtube-footer a{
+	padding: 5px 3px;
+	margin-top: 35px;
+}
+.responsive-layout-normal #block-juanrueda-widget-youtube-widget-youtube-custom .content div{margin-left: 0.5em;}
 
 /******** Footer *******/
 
