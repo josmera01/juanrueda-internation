@@ -4,14 +4,13 @@ function juanrueda_response_init() {
   $path = drupal_get_path('module', 'juanrueda_response');
   drupal_add_js($path . '/juanrueda_response.js');
 
+  $path_theme = drupal_get_path('theme', 'juan_rueda');
 
   if(strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE 7.0') !== FALSE) {
     drupal_add_js(array('ei7' => 1), 'setting');
+
+    drupal_add_css($path_theme . '/css/ie7.css');
   }
-  $setting = array();
-  $settings['zoom'] = 10;
 
-  drupal_add_js(array('gmap' => array('auto1map' => $settings)), 'setting');
-
-}
+ }
 
