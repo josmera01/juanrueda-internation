@@ -692,7 +692,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     font-size: 0.85em;
     margin: 5% 10% 0;
 }
-.view-mapa-contacto .view-content {width: 70%;}
+.view-mapa-contacto .view-content {margin: 0 10px;}
 
 .responsive-layout-mobile .view-mapa-contacto .view-content, .responsive-layout-mobile .view-mapa-contacto .attachment {width: 100%;}
 
