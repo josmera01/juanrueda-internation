@@ -676,13 +676,11 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     font-weight: lighter;
 }
 .view-mapa-contacto .attachment, .view-mapa-contacto .view-content {float: left;}
-.view-mapa-contacto .attachment {
+.view-mapa-contacto .attachment .view{
     background: none repeat scroll 0 0 #EEEEEE;
     border-radius: 5px;
     color: #252526;
     font-size: 1em;
-    margin-right: 5%;
-    width: 25%;
 }
 .view-mapa-contacto .attachment .views-field-field-ciudad {
     font-size: 1.06em;
@@ -771,6 +769,19 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .node-type-camion #region-content.grid-12{
 	margin: 0;
 }
+
+.page-camiones h1, .page-camiones .view-camiones .view-filters, .page-camiones .view-camiones .view-header,
+.page-tips-de-juan-rueda h1, .page-tips-de-juan-rueda #block-system-main .view-header,
+.page-tips h1, .page-tips #block-system-main .view-header
+.page-noticias-y-eventos h1,
+.page-contacte-su-distribuidor h1,
+.node-type-camion h1
+{
+	margin: 0 10px;
+}
+
+
+
 
 .bloque-gris .views-row, #block-webform-client-block-1{
     background-color: #d8d8d8;
