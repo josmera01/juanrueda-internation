@@ -11,11 +11,12 @@ iframe{max-width: 100%}
 #zone-user {margin-top: 20px;}
 .block-title{color: #2D6CB4;}
 .block-title .field-name-body {text-align: center;}
-#block-block-14 p{
+#block-block-14 h2{
     color: #FFFFFF;
     font-size: 1.7em;
     margin: 20px 0 30px;
     text-align: center;
+    font-weight: 300;
 }
 
 .field-type-image{text-align: center;}
@@ -1070,6 +1071,8 @@ padding-bottom: 4%;
 
 
 /***************************************** CSS PLUGINS REDES SOCIALES ************************************************/
+
+
 
 #block-block-5, #block-block-4, #block-juanrueda-widget-youtube-widget-youtube-custom {
 	border-radius: 0.5em 0.5em 0 0;
