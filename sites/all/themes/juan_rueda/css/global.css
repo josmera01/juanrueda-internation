@@ -690,7 +690,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 }
 .view-mapa-contacto .views-row {
     font-size: 0.85em;
-    margin-top: 1em;
+    margin: 1.5em 1em;
 }
 .view-mapa-contacto .view-content {margin: 0 10px;}
 
