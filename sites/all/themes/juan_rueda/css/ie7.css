@@ -59,7 +59,7 @@ body {min-width: 960px;}
 	padding-top: 10px !important;
 	height: 25px;
 }
-#block-menu-menu-menu-secciones-principales .content ul li.first a span.texto{padding: 0 5px;}
+#block-menu-menu-menu-secciones-principales .content ul li a span.texto{padding: 0 5px;}
 .view-entradas-recientes .pager li a {
 	display: block;
 	float: none;
