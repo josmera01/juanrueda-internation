@@ -40,7 +40,11 @@ body {min-width: 960px;}
 .es-nav span.es-nav-next:hover {background-position: -4px -125px !important;}
 .es-nav span.es-nav-prev {background-position: -4px -370px !important;}
 .es-nav span.es-nav-prev:hover {background-position: -4px -495px !important;}
-#block-menu-menu-menu-secciones-principales ul li.leaf {height: 130px;}
+
+#block-menu-menu-menu-secciones-principales ul li.leaf {
+	height: 130px;
+	background-image: url("../images/menu-bg-ie.png");
+}
 #block-menu-menu-menu-secciones-principales .content ul li a {width: 100%}
 
 #block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu {height: 35px;}
@@ -48,6 +52,7 @@ body {min-width: 960px;}
 	padding-top: 10px;
 	height: 25px;
 }
+#block-menu-menu-menu-secciones-principales .content ul li.first a span.texto{padding: 0 5px;}
 .view-entradas-recientes .pager li a {
 	display: block;
 	float: none;
