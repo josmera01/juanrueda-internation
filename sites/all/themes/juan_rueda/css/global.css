@@ -1189,9 +1189,7 @@ padding-bottom: 4%;
 }
 
 
-
-/*CSS MOBILE*/
-
+/*************************************************************************************/
 
 .item-list ul.pager {
     clear: both;
@@ -1243,3 +1241,350 @@ form .form-submit {margin-right: 4.5%;}
     margin-bottom: 1.5%;
     margin-right: 3%;
 }
+
+/***************************************** CSS MOBILE ************************************************/
+
+.responsive-layout-mobile #section-header{
+    background-position: -30px top;
+    background-size: 30% auto;
+}
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales{margin-bottom: 0;}
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales, .responsive-layout-mobile #block-multiblock-1{
+    clear: both;
+}
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1747{
+	display: block;
+	width: auto;
+	background: none;
+}
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1747 a.mobile{
+	background: transparent url(../images/ico-inicio-mobile.png) no-repeat -5px -130px;
+	text-indent: -9999px;
+	height: 35px;
+	width: 37px;
+	margin: 0;
+	padding: 0;
+}
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1747 a.mobile.active{
+	background-position: -5px -6px;
+}
+
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .block-inner {clear: both;}
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul.menu{display: block;}
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul.menu,
+.responsive-layout-mobile #block-multiblock-1 {
+    border: 3px solid #FD8900;
+    border-radius: 5px 5px 5px 5px;
+    margin: 1px auto;
+    padding: 0;
+    width: 96%;
+}
+.responsive-layout-mobile #block-multiblock-1{background: #DDD;}
+.responsive-layout-mobile #block-multiblock-1 .form-item input{
+	width: 60%;
+	margin: 1%;
+}
+.responsive-layout-mobile #block-multiblock-1 .form-actions input{
+	width: 30%;
+	margin: 1%;
+	font-size: 0.8em;
+}
+
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf{
+    border-bottom: 2px solid #9EAAB0;
+    border-radius: 0;
+    float: none;
+    margin: 0;
+    width: 100%;
+    display: block;
+}
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1183,
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1745{
+	float: left;
+	width: 50%;
+}
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1183 a,
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1745 a{
+	padding-left: 0;
+	margin: 0.5em 0;
+	height: 1.7em;
+}
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1183 a{border-right: 2px solid #9EAAB0}
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1183 a span.titulo_menu,
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1745 a span.titulo_menu{
+	display: block;
+	margin: auto;
+}
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content ul li a {
+    background-position: 2em 0.7em;
+    height: 2.7em;
+    padding: 1.3em 0 0 85px;
+    text-align: left;
+    width: auto;
+}
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content ul li a.active{background-position: 2em -9.8em;}
+.responsive-layout-mobile .menu-render, .responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.expanded.menu-1746 a.mobile{
+	display: block;
+	background-color: #FF6201;
+    background-image: linear-gradient(bottom, #FF6201 42%, #FF9900 71%);
+    background-image: -o-linear-gradient(bottom, #FF6201 42%, #FF9900 71%);
+    background-image: -moz-linear-gradient(bottom, #FF6201 42%, #FF9900 71%);
+    background-image: -webkit-linear-gradient(bottom, #FF6201 42%, #FF9900 71%);
+    background-image: -ms-linear-gradient(bottom, #FF6201 42%, #FF9900 71%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF6201', endColorstr='#FF9900',GradientType=0 );
+    border-radius: 5px 5px 5px 5px;
+    color: #554747;
+    float: right;
+    font-size: 1em;
+    font-weight: 300;
+    padding: 0.5em 1em;
+    text-align: center;
+    width: 13%;
+    cursor: pointer;
+}
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content ul li a span.texto{display: none;}
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu{
+    padding: 0;
+    height: auto;
+    width: 100%
+}
+.responsive-layout-mobile .menu-buscador, .responsive-layout-mobile .home-movil, .responsive-layout-mobile .menu-render{
+	margin-right: 0.5em;
+	font-weight: 400;
+}
+.responsive-layout-wide .home-movil, .responsive-layout-normal .home-movil, .responsive-layout-narrow .home-movil{display: none;}
+
+.responsive-layout-mobile .menu-buscador{background: url("../images/icono-buscar-mobile.png") no-repeat -5px -132px; transparent;}
+.responsive-layout-mobile .home-movil{background: url("../images/ico-inicio-mobile.png") no-repeat -5px -131px; transparent;}
+
+.responsive-layout-mobile .menu-buscador, .responsive-layout-mobile .home-movil{
+    display: block;
+    float: right;
+    height: 35px;
+    text-indent: -9999px;
+    width: 37px;
+    cursor: pointer;
+}
+.responsive-layout-mobile .menu-buscador.active, .responsive-layout-mobile .home-movil.active, .responsive-layout-mobile .home-movil:active{background-position: -5px -6px;}
+
+.responsive-layout-mobile #zone-user, #block-multiblock-1{display: none;}
+.responsive-layout-mobile #block-search-form {
+    display: block;
+    left: 40%;
+    position: absolute;
+    top: 251px;
+    z-index: 100;
+    padding: 3% 10%;
+    width: 20%;
+    font-size: 1.3em;
+}
+
+.responsive-layout-mobile #region-header-first {margin-bottom: 1em;}
+
+.responsive-layout-mobile #block-views-featured-slider-block .nivo-controlNav,
+.responsive-layout-mobile .field-name-field-slider-camion .nivo-controlNav{
+	display: none;
+}
+.responsive-layout-mobile #views-nivo-slider-featured_slider-block,
+.responsive-layout-mobile .theme-dark .nivoSlider img {
+	border: none;
+	border-radius: 0;
+}
+
+.responsive-layout-mobile .nivo-caption{
+    background: none;
+    height: 100%;
+    left: 50%;
+    opacity: 1;
+    padding: 1em;
+    top: 0px;
+    width: 50%;
+}
+
+.responsive-layout-mobile #block-views-featured-slider-block .nivo-caption h1,
+.responsive-layout-mobile .field-name-field-slider-camion .nivo-caption h1{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.responsive-layout-mobile #carousel-camion{display:block;}
+
+#carousel-camion li a span{font-size: 0.9em;}
+
+.responsive-layout-mobile #carousel-camion .es-nav span{
+	background-size: 90%;
+	height: 20px;	
+	width: 20px;
+}
+
+.responsive-layout-mobile #carousel-camion.es-carousel-wrapper{0 1.3em;}
+.responsive-layout-mobile #carousel-camion .es-nav span.es-nav-prev:hover,
+.responsive-layout-mobile #carousel-camion .es-nav span.es-nav-prev:active,
+.responsive-layout-mobile #carousel-camion .es-nav span.es-nav-prev.active{background-position: 0 -179px;}
+.responsive-layout-mobile #carousel-camion .es-nav span.es-nav-next:hover,
+.responsive-layout-mobile #carousel-camion .es-nav span.es-nav-next:active,
+.responsive-layout-mobile #carousel-camion .es-nav span.es-nav-next.active{background-position: 0 -45px;}
+
+.responsive-layout-mobile .mapa-sitio-render {
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    cursor: pointer;
+    display: block;
+    height: 1.7em;
+    margin: 0 auto;
+    padding: 0.5em;
+    text-align: center;
+    width: 16em;
+}
+.responsive-layout-mobile .view-mapa-contacto .attachment, .responsive-layout-mobile .view-mapa-contacto .view-content {float: none;}
+
+.responsive-layout-mobile #block-views-featured-slider-block .nivo-caption p {
+    display: none;
+}
+.responsive-layout-mobile #block-block-5 , .responsive-layout-mobile  #block-block-4, .responsive-layout-mobile #block-juanrueda-widget-youtube-widget-youtube-custom  {
+    background: none repeat scroll 0 0 transparent;
+    float: left;
+    width: 30%;
+    margin: 1.5%;
+    text-align: center;
+}
+.responsive-layout-mobile #zone-footer #block-menu-menu-paises .leaf {
+    float: none;
+    width: 100%;
+}
+.responsive-layout-mobile #zone-footer #block-menu-menu-paises.block {
+    width: 75%;
+}
+.responsive-layout-mobile #zone-footer .block {
+    float: none;
+    margin: 0 auto;
+    text-align: left;
+    width: 75%;
+    margin-bottom: 30px;
+}
+.responsive-layout-mobile #zone-footer .block h2{
+    background-position: 0 0 !important;
+    font-size: 17px;
+    font-weight: normal;
+    height: auto;
+    margin-bottom: 15px;
+    padding: 5px 0 5px 40px;
+    text-align: left;
+}
+.responsive-layout-mobile #region-footer-first .block .content{
+    clear: both;
+    padding-left: 25px;
+}
+
+.responsive-layout-mobile #block-block-13.block ul, 
+.responsive-layout-mobile #block-menu-menu-international-menu-inferior.block ul, 
+.responsive-layout-mobile #block-views-menu-block.block ul{width: 100%;}
+
+.responsive-layout-mobile #region-footer-first .block ul li > div {
+    display: inline-block;
+    margin: 0;
+        *display: inline;
+    *zoom: 1;
+}
+
+.responsive-layout-mobile  #block-block-5 h2.block-title {
+    background: url("../images/ico-facebook-mobile.jpg") no-repeat scroll 0 0 transparent;
+}
+.responsive-layout-mobile  #block-block-4 h2.block-title {
+    background: url("../images/ico-twitter-mobile.jpg") no-repeat scroll 0 0 transparent;
+}
+.responsive-layout-mobile  #block-juanrueda-widget-youtube-widget-youtube-custom h2.block-title {
+    background: url("../images/ico-youtube-mobile.jpg") no-repeat scroll 0 0 transparent;
+}
+.responsive-layout-mobile  #block-juanrueda-widget-youtube-widget-youtube-custom h2.block-title , 
+.responsive-layout-mobile #block-block-4 h2.block-title, 
+.responsive-layout-mobile #block-block-5 h2.block-title{
+    display: block;
+    float: none;
+    font-size: 0;
+    height: 65px;
+    margin: 0 auto;
+    padding: 0;
+    width: 68px;
+}
+.responsive-layout-mobile #block-juanrueda-widget-youtube-widget-youtube-custom .content div.contenido-youtube,
+.responsive-layout-mobile #block-juanrueda-widget-youtube-widget-youtube-custom .content div.youtube-contenido-header
+{display: none;}
+.responsive-layout-mobile #block-juanrueda-widget-youtube-widget-youtube-custom .content div.youtube-contenido-header a{
+	display: block;
+}
+.responsive-layout-mobile .fb-like.fb_edge_widget_with_comment.fb_iframe_widget{
+	display: block;
+	margin-top: 1em;
+}
+.twitter-follow-small a.twitter-name-label{
+	display: block;
+	margin: 1em 0;
+	font-size: 0.9em;
+}
+.responsive-layout-mobile #block-juanrueda-widget-youtube-widget-youtube-custom .content div.contenido-youtube-footer{
+	float: none;
+	margin: 1em auto;
+}
+
+/*.html*/.responsive-layout-mobile  #region-postscript-fourth{
+    background: none repeat scroll 0 0 #000000;
+    border-bottom: 1px solid #222222;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    overflow: hidden;
+    padding: 30px 0;
+}
+/*.html*/.responsive-layout-mobile #section-content {
+    margin-bottom: 0;
+}
+/*.html*/.responsive-layout-mobile #section-footer{
+    background-color: #000000;
+    border-top: 1px solid #111111;
+    color: #FFFFFF;
+    padding-top: 15px;
+}
+.responsive-layout-mobile #region-footer-second{
+    border-top: 1px solid #222222;
+    margin: 15px 0 0;
+    overflow: hidden;
+}
+.responsive-layout-mobile  #block-block-6,
+.responsive-layout-mobile  #block-block-7,
+.responsive-layout-mobile.front #block-system-main .content,
+.responsive-layout-mobile  #block-block-5 .content .fb-like-box,
+.responsive-layout-mobile  #block-juanrueda-widget-youtube-widget-youtube-custom .content .subscribe-youtube,
+.responsive-layout-mobile  #block-block-4 .content  .twitter-follow-big {
+    display: none;
+}
+body.responsive-layout-mobile {
+    background-color: #000;
+}
+.responsive-layout-mobile #zone-postscript-wrapper{
+    padding-top: 30px;
+}
+.responsive-layout-mobile #block-webform-client-block-1 {
+    margin: auto;
+    width: 60%;
+}
+.responsive-layout-mobile #block-block-5 .content, 
+.responsive-layout-mobile #block-block-4 .content, 
+.responsive-layout-mobile #block-juanrueda-widget-youtube-widget-youtube-custom .content {
+    padding: 0;
+}
+
+
+.responsive-layout-mobile #block-juanrueda-galeria-camiones-galeria-camiones {margin: 0.5em 0 0 0;}
+
+.responsive-layout-mobile .logo-img img {width: 70%;}
+.responsive-layout-mobile .logo-img {width: 25%;}
+
+.responsive-layout-mobile .branding-data h1.site-name, .responsive-layout-mobile .branding-data h2.site-name {background-size: 79% auto;}
+.responsive-layout-mobile .site-name-slogan {width: 75%;}
+
+.responsive-layout-mobile #block-menu-menu-menu-secciones-principales, .responsive-layout-mobile #block-multiblock-1 {margin-left: 35%;}
+.responsive-layout-mobile .menu-buscador, .responsive-layout-mobile .home-movil,
+.responsive-layout-mobile .menu-render, .responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.expanded.menu-1746 a.mobile {float: left;}
+.responsive-layout-mobile .menu-render, .responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.expanded.menu-1746 a.mobile {width: 20%;}
+
+.responsive-layout-mobile #block-multiblock-1 {width: 64.5%;}
