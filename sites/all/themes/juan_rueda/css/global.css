@@ -423,7 +423,7 @@ input[type="search"]::-webkit-search-cancel-button {
 {display: none;}
 
 #block-menu-menu-menu-secciones-principales .content ul li a  {
-    background-position: center 0.2em;
+    background-position: center 0px;
     background-repeat: no-repeat;
     display: block;
     font-family: "lato",sans-serif;
@@ -467,7 +467,7 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 #block-menu-menu-menu-secciones-principales ul li:hover{background-position: 128px;}
 #block-menu-menu-menu-secciones-principales ul li.active-trail{background-position: 256px;}
-#block-menu-menu-menu-secciones-principales ul li a:hover, #block-menu-menu-menu-secciones-principales ul li a.active {background-position: center -9.5em;}
+#block-menu-menu-menu-secciones-principales ul li a:hover, #block-menu-menu-menu-secciones-principales ul li a.active {background-position: center -150px;}
 #block-menu-menu-menu-secciones-principales ul li a:hover span.titulo_menu, 
 #block-menu-menu-menu-secciones-principales ul li a.active span.titulo_menu, 
 #block-menu-menu-menu-secciones-principales ul li a:hover span.texto,
