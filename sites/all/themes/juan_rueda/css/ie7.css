@@ -59,10 +59,12 @@ body {min-width: 960px;}
 #block-menu-menu-menu-secciones-principales .content ul li a {*width: 100%}
 
 /*#block-menu-menu-menu-secciones-principales .content ul li.first a {*padding-top: 50px;} */
+
+#block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu {height: 35px;}
 #block-menu-menu-menu-secciones-principales .content ul li.first a span.titulo_menu {
 	/**padding-left: 25px !important;*/
-	padding-top: 10px;
-	height: 30px;
+	padding-top: 10px !important;
+	height: 25px;
 }
 .view-entradas-recientes .pager li a {
 	*display: block;
