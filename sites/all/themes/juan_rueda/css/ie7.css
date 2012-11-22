@@ -41,6 +41,7 @@ body {min-width: 960px;}
 .es-nav span.es-nav-prev {background-position: -4px -370px !important;}
 .es-nav span.es-nav-prev:hover {background-position: -4px -495px !important;}
 
+#block-menu-menu-menu-secciones-principales ul.menu{padding: 0 5px;}
 #block-menu-menu-menu-secciones-principales ul li.leaf {
 	background-image: url("../images/menu-bg-ie.png");
 	height: 133px;
