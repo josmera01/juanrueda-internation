@@ -1,17 +1,51 @@
 <?php
 
+define('RUTA_DEFECTO_THEME', drupal_get_path('theme', 'juan_rueda'))
+
+function obtenerNavegador($useragent){
+
+
+
+  $dm_usergent = array(
+   'PIE4' => 'compatible; MSIE 4.01; Windows CE; PPC; 240x320',
+   'PIE4_Smartphone' => 'compatible; MSIE 4.01; Windows CE; Smartphone;',
+   'PIE6' => 'compatible; MSIE 6.0; Windows CE;',
+   'Minimo' => 'Minimo',
+   'OperaMini' => 'Minimo',
+   'AvantGo' => 'AvantGo',
+   'Plucker' => 'Plucker',
+   'NetFront' => 'NetFront',
+   'SonyEricsson' => 'SonyEricsson',
+   'Nokia' => 'Nokia',
+   'Motorola' => 'mot-',
+   'BlackBerry' => 'BlackBerry',
+   'WindowsMobile' => 'Windows CE',
+   'PPC' => 'PPC',
+   'PDA' => 'PDA',
+   'Smartphone' => 'Smartphone',
+   'Palm' => 'Palm'
+);
+
+
+   foreach($useragents as $nav=>$ua){
+      if(strstr($useragent, $ua)!=false){
+        drupal_add_css(RUTA_DEFECTO_THEME . '/css/mobile.css');
+      }
+   }
+}
+
+
+
 function juanrueda_response_init() {
   $path = drupal_get_path('module', 'juanrueda_response');
   drupal_add_js($path . '/juanrueda_response.js');
-
-  $path_theme = drupal_get_path('theme', 'juan_rueda');
 
 
   if(strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE 7') !== FALSE) {
 
     drupal_add_js(array('ei7' => 1), 'setting');
 
-    drupal_add_css($path_theme . '/css/ie7.css');
+    drupal_add_css(RUTA_DEFECTO_THEME . '/css/ie7.css');
   }
 
  }
