@@ -49,7 +49,7 @@ body {min-width: 960px;}
 }
 #block-menu-menu-menu-secciones-principales ul li.leaf:hover
 #block-menu-menu-menu-secciones-principales ul li.leaf.active{
-	background-position: left 133px;
+	background-position: 0 -133px;
 }
 #block-menu-menu-menu-secciones-principales .content ul li a {width: 100%}
 
