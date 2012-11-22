@@ -55,7 +55,7 @@ body {min-width: 960px;}
 
 #block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu {height: 35px;}
 #block-menu-menu-menu-secciones-principales .content ul li.first a span.titulo_menu {
-	padding-top: 10px;
+	padding-top: 10px !important;
 	height: 25px;
 }
 #block-menu-menu-menu-secciones-principales .content ul li.first a span.texto{padding: 0 5px;}
