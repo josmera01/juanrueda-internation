@@ -47,7 +47,7 @@ body {min-width: 960px;}
 	width: 176px;
 	margin: 5px;
 }
-#block-menu-menu-menu-secciones-principales ul li.leaf:hover
+#block-menu-menu-menu-secciones-principales ul li.leaf:hover,
 #block-menu-menu-menu-secciones-principales ul li.leaf.active{
 	background-position: 0 -133px;
 }
