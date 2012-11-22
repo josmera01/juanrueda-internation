@@ -42,8 +42,8 @@ function html_widget_youtube_custom() {
     $output .= '</div>';
       $output .= '<div class="youtube-contenido-header">';
       $output .= '<a href="http://www.youtube.com/InternationalTruck">InternationalTrucks</a><br/>';
-        $output .= t('@cantidad Suscriptores ', array('@cantida' => $subs));
-        $output .= t('@cantidad Videos', array('@cantidad' => $countVideos));
+        $output .= '<span class="cantidad">'. t('@cantida Suscriptores ', array('@cantida' => $subs)) . '</span>';
+        $output .= '<span class="videos">'. t('@cantidad Videos', array('@cantidad' => $countVideos)) . '</span>';
     $output .= '</div>';
     $output .= '<div class="contenido-youtube-footer">';
       $output .= '<a href="http://www.youtube.com/subscription_center?add_user=InternationalTruck">Suscribirme</a><br/>';
