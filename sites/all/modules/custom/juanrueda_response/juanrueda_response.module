@@ -1,10 +1,8 @@
 <?php
 
-define('RUTA_DEFECTO_THEME', drupal_get_path('theme', 'juan_rueda'))
+define('RUTA_DEFECTO_THEME', drupal_get_path('theme', 'juan_rueda'));
 
-function cargar_estilos_mobile($useragent){
-
-
+function cargar_estilos_mobile($useragent) {
 
   $dm_usergent = array(
    'PIE4' => 'compatible; MSIE 4.01; Windows CE; PPC; 240x320',
@@ -40,7 +38,7 @@ function juanrueda_response_init() {
   $path = drupal_get_path('module', 'juanrueda_response');
   drupal_add_js($path . '/juanrueda_response.js');
 
-  cargar_estilos_mobile();
+  cargar_estilos_mobile($_SERVER['HTTP_USER_AGENT']);
 
   if(strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE 7') !== FALSE) {
 
