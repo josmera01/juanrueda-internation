@@ -18,10 +18,21 @@ function juanrueda_response_init() {
 
 
 function juanrueda_response_css_alter(&$css) {
-  $exclude = array(
-    //'sites/all/themes/omega/alpha/css/alpha-mobile.css' => FALSE,
+  if (preg_match('/MSIE [7]./', $_SERVER['HTTP_USER_AGENT'])) {
 
-  );
-  $css = array_diff_key($css, $exclude);
+    $exclude = array(
+      'sites/all/themes/omega/alpha/css/alpha-mobile.css' => FALSE,
+      'sites/all/themes/juan_rueda/css/juan-rueda-alpha-default.css' => FALSE,
+      'sites/all/themes/juan_rueda/css/juan-rueda-alpha-default-normal.css' => FALSE,
+      'sites/all/themes/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-12.css' => FALSE,
+      'sites/all/themes/juan_rueda/css/juan-rueda-alpha-default-narrow.css' => FALSE,
+      'sites/all/themes/omega/alpha/css/grid/alpha_default/narrow/alpha-default-narrow-12.css' > FALSE,
+      'sites/all/themes/juan_rueda/css/juan-rueda-alpha-default-wide.css' => FALSE,
+      'sites/all/themes/omega/alpha/css/grid/alpha_default/wide/alpha-default-wide-12.css' => FALSE,
+
+    );
+    $css = array_diff_key($css, $exclude);
+
+  }
 
 }
