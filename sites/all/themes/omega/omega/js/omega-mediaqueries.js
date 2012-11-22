@@ -19,7 +19,7 @@ Drupal.omega = Drupal.omega || {};
     previous = current;
     if (Drupal.settings.ei7 == 1) {
 
-      current =  'wide';
+      current =  'normal';
     }
     else {
       current = Drupal.settings.omega.layouts.order.hasOwnProperty(index) ? Drupal.settings.omega.layouts.order[index] : 'mobile';
