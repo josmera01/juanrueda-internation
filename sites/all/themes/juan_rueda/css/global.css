@@ -923,7 +923,10 @@ padding-bottom: 4%;
     color: #1B457A !important; 
 }*/
 
-.view-noticias-y-eventos .view-content{width: auto !important;}
+.view-noticias-y-eventos .view-content{
+	overflow: hidden;
+	width: auto !important;
+}
 
 
 
