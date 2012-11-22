@@ -757,6 +757,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 }
 .view-mapa-contacto .gmnoprint {color: #000000;}
 .view-mapa-contacto .gmnoprint a{color: #133156;}
+.view-mapa-contacto .gmnoprint {max-height: none;}
 
 /**********************************MASONRY VIEWS - BLOQUES GRISES***********************************/
 
