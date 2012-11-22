@@ -8,6 +8,7 @@ function juanrueda_response_init() {
   dpm($_SERVER['HTTP_USER_AGENT']);
 
   if(strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE 7.0') !== FALSE) {
+     dpm('entro');
     drupal_add_js(array('ei7' => 1), 'setting');
 
     drupal_add_css($path_theme . '/css/ie7.css');
