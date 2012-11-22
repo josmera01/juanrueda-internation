@@ -44,7 +44,7 @@ function juanrueda_response_init() {
 
     drupal_add_js(array('ei7' => 1), 'setting');
 
-    drupal_add_css(RUTA_DEFECTO_THEME . '/css/ie7.css', array('weight' => 1000));
+    drupal_add_css(RUTA_DEFECTO_THEME . '/css/ie7.css', array('group' => CSS_THEME, 'weight' => 1000));
   }
 
  }
