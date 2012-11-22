@@ -27,13 +27,15 @@ function juan_rueda_menu_link__menu_menu_secciones_principales(&$variables) {
 
 }
 
-function seed_preprocess_html(&$vars) {
+function juan_rueda_preprocess_html(&$vars) {
 
   // Soporte de HTML5 para IE
-  if (preg_match('/MSIE [6-8]./', $_SERVER['HTTP_USER_AGENT'])) {
+  /*if (preg_match('/MSIE [6-8]./', $_SERVER['HTTP_USER_AGENT'])) {
     drupal_add_js('http://html5shim.googlecode.com/svn/trunk/html5.js', array('type' => 'external', 'group' => JS_LIBRARY, 'weight' => -100));
     drupal_add_js('http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js',  array('type' => 'external', 'group' => JS_LIBRARY, 'weight' => -100));
-  }
+  }*/
+
+
 }
 
 function juan_rueda_preprocess_page(&$variables) {

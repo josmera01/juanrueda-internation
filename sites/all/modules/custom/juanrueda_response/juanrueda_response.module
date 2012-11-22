@@ -16,3 +16,12 @@ function juanrueda_response_init() {
 
  }
 
+
+function juanrueda_response_css_alter(&$css) {
+  $exclude = array(
+    'sites/all/themes/omega/alpha/css/alpha-mobile.css' => FALSE,
+
+  );
+  $css = array_diff_key($css, $exclude);
+
+}
