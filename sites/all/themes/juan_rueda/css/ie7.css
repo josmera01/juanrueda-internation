@@ -1,4 +1,56 @@
-#region-footer-second .block {color: black;}
-#section-content{
-  background: red;
+.container-12, .container-12 .grid-12 {
+    *width: 1180px !important ;
+}
+.container-12 .grid-4 {
+	*margin-left: 0 !important;
+	*width: 32.4% !important;
+}
+.container-12 .grid-8 {*width: 65%!important;}
+.container-12 .grid-8 .grid-4 {*width: 45%!important;}
+.container-12 .grid-4 .grid-4 {*width: 100%!important;}
+ .section-header .grid-4 {*width: 30%!important;}
+
+/*.front .view-id-entradas_recientes .view-content{*width: auto !important;}
+.front  #block-views-entradas-recientes-block {*padding-left: 2% !important;}*/
+.nivo-caption {
+	*height: 77.5% !important;
+	*width: 22% !important;
+}
+.nivo-controlNav a {*float: left !important;}
+#block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu{*width: 70% !important;}
+#zone-footer .block {*margin-right: 0 !important;}
+.select-jr {
+	*padding-top: 0 !important;
+	*padding-bottom: 0 !important;
+}
+
+.es-nav span {
+	height: 46px\0/ !important;
+	width: 40px\0/ !important;
+	*height: 46px !important;
+	*width: 40px !important;
+}
+.es-nav span.es-nav-next {*background-position: -4px 0 !important;}
+.es-nav span.es-nav-next:hover {*background-position: -4px -125px !important;}
+.es-nav span.es-nav-prev {*background-position: -4px -370px !important;}
+.es-nav span.es-nav-prev:hover {*background-position: -4px -495px !important;}
+#block-menu-menu-menu-secciones-principales ul li.leaf {*height: 130px;}
+#block-menu-menu-menu-secciones-principales .content ul li a {*width: 100%}
+#block-menu-menu-menu-secciones-principales .content ul li.first a {*padding-top: 50px;}
+#block-menu-menu-menu-secciones-principales .content ul li.first a span.titulo_menu {
+	*padding-left: 25px !important;
+}
+.view-entradas-recientes .pager li a {
+	*display: block;
+	*float: none;
+}
+.view-entradas-recientes .item-list {*margin-bottom: 35px !important;}
+#zone-footer .item-list ul li, #zone-footer .item-list ul li.leaf {*list-style-image: none !important;}
+#zone-footer #block-menu-menu-paises ul li {*background: url("../images/circulo.jpg") no-repeat scroll 0 70% transparent;}
+#block-menu-menu-paises li.expanded, #block-menu-menu-paises li.collapsed, #block-menu-menu-paises li.leaf {*padding: 0 !important;}
+#region-footer-first #block-menu-menu-paises.block ul {*padding: 0 0 0 10%!important;}
+#region-footer-first #block-menu-menu-paises.block ul a {
+	*display: block;
+	*padding-left: 20%;
+	*width: 100%;
 }
