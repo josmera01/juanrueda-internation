@@ -264,11 +264,11 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
 
 /***************************************HEADER***********************************************/
 
-.responsive-layout-wide #section-header{background: url("../images/juan-logo-home.png") no-repeat center bottom transparent;}
-.responsive-layout-normal #section-header,
-.responsive-layout-narrow #section-header,
-.responsive-layout-mobile #section-header
-{background: url("../images/juan-rueda.png") no-repeat left bottom transparent;}
+.responsive-layout-wide #section-header{background: url("../images/jr-bg-1200.png") no-repeat center bottom transparent;}
+.responsive-layout-normal #section-header{background: url("../images/jr-bg-960.png") no-repeat center bottom transparent;}
+.responsive-layout-narrow #section-header{background: url("../images/jr-bg-720.png") no-repeat center bottom transparent;}
+.responsive-layout-mobile #section-header{background: url("../images/juan-rueda.png") no-repeat left bottom transparent;}
+
 
 .branding-data {text-align: center;}
 .site-name-slogan {float: none;}
