@@ -77,3 +77,4 @@ body {min-width: 960px;}
 	padding-left: 20%;
 	width: 100%;
 }
+#block-search-form .form-submit {*color: transparent;}

@@ -1092,7 +1092,22 @@ padding-bottom: 4%;
     margin-bottom: 5%;
 }
 .view-calendario-de-eventos .view-footer .node-evento label {font-weight: 300;}
-
+.node-type-article #comments h2,
+.node-type-article .comment-form  .form-type-item,
+.node-type-article .comment-form  .form-item-subject
+.node-type-article .comment-form  .field-name-comment-body label,
+.node-type-article .comment-form  .field-name-comment-body  fieldset.filter-wrapper,
+.node-type-article .comment-form  .field-name-comment-body .wysiwyg-toggle-wrapper, 
+#comments .form-item-name,
+#comments .form-item-subject{display: none;}
+.view-art-culos-relacionados  li.views-row {border-radius:0;}
+.view-art-culos-relacionados  li.views-row-first {border-radius:0.5em 0.5em 0 0;}
+.view-art-culos-relacionados  li.views-row-last {border-radius: 0 0 0.5em 0.5em;}
+.view-art-culos-relacionados .views-field-field-image {
+	float: left;
+	margin-right: 10px;	
+}
+select{width: 125% !important;}
 
 /***************************************** CSS PLUGINS REDES SOCIALES ************************************************/
 
@@ -1592,3 +1607,20 @@ body.responsive-layout-mobile {
 .responsive-layout-mobile .menu-render, .responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.expanded.menu-1746 a.mobile {width: 20%;}
 
 .responsive-layout-mobile #block-multiblock-1 {width: 64.5%;}
+
+
+/******************************************************************************IE8*****************************************************************/
+
+.view-art-culos-relacionados  li.views-row {list-style: none\0/;}
+.view-art-culos-relacionados .views-field-field-image {width: 20%\0/;}
+#block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu{width: 70%\0/ !important;}
+.es-nav span {
+	height: 46px\0/ !important;
+	width: 40px\0/ !important;
+}
+.es-nav span.es-nav-next {background-position: -4px 0\0/ !important;}
+.es-nav span.es-nav-next:hover {background-position: -4px -125px\0/ !important;}
+.es-nav span.es-nav-prev {background-position: -4px -370px\0/ !important;}
+.es-nav span.es-nav-prev:hover {background-position: -4px -495px\0/ !important;}
+#block-menu-menu-menu-secciones-principales ul li.leaf {height: 130px\0/;}
+#block-menu-menu-menu-secciones-principales .content ul li a {width: 100%\0/;}

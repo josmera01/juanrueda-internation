@@ -1,4 +1,4 @@
-/**FIELDSETS**
+/**FIELDSETS*********************************************************************************************
 
 fieldset {
   border: none;
@@ -73,7 +73,7 @@ input[type="text"], input[type="password"], input[type="email"], .form-textarea-
   color: #666666;
 }
 
-/***BOTONES *
+/***BOTONES 
 
 input[type="submit"], .form-actions input {
     background-color: #133155;
@@ -91,8 +91,8 @@ input[type="submit"], .form-actions input {
 input[type="submit"]:active {
 }
 input[type="submit"]:hover {
-}*/
-
+}*******************************************************************************************************************************/
+/**
 .node-type-article #comments h2,
 .node-type-article .comment-form  .form-type-item,
 .node-type-article .comment-form  .form-item-subject
@@ -111,8 +111,8 @@ input[type="submit"]:hover {
 	width: 20%\0/;
 }
 select{width: 125% !important;}
-
-/*IE*/
+**/
+/*IE***************************************************************************************************************************************/
 
 /*    
 .container-12, .container-12 .grid-12 {
@@ -136,7 +136,8 @@ select{width: 125% !important;}
 */
 
 /*.front .view-id-entradas_recientes .view-content{*width: auto !important;}
-.front  #block-views-entradas-recientes-block {*padding-left: 2% !important;}*/
+.front  #block-views-entradas-recientes-block {*padding-left: 2% !important;}*********************************************************/
+/**
 .nivo-caption {
 	*height: 77.5% !important;
 	*width: 22% !important;
@@ -161,15 +162,15 @@ select{width: 125% !important;}
 .es-nav span.es-nav-prev:hover {background-position: -4px -495px\0/ !important;*background-position: -4px -495px !important;}
 #block-menu-menu-menu-secciones-principales ul li.leaf {height: 130px\0/;*height: 130px;}
 #block-menu-menu-menu-secciones-principales .content ul li a {width: 100%\0/;*width: 100%}
-
-/*
+**/
+/*********************************
 #block-menu-menu-menu-secciones-principales .content ul li.first a {*padding-top: 50px;}
 #block-menu-menu-menu-secciones-principales .content ul li.first a span.titulo_menu {
 	padding-left: 25px\0/ !important;
 	*padding-left: 25px !important;
 }
-*/
-
+**************************************/
+/*
 .view-entradas-recientes .pager li a {
 	*display: block;
 	*float: none;
@@ -184,3 +185,4 @@ select{width: 125% !important;}
 	*padding-left: 20%;
 	*width: 100%;
 }
+*/
