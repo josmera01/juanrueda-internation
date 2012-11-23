@@ -430,7 +430,7 @@ input[type="search"]::-webkit-search-cancel-button {
     margin: auto;
     padding: 40px 0 0;
     text-align: center;
-    width: 90%;
+    /*width: 90%; */
 }
 #block-menu-menu-menu-secciones-principales .content ul li a,
 #block-menu-menu-menu-secciones-principales .content ul li a:visited,
@@ -1609,7 +1609,7 @@ body.responsive-layout-mobile {
 
 .view-art-culos-relacionados  li.views-row {list-style: none\0/;}
 .view-art-culos-relacionados .views-field-field-image {width: 20%\0/;}
-#block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu{width: 70%\0/ !important;}
+/*#block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu{width: 70%\0/ !important;}*/
 .es-nav span {
 	height: 46px\0/ !important;
 	width: 40px\0/ !important;
