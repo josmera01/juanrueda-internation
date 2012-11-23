@@ -87,3 +87,7 @@ body {min-width: 960px;}
 	margin-bottom: 0;
 }
 #block-webform-client-block-1 input[type='text'] {width: 95%!important;}
+.front #zone-postscript {
+	margin-bottom: 30px;
+	overflow: hidden;
+}
