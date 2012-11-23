@@ -78,3 +78,12 @@ body {min-width: 960px;}
 	width: 100%;
 }
 #block-search-form .form-submit {*color: transparent;}
+#block-webform-client-block-1 {
+	height: 6em;
+	padding: 0.5em 0.5em 1em 0.5em;
+}
+#block-webform-client-block-1 h2.block-title{
+	font-size: 1em;
+	margin-bottom: 0;
+}
+#block-webform-client-block-1 input[type='text'] {width: 95%!important;}
