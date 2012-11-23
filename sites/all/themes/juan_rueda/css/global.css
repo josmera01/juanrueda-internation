@@ -1624,3 +1624,11 @@ body.responsive-layout-mobile {
 .es-nav span.es-nav-prev:hover {background-position: -4px -495px\0/ !important;}
 #block-menu-menu-menu-secciones-principales ul li.leaf {height: 130px\0/;}
 #block-menu-menu-menu-secciones-principales .content ul li a {width: 100%\0/;}
+#block-webform-client-block-1 {
+height: 6.5em\0/;
+padding: 0.5em 0.5em 1em 0.5em \0/;
+}
+#block-webform-client-block-1 h2{
+	font-size: 1em \0/;
+	margin-bottom: 0\0/;
+}
