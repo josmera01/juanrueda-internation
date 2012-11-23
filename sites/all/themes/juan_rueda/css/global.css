@@ -412,8 +412,6 @@ input[type="search"]::-webkit-search-cancel-button {
     width: 18%;
 }
 
-/*#block-menu-menu-menu-secciones-principales ul li.leaf.menu-1747,
-#block-menu-menu-menu-secciones-principales ul li.expanded.menu-1746 a.mobile,*/
 #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1183,
 #block-menu-menu-menu-secciones-principales ul li.leaf.menu-1745
 {display: none;}
@@ -430,7 +428,6 @@ input[type="search"]::-webkit-search-cancel-button {
     margin: auto;
     padding: 40px 0 0;
     text-align: center;
-    /*width: 90%; */
 }
 #block-menu-menu-menu-secciones-principales .content ul li a,
 #block-menu-menu-menu-secciones-principales .content ul li a:visited,
@@ -444,15 +441,14 @@ input[type="search"]::-webkit-search-cancel-button {
 
 #block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu{
     color: #133156;
-    display: table-cell;
+    display: block;
     font-size: 0.9em;
     height: 40px;
     margin: 3px 0 5px;
     padding: 0 10%;
     text-align: center;
     text-transform: uppercase;
-    vertical-align: middle;
-    width: 40%;
+    width: 80%;
 }
 #block-menu-menu-menu-secciones-principales .content ul li a span.texto {
     color: #272727;
@@ -792,6 +788,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#DBD8DB', endColorstr='#FFFFFF',GradientType=0 );
     color: #1C1C1C;
     border-radius: 0.5em;
+    behaviour: url(/sites/all/themes/juan_rueda/css/PIE.htc);
 }
 .bloque-gris h2{magin-bottom: 0;}
 .bloque-gris h2 a{
