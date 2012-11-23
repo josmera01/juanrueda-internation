@@ -1628,7 +1628,8 @@ body.responsive-layout-mobile {
 height: 6.5em\0/;
 padding: 0.5em 0.5em 1em 0.5em \0/;
 }
-#block-webform-client-block-1 h2{
+#block-webform-client-block-1 h2.block-title{
 	font-size: 1em \0/;
 	margin-bottom: 0\0/;
 }
+#block-webform-client-block-1 input[type='text'] {width: 95%\0/ !important;}
