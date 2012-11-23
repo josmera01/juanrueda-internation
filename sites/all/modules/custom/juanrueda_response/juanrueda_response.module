@@ -40,7 +40,7 @@ function juanrueda_response_init() {
 
   cargar_estilos_mobile($_SERVER['HTTP_USER_AGENT']);
 
-  if(strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE 7') !== FALSE || (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE 8') !== FALSE) {
+  if(strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE 7') !== FALSE || strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE 8') !== FALSE) {
 
     drupal_add_js(array('ei7' => 1), 'setting');
 
