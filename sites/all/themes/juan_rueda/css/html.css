@@ -1,5 +1,5 @@
 body {
-    background: url("../images/seccion-background.jpg") no-repeat scroll center 0 #2c2c2c;
+    background: url("../images/body-background.jpg") no-repeat scroll center 0 #2c2c2c;
     background-size: 100%;
     color: #FFFFFF;
     font-family: 'Lato', sans-serif;
@@ -7,7 +7,6 @@ body {
     font-weight: lighter;
     font-size: 1em;
 }
-body.front {background: url("../images/home-background.jpg") no-repeat scroll center 0 #000000;}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
