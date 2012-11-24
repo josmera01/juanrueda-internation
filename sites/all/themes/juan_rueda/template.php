@@ -49,10 +49,11 @@ function juan_rueda_preprocess_page(&$variables) {
   $path = current_path();
 
   if (drupal_match_path($path, $paths)) {
-    dpm('entro');
+
     $title = str_replace('-', " ", $title);
     $term = reset(taxonomy_get_term_by_name($title));
     $title =  $term->name;
+    dpm(drupal_get_breadcrumb());
   }
 
 
