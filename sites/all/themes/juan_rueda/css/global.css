@@ -1225,7 +1225,7 @@ select{width: 125% !important;}
 .page-tips-disfrute-su-camion #page-title, .page-tips-conviertase-en-experto #page-title {
 	padding-left: 50px;
     padding-bottom: 12px;
-    margin-bottom: 1%;
+    margin-bottom: 0.5em;
 }
 .page-camiones #page-title {background: url("../images/ico-camiones.png") no-repeat scroll left -300px transparent;}
 .page-tips-proteja-su-maquina  #page-title {background: url("../images/ico-repuestos.png") no-repeat scroll left -294px transparent;}
@@ -1239,6 +1239,7 @@ select{width: 125% !important;}
 .view-header .view-content.masonry {
 	width: 100% !important;
 	height: auto !important;
+	margin-bottom: 1.5em;
 }
 .bloque-gris .view-header .view-content.masonry .views-row{
 	color: white;
