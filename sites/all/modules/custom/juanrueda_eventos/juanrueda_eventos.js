@@ -4,6 +4,8 @@
 
   Drupal.behaviors.juanruedacalendario = {
     attach: function(context, settings) {
+      try {
+
       $('.has-events div a').click( function() {
         var contenido = $(this).attr('href');
 
@@ -17,6 +19,10 @@
 
         return false;
       });
+      }
+      catch(e) {
+
+      }
 
 
     }
