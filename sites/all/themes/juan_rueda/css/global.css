@@ -809,12 +809,12 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .front #block-system-main{
     display: none;
 }
-.bloque-gris.node-article .field-name-title a{background-image: url("../images/ico-noticias.png");}
+.bloque-gris .node-article .field-name-title a{background-image: url("../images/ico-noticias.png");}
 .bloque-gris.categoria- .field-name-title a{background-image: url("../images/ico-camiones.png");}
 .bloque-gris.categoria-3 .field-name-title a{background-image: url("../images/ico-repuestos.png");}
 .bloque-gris.categoria-4 .field-name-title a{background-image: url("../images/ico-latec.png");}
 .bloque-gris.categoria-5 .field-name-title a{background-image: url("../images/ico-servicios.png");}
-.bloque-gris.node-evento .field-name-title a{background-image: url("../images/ico-eventos.png");}
+.bloque-gris .node-evento .field-name-title a{background-image: url("../images/ico-eventos.png");}
 
 .bloque-gris .field-name-title a{
     background-repeat: no-repeat;
