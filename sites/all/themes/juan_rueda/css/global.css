@@ -1244,13 +1244,6 @@ select{width: 125% !important;}
 	height: auto !important;
 	margin-bottom: 1.5em;
 }
-.bloque-gris .view-header .view-content.masonry .views-row{
-	color: white;
-	background: none;
-	text-align: left;
-}
-
-
 
 .node-type-camion .field-name-field-galeria-usos-camion .field-label,
 .node-type-camion .block-ventaja-display-block .block-inner > h2 {
