@@ -53,7 +53,7 @@ function juan_rueda_preprocess_page(&$variables) {
     $title = str_replace('-', " ", $title);
     $term = reset(taxonomy_get_term_by_name($title));
     $title =  $term->name;
-    dpm(drupal_get_breadcrumb());
+    dpm(menu_get_active_breadcrumb());
   }
 
 
