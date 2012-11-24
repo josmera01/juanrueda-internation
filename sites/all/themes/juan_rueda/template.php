@@ -49,11 +49,16 @@ function juan_rueda_preprocess_page(&$variables) {
   $path = current_path();
 
   if (drupal_match_path($path, $paths)) {
-
+    //Titulo que salga con tildes
     $title = str_replace('-', " ", $title);
     $term = reset(taxonomy_get_term_by_name($title));
     $title =  $term->name;
-    dpm(menu_get_active_breadcrumb());
+    //Para que salga también la miga de pan
+    $breadcrumb[] = l('Inicio', '<front>');
+    $breadcrumb[] = l($title, 'noticias-y-eventos');
+
+    drupal_set_breadcrumb($breadcrumb);
+
   }
 
 
