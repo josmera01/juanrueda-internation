@@ -651,6 +651,7 @@ background-position: 0px -28px;
     padding: 20px 0;
 }
 form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-mapa-contacto .attachment .views-field-php-1 span:hover,
+
 .view-mapa-contacto .attachment .views-field-php span:hover {
 	background-color: #194E99;
     background-image: linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
@@ -728,7 +729,12 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     margin: 0;
     padding: 4% 0 4% 8%;
 }
-/*
+.view-mapa-contacto .views-field-php a{
+    background: url("../images/ico-contactar-mini.png") no-repeat 5px center transparent;
+}
+.view-mapa-contacto .views-field-php-1 a{
+    background: url("../images/ico-ubicar-mapa.png") no-repeat 5px center transparent;
+}
 .view-mapa-contacto .views-field-php span,
 .view-mapa-contacto .views-field-php-1 span{
     padding: 0 !important;
@@ -741,12 +747,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     *display: inline;
     *zoom: 1;
 }
-.view-mapa-contacto .views-field-php a{
-    background: url("../images/ico-contactar-mini.png") no-repeat 5px center transparent;
-}
-.view-mapa-contacto .views-field-php-1 a{
-    background: url("../images/ico-ubicar-mapa.png") no-repeat 5px center transparent;
-}
+/*
 .view-mapa-contacto .gmnoprint {color: #000000;}
 .view-mapa-contacto .gmnoprint a{color: #133156;}
 .view-mapa-contacto #gmap-auto1map-gmap0 img{max-width: inherit !important;}
