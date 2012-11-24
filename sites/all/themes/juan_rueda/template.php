@@ -40,6 +40,21 @@ function juan_rueda_preprocess_html(&$vars) {
 
 function juan_rueda_preprocess_page(&$variables) {
   $title = drupal_get_title();
+
+
+  $paths = implode("\n", array(
+    'tips/*',
+  ));
+
+  $path = current_path();
+
+  if (drupal_match_path($path, $paths)) {
+    $title = str_replace('-', " ", $title);
+    $term = reset(taxonomy_get_term_by_name($title));
+    $title =  $term->name;
+  }
+
+
   $caracter = explode(" ", $title);
   $title = str_replace($caracter[0], "", $title);
 
@@ -48,5 +63,7 @@ function juan_rueda_preprocess_page(&$variables) {
   drupal_set_title($texto_primero .' '. $title);
 
   drupal_set_title();
+
+
 }
 
