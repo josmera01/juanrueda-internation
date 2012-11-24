@@ -55,7 +55,7 @@ function juan_rueda_preprocess_page(&$variables) {
     $title =  $term->name;
     //Para que salga también la miga de pan
     $breadcrumb[] = l('Inicio', '<front>');
-    $breadcrumb[] = l($title, 'noticias-y-eventos');
+    $breadcrumb[] = l($title, '');
 
     drupal_set_breadcrumb($breadcrumb);
 
