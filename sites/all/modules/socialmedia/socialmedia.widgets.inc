@@ -639,7 +639,8 @@ function socialmedia_widgets_element_facebook_like_box() {
     ),
     'form callback' => 'widgets_template_auto_form',
   );
- // return $elements;
+  return $elements;
+
 }
 
 function socialmedia_widgets_element_alter_facebook_like_box(&$form, $set, $element) {
