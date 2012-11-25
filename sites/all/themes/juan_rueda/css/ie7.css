@@ -50,7 +50,7 @@ body {min-width: 960px;}
 }
 #block-menu-menu-menu-secciones-principales ul li.leaf:hover,
 #block-menu-menu-menu-secciones-principales ul li.leaf.active-trail{
-	background-position: 0 -133px;
+	background-image: url("../images/menu_bg_ie-active-hover.png");
 }
 #block-menu-menu-menu-secciones-principales .content ul li a {width: 100%}
 

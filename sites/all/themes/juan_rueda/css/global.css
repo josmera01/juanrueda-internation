@@ -33,7 +33,7 @@ iframe{max-width: 100%}
 #page-title {
     border-bottom: 1px solid #FF7B00;
     color: #FF7B00;
-    font-size: 2.51em;
+    font-size: 2em;
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 4%;
@@ -1176,6 +1176,7 @@ select{width: 125% !important;}
 	font-weight: bold;
 	font-size: 1.1em;
 }
+#block-juanrueda-widget-youtube-widget-youtube-custom .youtube-contenido-header span{float: left;}
 #block-juanrueda-widget-youtube-widget-youtube-custom .contenido-youtube-footer a{
   background-color: #CCCCCC;
   background-image: linear-gradient(bottom, #CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
