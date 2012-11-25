@@ -335,7 +335,7 @@ function socialmedia_widgets_share_platforms_form($data) {
 
 
 
-function socialmedia_widgets_element_form_alter(&$form, $set, $element) {
+function  (&$form, $set, $element) {
   if ($element['name'] == 'socialmedia_addthis-addthis-counter') {
     socialmedia_widgets_element_alter_addthis_addthis_counter($form, $set, $element);
   }
@@ -680,7 +680,7 @@ function socialmedia_widgets_element_facebook_like_button() {
     'label' => t('Facebook like button'),
     //'help' => t(''),
     'group' => t('Social media: Facebook'),
-    'template' => '<div class="fb-like" data-href="[|[node:url]||[current-page:url]|]" data-send="[?send_button=true?]" [?layout=data-layout="{<none>}"?] data-width="[?width=[socialmedia:sm-default_width]?]" data-show-faces="[?show_faces=true?]" [?action=data-action="{<none>}"?] data-colorscheme="[?color_scheme=light?]" [?font=data-font="{<none>}"?]></div>',
+    'template' => '<div class="fb-like" data-href="[|[node:url]||[current-page:url]|]" data-send="[?send_button=true?]" [?layout=data-layout="button_count"?] data-width="[?width=[socialmedia:sm-default_width]?]" data-show-faces="[?show_faces=true?]" [?action=data-action="{<none>}"?] data-colorscheme="[?color_scheme=light?]" [?font=data-font="{<none>}"?]></div>',
     'add_js' => array(
       'data' => $facebook_js_sdk,
       'options' => array(
@@ -702,7 +702,7 @@ function socialmedia_widgets_element_alter_facebook_like_button(&$form, $set, $e
     'box_count' => t('Box count'),
   );
   $form['layout']['#type'] = 'select';
-  $form['layout']['#options'] = $options;
+  $form['layout']['#options'] = 'box_count';
   $form['layout']['#description'] = t('Select button and count style');
 
   $options = array(
