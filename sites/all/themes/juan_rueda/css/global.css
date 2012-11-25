@@ -651,6 +651,7 @@ background-position: 0px -28px;
     padding: 20px 0;
 }
 form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-mapa-contacto .attachment .views-field-php-1 span:hover,
+
 .view-mapa-contacto .attachment .views-field-php span:hover {
 	background-color: #194E99;
     background-image: linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
@@ -667,7 +668,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     font-size: 1.5em;
     font-weight: 300;
 }
-/*.view-mapa-contacto .attachment, .view-mapa-contacto .view-content {float: left;}
+.view-mapa-contacto .attachment, .view-mapa-contacto .view-content {float: left;}
 .view-mapa-contacto .attachment .view{
     background: none repeat scroll 0 0 #EEEEEE;
     border-radius: 5px;
@@ -728,6 +729,12 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     margin: 0;
     padding: 4% 0 4% 8%;
 }
+.view-mapa-contacto .views-field-php a{
+    background: url("../images/ico-contactar-mini.png") no-repeat 5px center transparent;
+}
+.view-mapa-contacto .views-field-php-1 a{
+    background: url("../images/ico-ubicar-mapa.png") no-repeat 5px center transparent;
+}
 .view-mapa-contacto .views-field-php span,
 .view-mapa-contacto .views-field-php-1 span{
     padding: 0 !important;
@@ -740,15 +747,11 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     *display: inline;
     *zoom: 1;
 }
-.view-mapa-contacto .views-field-php a{
-    background: url("../images/ico-contactar-mini.png") no-repeat 5px center transparent;
-}
-.view-mapa-contacto .views-field-php-1 a{
-    background: url("../images/ico-ubicar-mapa.png") no-repeat 5px center transparent;
-}
+/*
 .view-mapa-contacto .gmnoprint {color: #000000;}
 .view-mapa-contacto .gmnoprint a{color: #133156;}
-.view-mapa-contacto #gmap-auto1map-gmap0 img{max-width: inherit !important;}*/
+.view-mapa-contacto #gmap-auto1map-gmap0 img{max-width: inherit !important;}
+ */
 
 /**********************************MASONRY VIEWS - BLOQUES GRISES***********************************/
 
@@ -776,7 +779,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 
 
 
-.bloque-gris .views-row, #block-webform-client-block-1{
+.bloque-gris.views-row, #block-webform-client-block-1{
     background-color: #d8d8d8;
     background-image: linear-gradient(bottom, #DBD8DB 12%, #E9E9E9 56%, #FFFFFF 78%);
     background-image: -o-linear-gradient(bottom, #DBD8DB 12%, #E9E9E9 56%, #FFFFFF 78%);
@@ -807,10 +810,10 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     display: none;
 }
 .bloque-gris .node-article .field-name-title a{background-image: url("../images/ico-noticias.png");}
-.bloque-gris .categoria- .field-name-title a{background-image: url("../images/ico-camiones.png");}
-.bloque-gris .categoria-3 .field-name-title a{background-image: url("../images/ico-repuestos.png");}
-.bloque-gris .categoria-4 .field-name-title a{background-image: url("../images/ico-latec.png");}
-.bloque-gris .categoria-5 .field-name-title a{background-image: url("../images/ico-servicios.png");}
+.bloque-gris.categoria- .field-name-title a{background-image: url("../images/ico-camiones.png");}
+.bloque-gris.categoria-3 .field-name-title a{background-image: url("../images/ico-repuestos.png");}
+.bloque-gris.categoria-4 .field-name-title a{background-image: url("../images/ico-latec.png");}
+.bloque-gris.categoria-5 .field-name-title a{background-image: url("../images/ico-servicios.png");}
 .bloque-gris .node-evento .field-name-title a{background-image: url("../images/ico-eventos.png");}
 
 .bloque-gris .field-name-title a{
@@ -1221,13 +1224,14 @@ select{width: 125% !important;}
     margin: 30px 0;
 }
 
-.page-camiones #page-title, .page-tips-conozca-su-maquina #page-title,
+.page-camiones #page-title, .page-tips-proteja-su-maquina #page-title,
 .page-tips-disfrute-su-camion #page-title, .page-tips-conviertase-en-experto #page-title {
 	padding-left: 50px;
     padding-bottom: 12px;
+    margin-bottom: 0.5em;
 }
 .page-camiones #page-title {background: url("../images/ico-camiones.png") no-repeat scroll left -300px transparent;}
-.page-tips-conozca-su-maquina  #page-title {background: url("../images/ico-repuestos.png") no-repeat scroll left -294px transparent;}
+.page-tips-proteja-su-maquina  #page-title {background: url("../images/ico-repuestos.png") no-repeat scroll left -294px transparent;}
 .page-tips-disfrute-su-camion  #page-title{background: url("../images/ico-servicios.png") no-repeat scroll left -294px transparent;}
 .page-tips-conviertase-en-experto #page-title {background: url("../images/ico-latec.png") no-repeat scroll left -294px transparent;}
 
@@ -1235,6 +1239,11 @@ select{width: 125% !important;}
 	text-transform: uppercase;
 }
 
+.view-header .view-content.masonry {
+	width: 100% !important;
+	height: auto !important;
+	margin-bottom: 1.5em;
+}
 
 .node-type-camion .field-name-field-galeria-usos-camion .field-label,
 .node-type-camion .block-ventaja-display-block .block-inner > h2 {
