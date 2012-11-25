@@ -427,7 +427,7 @@ function socialmedia_widgets_element_alter_addthis_facebook_like(&$form, $set, $
   $options = array(
     '' => t('Standard (no count)'),
     ' fb:like:layout="button_count"' => t('Button count'),
-    ' fb:like:layout="box_count"' => t('Box count'),
+    ' fb:like:layout="button_count"' => t('Box count'),
   );
   $form['layout']['#type'] = 'select';
   $form['layout']['#options'] = $options;
@@ -1127,7 +1127,7 @@ function socialmedia_widgets_default_sets() {
       ),
       array(
         'name' => 'socialmedia_addthis-facebook-like',
-        'data' => array('layout' =>  ' fb:like:layout="box_count"'),
+        'data' => array('layout' =>  ' fb:like:layout="button_count"'),
         'weight' => 2,
       ),
       array(
