@@ -454,7 +454,6 @@ input[type="search"]::-webkit-search-cancel-button {
     font-size: 0.9em;
     font-weight: normal;
     margin: auto;
-    width: 85%;
 }
 #block-menu-menu-menu-secciones-principales ul li:hover{background-position: 128px;}
 #block-menu-menu-menu-secciones-principales ul li.active-trail{background-position: 256px;}

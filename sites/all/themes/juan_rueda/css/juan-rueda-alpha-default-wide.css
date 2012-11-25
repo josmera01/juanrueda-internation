@@ -23,6 +23,6 @@
 
 .responsive-layout-wide .view-mapa-contacto .view-content{width: 780px;}
 
-/*.responsive-layout-wide #block-menu-menu-menu-secciones-principales .content ul li a span.texto{padding: 0 8%;}*/
+.responsive-layout-wide #block-menu-menu-menu-secciones-principales .content ul li a span.texto{width: 70%;}
 
 .twitter-follow-small, .fb_edge_widget_with_comment, .mobile-subscribe-youtube{display: none;}
