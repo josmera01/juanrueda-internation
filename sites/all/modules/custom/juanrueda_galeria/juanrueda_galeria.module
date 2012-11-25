@@ -113,7 +113,8 @@ function _view_galeria_eslasticslider($nid, $settings) {
   $node = node_load($nid);
 
   foreach ($node->field_imagen_galeria[LANGUAGE_NONE] as $key => $value) {
-    dpm($value);
+    $url = image_style_url('large', $value['uri']);
+
      $links[] = array(
       'title' => theme('image', array(
         'path' =>image_style_url($settings['image_style'], $value['uri']),
@@ -122,7 +123,7 @@ function _view_galeria_eslasticslider($nid, $settings) {
 
         )),
       'html' => TRUE,
-      'href' => $value['uri'],
+      'href' => $url,
       'attributes' => array('rel' => array('lightbox')),
 
       );
