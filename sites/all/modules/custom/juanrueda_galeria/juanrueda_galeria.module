@@ -119,10 +119,11 @@ function _view_galeria_eslasticslider($nid, $settings) {
         'path' =>image_style_url($settings['image_style'], $value['uri']),
         'title' => $value['title'],
         'alt' => $value['alt'],
-        'rel' => 'lightbox',
+
         )),
       'html' => TRUE,
       'href' => $value['uri'],
+      'attributes' => array('rel' => array('lightbox')),
 
       );
 
