@@ -113,7 +113,7 @@ function _view_galeria_eslasticslider($nid, $settings) {
   $node = node_load($nid);
 
   foreach ($node->field_imagen_galeria[LANGUAGE_NONE] as $key => $value) {
-
+    dpm($value);
      $links[] = array(
       'title' => theme('image', array(
         'path' =>image_style_url($settings['image_style'], $value['uri']),
