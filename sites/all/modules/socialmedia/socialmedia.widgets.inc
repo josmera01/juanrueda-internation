@@ -698,7 +698,7 @@ function socialmedia_widgets_element_alter_facebook_like_button(&$form, $set, $e
   $options = array(
     '<none>' => t('Standard'),
     'button_count' => t('Button count'),
-    'box_count' => t('Box count'),
+  //  'box_count' => t('Box count'),
   );
   $form['layout']['#type'] = 'select';
   $form['layout']['#options'] = $options;
