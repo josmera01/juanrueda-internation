@@ -997,7 +997,7 @@ function socialmedia_widgets_set_share_default_elements() {
       ),
       'socialmedia_addthis-facebook-like' => array(
         'name' => 'socialmedia_addthis-facebook-like',
-        'data' => array('layout' =>  ' fb:like:layout="box_count"'),
+        'data' => array('layout' =>  ' fb:like:layout="button_count"'),
       ),
       'socialmedia_addthis-google-plusone' => array(
         'name' => 'socialmedia_addthis-google-plusone',
