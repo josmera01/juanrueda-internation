@@ -124,7 +124,7 @@ function _view_galeria_eslasticslider($nid, $settings) {
         )),
       'html' => TRUE,
       'href' => $url,
-      'attributes' => array('rel' => array('lightbox')),
+      'attributes' => array('rel' => array('lightbox'), 'title' => array($value['title'])),
 
       );
 
