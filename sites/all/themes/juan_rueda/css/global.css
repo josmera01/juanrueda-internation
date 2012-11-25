@@ -33,7 +33,7 @@ iframe{max-width: 100%}
 #page-title {
     border-bottom: 1px solid #FF7B00;
     color: #FF7B00;
-    font-size: 2.51em;
+    font-size: 2em;
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 4%;
@@ -563,18 +563,18 @@ ul.menu {
 #region-footer-first .block ul.social_networks_sitemap li{
     background: url("../images/ico-footer-redes.png") no-repeat transparent;
     list-style: none;
-    padding-left: 1.5em;
+    padding-left: 22px;
     line-height: 1;
     margin-bottom: 0.5em;
 }
 .block ul.social_networks_sitemap li#twitter {
-background-position: 0px -28px;
+background-position: 0px -41px;
 }
-.block ul.social_networks_sitemap li#facebook {background-position: 0px 1px;}
-.block ul.social_networks_sitemap li#youtube {background-position: 0px -60px;}
-.block ul.social_networks_sitemap li#twitter:hover {background-position: 0px -41px;}
-.block ul.social_networks_sitemap li#facebook:hover {background-position: 0px -11px;}
-.block ul.social_networks_sitemap li#youtube:hover {background-position: 0px -72px;}
+.block ul.social_networks_sitemap li#facebook {background-position: 0px 0px;}
+.block ul.social_networks_sitemap li#youtube {background-position: 0px -88px;}
+.block ul.social_networks_sitemap li#twitter:hover {background-position: 0px -59px;}
+.block ul.social_networks_sitemap li#facebook:hover {background-position: 0px -17px;}
+.block ul.social_networks_sitemap li#youtube:hover {background-position: 0px -106px;}
 
 /***************************************HOME***********************************************/
 
@@ -1176,6 +1176,7 @@ select{width: 125% !important;}
 	font-weight: bold;
 	font-size: 1.1em;
 }
+#block-juanrueda-widget-youtube-widget-youtube-custom .youtube-contenido-header span{float: left;}
 #block-juanrueda-widget-youtube-widget-youtube-custom .contenido-youtube-footer a{
   background-color: #CCCCCC;
   background-image: linear-gradient(bottom, #CCCCCC 15%, #dfdfdf 50%, #FAFAFA);
