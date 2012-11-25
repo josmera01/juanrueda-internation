@@ -335,7 +335,7 @@ function socialmedia_widgets_share_platforms_form($data) {
 
 
 
-function  (&$form, $set, $element) {
+function socialmedia_widgets_element_form_alter(&$form, $set, $element) {
   if ($element['name'] == 'socialmedia_addthis-addthis-counter') {
     socialmedia_widgets_element_alter_addthis_addthis_counter($form, $set, $element);
   }
@@ -640,7 +640,6 @@ function socialmedia_widgets_element_facebook_like_box() {
     'form callback' => 'widgets_template_auto_form',
   );
   return $elements;
-
 }
 
 function socialmedia_widgets_element_alter_facebook_like_box(&$form, $set, $element) {
@@ -702,7 +701,7 @@ function socialmedia_widgets_element_alter_facebook_like_button(&$form, $set, $e
     'box_count' => t('Box count'),
   );
   $form['layout']['#type'] = 'select';
-  $form['layout']['#options'] = 'box_count';
+  $form['layout']['#options'] = $options;
   $form['layout']['#description'] = t('Select button and count style');
 
   $options = array(
