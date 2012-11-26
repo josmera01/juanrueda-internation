@@ -103,7 +103,7 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
     width: 50%;
     font-family: "lato",sans-serif;
 }
-.theme-dark .nivo-caption h1{
+.theme-dark .nivo-caption h1 p{
 	padding: 1%;
 	border-top: 1px solid #ffffff;
 	border-bottom: 1px solid #ffffff;
@@ -111,8 +111,8 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
     text-transform: uppercase;
     font-weight: 700;
     font-size: 130%;
+    margin: 0;
 }
-.nivo-caption h1 p{margin: 0; padding: 0;}
 
 .nivo-caption h1 span{
 	display: block;
