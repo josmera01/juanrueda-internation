@@ -144,6 +144,7 @@ li.socialmedia_share-default, li.flag-bookmarks{
 .node-type-article .link-conteo li.visitas .number, .node-type-evento .link-conteo li.visitas .number{
 	background: url("../images/bg-counter.png") no-repeat scroll 0 0 transparent;
 	padding: 5px;
+	color: #000000;
 }
 .node-type-article .link-conteo li.visitas .number, .node-type-evento .link-conteo li.visitas .number{float: right;}
 .node-type-article .link-conteo li.visitas .label, .node-type-evento .link-conteo li.visitas .label{
