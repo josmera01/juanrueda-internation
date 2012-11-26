@@ -106,12 +106,22 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
 .nivo-caption h1{
 	padding: 1%;
 	border-top: 1px solid #ffffff;
-	border-bottom: 1px solid #ffffff;	
+	border-bottom: 1px solid #ffffff;
 	text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.nivo-caption h1 p{
+    margin: 0;
+    padding: 0;
 }
 .nivo-caption h1 span{
 	display: block;
-	font-size: 500%;
+	font-size: 400%;
+}
+.nivo-caption h1 span sup{
+    font-size: 60%;
+    font-weight: 400;
 }
 
 .theme-dark .nivoSlider img {
@@ -126,11 +136,6 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
 	background: none;
 }
 
-#block-views-featured-slider-block .nivo-caption h1, .field-name-field-slider-camion .nivo-caption h1{
-    font-size: 1.3em;
-    font-weight: 400;
-    text-transform: uppercase;
-}
 #block-views-featured-slider-block .nivo-caption p, .field-name-field-slider-camion .nivo-caption p {
     font-size: 0.9em;
     margin: 10px 0;
@@ -1093,7 +1098,7 @@ padding-bottom: 4%;
 .node-type-article .comment-form  .form-item-subject
 .node-type-article .comment-form  .field-name-comment-body label,
 .node-type-article .comment-form  .field-name-comment-body  fieldset.filter-wrapper,
-.node-type-article .comment-form  .field-name-comment-body .wysiwyg-toggle-wrapper, 
+.node-type-article .comment-form  .field-name-comment-body .wysiwyg-toggle-wrapper,
 #comments .form-item-name,
 #comments .form-item-subject{display: none;}
 .view-art-culos-relacionados  li.views-row {border-radius:0;}
@@ -1101,7 +1106,7 @@ padding-bottom: 4%;
 .view-art-culos-relacionados  li.views-row-last {border-radius: 0 0 0.5em 0.5em;}
 .view-art-culos-relacionados .views-field-field-image {
 	float: left;
-	margin-right: 10px;	
+	margin-right: 10px;
 }
 select{width: 125% !important;}
 
@@ -1112,7 +1117,7 @@ select{width: 125% !important;}
 #block-block-5, #block-widgets-s-facebook-like-box,
 #block-block-4, #block-block-9,
 #block-juanrueda-widget-youtube-widget-youtube-custom {border-radius: 0.5em 0.5em 0 0;}
-	
+
 #block-block-5,	#block-block-4, #block-juanrueda-widget-youtube-widget-youtube-custom {height: 9em;}
 #block-block-5 .content, #block-block-4 .content, #block-juanrueda-widget-youtube-widget-youtube-custom .content {padding: 0.5em 1em 1em 1em;}
 
