@@ -125,7 +125,7 @@ function socialmedia_base_platforms() {
   $title = t("Visit !varusername on Facebook", array('!varusername' => '[?profile_username=[socialmedia:sm-facebook_username]?]'));
   $stitle = t("Share on Facebook");
   $platforms['facebook']['templates'] = array(
-    'profile-url' => "[?profile_url=[socialmedia:sm-facebook_url]?]",
+   // 'profile-url' => "[?profile_url=[socialmedia:sm-facebook_url]?]",
    // 'profile-text-link' => '<a href="[?profile_url=[socialmedia:sm-facebook_url]?]" title="' . $title . '"[?link-target= target="{[socialmedia:sm-default_link_target_profile]}"?][?link-rel= rel="{[socialmedia:sm-default_link_rel_profile]}"?]>[?profile_username=[socialmedia:sm-facebook_username]?]</a>',
     'profile-button' => '<a href="[?profile_url=[socialmedia:sm-facebook_url]?]" title="' . $title . '"[?link-target= target="{[socialmedia:sm-default_link_target_profile]}"?][?link-rel= rel="{[socialmedia:sm-default_link_rel_profile]}"?]><img src="[?icon-path=[socialmedia:sm-facebook_icon-path]?]" alt="Facebook icon"></a>',
   /*  'share-text-link' => '<a href="http://www.facebook.com/sharer.php?u=[|[node:url]||[current-page:url]|]&t=[|[node:title]||[current-page:title-plain]|]" title="[?link-text=Share on Facebook?]"[?link-target= target="{[socialmedia:sm-default_link_target_sharing]}"?][?link-rel= rel="{[socialmedia:sm-default_link_rel_sharing]}"?]>[?link-text=' . $title . '?]</a>',
