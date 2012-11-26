@@ -121,6 +121,7 @@ li.socialmedia_share-default, li.flag-bookmarks{float: left;}
 	background: url("../images/ico-megusta-interna.png") no-repeat scroll 0 0 transparent;
 	padding-left: 2em;
 }
+.unflag-action{background: url("../images/ico-nomegusta-interna.png") no-repeat scroll 0 0 transparent;}
 
 
 .node-type-article .link-conteo, .node-type-evento .link-conteo{
