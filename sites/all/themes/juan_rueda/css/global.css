@@ -200,6 +200,8 @@ li.socialmedia_share-default, li.flag-bookmarks{
 	margin: 0.5em auto;
 	text-align: center;
 }
+.boton-azul{display: inline-block:}
+.boton-azul:visited, .boton-azul:hover{color: #ffffff;} 
 .boton-azul, .theme-dark .nivo-caption a.boton-azul{
 	background-color: #194E99;
     background-image: linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
@@ -214,7 +216,7 @@ li.socialmedia_share-default, li.flag-bookmarks{
     padding: 0.5em 1em;
 }
 
-.boton-azul, .theme-dark .nivo-caption a.boton-azul:hover{
+.boton-azul:hover, .theme-dark .nivo-caption a.boton-azul:hover{
 	background-color: #224B88;
     background-image: linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
     background-image: -o-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
