@@ -20,10 +20,10 @@ body {min-width: 960px;}
 .container-12 .grid-11 {width: 860px;}
 .container-12 .grid-12 {width: 940px;}
 
-.nivo-caption {
+/*.nivo-caption {
 	height: 77.5% !important;
 	width: 22% !important;
-}
+}*/
 .nivo-controlNav a {*float: left !important;}
 #block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu{*width: 70% !important;}
 #zone-footer .block {margin-right: 0 !important;}
