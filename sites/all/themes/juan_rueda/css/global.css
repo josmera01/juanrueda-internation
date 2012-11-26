@@ -104,7 +104,7 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
     font-family: "lato",sans-serif;
 }
 .theme-dark .nivo-caption h1 p{
-	padding: 1%;
+	padding: 0;
 	border-top: 1px solid #ffffff;
 	border-bottom: 1px solid #ffffff;
 	text-align: center;
