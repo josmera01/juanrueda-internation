@@ -101,13 +101,17 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
     padding: 3em;
     top: 0px;
     width: 50%;
+    font-family: "lato",sans-serif;
 }
 .nivo-caption h1{
-	padding: 0.5em -1em;
+	padding: 5%;
 	border-top: 1px solid #ffffff;
-	border-bottom: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;	
 }
-
+.nivo-caption h1 span{
+	display: block;
+	font-size: 300%;
+}
 
 .theme-dark .nivoSlider img {
     border: 2px solid #888888;
