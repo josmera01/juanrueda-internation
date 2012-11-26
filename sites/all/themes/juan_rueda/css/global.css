@@ -177,6 +177,8 @@ li.socialmedia_share-default, li.flag-bookmarks{
 
 #comments .comment .field {margin-bottom: 0.3em;}
 
+#comments form.comment-form{margin-top: 2em;}
+
 #comments h2.comment-form ,
 #comments .comment-form  .form-type-item,
 #comments .comment-form  .form-item-subject,
@@ -1028,7 +1030,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .link-conteo li span{
     display: block;
     text-align: center;
-    color: #fff;
+    color: #1C1C1C;
 }
 .view-entradas-recientes .field-name-node-link {
 border-bottom: 1px solid white;
