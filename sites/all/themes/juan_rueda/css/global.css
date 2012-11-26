@@ -145,6 +145,16 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
     padding: 0.5em 1em;
 }
 
+.theme-dark .nivo-caption a.boton-azul:hover{
+	background-color: #194E99;
+    background-image: linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
+    background-image: -o-linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
+    background-image: -moz-linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
+    background-image: -webkit-linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
+    background-image: -ms-linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#194E99', endColorstr='#2E78C1',GradientType=0 );
+}
+
 .theme-dark .nivoSlider img {
     border: 2px solid #888888;
     border-radius: 10px 10px 10px 10px;
@@ -673,7 +683,6 @@ background-position: 0px -41px;
     padding: 20px 0;
 }
 form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-mapa-contacto .attachment .views-field-php-1 span:hover,
-
 .view-mapa-contacto .attachment .views-field-php span:hover {
 	background-color: #194E99;
     background-image: linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
