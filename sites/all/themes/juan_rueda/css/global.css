@@ -126,6 +126,8 @@ li.socialmedia_share-default, li.flag-bookmarks{
 }
 .flag-bookmarks a.unflag-action{background: url("../images/ico-nomegusta-interna.png") no-repeat scroll 0 0 transparent;}
 
+.flag-bookmarks .flag-message{top: 2.7em;}
+
 .node-type-article .link-conteo, .node-type-evento .link-conteo{
 	border: 0;
 	padding: 0;
@@ -151,7 +153,6 @@ li.socialmedia_share-default, li.flag-bookmarks{
 	padding: 1px 2px 1px 25px ;
 	background: url("../images/ico-visitas-interna.png") no-repeat scroll 0 0 transparent;
 }
-
 
 .node-type-article .field-type-image, .node-type-evento .field-type-image{clear: both;}
 
