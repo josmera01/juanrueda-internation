@@ -108,10 +108,16 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
 	border-top: 1px solid #ffffff;
 	border-bottom: 1px solid #ffffff;	
 	text-align: center;
+	font-weight: 700;
+	font-size: 150%;
 }
 .nivo-caption h1 span{
 	display: block;
 	font-size: 500%;
+}
+.nivo-caption h1 span sup{
+	font-size: 60%
+	font-weight: 400;
 }
 
 .theme-dark .nivoSlider img {
@@ -126,16 +132,6 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
 	background: none;
 }
 
-#block-views-featured-slider-block .nivo-caption h1, .field-name-field-slider-camion .nivo-caption h1{
-    font-size: 1.3em;
-    font-weight: 400;
-    text-transform: uppercase;
-}
-#block-views-featured-slider-block .nivo-caption p, .field-name-field-slider-camion .nivo-caption p {
-    font-size: 0.9em;
-    margin: 10px 0;
-    font-weight: 400;
-}
 #block-views-featured-slider-block .nivo-controlNav, .field-name-field-slider-camion .nivo-controlNav {
     background-color: #224B88;
     background-image: linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
