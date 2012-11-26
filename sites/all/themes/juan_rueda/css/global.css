@@ -103,6 +103,8 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
     width: 50%;
     font-family: "lato",sans-serif;
 }
+.node-type-camion .theme-dark .nivo-caption{display: none;}
+
 .theme-dark .nivo-caption h1{margin-bottom: 0;}
 .theme-dark .nivo-caption h1 p{
 	padding: 0.2em 0;
