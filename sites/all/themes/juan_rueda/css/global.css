@@ -140,7 +140,8 @@ li.socialmedia_share-default, li.flag-bookmarks{
 .node-type-article .link-conteo li.flag .label, .node-type-evento .link-conteo li.flag .label{display: none;}
 .node-type-article .link-conteo li.flag .number, .node-type-evento .link-conteo li.flag .number,
 .node-type-article .link-conteo li.visitas .number, .node-type-evento .link-conteo li.visitas .number{
-	background: url("../images/bg-counter.png") no-repeat scroll 0 0 transparent;
+	background: url("../images/bg-counter.jpg") no-repeat scroll 0 0 transparent;
+	padding: 5px;
 }
 .node-type-article .link-conteo li.visitas .number, .node-type-evento .link-conteo li.visitas .number{float: right;}
 .node-type-article .link-conteo li.visitas .label, .node-type-evento .link-conteo li.visitas .label{
