@@ -126,7 +126,7 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
 .theme-dark .nivo-caption>p{
 	font-weight: 400;
 	width: 70%;
-	margin: auto;
+	margin: 0.5em auto;
 	text-align: center;
 }
 .theme-dark .nivo-caption a.boton-azul{
@@ -139,7 +139,7 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
     background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.22, #133155),color-stop(0.61, #133B6C),color-stop(0.81, #224B88));
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#133155', endColorstr='#224B88',GradientType=0 );
     border-bottom: 0;
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px;
     text-decoration: none;
     padding: 0.5em 1em;
 }
