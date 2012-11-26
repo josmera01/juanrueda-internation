@@ -60,13 +60,6 @@
 
 .responsive-layout-narrow #block-menu-menu-menu-secciones-principales ul{padding: 0 1%;}
 
-.responsive-layout-narrow .nivo-caption{
-	left: 60%;
-	width: 40%;
-	padding: 1em;
-}
-
-
 .twitter-follow-small, .fb_edge_widget_with_comment, .mobile-subscribe-youtube{display: none;}
 
 .responsive-layout-narrow #zone-footer .block-title{font-size: 1em;}
@@ -105,4 +98,9 @@
 	margin-right: 5px;
 }
 
+/******** Slider ********/
 
+.responsive-layout-narrow .theme-dark .nivo-caption{padding: 5% 2em;}
+.responsive-layout-narrow .theme-dark .nivo-caption h1 p{font-size: 125%;}
+.responsive-layout-narrow .theme-dark .nivo-caption > p{width: 95%;}
+.responsive-layout-narrow .theme-dark .nivo-caption a.boton-azul{padding: 0.3em 0.5em;}
