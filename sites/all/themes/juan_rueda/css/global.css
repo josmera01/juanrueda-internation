@@ -105,7 +105,7 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
 }
 
 .theme-dark .nivo-caption h1 p{
-	padding: 0;
+	padding: 1em 0;
 	border-top: 1px solid #ffffff;
 	border-bottom: 1px solid #ffffff;
 	text-align: center;
@@ -118,6 +118,7 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
 .nivo-caption h1 span{
 	display: block;
 	font-size: 250%;
+	line-height: 1;
 }
 .nivo-caption h1 span sup{
     font-size: 50%;
