@@ -123,13 +123,13 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
     font-size: 50%;
     font-weight: 400;
 }
-.theme-dark .nivo-caption p.caption-description{
+.theme-dark .nivo-caption>p{
 	font-weight: 400;
 	width: 70%;
 	margin: auto;
 	text-align: center;
 }
-.theme-dark .nivo-caption p.caption-description a{
+.theme-dark .nivo-caption a.boton-azul{
 	background-color: #224B88;
     background-image: linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
     background-image: -o-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
