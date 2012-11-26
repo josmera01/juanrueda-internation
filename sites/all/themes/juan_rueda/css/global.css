@@ -98,14 +98,14 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
 	background-color: transparent;
     left: 50%;
     opacity: 0.9;
-    padding: 20% 3em;
+    padding: 10% 3em;
     top: 0px;
     width: 50%;
     font-family: "lato",sans-serif;
 }
-
+.theme-dark .nivo-caption h1{margin-bottom: 0;}
 .theme-dark .nivo-caption h1 p{
-	padding: 0.5em 0;
+	padding: 0.2em 0;
 	border-top: 1px solid #ffffff;
 	border-bottom: 1px solid #ffffff;
 	text-align: center;
