@@ -152,6 +152,10 @@ li.socialmedia_share-default, li.flag-bookmarks{
 	background: url("../images/ico-visitas-interna.png") no-repeat scroll 0 0 transparent;
 }
 
+
+.node-type-article .field-type-image, .node-type-evento .field-type-image{clear: both;}
+
+
 /***************************************SLIDER***********************************************/
 
 .theme-dark .nivo-caption{
