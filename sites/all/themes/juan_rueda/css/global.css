@@ -127,6 +127,10 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
     font-size: 50%;
     font-weight: 400;
 }
+.theme-dark .nivo-caption>p{
+	width: 70%;
+	margin: auto;
+}
 
 .theme-dark .nivoSlider img {
     border: 2px solid #888888;
