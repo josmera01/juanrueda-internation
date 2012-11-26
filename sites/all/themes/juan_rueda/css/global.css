@@ -157,7 +157,7 @@ li.socialmedia_share-default, li.flag-bookmarks{
 	background: url("../images/ico-visitas-interna.png") no-repeat scroll 0 0 transparent;
 }
 
-.node-type-article .field-type-image, .node-type-evento .field-type-image{clear: both;}
+.node-type-article .field-type-image, .node-type-evento .field-name-field-lugar{clear: both;}
 
 #comments .comment {
 	background-color: transparent;
