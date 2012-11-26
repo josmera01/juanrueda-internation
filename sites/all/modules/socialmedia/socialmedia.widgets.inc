@@ -411,7 +411,7 @@ function socialmedia_widgets_element_addthis_facebook_like() {
   $elements['socialmedia_addthis-facebook-like'] = array(
     'label' => t('AddThis Facebook like counter button'),
     'group' => t('Social media: Facebook'),
-    'template' => '<a class="addthis_button_facebook_like"[?layout=?] [?width=fb:like:width="{<none>}"?]></a>',
+    'template' => '<a class="addthis_button_facebook_like" data-layout="button_count"></a>',
     'add_js' => array(
       'data' => $addthis_js,
       'options' => array(
