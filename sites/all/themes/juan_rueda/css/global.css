@@ -102,7 +102,7 @@ li.socialmedia_share-default, li.flag-bookmarks{float: left;}
     background-image: -ms-linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#194E99', endColorstr='#2E78C1',GradientType=0 );
     border-radius: 10px;
-    padding: 0.5em 0.6em 0.5em 2.5em;
+    padding: 0.3em 0.6em;
 }
 .flag-bookmarks .flag-wrapper:hover{
 	background-color: #224B88;
@@ -119,6 +119,7 @@ li.socialmedia_share-default, li.flag-bookmarks{float: left;}
 	line-height: 1;
 	text-decoration: none;
 	background: url("../images/ico-megusta-interna.png") no-repeat scroll 0 0 transparent;
+	padding-left: 2em;
 }
 
 
@@ -131,8 +132,8 @@ li.socialmedia_share-default, li.flag-bookmarks{float: left;}
 	margin: 0;
 	
 }
-.node-type-article .link-conteo .comentario, .node-type-evento .link-conteo .comentario{display: none;}
-.node-type-article .link-conteo .flag label, .node-type-evento .link-conteo .flag label{display: none;}
+.node-type-article .link-conteo .comentario, .node-type-evento .link-conteo .comentario,
+.node-type-article .link-conteo .flag label, .node-type-evento .link-conteo .flag .label{display: none;}
 .link-conteo li.flag .number{
 	background-position: right top;
 	padding: 5px 6px;
