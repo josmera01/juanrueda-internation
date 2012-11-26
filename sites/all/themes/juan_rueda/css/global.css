@@ -91,9 +91,20 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
 }
 .responsive-layout-mobile #block-system-main .field-name-body p{font-size: 0.85em;}
 
+li.socialmedia_share-default, li.flag-bookmarks{float: left;}
 
-
-.flag-bookmarks a{
+.flag-bookmarks .flag-wrapper{
+	background-color: #194E99;
+    background-image: linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
+    background-image: -o-linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
+    background-image: -moz-linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
+    background-image: -webkit-linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
+    background-image: -ms-linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#194E99', endColorstr='#2E78C1',GradientType=0 );
+    border-radius: 10px;
+    padding: 0.5em 0.6em 0.5em 2.5em;
+}
+.flag-bookmarks .flag-wrapper:hover{
 	background-color: #224B88;
     background-image: linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
     background-image: -o-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
@@ -102,22 +113,15 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
     background-image: -ms-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
     background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.22, #133155),color-stop(0.61, #133B6C),color-stop(0.81, #224B88));
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#133155', endColorstr='#224B88',GradientType=0 );
-    border-bottom: 0;
-    border-radius: 10px;
-    text-decoration: none;
-    padding: 0.5em 1em;
-    float: left;
 }
 
-.flag-bookmarks a:hover{
-	background-color: #194E99;
-    background-image: linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
-    background-image: -o-linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
-    background-image: -moz-linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
-    background-image: -webkit-linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
-    background-image: -ms-linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#194E99', endColorstr='#2E78C1',GradientType=0 );
+.flag-bookmarks a{
+	line-height: 1;
+	text-decoration: none;
+	background: url("../images/ico-megusta-interna.png") no-repeat scroll 0 0 transparent;
 }
+
+
 .node-type-article .link-conteo, .node-type-evento .link-conteo{
 	border: 0;
 	padding: 0;
