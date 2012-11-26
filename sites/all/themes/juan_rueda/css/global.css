@@ -104,13 +104,14 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
     font-family: "lato",sans-serif;
 }
 .nivo-caption h1{
-	padding: 5%;
+	padding: 1%;
 	border-top: 1px solid #ffffff;
 	border-bottom: 1px solid #ffffff;	
+	text-align: center;
 }
 .nivo-caption h1 span{
 	display: block;
-	font-size: 300%;
+	font-size: 500%;
 }
 
 .theme-dark .nivoSlider img {
