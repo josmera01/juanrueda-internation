@@ -1452,9 +1452,9 @@ form .form-submit {margin-right: 4.5%;}
 	border-radius: 0;
 }
 
-.responsive-layout-narrow .theme-dark .nivo-caption{padding: 5% 2em;}
-.responsive-layout-narrow .theme-dark .nivo-caption h1 p{font-size: 100%;}
-.responsive-layout-narrow .theme-dark .nivo-caption > p{display: none;}
+.responsive-layout-mobile .theme-dark .nivo-caption{padding: 5% 2em;}
+.responsive-layout-mobile .theme-dark .nivo-caption h1 p{font-size: 100%;}
+.responsive-layout-mobile .theme-dark .nivo-caption > p{display: none;}
 
 .responsive-layout-mobile #carousel-camion{display:block;}
 
