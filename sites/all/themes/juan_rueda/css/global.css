@@ -134,7 +134,7 @@ li.socialmedia_share-default, li.flag-bookmarks{float: left;}
 .node-type-article .link-conteo li, .node-type-evento .link-conteo li{width: auto;}
 
 .node-type-article .link-conteo .comentario, .node-type-evento .link-conteo .comentario,
-.node-type-article .link-conteo .flag label, .node-type-evento .link-conteo li.flag .label{display: none;}
+.node-type-article .link-conteo li.flag .label, .node-type-evento .link-conteo li.flag .label{display: none;}
 .node-type-article .link-conteo li.flag .number, .node-type-evento .link-conteo li.flag .number{
 	background-position: right top;
 	padding: 5px 6px;
