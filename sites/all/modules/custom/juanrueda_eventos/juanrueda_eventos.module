@@ -32,6 +32,8 @@ function contenido_evento($fecha) {
   $ids = _consultar_evento($fecha);
   $output = '';
 
+  $timestap = strtotime($fecha);
+  $output .= t('Eventos en @fecha', array('@fecha' => date('m', $timestap)));
   foreach ($ids as $key => $value) {
     $node = node_load($value);
 
