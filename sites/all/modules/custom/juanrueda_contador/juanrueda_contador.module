@@ -33,10 +33,10 @@ function juanrueda_contador_field_extra_fields() {
  * Implements hook_node_view().
  */
 function juanrueda_contador_node_view($node, $view_mode, $langcode) {
-  $tipos_contenidos = array('article', 'evento', 'article');
+  $tipos_contenidos = array('article', 'evento');
 
   if (in_array($node->type, $tipos_contenidos)) {
-    $node->content['node_contador'][0]['#markup'] = drupal_render(html_contador_personalizado($node->nid));
+    $node->node_contador[0]['#markup'] = drupal_render(html_contador_personalizado($node->nid));
   }
 
 }
