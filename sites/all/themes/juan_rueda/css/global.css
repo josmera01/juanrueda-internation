@@ -172,12 +172,15 @@ li.socialmedia_share-default, li.flag-bookmarks{
 	color: #FF7B00;
 	padding-left: 30px;
 	background: url("../images/ico-comentarios-interna.png") no-repeat scroll 0 0 transparent;
+	margin-top: 2em;
 }
+
+#comments .comment .field {margin-bottom: 0.3em;}
 
 #comments h2.comment-form ,
 .comment-form  .form-type-item,
 .comment-form  .form-item-subject
-/*.node-type-article .comment-form  .field-name-comment-body label,
+.comment-form  .field-name-comment-body label/*,
 .node-type-article .comment-form  .field-name-comment-body  fieldset.filter-wrapper,
 .node-type-article .comment-form  .field-name-comment-body .wysiwyg-toggle-wrapper,
 #comments .form-item-name,
