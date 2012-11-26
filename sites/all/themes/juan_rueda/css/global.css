@@ -121,8 +121,7 @@ li.socialmedia_share-default, li.flag-bookmarks{float: left;}
 	background: url("../images/ico-megusta-interna.png") no-repeat scroll 0 0 transparent;
 	padding-left: 2em;
 }
-.unflag-action{background: url("../images/ico-nomegusta-interna.png") no-repeat scroll 0 0 transparent;}
-
+.flag-bookmarks a.unflag-action{background: url("../images/ico-nomegusta-interna.png") no-repeat scroll 0 0 transparent;}
 
 .node-type-article .link-conteo, .node-type-evento .link-conteo{
 	border: 0;
@@ -134,7 +133,7 @@ li.socialmedia_share-default, li.flag-bookmarks{float: left;}
 	
 }
 .node-type-article .link-conteo .comentario, .node-type-evento .link-conteo .comentario,
-.node-type-article .link-conteo .flag label, .node-type-evento .link-conteo .flag .label{display: none;}
+.node-type-article .link-conteo .flag label, .node-type-evento .link-conteo li.flag .label{display: none;}
 .link-conteo li.flag .number{
 	background-position: right top;
 	padding: 5px 6px;
