@@ -130,6 +130,18 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
 .theme-dark .nivo-caption>p{
 	width: 70%;
 	margin: auto;
+	text-align: center;
+}
+.theme-dark .nivo-caption>p a{
+	background-color: #224B88;
+    background-image: linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+    background-image: -o-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+    background-image: -moz-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+    background-image: -webkit-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+    background-image: -ms-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.22, #133155),color-stop(0.61, #133B6C),color-stop(0.81, #224B88));
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#133155', endColorstr='#224B88',GradientType=0 );
+    border-radius: 10px 10px 0 0;
 }
 
 .theme-dark .nivoSlider img {
