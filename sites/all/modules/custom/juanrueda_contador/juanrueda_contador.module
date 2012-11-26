@@ -36,7 +36,7 @@ function juanrueda_contador_node_view($node, $view_mode, $langcode) {
   $tipos_contenidos = array('article', 'evento');
 
   if (in_array($node->type, $tipos_contenidos)) {
-    $node->node_contador[0]['#markup'] = drupal_render(html_contador_personalizado($node->nid));
+    $node->content['node_contador'][0]['#markup'] = drupal_render(html_contador_personalizado($node->nid));
   }
 
 }
