@@ -106,6 +106,7 @@ li.socialmedia_share-default, li.flag-bookmarks{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#194E99', endColorstr='#2E78C1',GradientType=0 );
     border-radius: 10px;
     padding: 0.3em 0.6em;
+    display: block !important;
 }
 .flag-bookmarks .flag-wrapper:hover{
 	background-color: #224B88;
