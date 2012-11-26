@@ -115,16 +115,16 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
 	text-align: center;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 130%;
+    font-size: 230%;
     margin: 0;
 }
 
 .nivo-caption h1 span{
 	display: block;
-	font-size: 400%;
+	font-size: 250%;
 }
 .nivo-caption h1 span sup{
-    font-size: 60%;
+    font-size: 50%;
     font-weight: 400;
 }
 
