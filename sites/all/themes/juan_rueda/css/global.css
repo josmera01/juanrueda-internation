@@ -133,6 +133,7 @@ li.socialmedia_share-default, li.flag-bookmarks{
 	border: 0;
 	padding: 0;
 	float: left;
+	padding: 5px 0;
 }
 .node-type-article .link-conteo ul, .node-type-evento .link-conteo ul{
 	margin: 0;
@@ -147,6 +148,7 @@ li.socialmedia_share-default, li.flag-bookmarks{
 	padding: 5px;
 	color: #000000;
 }
+.node-type-article .link-conteo li.visitas, .node-type-evento .link-conteo li.visitas{margin-left: 1em;}
 .node-type-article .link-conteo li.visitas .number, .node-type-evento .link-conteo li.visitas .number{float: right;}
 .node-type-article .link-conteo li.visitas .label, .node-type-evento .link-conteo li.visitas .label{
 	float: right;
