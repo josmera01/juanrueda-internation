@@ -20,10 +20,9 @@ body {min-width: 960px;}
 .container-12 .grid-11 {width: 860px;}
 .container-12 .grid-12 {width: 940px;}
 
-/*.nivo-caption {
-	height: 77.5% !important;
-	width: 22% !important;
-}*/
+.responsive-layout-normal .theme-dark .nivo-caption{padding: 5% 2em;}
+.responsive-layout-normal .theme-dark .nivo-caption h1 p{font-size: 1.9em;}
+
 .nivo-controlNav a {*float: left !important;}
 #block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu{*width: 70% !important;}
 #zone-footer .block {margin-right: 0 !important;}
