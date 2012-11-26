@@ -103,11 +103,7 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
     width: 50%;
     font-family: "lato",sans-serif;
 }
-.theme-dark .nivo-caption p {
-    font-size: 0.9em;
-    margin: 10px 0;
-    font-weight: 400;
-}
+
 .theme-dark .nivo-caption h1 p{
 	padding: 0;
 	border-top: 1px solid #ffffff;
@@ -115,7 +111,7 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
 	text-align: center;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 230%;
+    font-size: 200%;
     margin: 0;
 }
 
@@ -127,12 +123,13 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
     font-size: 50%;
     font-weight: 400;
 }
-.theme-dark .nivo-caption>p{
+.theme-dark .nivo-caption p.caption-description{
+	font-weight: 400;
 	width: 70%;
 	margin: auto;
 	text-align: center;
 }
-.theme-dark .nivo-caption>p a{
+.theme-dark .nivo-caption p.caption-description a{
 	background-color: #224B88;
     background-image: linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
     background-image: -o-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
