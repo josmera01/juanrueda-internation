@@ -93,7 +93,6 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
 
 li.socialmedia_share-default, li.flag-bookmarks{
 	float: left;
-	padding: 0 2px;
 }
 
 .flag-bookmarks .flag-wrapper{
@@ -201,7 +200,7 @@ li.socialmedia_share-default, li.flag-bookmarks{
 	margin: 0.5em auto;
 	text-align: center;
 }
-.theme-dark .nivo-caption a.boton-azul{
+.boton-azul, .theme-dark .nivo-caption a.boton-azul{
 	background-color: #194E99;
     background-image: linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
     background-image: -o-linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
@@ -215,7 +214,7 @@ li.socialmedia_share-default, li.flag-bookmarks{
     padding: 0.5em 1em;
 }
 
-.theme-dark .nivo-caption a.boton-azul:hover{
+.boton-azul, .theme-dark .nivo-caption a.boton-azul:hover{
 	background-color: #224B88;
     background-image: linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
     background-image: -o-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
