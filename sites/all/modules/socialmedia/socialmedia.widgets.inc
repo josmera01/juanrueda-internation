@@ -425,9 +425,9 @@ function socialmedia_widgets_element_addthis_facebook_like() {
 
 function socialmedia_widgets_element_alter_addthis_facebook_like(&$form, $set, $element) {
   $options = array(
-    '' => t('Standard (no count)'),
+    //'' => t('Standard (no count)'),
     ' fb:like:layout="button_count"' => t('Button count'),
-    ' fb:like:layout="button_count"' => t('Box count'),
+   // ' fb:like:layout="button_count"' => t('Box count'),
   );
   $form['layout']['#type'] = 'select';
   $form['layout']['#options'] = $options;
@@ -696,9 +696,9 @@ function socialmedia_widgets_element_facebook_like_button() {
 function socialmedia_widgets_element_alter_facebook_like_button(&$form, $set, $element) {
 
   $options = array(
-    '<none>' => t('Standard'),
+   // '<none>' => t('Standard'),
     'button_count' => t('Button count'),
-  //  'box_count' => t('Box count'),
+
   );
   $form['layout']['#type'] = 'select';
   $form['layout']['#options'] = $options;
