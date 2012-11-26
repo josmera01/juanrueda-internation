@@ -101,6 +101,6 @@
 /******** Slider ********/
 
 .responsive-layout-narrow .theme-dark .nivo-caption{padding: 5% 2em;}
-.responsive-layout-narrow .theme-dark .nivo-caption h1 p{font-size: 125%;}
+/*.responsive-layout-narrow .theme-dark .nivo-caption h1 p{font-size: 125%;}*/
 .responsive-layout-narrow .theme-dark .nivo-caption > p{width: 95%;}
-.responsive-layout-narrow .theme-dark .nivo-caption a.boton-azul{padding: 0.3em 0.5em;}
+.responsive-layout-narrow .theme-dark .nivo-caption a.boton-azul{padding: 0.3em 1em;}

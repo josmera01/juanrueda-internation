@@ -113,17 +113,17 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
 	text-align: center;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 200%;
+    font-size: 2em;
     margin: 0;
 }
 
 .nivo-caption h1 span{
 	display: block;
-	font-size: 250%;
+	font-size: 2.5em;
 	line-height: 1;
 }
 .nivo-caption h1 span sup{
-    font-size: 50%;
+    font-size: 0.5em;
     font-weight: 400;
 }
 .theme-dark .nivo-caption>p{
@@ -1453,7 +1453,7 @@ form .form-submit {margin-right: 4.5%;}
 }
 
 .responsive-layout-mobile .theme-dark .nivo-caption{padding: 10% 2em;}
-.responsive-layout-mobile .theme-dark .nivo-caption h1 p{font-size: 120%;}
+/*.responsive-layout-mobile .theme-dark .nivo-caption h1 p{font-size: 120%;}*/
 .responsive-layout-mobile .theme-dark .nivo-caption > p{display: none;}
 
 .responsive-layout-mobile #carousel-camion{display:block;}
