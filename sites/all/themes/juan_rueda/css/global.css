@@ -159,6 +159,29 @@ li.socialmedia_share-default, li.flag-bookmarks{
 
 .node-type-article .field-type-image, .node-type-evento .field-type-image{clear: both;}
 
+#comments .comment {
+	background-color: transparent;
+	font-size: 0.9em;
+	padding: 1em 0.5em;
+	border-top: 1px solid #FF7B00;
+	border-bottom: 1px solid #FF7B00;
+}
+#comments h2{
+	font-weight: 400;
+	font-size: 1.2em;
+	color: #FF7B00;
+	padding-left: 30px;
+	background: url("../images/ico-comentarios-interna.png") no-repeat scroll 0 0 transparent;
+}
+
+#comments h2.comment-form /*,
+.node-type-article .comment-form  .form-type-item,
+.node-type-article .comment-form  .form-item-subject
+.node-type-article .comment-form  .field-name-comment-body label,
+.node-type-article .comment-form  .field-name-comment-body  fieldset.filter-wrapper,
+.node-type-article .comment-form  .field-name-comment-body .wysiwyg-toggle-wrapper,
+#comments .form-item-name,
+#comments .form-item-subject */{display: none;}
 
 /***************************************SLIDER***********************************************/
 
@@ -1194,14 +1217,7 @@ padding-bottom: 4%;
     margin-bottom: 5%;
 }
 .view-calendario-de-eventos .view-footer .node-evento label {font-weight: 300;}
-.node-type-article #comments h2,
-.node-type-article .comment-form  .form-type-item,
-.node-type-article .comment-form  .form-item-subject
-.node-type-article .comment-form  .field-name-comment-body label,
-.node-type-article .comment-form  .field-name-comment-body  fieldset.filter-wrapper,
-.node-type-article .comment-form  .field-name-comment-body .wysiwyg-toggle-wrapper,
-#comments .form-item-name,
-#comments .form-item-subject{display: none;}
+
 .view-art-culos-relacionados  li.views-row {border-radius:0;}
 .view-art-culos-relacionados  li.views-row-first {border-radius:0.5em 0.5em 0 0;}
 .view-art-culos-relacionados  li.views-row-last {border-radius: 0 0 0.5em 0.5em;}
