@@ -174,10 +174,10 @@ li.socialmedia_share-default, li.flag-bookmarks{
 	background: url("../images/ico-comentarios-interna.png") no-repeat scroll 0 0 transparent;
 }
 
-#comments h2.comment-form /*,
-.node-type-article .comment-form  .form-type-item,
-.node-type-article .comment-form  .form-item-subject
-.node-type-article .comment-form  .field-name-comment-body label,
+#comments h2.comment-form ,
+.comment-form  .form-type-item,
+.comment-form  .form-item-subject
+/*.node-type-article .comment-form  .field-name-comment-body label,
 .node-type-article .comment-form  .field-name-comment-body  fieldset.filter-wrapper,
 .node-type-article .comment-form  .field-name-comment-body .wysiwyg-toggle-wrapper,
 #comments .form-item-name,
