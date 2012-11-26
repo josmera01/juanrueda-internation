@@ -91,7 +91,10 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
 }
 .responsive-layout-mobile #block-system-main .field-name-body p{font-size: 0.85em;}
 
-li.socialmedia_share-default, li.flag-bookmarks{float: left;}
+li.socialmedia_share-default, li.flag-bookmarks{
+	float: left;
+	padding: 0 2px;
+}
 
 .flag-bookmarks .flag-wrapper{
 	background-color: #194E99;
@@ -136,13 +139,12 @@ li.socialmedia_share-default, li.flag-bookmarks{float: left;}
 .node-type-article .link-conteo .comentario, .node-type-evento .link-conteo .comentario,
 .node-type-article .link-conteo li.flag .label, .node-type-evento .link-conteo li.flag .label{display: none;}
 .node-type-article .link-conteo li .number, .node-type-evento .link-conteo li .number{
-	background-position: right top;
-	padding: 5px 6px;
+	background: url("../images/bg-counter.png") no-repeat scroll 0 0 transparent;
 }
 .node-type-article .link-conteo li.visitas .label, .node-type-evento .link-conteo li.visitas .label{
 	float: right;
 	color: #FF7B00;
-	font-size: 1.2em;
+	font-size: 1.3em;
 	padding: 1px 2px 1px 25px ;
 	background: url("../images/ico-visitas-interna.png") no-repeat scroll 0 0 transparent;
 }
