@@ -228,7 +228,7 @@ li.flag-bookmarks{
     width: 50%;
     font-family: "lato",sans-serif;
 }
-.node-type-camion .theme-dark .nivo-caption{display: none;}
+.node-type-camion .theme-dark .nivo-caption{display: none !important;}
 
 .theme-dark .nivo-caption h1{margin-bottom: 0;}
 .theme-dark .nivo-caption h1 p{
@@ -1260,6 +1260,11 @@ padding-bottom: 4%;
 	margin-right: 10px;
 }
 select{width: 125% !important;}
+
+#region-sidebar-second #block-webform-client-block-1{
+	float: left;
+	left: 10px;
+}
 
 /***************************************** CSS PLUGINS REDES SOCIALES ************************************************/
 
