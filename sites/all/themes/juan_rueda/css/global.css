@@ -93,14 +93,19 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
 
 .field-type-social-buttons,
 .node-type-article .node-article ul.links,
-.node-type-evento .node-article ul.links,
+.node-type-evento .node-evento ul.links,
 li.flag-bookmarks{
 	float: left;
+}
+.node-type-article .node-article>ul.links, .node-type-evento .node-evento>ul.links{
+	padding: 0.5em 0;
 	margin: 0;
 }
-.node-type-article .node-article ul.links, .node-type-evento .node-article ul.links{padding: 0.5em 0;}
-.node-type-article .node-article .link-conteo, .node-type-evento .node-article .link-conteo{padding: 0.75em 0;}
+.node-type-article .node-article .link-conteo, .node-type-evento .node-evento .link-conteo{padding: 0.75em 0;}
 .field-type-social-buttons{margin-rigth: 3em;}
+
+.node-type-article .node-article>ul.links, .socialmedia_share-default,
+.node-type-evento .node-evento>ul.links .socialmedia_share-default{display: none}
 
 .field-type-social-buttons .field-label{
 	font-weight: 400;
