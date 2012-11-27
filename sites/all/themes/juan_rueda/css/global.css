@@ -1086,6 +1086,11 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 }
 .bloque-gris .node-evento .field-name-field-fecha, .bloque-gris .node-evento .field-name-field-lugar{font-size: 0.9em;}
 
+.bloque-gris #carousel {
+	margin-top: 1em;
+	padding: 0px 20px;
+}
+
 .bloque-gris .es-carousel-wrapper, .bloque-gris .es-carousel{background: none;}
 .bloque-gris #carousel .es-nav span.es-nav-prev{background: transparent url(../images/flecha-bloque-izq.png) no-repeat top left;}
 .bloque-gris #carousel .es-nav span.es-nav-next{background: transparent url(../images/flecha-bloque-der.png) no-repeat top right;}
