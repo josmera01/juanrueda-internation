@@ -38,7 +38,7 @@ ul.tabs.primary{margin-bottom: 1.5em;}
     font-size: 2em;
     font-weight: 400;
     margin-top: 0;
-    margin-bottom: 4%;
+    margin-bottom: 0.8em;
 }
 label {color: #FFFFFF;}
 #section-content {
@@ -60,8 +60,10 @@ label {color: #FFFFFF;}
 	font-size: 1em;
 }
 
-.breadcrumb a{color: #e3e3e3;}
-.breadcrumb a:first-letter{text-transform: uppercase;}
+.breadcrumb a{
+	color: #e3e3e3;
+	text-decoration: underline;
+}
 
 #region-content.grid-12{
     margin: 20px 0 40px !important;
@@ -1079,6 +1081,8 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     border-bottom: 1px solid #fff;
     padding-bottom: 1em;
 }
+.bloque-gris .node-evento .field-name-field-fecha, .bloque-gris .node-evento .field-name-field-lugar{font-size: 0.9em;}
+
 .bloque-gris .es-carousel-wrapper, .bloque-gris .es-carousel{background: none;}
 .bloque-gris #carousel .es-nav span.es-nav-prev{background: transparent url(../images/flecha-bloque-izq.png) no-repeat top left;}
 .bloque-gris #carousel .es-nav span.es-nav-next{background: transparent url(../images/flecha-bloque-der.png) no-repeat top right;}
