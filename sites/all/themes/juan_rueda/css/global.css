@@ -180,11 +180,11 @@ li.socialmedia_share-default, li.flag-bookmarks{
 #comments form.comment-form{margin-top: 2em;}
 
 #comments h2.comment-form ,
-#comments .comment-form  .form-type-item,
-#comments .comment-form  .form-item-subject,
-#comments .comment-form  .field-name-comment-body label,
-#comments .comment-form  .field-name-comment-body  fieldset.filter-wrapper,
-#comments .comment-form  .field-name-comment-body .wysiwyg-toggle-wrapper
+#comments .comment-form .form-type-item,
+#comments .comment-form .form-item-subject,
+#comments .comment-form .field-name-comment-body label,
+#comments .comment-form .field-name-comment-body  fieldset.filter-wrapper,
+#comments .comment-form .field-name-comment-body .wysiwyg-toggle-wrapper
 {display: none;}
 
 /***************************************SLIDER***********************************************/
