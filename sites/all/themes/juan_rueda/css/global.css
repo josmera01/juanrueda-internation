@@ -199,7 +199,7 @@ li.flag-bookmarks{
 
 #comments form.comment-form{margin-top: 2em;}
 
-.node-type-article .node-article>ul.links, .socialmedia_share-default,
+.node-type-article .node-article>ul.links .socialmedia_share-default,
 .node-type-evento .node-evento>ul.links .socialmedia_share-default,
 #comments h2.comment-form ,
 #comments .comment-form .form-type-item,
