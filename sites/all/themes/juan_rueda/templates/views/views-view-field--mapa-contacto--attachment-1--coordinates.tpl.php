@@ -22,4 +22,7 @@
  * the view is modified.
  */
 ?>
-<?php print $output; ?>
+<?php print $output;
+print l('Ubicar mapa' , $output, array('attributes' => array('class' => array('mapa-google')) ));
+
+?>
