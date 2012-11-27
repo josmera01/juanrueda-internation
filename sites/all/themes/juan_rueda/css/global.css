@@ -87,10 +87,16 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-coordinates span
 
 /******** Contenidos - Interna *********/
 
-#block-system-main .field-name-body p{
+#block-system-main .field-name-body p,
+#block-system-main .field-name-body ul li,
+#block-system-main .field-name-body ol li,
+#block-system-main .field-name-body span
+{
 	font-size: 0.9em;
 	line-height: 1.3;
 }
+#block-system-main .field-name-body ul li {list-style: circle;}
+
 .responsive-layout-mobile #block-system-main .field-name-body p{font-size: 0.85em;}
 
 .field-type-social-buttons,
