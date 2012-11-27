@@ -179,6 +179,8 @@ li.flag-bookmarks{
 	padding-top: 1.5em;
 }
 
+.field-name-field-social-buttons-footer {margin: 2em 0;}
+
 #comments .comment {
 	background-color: transparent;
 	font-size: 0.9em;
