@@ -23,7 +23,7 @@
  */
 ?>
 <?php print $output;
-$output = str_replace(',', '&', $output);
+$output = str_replace(',', '/', $output);
 print l('Ubicar mapa' , $output, array('attributes' => array('class' => array('mapa-google',)),
   'rel' => array('prueba') ));
 
