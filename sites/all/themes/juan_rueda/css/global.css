@@ -104,9 +104,6 @@ li.flag-bookmarks{
 .node-type-article .node-article .link-conteo, .node-type-evento .node-evento .link-conteo{padding: 0.75em 0;}
 .field-type-social-buttons{margin-rigth: 3em;}
 
-.node-type-article .node-article>ul.links, .socialmedia_share-default,
-.node-type-evento .node-evento>ul.links .socialmedia_share-default{display: none}
-
 .field-type-social-buttons .field-label{
 	font-weight: 400;
 	font-size: 0.9em;
@@ -175,7 +172,9 @@ li.flag-bookmarks{
 	background: url("../images/ico-visitas-interna.png") no-repeat scroll 0 0 transparent;
 }
 
-.node-type-article .field-type-image, .node-type-evento .field-name-field-lugar{
+.node-type-article .field-type-image,
+.node-type-evento .field-type-image,
+.node-type-evento .field-name-field-lugar{
 	clear: both;
 	padding-top: 1.5em;
 }
@@ -200,6 +199,8 @@ li.flag-bookmarks{
 
 #comments form.comment-form{margin-top: 2em;}
 
+.node-type-article .node-article>ul.links, .socialmedia_share-default,
+.node-type-evento .node-evento>ul.links .socialmedia_share-default,
 #comments h2.comment-form ,
 #comments .comment-form .form-type-item,
 #comments .comment-form .form-item-subject,
