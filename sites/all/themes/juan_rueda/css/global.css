@@ -1370,6 +1370,7 @@ select{width: 125% !important;}
 #block-block-5 iframe .fbConnectWidgetTopmost,
 #block-widgets-s-facebook-like-box iframe .fbConnectWidgetTopmost{border: 0 !important;}
 
+#block-block-5 .fb-like.fb_edge_widget_with_comment.fb_iframe_widget{display: none;}
 
 #block-juanrueda-widget-youtube-widget-youtube-custom h2.block-title, #block-block-4 h2.block-title,
 #block-block-5 h2.block-title, #block-widgets-s-facebook-like-box h2.block-title,
@@ -1737,7 +1738,7 @@ form .form-submit {margin-right: 4.5%;}
 .responsive-layout-mobile #region-footer-first .block ul li > div {
     display: inline-block;
     margin: 0;
-        *display: inline;
+    *display: inline;
     *zoom: 1;
 }
 
@@ -1839,6 +1840,11 @@ body.responsive-layout-mobile {
 .responsive-layout-mobile .menu-render, .responsive-layout-mobile #block-menu-menu-menu-secciones-principales ul li.expanded.menu-1746 a.mobile {width: 20%;}
 
 .responsive-layout-mobile #block-multiblock-1 {width: 64.5%;}
+
+.responsive-layout-mobile #block-block-5 .fb-like.fb_edge_widget_with_comment.fb_iframe_widget{
+	display: block;
+	margin-top: 1em;
+}
 
 
 /******************************************************************************IE8*****************************************************************/
