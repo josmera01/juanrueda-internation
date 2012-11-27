@@ -91,3 +91,5 @@ body {min-width: 960px;}
 	margin-bottom: 30px;
 	overflow: hidden;
 }
+.logo-img {margin-top: 4.5%;}
+.views-processed.nivo-imageLink {z-index:2;}
