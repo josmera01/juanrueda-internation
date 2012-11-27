@@ -95,6 +95,7 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-coordinates span
 	font-size: 0.9em;
 	line-height: 1.3;
 }
+#block-system-main .field-name-body ul{padding-left: 2em;}
 #block-system-main .field-name-body ul li {list-style: circle;}
 
 .responsive-layout-mobile #block-system-main .field-name-body p{font-size: 0.85em;}
@@ -230,6 +231,8 @@ li.flag-bookmarks{
 }
 #outerImageContainer {border-radius: 5px 5px 0 0;}
 #imageDataContainer {border-radius: 0 0 5px 5px;}
+
+#carousel{margin-top: 1.5em;}
 
 /***************************************RESULTADOS DE BÚSQUEDA***********************************************/
 
