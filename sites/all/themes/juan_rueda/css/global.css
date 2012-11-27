@@ -154,8 +154,6 @@ li.flag-bookmarks{
 }
 .node-type-article .link-conteo li, .node-type-evento .link-conteo li{width: auto;}
 
-.node-type-article .link-conteo .comentario, .node-type-evento .link-conteo .comentario,
-.node-type-article .link-conteo li.flag .label, .node-type-evento .link-conteo li.flag .label{display: none;}
 .node-type-article .link-conteo li.flag .number, .node-type-evento .link-conteo li.flag .number,
 .node-type-article .link-conteo li.visitas .number, .node-type-evento .link-conteo li.visitas .number{
 	background: url("../images/bg-counter.png") no-repeat scroll 0 0 transparent;
@@ -199,8 +197,11 @@ li.flag-bookmarks{
 
 #comments form.comment-form{margin-top: 2em;}
 
+.node-type-article .link-conteo .comentario, .node-type-evento .link-conteo .comentario,
+.node-type-article .link-conteo li.flag .label, .node-type-evento .link-conteo li.flag .label,
 .node-type-article .node-article>ul.links .socialmedia_share-default,
 .node-type-evento .node-evento>ul.links .socialmedia_share-default,
+.node-type-evento .node-evento>ul.links .comment-add,
 #comments h2.comment-form ,
 #comments .comment-form .form-type-item,
 #comments .comment-form .form-item-subject,
