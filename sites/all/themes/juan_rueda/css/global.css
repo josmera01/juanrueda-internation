@@ -219,18 +219,17 @@ li.flag-bookmarks{
 	padding-left: 30px;
 	background: url("../images/ico-comentarios-interna.png") no-repeat scroll 0 0 transparent;
 	margin-top: 2em;
+	clear: both;
+	margin: 0.5em 0;
 }
 
 #comments .comment .field {margin-bottom: 0.3em;}
-
-#comments form.comment-form{margin-top: 2em;}
 
 .node-type-article .link-conteo .comentario, .node-type-evento .link-conteo .comentario,
 .node-type-article .link-conteo li.flag .label, .node-type-evento .link-conteo li.flag .label,
 .node-type-article .node-article>ul.links .socialmedia_share-default,
 .node-type-evento .node-evento>ul.links .socialmedia_share-default,
 .node-type-evento .node-evento>ul.links .comment-add,
-#comments h2.comment-form ,
 #comments .comment-form .form-type-item,
 #comments .comment-form .form-item-subject,
 #comments .comment-form .field-name-comment-body label,
@@ -1769,10 +1768,7 @@ form .form-submit {margin-right: 4.5%;}
 .responsive-layout-mobile #block-juanrueda-widget-youtube-widget-youtube-custom .content div.youtube-contenido-header a{
 	display: block;
 }
-.responsive-layout-mobile .fb-like.fb_edge_widget_with_comment.fb_iframe_widget{
-	display: block;
-	margin-top: 1em;
-}
+
 .twitter-follow-small a.twitter-name-label{
 	display: block;
 	margin: 1em 0;
