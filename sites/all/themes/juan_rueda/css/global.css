@@ -231,6 +231,21 @@ li.flag-bookmarks{
 	margin-left: 1em;
 	font-size: 0.9em;
 }
+.page-search h2{font-weight: 300;}
+
+.page-search ol.search-results{padding-left: 0;}
+
+.page-search .search-results li{
+	padding: 1em;
+	border-bottom: 1px solid #FF7B00;
+	font-size: 0.9em;
+}
+.page-search .search-results li.search-result h3{color: #FF7B00;}
+.page-search .search-results li.search-result .search-snippet{color: #FFFFFF;}
+.page-search .search-results li.search-result .search-info{color: #2F76CD;}
+.page-search .search-results li.search-result .search-info a.username,
+.page-search .search-results li.search-result .search-info:first-letter{display: none;}
+
 
 /***************************************SLIDER***********************************************/
 
