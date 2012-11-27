@@ -1385,7 +1385,7 @@ select{width: 125% !important;}
 #block-block-5 h2.block-title, #block-widgets-s-facebook-like-box h2.block-title  {
     background: url("../images/logo-facebook.png") no-repeat scroll 10px 7px transparent;
 }
-.fb-like.fb_edge_widget_with_comment.fb_iframe_widget, #footer-container #branding{
+#footer-container #branding{
     display: none;
 }
 #picture-floater {
