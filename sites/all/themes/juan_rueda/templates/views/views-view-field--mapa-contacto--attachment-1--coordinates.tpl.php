@@ -22,9 +22,9 @@
  * the view is modified.
  */
 ?>
-<?php print $output;
+<?php
+$output = str_replace(' ', '', $output);
 $output = str_replace(',', '/', $output);
-print l('Ubicar mapa' , $output, array('attributes' => array('class' => array('mapa-google',)),
-  'rel' => array('prueba') ));
+print l('Ubicar mapa' , $output, array('attributes' => array('class' => array('mapa-google',))));
 
 ?>

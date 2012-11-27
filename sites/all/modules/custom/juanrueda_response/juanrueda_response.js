@@ -4,6 +4,13 @@
 
   Drupal.behaviors.juan_rueda_respnse = {
     attach: function(context) {
+
+      $("a.mapa-google").click(function() {
+        var url = $(this).attr('href');
+        window.location.href=url;
+        return true;
+      });
+
       $('body').bind('responsivelayout', function(e, d) {
         if($(this).hasClass("responsive-layout-mobile")) {
           //menu principal
@@ -46,7 +53,10 @@
 
 
         }
+
       });
+
+
   }
 }
 })(jQuery);
