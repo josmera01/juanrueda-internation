@@ -23,6 +23,7 @@
  */
 ?>
 <?php print $output;
-print l('Ubicar mapa' , $output, array('attributes' => array('class' => array('mapa-google')) ));
+print l('Ubicar mapa' , $output, array('attributes' => array('class' => array('mapa-google',)),
+  'rel' => array('prueba') ));
 
 ?>
