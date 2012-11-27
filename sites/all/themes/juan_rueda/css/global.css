@@ -218,9 +218,8 @@ li.flag-bookmarks{
 	color: #FF7B00;
 	padding-left: 30px;
 	background: url("../images/ico-comentarios-interna.png") no-repeat scroll 0 0 transparent;
-	margin-top: 2em;
 	clear: both;
-	margin: 0.5em 0;
+	margin: 2em 0 0.5em 0;
 }
 
 #comments .comment .field {margin-bottom: 0.3em;}
