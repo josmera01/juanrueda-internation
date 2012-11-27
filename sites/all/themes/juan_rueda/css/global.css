@@ -100,6 +100,8 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-coordinates span
 #block-system-main .field-name-body ul{padding-left: 2em;}
 #block-system-main .field-name-body ul li {list-style: circle;}
 
+.node-type-article .node-article .field-name-body img, .node-type-evento .node-evento .field-name-body img {margin: 1.5em;}
+
 .responsive-layout-mobile #block-system-main .field-name-body p{font-size: 0.85em;}
 
 .field-type-social-buttons,
@@ -1061,7 +1063,6 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     font-size: 1.2em;
 }
 
-
 .bloque-gris a:link {color: #1B457A;}
 .bloque-gris a:hover{text-decoration: underline;}
 .bloque-gris a:hover{color: #E55700;}
@@ -1348,6 +1349,8 @@ select{width: 125% !important;}
     text-align: center;
     width: 100%;
 }
+#block-block-9 p{margin: 0;}
+#block-block-9 iframe, #block-block-9 iframe, #block-block-5 iframe, #block-widgets-s-facebook-like-box iframe {width: 100%;}
 
 #block-block-4 iframe .timeline,
 #block-block-9 iframe .timeline,
