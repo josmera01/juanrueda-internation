@@ -240,7 +240,18 @@ li.flag-bookmarks{
 	border-bottom: 1px solid #FF7B00;
 	font-size: 0.9em;
 }
-.page-search .search-results li.search-result h3{color: #FF7B00;}
+.page-search .search-results li.search-result h3{margin: 0;}
+.page-search .search-results li.search-result h3 a {
+	color: #FF7B00;
+	font-size: 0.9em;
+	font-weight: 400;
+	text-decoration: underline;
+}
+.page-search .search-results li.search-result h3 a:hover{color: #FFFFFF;}
+.page-search .search-results li.search-result .search-snippet-info{
+	padding-left: 0;
+	margin-bottom: 0.2em;
+}
 .page-search .search-results li.search-result .search-snippet{color: #FFFFFF;}
 .page-search .search-results li.search-result .search-info{color: #2F76CD;}
 .page-search .search-results li.search-result .search-info a.username,
