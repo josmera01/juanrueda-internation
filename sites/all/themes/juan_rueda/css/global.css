@@ -91,8 +91,21 @@ form .form-submit, .view-mapa-contacto .attachment .views-field-php-1 span, .vie
 }
 .responsive-layout-mobile #block-system-main .field-name-body p{font-size: 0.85em;}
 
-li.socialmedia_share-default, li.flag-bookmarks{
+.field-type-social-buttons,
+.node-type-article .node-article ul.links,
+.node-type-evento .node-article ul.links,
+li.flag-bookmarks{
 	float: left;
+	margin: 0;
+}
+.node-type-article .node-article ul.links, .node-type-evento .node-article ul.links{padding: 0.5em 0;}
+.node-type-article .node-article .link-conteo, .node-type-evento .node-article .link-conteo{padding: 0.75em 0;}
+.field-type-social-buttons{margin-rigth: 3em;}
+
+.field-type-social-buttons .field-label{
+	font-weight: 400;
+	font-size: 0.9em;
+	margin-bottom: 0.5em;
 }
 
 .flag-bookmarks .flag-wrapper{
