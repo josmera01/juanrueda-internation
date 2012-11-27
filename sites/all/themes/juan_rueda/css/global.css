@@ -247,15 +247,18 @@ li.flag-bookmarks{
 	font-weight: 400;
 	text-decoration: underline;
 }
-.page-search .search-results li.search-result h3 a:hover{color: #FFFFFF;}
+.page-search .search-results li.search-result h3 a:hover{color: #888888;}
 .page-search .search-results li.search-result .search-snippet-info{
 	padding-left: 0;
-	margin-bottom: 0.2em;
+	margin-top: 0.2em;
 }
 .page-search .search-results li.search-result .search-snippet{color: #FFFFFF;}
-.page-search .search-results li.search-result .search-info{color: #2F76CD;}
+.page-search .search-results li.search-result .search-info{
+	color: #2F76CD;
+	font-size: 1em;
+}
 .page-search .search-results li.search-result .search-info a.username,
-.page-search .search-results li.search-result .search-info:first-letter{display: none;}
+.page-search .search-results li.search-result .search-info::first-letter{display: none;}
 
 
 /***************************************SLIDER***********************************************/
