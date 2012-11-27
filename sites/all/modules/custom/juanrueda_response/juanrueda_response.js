@@ -7,7 +7,11 @@
 
       $("a.mapa-google").click(function() {
         var url = $(this).attr('href');
-        window.location.href=url;
+
+        posicion = url.replace('/', ",");
+        Drupal.gmap.getMap('gmap-auto1map-gmap0').map.setCenter(new google.maps.LatLng(posicion));
+        Drupal.gmap.getMap('gmap-auto1map-gmap0').map.setZoom(10);
+
         return true;
       });
 
