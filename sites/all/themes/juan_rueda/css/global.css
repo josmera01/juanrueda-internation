@@ -170,7 +170,10 @@ li.flag-bookmarks{
 	background: url("../images/ico-visitas-interna.png") no-repeat scroll 0 0 transparent;
 }
 
-.node-type-article .field-type-image, .node-type-evento .field-name-field-lugar{clear: both;}
+.node-type-article .field-type-image, .node-type-evento .field-name-field-lugar{
+	clear: both;
+	padding-top: 1.5em;
+}
 
 #comments .comment {
 	background-color: transparent;
