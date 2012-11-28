@@ -919,8 +919,6 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 }
 .view-mapa-contacto .view-content {margin: 0 10px;}
 
-.responsive-layout-mobile .view-mapa-contacto .view-content, .responsive-layout-mobile .view-mapa-contacto .attachment {width: 100%;}
-
 .view-mapa-contacto .view-mapa-contacto .view-content {
     height: 375px;
     margin-left: 0;
@@ -979,11 +977,15 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     *display: inline;
     *zoom: 1;
 }
-/*
+
+.view-mapa-contacto .gmap-processed > div > div {
+	left: 190px !important;
+}
+
 .view-mapa-contacto .gmnoprint {color: #000000;}
 .view-mapa-contacto .gmnoprint a{color: #133156;}
-.view-mapa-contacto #gmap-auto1map-gmap0 img{max-width: inherit !important;}
- */
+/*.view-mapa-contacto #gmap-auto1map-gmap0 img{max-width: inherit !important;}*/
+
 
 /**********************************MASONRY VIEWS - BLOQUES GRISES***********************************/
 
@@ -1696,7 +1698,11 @@ form .form-submit {margin-right: 4.5%;}
     text-align: center;
     width: 16em;
 }
-.responsive-layout-mobile .view-mapa-contacto .attachment, .responsive-layout-mobile .view-mapa-contacto .view-content {float: none;}
+.responsive-layout-mobile .view-mapa-contacto .attachment,
+.responsive-layout-mobile .view-mapa-contacto .view-content {
+	float: none;
+	margin-bottom: 1.5em;
+}
 
 .responsive-layout-mobile #block-block-5 , .responsive-layout-mobile  #block-block-4, .responsive-layout-mobile #block-juanrueda-widget-youtube-widget-youtube-custom  {
     background: none repeat scroll 0 0 transparent;
