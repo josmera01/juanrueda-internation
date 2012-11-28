@@ -1765,20 +1765,25 @@ form .form-submit {margin-right: 4.5%;}
     width: 68px;
 }
 .responsive-layout-mobile #block-juanrueda-widget-youtube-widget-youtube-custom .content div.contenido-youtube,
-.responsive-layout-mobile #block-juanrueda-widget-youtube-widget-youtube-custom .content div.youtube-contenido-header
+.responsive-layout-mobile #block-juanrueda-widget-youtube-widget-youtube-custom .content div.youtube-contenido-header span
 {display: none;}
-.responsive-layout-mobile #block-juanrueda-widget-youtube-widget-youtube-custom .content div.youtube-contenido-header a{
-	display: block;
-}
 
-.twitter-follow-small a.twitter-name-label{
+.twitter-follow-small a.twitter-name-label,
+.responsive-layout-mobile #block-juanrueda-widget-youtube-widget-youtube-custom .youtube-contenido-header{
 	display: block;
-	margin: 1em 0;
+	margin: 1.5em 0;
 	font-size: 0.9em;
+	float: none;
+	width: 100%;
 }
+.twitter-follow-small,
+.responsive-layout-mobile #block-juanrueda-widget-youtube-widget-youtube-custom .youtube-contenido-header br
+{display: none;}
+
+.twitter-follow-small a.twitter-name-label{color: #71CCe9}
 .responsive-layout-mobile #block-juanrueda-widget-youtube-widget-youtube-custom .content div.contenido-youtube-footer{
 	float: none;
-	margin: 1em auto;
+	margin: 0 auto;
 }
 
 .responsive-layout-mobile  #region-postscript-fourth{
