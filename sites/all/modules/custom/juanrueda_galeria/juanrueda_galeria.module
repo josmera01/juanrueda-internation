@@ -111,7 +111,7 @@ function _view_galeria_eslasticslider($nid, $settings) {
 
   drupal_add_library('juanrueda_libraries', 'elastislide');
   $node = node_load($nid);
-
+  dpm($node);
   foreach ($node->field_imagen_galeria[LANGUAGE_NONE] as $key => $value) {
     $url = image_style_url('large', $value['uri']);
 
