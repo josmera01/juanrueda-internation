@@ -8,7 +8,7 @@
       jQuery("a.mapa-google").once('mapa-link').click(function() {
         var url = $(this).attr('href');
 
-        posicion = url.replace(',', "/");
+        posicion = url.replace(/\//gi, "/");
         console.log(posicion);
         //Drupal.gmap.getMap('gmap-auto1map-gmap0').map.setCenter(new google.maps.LatLng(posicion));
         Drupal.gmap.getMap('gmap-auto1map-gmap0').map.setZoom(10);
