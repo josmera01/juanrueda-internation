@@ -134,11 +134,6 @@ function _view_galeria_eslasticslider($nid, $settings) {
 
   drupal_add_js($path . '/js/juanrueda_galeria.js');
   drupal_add_js(array('galeria' => $settings), 'setting');
-  $id = array();
-
-  drupal_add_js(array('ids' => $id[$node->vid] = $node->vid), 'setting');
-
-
 
   $js =  "
   jQuery(document).ready(function () {
@@ -187,7 +182,7 @@ function galeria_nuestra_historia() {
     $image = $node->field_imagen_hito[LANGUAGE_NONE][0];
 
     $imagen_render = theme('image', array(
-          'path' => image_style_url('250x190', $image['uri'])
+          'path' => image_style_url('hito-historia', $image['uri'])
           )
         );
 
