@@ -20,8 +20,8 @@ body {min-width: 960px;}
 .container-12 .grid-11 {width: 860px;}
 .container-12 .grid-12 {width: 940px;}
 
-.responsive-layout-normal .theme-dark .nivo-caption{padding: 5% 2em;}
-.responsive-layout-normal .theme-dark .nivo-caption h1 p{font-size: 1.9em;}
+.theme-dark .nivo-caption{padding: 5% 2em;}
+.theme-dark .nivo-caption h1 p{font-size: 1.7em;}
 
 .nivo-controlNav a {*float: left !important;}
 #block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu{*width: 70% !important;}
@@ -93,10 +93,15 @@ body {min-width: 960px;}
 	margin-top: 4.5%;
 }
 .views-processed.nivo-imageLink {z-index:2;}
+
 .branding-data {overflow: hidden;}
+
+.branding-data h2.site-name {
+	*margin-left: 10em;
+}
+
 .views-nivo-slider-view a.nivo-imageLink { background-color:#fff; filter:alpha(opacity=0);}
 
-.theme-dark .nivo-caption{left: 42%;}
 
 #block-juanrueda-widget-youtube-widget-youtube-custom img{max-width: auto;}
 
