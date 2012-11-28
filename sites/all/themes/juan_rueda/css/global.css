@@ -1663,7 +1663,7 @@ form .form-submit {margin-right: 4.5%;}
 }
 
 .responsive-layout-mobile .theme-dark .nivo-caption{padding: 10% 2em;}
-/*.responsive-layout-mobile .theme-dark .nivo-caption h1 p{font-size: 120%;}*/
+.responsive-layout-mobile .theme-dark .nivo-caption h1 p{font-size: 120%;}
 .responsive-layout-mobile .theme-dark .nivo-caption > p{display: none;}
 
 .responsive-layout-mobile #carousel-camion{display:block;}
@@ -1779,7 +1779,7 @@ form .form-submit {margin-right: 4.5%;}
 	margin: 1em auto;
 }
 
-/*.html*/.responsive-layout-mobile  #region-postscript-fourth{
+.responsive-layout-mobile  #region-postscript-fourth{
     background: none repeat scroll 0 0 #000000;
     border-bottom: 1px solid #222222;
     margin-left: auto;
@@ -1788,10 +1788,10 @@ form .form-submit {margin-right: 4.5%;}
     overflow: hidden;
     padding: 30px 0;
 }
-/*.html*/.responsive-layout-mobile #section-content {
+.responsive-layout-mobile #section-content {
     margin-bottom: 0;
 }
-/*.html*/.responsive-layout-mobile #section-footer{
+.responsive-layout-mobile #section-footer{
     background-color: #000000;
     border-top: 1px solid #111111;
     color: #FFFFFF;
