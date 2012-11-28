@@ -835,7 +835,7 @@ background-position: 0px -41px;
 #block-webform-client-block-1 .form-submit {float: none;}
 
 #region-postscript-first p, #region-postscript-second p{margin: 0;}
-
+.views-nivo-slider-view a.nivo-imageLink { background-color:#fff; filter:alpha(opacity=0);}
 
 
 /***************************************CONTACTO***********************************************/
