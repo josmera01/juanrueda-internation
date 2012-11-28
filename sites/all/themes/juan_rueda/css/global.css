@@ -744,6 +744,7 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
     margin: 0;
     list-style: circle;
 }
+.region-inner.region-footer-first-inner{font-size: 0.95em;}
 #region-footer-second .block {
     color: #4E4E4E;
     padding: 0.8em 0.5em 0 0.5em;
