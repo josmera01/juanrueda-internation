@@ -97,3 +97,5 @@ body {min-width: 960px;}
 .views-nivo-slider-view a.nivo-imageLink { background-color:#fff; filter:alpha(opacity=0);}
 
 .theme-dark .nivo-caption{left: 42%;}
+
+#block-juanrueda-widget-youtube-widget-youtube-custom img{max-width: auto;}
