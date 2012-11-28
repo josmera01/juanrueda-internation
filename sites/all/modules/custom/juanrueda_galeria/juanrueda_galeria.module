@@ -156,7 +156,7 @@ function _view_galeria_eslasticslider($nid, $settings) {
   $content['galeria']= array(
      '#theme' => 'links',
      '#links' => $links,
-     '#prefix' => '<div id="carousel-\'.$node->vid\'." class="es-carousel-wrapper"><div class="es-carousel">',
+     '#prefix' => '<div id="carousel-'. $node->vid .' " class="es-carousel-wrapper"><div class="es-carousel">',
      '#suffix' => '</div></div>',
     );
 
