@@ -11,10 +11,11 @@
         posicion = url.replace(/\//gi, "/");
         console.log(posicion);
         posicion1 = posicion.replace('/', "");
-        console.log(posicion1);
+        posicion2 = posicion1.replace('/', ",");
+        console.log(posicion2);
 
         Drupal.gmap.getMap('gmap-auto1map-gmap0').map.setCenter(new google.maps.LatLng(19.439652, -70.666081));
-        Drupal.gmap.getMap('gmap-auto1map-gmap0').map.setZoom(5);
+        Drupal.gmap.getMap('gmap-auto1map-gmap0').map.setZoom(10);
 
         alert('hola');
         return false;
