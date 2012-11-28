@@ -5,11 +5,12 @@
   Drupal.behaviors.juan_rueda_respnse = {
     attach: function(context) {
 
-      jQuery("a.mapa-google").click(function() {
+      jQuery("a.mapa-google").once('mapa-link').click(function() {
         var url = $(this).attr('href');
 
         posicion = url.replace('/', ",");
-        Drupal.gmap.getMap('gmap-auto1map-gmap0').map.setCenter(new google.maps.LatLng(posicion));
+        console.log(posicion);
+        //Drupal.gmap.getMap('gmap-auto1map-gmap0').map.setCenter(new google.maps.LatLng(posicion));
         Drupal.gmap.getMap('gmap-auto1map-gmap0').map.setZoom(10);
 
         alert('hola');
