@@ -17,7 +17,7 @@
         Drupal.gmap.getMap('gmap-auto1map-gmap0').map.setCenter(new google.maps.LatLng(posicion2));
         Drupal.gmap.getMap('gmap-auto1map-gmap0').map.setZoom(10);
 
-        alert('hola');
+
         return false;
       });
 
