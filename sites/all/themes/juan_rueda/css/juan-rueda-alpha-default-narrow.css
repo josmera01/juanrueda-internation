@@ -98,6 +98,22 @@
 	margin-right: 5px;
 }
 
+.responsive-layout-narrow #block-webform-client-block-1 {padding: 0.5em 1em;}
+
+.responsive-layout-narrow #block-webform-client-block-1 h2.block-title{
+	font-size: 0.9em;
+	font-weight: 400;
+	line-height: 1;
+	margin-bottom: 0;
+}
+.responsive-layout-narrow #block-webform-client-block-1 .form-item{margin: 2px 0;}
+.responsive-layout-narrow #block-webform-client-block-1 input[type="text"]{padding: 1px 5px;}
+.responsive-layout-narrow #block-webform-client-block-1 .form-submit {
+	width: auto;
+	padding: 5px 20px;
+}
+
+
 .responsive-layout-narrow #block-juanrueda-widget-youtube-widget-youtube-custom h2.block-title{height: 2em;}
 .responsive-layout-narrow #block-juanrueda-widget-youtube-widget-youtube-custom .youtube-contenido-header{
 	width: 60%;
