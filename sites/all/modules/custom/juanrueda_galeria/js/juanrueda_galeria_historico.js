@@ -10,8 +10,9 @@
         minItems  : 4,
         margin    : 20,
         border    : 1,
-        current   : 1,
-        easing : 'ease-in-out',
+        current   : current,
+
+
       });
 
 
