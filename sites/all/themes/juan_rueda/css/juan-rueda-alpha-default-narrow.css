@@ -103,6 +103,18 @@
 	width: 60%;
 	margin-bottom: 2px;
 }
+.responsive-layout-narrow .fan_box .connect_action {
+	width: 70%;
+	float: left;
+	padding: 0;
+}
+.responsive-layout-narrow .fan_box .connect_top {padding: 10px 0 0 0;}
+
+.responsive-layout-narrow #block-block-5 .content, 
+.responsive-layout-narrow #block-block-4 .content,
+.responsive-layout-narrow #block-juanrueda-widget-youtube-widget-youtube-custom .content {
+	padding: 0.2em 0.8em;
+}
 
 /******** Slider ********/
 
