@@ -55,10 +55,7 @@ body {min-width: 960px;}
 #block-menu-menu-menu-secciones-principales .content ul li a {width: 100%}
 
 #block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu {height: 35px;}
-#block-menu-menu-menu-secciones-principales .content ul li.first a span.titulo_menu {
-	padding-top: 10px !important;
-	height: 25px;
-}
+
 #block-menu-menu-menu-secciones-principales .content ul li a span.texto{
 	padding: 0 15px;
 	font-size: 0.9em;
@@ -98,3 +95,5 @@ body {min-width: 960px;}
 .views-processed.nivo-imageLink {z-index:2;}
 .branding-data {overflow: hidden;}
 .views-nivo-slider-view a.nivo-imageLink { background-color:#fff; filter:alpha(opacity=0);}
+
+.theme-dark .nivo-caption{left: 42%;}
