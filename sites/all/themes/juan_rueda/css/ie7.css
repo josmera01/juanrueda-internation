@@ -20,8 +20,12 @@ body {min-width: 960px;}
 .container-12 .grid-11 {width: 860px;}
 .container-12 .grid-12 {width: 940px;}
 
-.theme-dark .nivo-caption{padding: 5% 2em;}
-.theme-dark .nivo-caption h1 p{font-size: 1.7em;}
+.theme-dark .nivo-caption{
+	padding: 5% 2em;
+	width: 45%;
+	left: 55%;
+}
+.theme-dark .nivo-caption h1 p{font-size: 1.6em;}
 
 .nivo-controlNav a {*float: left !important;}
 #block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu{*width: 70% !important;}
