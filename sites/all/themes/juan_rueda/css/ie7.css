@@ -86,7 +86,7 @@ body {min-width: 960px;}
 	font-size: 1em;
 	margin-bottom: 0;
 }
-#block-webform-client-block-1 input[type='text'] {width: 95%!important;}
+#block-webform-client-block-1 input[type='text'] {width: 95% !important;}
 .front #zone-postscript {
 	margin-bottom: 30px;
 	overflow: hidden;
@@ -98,3 +98,5 @@ body {min-width: 960px;}
 .views-processed.nivo-imageLink {z-index:2;}
 .branding-data {overflow: hidden;}
 .views-nivo-slider-view a.nivo-imageLink { background-color:#fff; filter:alpha(opacity=0);}
+
+.region-inner.region-footer-first-inner{font-size: 0.9em;}
