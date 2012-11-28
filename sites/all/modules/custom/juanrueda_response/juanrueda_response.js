@@ -14,8 +14,8 @@
         posicion2 = posicion1.replace('/', ",");
         new_text = posicion2.split(',');
 
-        var i = new_text[0]) + ',' + new_text[1];
-        alert(i)
+        var i = Number(new_text[0]) + ',' + Number(new_text[1]);
+        alert(i);
         Drupal.gmap.getMap('gmap-auto1map-gmap0').map.setCenter(new google.maps.LatLng(i));
         Drupal.gmap.getMap('gmap-auto1map-gmap0').map.setZoom(10);
 
