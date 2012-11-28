@@ -1498,6 +1498,7 @@ select{width: 125% !important;}
 }
 
 .node-type-camion .field-name-field-galeria-usos-camion .field-label,
+.node-type-camion .field-name-field-galeria-ref .field-label,
 .node-type-camion .block-ventaja-display-block .block-inner > h2 {
     color: #999999;
     display: block;
