@@ -100,3 +100,5 @@ body {min-width: 960px;}
 
 #block-juanrueda-widget-youtube-widget-youtube-custom img{max-width: auto;}
 
+.select-jr{width: 90%;}
+select{width: 100% !important;}
