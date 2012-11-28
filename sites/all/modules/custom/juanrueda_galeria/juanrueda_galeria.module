@@ -149,7 +149,7 @@ function _view_galeria_eslasticslider($nid, $settings) {
         border    : 0,
         current   : 12
       });
-  }
+
   });
   ";
   drupal_add_js($js, 'inline');
