@@ -1671,19 +1671,19 @@ form .form-submit {margin-right: 4.5%;}
 
 #carousel-camion li a span{font-size: 0.9em;}
 
-.responsive-layout-mobile #carousel-camion .es-nav span{
-	background-size: 90%;
+/*.responsive-layout-mobile #carousel-camion .es-nav span{
 	height: 20px;
 	width: 20px;
-}
+}*/
 
-.responsive-layout-mobile #carousel-camion.es-carousel-wrapper{0 1.3em;}
+/*.responsive-layout-mobile #carousel-camion.es-carousel-wrapper{0 1.3em;}
 .responsive-layout-mobile #carousel-camion .es-nav span.es-nav-prev:hover,
 .responsive-layout-mobile #carousel-camion .es-nav span.es-nav-prev:active,
-.responsive-layout-mobile #carousel-camion .es-nav span.es-nav-prev.active{background-position: 0 -179px;}
-.responsive-layout-mobile #carousel-camion .es-nav span.es-nav-next:hover,
+.responsive-layout-mobile #carousel-camion .es-nav span.es-nav-prev.active{background-position: 0 -179px;}*/
+
+/*.responsive-layout-mobile #carousel-camion .es-nav span.es-nav-next:hover,
 .responsive-layout-mobile #carousel-camion .es-nav span.es-nav-next:active,
-.responsive-layout-mobile #carousel-camion .es-nav span.es-nav-next.active{background-position: 0 -45px;}
+.responsive-layout-mobile #carousel-camion .es-nav span.es-nav-next.active{background-position: 0 -45px;}*/
 
 .responsive-layout-mobile .mapa-sitio-render {
     border-radius: 0.5em 0.5em 0.5em 0.5em;
