@@ -12,9 +12,9 @@
 
         posicion1 = posicion.replace('/', "");
         posicion2 = posicion1.replace('/', ",");
-        var txt = new String(posicion2);
-        console.log(txt);
-        Drupal.gmap.getMap('gmap-auto1map-gmap0').map.setCenter(new google.maps.LatLng(txt));
+
+
+        Drupal.gmap.getMap('gmap-auto1map-gmap0').map.setCenter(new google.maps.LatLng(posicion2));
         Drupal.gmap.getMap('gmap-auto1map-gmap0').map.setZoom(10);
 
 
