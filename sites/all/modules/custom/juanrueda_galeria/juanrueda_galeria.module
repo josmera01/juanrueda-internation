@@ -137,7 +137,7 @@ function _view_galeria_eslasticslider($nid, $settings) {
   $id = array();
 
   drupal_add_js(array('ids' => $id[$node->vid] = $node->vid), 'setting');
--'. $node->vid .'
+
 
 
   $js =  "
