@@ -142,7 +142,7 @@ function _view_galeria_eslasticslider($nid, $settings) {
 
   $js =  "
   jQuery(document).ready(function () {
-   jQuery('#carousel- ." $node->vid ". ).elastislide({
+   jQuery('#carousel- .\" $node->vid \". ).elastislide({
         imageW    : 180,
         minItems  : Drupal.settings.galeria.view_mode,
         margin    : 2,
