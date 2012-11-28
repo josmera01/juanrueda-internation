@@ -137,12 +137,12 @@ function _view_galeria_eslasticslider($nid, $settings) {
   $id = array();
 
   drupal_add_js(array('ids' => $id[$node->vid] = $node->vid), 'setting');
-
+-'. $node->vid .'
 
 
   $js =  "
   jQuery(document).ready(function () {
-   jQuery('#carousel' ).elastislide({
+   jQuery('#carousel-1' ).elastislide({
         imageW    : 180,
         minItems  : Drupal.settings.galeria.view_mode,
         margin    : 2,
@@ -156,7 +156,7 @@ function _view_galeria_eslasticslider($nid, $settings) {
   $content['galeria']= array(
      '#theme' => 'links',
      '#links' => $links,
-     '#prefix' => '<div id="carousel" class="es-carousel-wrapper"><div class="es-carousel">',
+     '#prefix' => '<div id="carousel-1" class="es-carousel-wrapper"><div class="es-carousel">',
      '#suffix' => '</div></div>',
     );
 
