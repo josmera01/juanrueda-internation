@@ -98,6 +98,12 @@
 	margin-right: 5px;
 }
 
+.responsive-layout-narrow #block-juanrueda-widget-youtube-widget-youtube-custom h2.block-title{height: 2em;}
+.responsive-layout-narrow #block-juanrueda-widget-youtube-widget-youtube-custom .youtube-contenido-header{
+	width: 60%;
+	margin-bottom: 2px;
+}
+
 /******** Slider ********/
 
 .responsive-layout-narrow .theme-dark .nivo-caption{padding: 5% 2em;}
