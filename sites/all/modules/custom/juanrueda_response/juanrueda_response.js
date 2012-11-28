@@ -16,7 +16,7 @@
 
 
         Drupal.gmap.getMap('gmap-auto1map-gmap0').map.setCenter(new google.maps.LatLng(new_text[0], new_text[1]));
-        Drupal.gmap.getMap('gmap-auto1map-gmap0').map.setZoom(10);
+        Drupal.gmap.getMap('gmap-auto1map-gmap0').map.setZoom(15);
 
 
         return false;
