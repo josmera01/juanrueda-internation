@@ -111,7 +111,7 @@ function _view_galeria_eslasticslider($nid, $settings) {
 
   drupal_add_library('juanrueda_libraries', 'elastislide');
   $node = node_load($nid);
-  dpm($node);
+
   foreach ($node->field_imagen_galeria[LANGUAGE_NONE] as $key => $value) {
     $url = image_style_url('large', $value['uri']);
 
@@ -134,6 +134,9 @@ function _view_galeria_eslasticslider($nid, $settings) {
 
   drupal_add_js($path . '/js/juanrueda_galeria.js');
   drupal_add_js(array('galeria' => $settings), 'setting');
+  $id = array();
+
+  drupal_add_js(array('ids' => $id[$node->vid] = $node->vid), 'setting');
 
   $content['galeria']= array(
      '#theme' => 'links',
