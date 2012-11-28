@@ -17,7 +17,7 @@
         console.log(new_text[1]);
         var i = new_text[0] + ',' + new_text[1];
         alert(i)
-        Drupal.gmap.getMap('gmap-auto1map-gmap0').map.setCenter(new google.maps.LatLng(14.984669,-89.567083));
+        Drupal.gmap.getMap('gmap-auto1map-gmap0').map.setCenter(new google.maps.LatLng('14.984669,-89.567083'));
         Drupal.gmap.getMap('gmap-auto1map-gmap0').map.setZoom(10);
 
 
