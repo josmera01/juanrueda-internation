@@ -138,6 +138,21 @@ function _view_galeria_eslasticslider($nid, $settings) {
 
   drupal_add_js(array('ids' => $id[$node->vid] = $node->vid), 'setting');
 
+
+
+  $js =  "
+  jQuery(document).ready(function () {
+   $('#carousel').elastislide({
+        imageW    : 180,
+        minItems  : Drupal.settings.galeria.view_mode,
+        margin    : 2,
+        border    : 0,
+        current   : 12
+      });
+  }
+  });
+  ";
+  drupal_add_js($js, 'inline');
   $content['galeria']= array(
      '#theme' => 'links',
      '#links' => $links,
