@@ -1012,7 +1012,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 	margin-right: 10px;
 }
 
-.view-mapa-contacto.view-display-id-page .view-content{
+.view-mapa-contacto.view-display-id-page>.view-content{
 	border: 10px solid #ffffff;
 	border-radius: 0.5em;
 }
