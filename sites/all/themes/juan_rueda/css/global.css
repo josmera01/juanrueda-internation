@@ -1012,13 +1012,18 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 	margin-right: 10px;
 }
 
-.responsive-layout-wide .view-mapa-contacto.view-display-id-page .attachment{width: 380px}
-.responsive-layout-normal .view-mapa-contacto.view-display-id-page .attachment{width: 300px}
-.responsive-layout-narrow .view-mapa-contacto.view-display-id-page .attachment{width: 220px;}
+.view-mapa-contacto.view-display-id-page .attachment{
+	border: 10px solid #ffffff;
+	border-radius: 0.5em;
+}
 
-.responsive-layout-wide .view-mapa-contacto.view-display-id-page .view-content{width: 780px;}
-.responsive-layout-normal .view-mapa-contacto.view-display-id-page .view-content{width: 620px;}
-.responsive-layout-narrow .view-mapa-contacto.view-display-id-page .view-content{width: 460px;}
+.responsive-layout-wide .view-mapa-contacto.view-display-id-page .attachment{width: 360px}
+.responsive-layout-normal .view-mapa-contacto.view-display-id-page .attachment{width: 280px}
+.responsive-layout-narrow .view-mapa-contacto.view-display-id-page .attachment{width: 200px;}
+
+.responsive-layout-wide .view-mapa-contacto.view-display-id-page .view-content{width: 760px;}
+.responsive-layout-normal .view-mapa-contacto.view-display-id-page .view-content{width: 600px;}
+.responsive-layout-narrow .view-mapa-contacto.view-display-id-page .view-content{width: 440px;}
 
 /**********************************MASONRY VIEWS - BLOQUES GRISES***********************************/
 
