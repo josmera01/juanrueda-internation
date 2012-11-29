@@ -917,7 +917,7 @@ form .form-submit:hover,
     font-weight: 300;
 }
 
-/*.view-mapa-contacto .attachment,
+.view-mapa-contacto .attachment,
 .view-mapa-contacto .view-content {float: left;}
 
 
@@ -966,7 +966,7 @@ form .form-submit:hover,
 .page-contacte-su-distribuidor #block-system-main {
     float: left;
     width: 100%;
-}*/
+}
 
 .view-mapa-contacto .attachment h3 {
 	background-color: #B3B3B3;
@@ -1006,6 +1006,7 @@ form .form-submit:hover,
 .view-mapa-contacto .gmnoprint {color: #000000;}
 .view-mapa-contacto .gmnoprint a{color: #133156;}
 
+/*
 .view-mapa-contacto.view-display-id-page .attachment,
 .view-mapa-contacto.view-display-id-page .view-content{
 	display: inline;
@@ -1029,7 +1030,7 @@ form .form-submit:hover,
 .responsive-layout-narrow .view-mapa-contacto.view-display-id-page .view-content{width: 440px;}
 
 #gmap-auto1map-gmap0{width: 100% !important;}
-
+*/
 
 
 /**********************************MASONRY VIEWS - BLOQUES GRISES***********************************/
