@@ -909,6 +909,7 @@ form .form-submit:hover,
     background-image: -ms-linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#194E99', endColorstr='#2E78C1',GradientType=0 );
 }
+
 #webform-component-nombre-completo, #webform-component-correo-electronico {margin-right: 20px;}
 #webform-component-correo-electronico {clear: left;}
 
@@ -965,12 +966,15 @@ form .form-submit:hover,
     border-radius: 5px;
     width: 98% !important;
 }
+
+*/
+
 .page-contacte-su-distribuidor #block-system-main {
     float: left;
     width: 100%;
 }
 
-*/
+
 
 .view-mapa-contacto .attachment h3 {
 	background-color: #B3B3B3;
