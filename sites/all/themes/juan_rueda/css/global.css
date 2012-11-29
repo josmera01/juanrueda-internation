@@ -962,6 +962,10 @@ form .form-submit:hover,
 
 .view-mapa-contacto .attachment .views-field-php {margin-right: 5%;}
 
+.view-mapa-contacto .views-exposed-form .views-exposed-widget,
+.view-mapa-contacto .views-exposed-form .views-exposed-widget label,
+.view-mapa-contacto .views-exposed-form .views-exposed-widget .views-widget {float: left;}
+
 /*
 .view-mapa-contacto  .gmap-control {
     border: 9px solid #FFFFFF;
