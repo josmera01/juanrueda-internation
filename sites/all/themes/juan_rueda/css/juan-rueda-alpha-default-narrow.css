@@ -87,6 +87,9 @@
 	text-align: center;
 }
 
+
+/**   Testing
+
 .responsive-layout-narrow .view-mapa-contacto .view-content{width: 460px;} 
 
 .responsive-layout-narrow .view-mapa-contacto .views-field-php a,
@@ -97,6 +100,8 @@
 .responsive-layout-narrow .view-mapa-contacto .attachment .views-field-php {
 	margin-right: 5px;
 }
+
+   Testing **/
 
 .responsive-layout-narrow #block-webform-client-block-1 {padding: 0.5em 1em;}
 
