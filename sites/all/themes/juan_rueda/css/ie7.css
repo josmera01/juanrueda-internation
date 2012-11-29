@@ -63,7 +63,10 @@ body {min-width: 960px;}
 }
 #block-menu-menu-menu-secciones-principales .content ul li a {width: 100%}
 
-#block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu {height: 35px;}
+#block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu {
+	height: 35px;
+	padding: 0 20px;
+}
 
 #block-menu-menu-menu-secciones-principales .content ul li a span.texto{
 	padding: 0 15px;
