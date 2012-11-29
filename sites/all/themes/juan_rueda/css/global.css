@@ -19,7 +19,7 @@ iframe{max-width: 100%}
     font-weight: 300;
 }
 
-.node-article img, .node-evento img, zone-postscript img{
+.node-article img, .node-evento img, #zone-postscript img{
 	max-width: 100%;
 	height: auto;
 }
