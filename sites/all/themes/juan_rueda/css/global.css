@@ -1001,6 +1001,25 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .view-mapa-contacto .gmnoprint a{color: #133156;}
 
 */
+
+
+.view-mapa-contacto.view-display-id-page .attachment,
+.view-mapa-contacto.view-display-id-page .view-content{
+	display: inline;
+	float: left;
+	position: relative;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.responsive-layout-wide .view-mapa-contacto.view-display-id-page .attachment{width: 380px}
+.responsive-layout-normal .view-mapa-contacto.view-display-id-page .attachment{width: 300px}
+.responsive-layout-narrow .view-mapa-contacto.view-display-id-page .attachment{width: 220px;}
+
+.responsive-layout-wide .view-mapa-contacto.view-display-id-page .view-content{width: 780px;}
+.responsive-layout-normal .view-mapa-contacto.view-display-id-page .view-content{width: 620px;}
+.responsive-layout-narrow .view-mapa-contacto.view-display-id-page .view-content{width: 460px;}
+
 /**********************************MASONRY VIEWS - BLOQUES GRISES***********************************/
 
 .front #region-content,
