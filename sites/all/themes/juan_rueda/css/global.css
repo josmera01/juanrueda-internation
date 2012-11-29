@@ -294,8 +294,8 @@ li.flag-bookmarks{
 /***************************************SLIDER***********************************************/
 
 #block-views-featured-slider-block img{
-	max-width: 100%;
-	height: auto;
+	max-width: 100% !important;
+	height: auto !important;
 }
 
 .theme-dark .nivo-caption{
