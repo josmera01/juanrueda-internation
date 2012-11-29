@@ -20,11 +20,19 @@ body {min-width: 960px;}
 .container-12 .grid-11 {width: 860px;}
 .container-12 .grid-12 {width: 940px;}
 
-.nivo-caption {
-	height: 77.5% !important;
-	width: 22% !important;
+.theme-dark .nivo-caption{
+	padding: 5% 2em;
+	*padding-left:1em;
+	*padding-right:1em;
+	width: 45%;
+	left: 55%;
+	*width:40%
 }
+
+.theme-dark .nivo-caption h1 p{font-size: 1.6em;}
+
 .nivo-controlNav a {*float: left !important;}
+
 #block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu{*width: 70% !important;}
 #zone-footer .block {margin-right: 0 !important;}
 .select-jr {
@@ -56,10 +64,7 @@ body {min-width: 960px;}
 #block-menu-menu-menu-secciones-principales .content ul li a {width: 100%}
 
 #block-menu-menu-menu-secciones-principales .content ul li a span.titulo_menu {height: 35px;}
-#block-menu-menu-menu-secciones-principales .content ul li.first a span.titulo_menu {
-	padding-top: 10px !important;
-	height: 25px;
-}
+
 #block-menu-menu-menu-secciones-principales .content ul li a span.texto{
 	padding: 0 15px;
 	font-size: 0.9em;
@@ -87,8 +92,25 @@ body {min-width: 960px;}
 	font-size: 1em;
 	margin-bottom: 0;
 }
-#block-webform-client-block-1 input[type='text'] {width: 95%!important;}
+#block-webform-client-block-1 input[type='text'] {width: 95% !important;}
 .front #zone-postscript {
 	margin-bottom: 30px;
 	overflow: hidden;
 }
+.logo-img {
+	margin-bottom: 0;
+	margin-top: 4.5%;
+}
+.views-processed.nivo-imageLink {z-index:2;}
+
+.branding-data {overflow: hidden;}
+
+.branding-data h2.site-name {*margin-left:10em;}
+
+.views-nivo-slider-view a.nivo-imageLink { background-color:#fff; filter:alpha(opacity=0);}
+
+
+#block-juanrueda-widget-youtube-widget-youtube-custom img{max-width: auto;}
+
+.select-jr{width: 90%;}
+select{width: 100% !important;}

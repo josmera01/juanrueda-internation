@@ -33,6 +33,11 @@
 }
 .responsive-layout-normal #block-juanrueda-widget-youtube-widget-youtube-custom .content div{margin-left: 0.5em;}
 
+.responsive-layout-normal .theme-dark .nivo-caption{padding: 5% 2em;}
+/*.responsive-layout-normal .theme-dark .nivo-caption h1 p{font-size: 190%;}*/
+
+
+
 /******** Footer *******/
 
 .twitter-follow-small, .fb_edge_widget_with_comment, .mobile-subscribe-youtube{display: none;}
@@ -40,7 +45,7 @@
 .responsive-layout-normal #zone-footer .block#block-menu-menu-paises {width: 33%;}
 .responsive-layout-normal #zone-footer .block#block-block-13{
 	width: 14%;
-	margin: 0;
+	margin: 1% 0;
 }
 
 .responsive-layout-normal #block-block-13.block ul{width: 65%;}

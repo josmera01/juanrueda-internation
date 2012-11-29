@@ -8,9 +8,11 @@
       $('#carousel-historico').elastislide({
         imageW    : 250,
         minItems  : 4,
-        margin    : 5,
-        border    : 0,
-        current   : 12
+        margin    : 20,
+        border    : 1,
+        current   : 1,
+
+
       });
 
 

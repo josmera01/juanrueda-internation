@@ -4,6 +4,24 @@
 
   Drupal.behaviors.juan_rueda_respnse = {
     attach: function(context) {
+
+      jQuery("a.mapa-google").once('mapa-link').click(function() {
+        var url = $(this).attr('href');
+
+        posicion = url.replace(/\//gi, "/");
+
+        posicion1 = posicion.replace('/', "");
+        posicion2 = posicion1.replace('/', ",");
+        new_text = posicion2.split(',');
+
+
+        Drupal.gmap.getMap('gmap-auto1map-gmap0').map.setCenter(new google.maps.LatLng(new_text[0], new_text[1]));
+        Drupal.gmap.getMap('gmap-auto1map-gmap0').map.setZoom(15);
+
+
+        return false;
+      });
+
       $('body').bind('responsivelayout', function(e, d) {
         if($(this).hasClass("responsive-layout-mobile")) {
           //menu principal
@@ -46,7 +64,10 @@
 
 
         }
+
       });
+
+
   }
 }
 })(jQuery);
