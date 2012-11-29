@@ -912,8 +912,8 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     font-size: 1.5em;
     font-weight: 300;
 }
-.view-mapa-contacto .attachment {float: left;}
-.view-mapa-contacto .view-content {}
+.view-mapa-contacto .attachment,
+.view-mapa-contacto .view-content {float: left;}
 .view-mapa-contacto .attachment .view{
     background: none repeat scroll 0 0 #EEEEEE;
     border-radius: 5px;
