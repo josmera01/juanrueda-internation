@@ -465,10 +465,18 @@ li.flag-bookmarks{
 
 #block-juanrueda-galeria-camiones-galeria-camiones{margin: 2em 0 1em 0;}
 
+.field-name-field-galeria-usos-camion
+.field-name-field-galeria-ref
+
+.field-name-field-galeria-usos-camion li img,
+.field-name-field-galeria-ref li img,
 #carousel-camion li img{
     border-top-right-radius: 0.5em;
     border-top-left-radius: 0.5em;
 }
+
+.field-name-field-galeria-usos-camion li a span,
+.field-name-field-galeria-ref li a span,
 #carousel-camion li a span{
     background: none repeat scroll 0 0 #DBDBDB;
     border-bottom-left-radius: 0.5em;
@@ -479,13 +487,20 @@ li.flag-bookmarks{
     padding: 5px 0;
     text-align: center;
 }
+.field-name-field-galeria-usos-camion li a:hover span, .field-name-field-galeria-usos-camion li a.active span,
+.field-name-field-galeria-ref li a:hover span, .field-name-field-galeria-ref li a.active span,
 #carousel-camion li a:hover span, #carousel-camion li a.active span {
     background: #E55500;
     color: #FFFFFF;
 }
+
+.field-name-field-galeria-usos-camion es-carousel-wrapper, .field-name-field-galeria-usos-camion es-carousel,
+.field-name-field-galeria-ref es-carousel-wrapper, .field-name-field-galeria-ref es-carousel,
 #carousel-camion.es-carousel-wrapper, #carousel-camion .es-carousel,
 #carousel.es-carousel-wrapper, #carousel .es-carousel{background: none;}
 
+.field-name-field-galeria-usos-camion es-carousel-wrapper,
+.field-name-field-galeria-ref es-carousel-wrapper,
 #carousel-camion.es-carousel-wrapper{padding: 0 2.1em;}
 
 .responsive-layout-wide #carousel-camion.es-carousel-wrapper,
@@ -507,8 +522,6 @@ li.flag-bookmarks{
 
 .responsive-layout-wide #carousel-camion ul li.last,
 .responsive-layout-normal #carousel-camion ul li.last{margin-right: 0 !important;}
-
-
 
 .es-carousel ul li a img {
     display: block;
