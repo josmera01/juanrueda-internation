@@ -908,6 +908,100 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 #webform-component-nombre-completo, #webform-component-correo-electronico {margin-right: 20px;}
 #webform-component-correo-electronico {clear: left;}
 
+.view-mapa-contacto h2{
+    font-size: 1.5em;
+    font-weight: 300;
+}
+.view-mapa-contacto .attachment, .view-mapa-contacto .view-content {float: left;}
+.view-mapa-contacto .attachment .view{
+    background: none repeat scroll 0 0 #EEEEEE;
+    border-radius: 5px;
+    color: #252526;
+    font-size: 1em;
+}
+.view-mapa-contacto .attachment .views-field-field-ciudad div{
+    font-size: 1.06em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.view-mapa-contacto .views-row {
+    font-size: 0.85em;
+    margin: 1.5em 1em;
+}
+.view-mapa-contacto .view-content {margin: 0 10px;}
+
+.view-mapa-contacto .view-mapa-contacto .view-content {
+    height: 375px;
+    margin-left: 0;
+    overflow: auto;
+    width: 100% !important;
+    margin: 0;
+}
+.view-mapa-contacto .view-mapa-contacto ul, .view-mapa-contacto .view-mapa-contacto li {
+	overflow: hidden;
+	list-style: none;
+}
+.view-mapa-contacto .attachment .views-field-coordinates, .view-mapa-contacto .attachment .views-field-php  {
+    float: left;
+    margin-top: 0.5em;
+}
+.view-mapa-contacto .attachment .views-field-coordinates a,
+.view-mapa-contacto .attachment .views-field-php a {float: none;}
+
+.view-mapa-contacto .attachment .views-field-php {margin-right: 5%;}
+.view-mapa-contacto  .gmap-control {
+    border: 9px solid #FFFFFF;
+    border-radius: 5px;
+    width: 98% !important;
+}
+.page-contacte-su-distribuidor #block-system-main {
+    float: left;
+    width: 100%;
+}
+.view-mapa-contacto .attachment h3 {
+	background-color: #B3B3B3;
+    background-image: linear-gradient(bottom, #B3B3B3 16%, #CFCFCF 58%);
+    background-image: -o-linear-gradient(bottom, #B3B3B3 16%, #CFCFCF 58%);
+    background-image: -moz-linear-gradient(bottom, #B3B3B3 16%, #CFCFCF 58%);
+    background-image: -webkit-linear-gradient(bottom, #B3B3B3 16%, #CFCFCF 58%);
+    background-image: -ms-linear-gradient(bottom, #B3B3B3 16%, #CFCFCF 58%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B3B3B3', endColorstr='#CFCFCF',GradientType=0 );
+    border-radius: 5px 5px 0 0;
+    background-color: #B3B3B3;
+    border-radius: 5px 5px 0 0;
+    color: #555555;
+    font-size: 1.1em;
+    font-weight: normal;
+    margin: 0;
+    padding: 4% 0 4% 8%;
+}
+.view-mapa-contacto .views-field-php a{
+    background: url("../images/ico-contactar-mini.png") no-repeat 5px center transparent;
+}
+.view-mapa-contacto .views-field-coordinates a{
+    background: url("../images/ico-ubicar-mapa.png") no-repeat 5px center transparent;
+}
+.view-mapa-contacto .views-field-php span,
+.view-mapa-contacto .views-field-coordinates span{
+    padding: 0 !important;
+    float: left !important;
+}
+.view-mapa-contacto .views-field-php a,
+.view-mapa-contacto .views-field-coordinates a{
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 8px 15px 10px 25px;
+    *display: inline;
+    *zoom: 1;
+}
+
+.view-mapa-contacto .gmap-processed > div > div {
+	left: 190px !important;
+}
+
+.view-mapa-contacto .gmnoprint {color: #000000;}
+.view-mapa-contacto .gmnoprint a{color: #133156;}
 
 
 /**********************************MASONRY VIEWS - BLOQUES GRISES***********************************/
