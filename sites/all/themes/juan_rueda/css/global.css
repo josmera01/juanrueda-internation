@@ -1,4 +1,4 @@
-@import url("provicional.css");
+/*@import url("provicional.css");*/
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
@@ -913,8 +913,8 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     font-size: 1.5em;
     font-weight: 300;
 }
-/*.view-mapa-contacto .attachment{float: left; }*/
-.view-mapa-contacto .view-content {float: left;}
+.view-mapa-contacto .attachment{float: left; }
+/*.view-mapa-contacto .view-content {float: left;}*/
 .view-mapa-contacto .attachment .view{
     background: none repeat scroll 0 0 #EEEEEE;
     border-radius: 5px;
