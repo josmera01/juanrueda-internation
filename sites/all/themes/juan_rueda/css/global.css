@@ -1,4 +1,4 @@
-/*@import url("provicional.css");*/
+@import url("provicional.css");
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
@@ -905,7 +905,6 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     background-image: -ms-linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#194E99', endColorstr='#2E78C1',GradientType=0 );
 }
-
 #webform-component-nombre-completo, #webform-component-correo-electronico {margin-right: 20px;}
 #webform-component-correo-electronico {clear: left;}
 
@@ -913,7 +912,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     font-size: 1.5em;
     font-weight: 300;
 }
-.view-mapa-contacto .attachment{float: left; }
+.view-mapa-contacto .attachment, .view-mapa-contacto .view-content {float: left;}
 .view-mapa-contacto .attachment .view{
     background: none repeat scroll 0 0 #EEEEEE;
     border-radius: 5px;
@@ -955,7 +954,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     border: 9px solid #FFFFFF;
     border-radius: 5px;
     width: 98% !important;
-
+}
 .page-contacte-su-distribuidor #block-system-main {
     float: left;
     width: 100%;
