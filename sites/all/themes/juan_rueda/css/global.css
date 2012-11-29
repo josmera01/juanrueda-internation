@@ -940,7 +940,7 @@ form .form-submit:hover,
 }
 .view-mapa-contacto .view-content {margin: 0 10px;}
 
-.view-mapa-contacto .view-mapa-contacto .view-content {
+.view-mapa-contacto.view-display-id-page .attachment .view-content {
     height: 375px;
     margin-left: 0;
     overflow: auto;
@@ -1014,7 +1014,7 @@ form .form-submit:hover,
 
 
 .view-mapa-contacto.view-display-id-page .attachment,
-.view-mapa-contacto.view-display-id-page .view-content{
+.view-mapa-contacto.view-display-id-page>.view-content{
 	display: inline;
 	float: left;
 	position: relative;
