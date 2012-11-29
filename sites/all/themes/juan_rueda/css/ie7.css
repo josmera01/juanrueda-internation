@@ -85,7 +85,7 @@ body {min-width: 960px;}
 #region-footer-first #block-menu-menu-paises.block ul {padding: 0 0 0 10%!important;}
 #region-footer-first #block-menu-menu-paises.block ul a {
 	display: block;
-	padding-left: 20%;
+	*padding-left: 20%;
 	width: 100%;
 }
 #block-search-form .form-submit {*color: transparent;}
