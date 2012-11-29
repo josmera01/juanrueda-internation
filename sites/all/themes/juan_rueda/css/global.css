@@ -996,10 +996,6 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     *zoom: 1;
 }
 
-.view-mapa-contacto .gmap-processed > div > div {
-	left: 190px !important;
-}
-
 .view-mapa-contacto .gmnoprint {color: #000000;}
 .view-mapa-contacto .gmnoprint a{color: #133156;}
 
