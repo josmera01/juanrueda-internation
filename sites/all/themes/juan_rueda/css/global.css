@@ -852,7 +852,7 @@ background-position: 0px -41px;
 
 /***************************************CONTACTO***********************************************/
 
-#block-webform-client-block-62 h2.node-title{display: none;}
+/*#block-webform-client-block-62 h2.node-title{display: none;}
 #block-webform-client-block-62 .field-name-body{position: relative;}
 #block-webform-client-block-62 p.obligatory {color: #FF7B00;}
 #block-webform-client-block-62 p.intro-contact-form{
@@ -1000,7 +1000,7 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .view-mapa-contacto .gmnoprint {color: #000000;}
 .view-mapa-contacto .gmnoprint a{color: #133156;}
 
-
+*/
 /**********************************MASONRY VIEWS - BLOQUES GRISES***********************************/
 
 .front #region-content,
