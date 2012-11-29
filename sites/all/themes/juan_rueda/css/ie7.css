@@ -114,3 +114,11 @@ body {min-width: 960px;}
 
 .select-jr{width: 90%;}
 select{width: 100% !important;}
+
+#block-webform-client-block-62 p.intro-contact-form{
+	position: relative;
+	top: 0;
+	left: 0;
+	max-width: inherit;
+}
+
