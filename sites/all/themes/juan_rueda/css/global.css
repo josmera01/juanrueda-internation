@@ -488,14 +488,24 @@ li.flag-bookmarks{
 
 #carousel-camion.es-carousel-wrapper{padding: 0 2.1em;}
 
-.responsive-layout-wide #carousel-camion.es-carousel-wrapper{padding: 0;}
-.responsive-layout-wide #carousel-camion .es-nav {display: none;}
-.responsive-layout-wide #carousel-camion ul{
+.responsive-layout-wide #carousel-camion.es-carousel-wrapper,
+.responsive-layout-normal #carousel-camion.es-carousel-wrapper {padding: 0;}
+
+.responsive-layout-wide #carousel-camion .es-nav,
+.responsive-layout-normal #carousel-camion .es-nav {display: none;}
+
+.responsive-layout-wide #carousel-camion ul,
+.responsive-layout-normal #carousel-camion ul{
     width: 100% !important;
     text-align: center;
 }
-.responsive-layout-wide #carousel-camion ul li{margin-right: 1.7% !important;}
-.responsive-layout-wide #carousel-camion ul li.last{margin-right: 0 !important;}
+.responsive-layout-wide #carousel-camion ul li,
+.responsive-layout-normal #carousel-camion ul li{margin-right: 1.7% !important;}
+
+.responsive-layout-wide #carousel-camion ul li.last,
+.responsive-layout-normal #carousel-camion ul li.last{margin-right: 0 !important;}
+
+
 
 .es-carousel ul li a img {
     display: block;
