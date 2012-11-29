@@ -7,7 +7,7 @@
 
       $('#carousel-historico').elastislide({
         imageW    : 250,
-        minItems  : 4,
+        minItems  : 1,
         margin    : 20,
         border    : 1,
         current   : 1,
