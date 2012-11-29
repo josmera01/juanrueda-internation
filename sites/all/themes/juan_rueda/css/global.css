@@ -921,13 +921,15 @@ form .form-submit:hover,
 .view-mapa-contacto .attachment,
 .view-mapa-contacto .view-content {float: left;}
 
-
 .view-mapa-contacto .attachment .view{
     background: none repeat scroll 0 0 #EEEEEE;
     border-radius: 5px;
     color: #252526;
     font-size: 1em;
 }
+.view-mapa-contacto .attachment .view .view-content{background:#EEEEEE;}
+
+
 .view-mapa-contacto .attachment .views-field-field-ciudad div{
     font-size: 1.06em;
     font-weight: bold;
@@ -966,7 +968,6 @@ form .form-submit:hover,
     border-radius: 5px;
     width: 98% !important;
 }
-
 */
 
 .page-contacte-su-distribuidor #block-system-main {
