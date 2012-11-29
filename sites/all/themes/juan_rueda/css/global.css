@@ -972,6 +972,7 @@ form .form-submit:hover,
 
 .view-mapa-contacto .views-exposed-form .views-exposed-widget label {margin: 0.5em 1em;}
 .view-mapa-contacto .views-exposed-form .views-exposed-widget .views-widget {margin-right: 2em;}
+.view-mapa-contacto .views-exposed-form .views-exposed-widget .form-submit{margin: 0;}
 
 /*
 .view-mapa-contacto  .gmap-control {
