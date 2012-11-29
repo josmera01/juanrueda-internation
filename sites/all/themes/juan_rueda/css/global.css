@@ -19,6 +19,11 @@ iframe{max-width: 100%}
     font-weight: 300;
 }
 
+.node-article img, .node-evento img, zone-postscript img{
+	max-width: 100%;
+	height: auto;
+}
+
 ul.tabs.primary{margin-bottom: 1.5em;}
 
 .field-type-image{text-align: center;}
