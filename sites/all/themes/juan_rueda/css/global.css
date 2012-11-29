@@ -1025,6 +1025,10 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .responsive-layout-normal .view-mapa-contacto.view-display-id-page .view-content{width: 600px;}
 .responsive-layout-narrow .view-mapa-contacto.view-display-id-page .view-content{width: 440px;}
 
+#gmap-auto1map-gmap0{width: 100% !important;}
+
+
+
 /**********************************MASONRY VIEWS - BLOQUES GRISES***********************************/
 
 .front #region-content,
