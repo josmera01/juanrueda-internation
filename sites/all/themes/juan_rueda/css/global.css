@@ -293,7 +293,8 @@ li.flag-bookmarks{
 
 /***************************************SLIDER***********************************************/
 
-#block-views-featured-slider-block img{
+#block-views-featured-slider-block img,
+.field-name-field-slider-camion img{
 	max-width: 100% !important;
 	height: auto !important;
 }
