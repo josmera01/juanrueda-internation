@@ -916,6 +916,7 @@ form .form-submit:hover,
 .view-mapa-contacto h2{
     font-size: 1.5em;
     font-weight: 300;
+    margin-bottom: 1em;
 }
 
 .view-mapa-contacto .attachment,
@@ -962,9 +963,15 @@ form .form-submit:hover,
 
 .view-mapa-contacto .attachment .views-field-php {margin-right: 5%;}
 
+
+.view-mapa-contacto .view-filters {margin-bottom: 1.5em;}
+
 .view-mapa-contacto .views-exposed-form .views-exposed-widget,
 .view-mapa-contacto .views-exposed-form .views-exposed-widget label,
 .view-mapa-contacto .views-exposed-form .views-exposed-widget .views-widget {float: left;}
+
+.view-mapa-contacto .views-exposed-form .views-exposed-widget label {margin: 0.5em 1em;}
+.view-mapa-contacto .views-exposed-form .views-exposed-widget .views-widget {margin-right: 2em;}
 
 /*
 .view-mapa-contacto  .gmap-control {
