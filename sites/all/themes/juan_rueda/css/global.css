@@ -852,7 +852,7 @@ background-position: 0px -41px;
 
 /***************************************CONTACTO***********************************************/
 
-/*#block-webform-client-block-62 h2.node-title{display: none;}
+#block-webform-client-block-62 h2.node-title{display: none;}
 #block-webform-client-block-62 .field-name-body{position: relative;}
 #block-webform-client-block-62 p.obligatory {color: #FF7B00;}
 #block-webform-client-block-62 p.intro-contact-form{
@@ -880,6 +880,7 @@ background-position: 0px -41px;
 #block-webform-client-block-62 .webform-component-textarea, #block-webform-client-block-62 #edit-actions {width: 98%;}
 #block-webform-client-block-62 #edit-actions {overflow: hidden;}
 #block-webform-client-block-62 label {padding-left: 10px;}
+
 .marker, .form-required {color: #FF7B00;}
 
 .pager li.pager-next{
@@ -895,7 +896,10 @@ background-position: 0px -41px;
     overflow: hidden;
     padding: 20px 0;
 }
-form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-mapa-contacto .attachment .views-field-coordinates span:hover,
+
+form .form-submit:hover, 
+.responsive-layout-mobile .mapa-sitio-render, 
+.view-mapa-contacto .attachment .views-field-coordinates span:hover,
 .view-mapa-contacto .attachment .views-field-php span:hover {
 	background-color: #194E99;
     background-image: linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
@@ -912,8 +916,11 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     font-size: 1.5em;
     font-weight: 300;
 }
-.view-mapa-contacto .attachment,
+
+/*.view-mapa-contacto .attachment,
 .view-mapa-contacto .view-content {float: left;}
+
+
 .view-mapa-contacto .attachment .view{
     background: none repeat scroll 0 0 #EEEEEE;
     border-radius: 5px;
@@ -959,7 +966,8 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 .page-contacte-su-distribuidor #block-system-main {
     float: left;
     width: 100%;
-}
+}*/
+
 .view-mapa-contacto .attachment h3 {
 	background-color: #B3B3B3;
     background-image: linear-gradient(bottom, #B3B3B3 16%, #CFCFCF 58%);
@@ -977,17 +985,15 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
     margin: 0;
     padding: 4% 0 4% 8%;
 }
-.view-mapa-contacto .views-field-php a{
-    background: url("../images/ico-contactar-mini.png") no-repeat 5px center transparent;
-}
-.view-mapa-contacto .views-field-coordinates a{
-    background: url("../images/ico-ubicar-mapa.png") no-repeat 5px center transparent;
-}
+.view-mapa-contacto .views-field-php a{background: url("../images/ico-contactar-mini.png") no-repeat 5px center transparent;}
+.view-mapa-contacto .views-field-coordinates a{background: url("../images/ico-ubicar-mapa.png") no-repeat 5px center transparent;}
+
 .view-mapa-contacto .views-field-php span,
 .view-mapa-contacto .views-field-coordinates span{
     padding: 0 !important;
     float: left !important;
 }
+
 .view-mapa-contacto .views-field-php a,
 .view-mapa-contacto .views-field-coordinates a{
     color: #FFFFFF;
@@ -999,9 +1005,6 @@ form .form-submit:hover, .responsive-layout-mobile .mapa-sitio-render, .view-map
 
 .view-mapa-contacto .gmnoprint {color: #000000;}
 .view-mapa-contacto .gmnoprint a{color: #133156;}
-
-*/
-
 
 .view-mapa-contacto.view-display-id-page .attachment,
 .view-mapa-contacto.view-display-id-page .view-content{
