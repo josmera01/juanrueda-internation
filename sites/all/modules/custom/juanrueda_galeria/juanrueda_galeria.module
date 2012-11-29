@@ -120,7 +120,7 @@ function _view_galeria_eslasticslider($nid, $settings) {
         'title' => $value['title'],
         'alt' => $value['alt'],
 
-        )),
+        ));
 
      $links[] = array(
       'title' => '<span>' . $value['alt'] .'</span>' . $imagen_render,
