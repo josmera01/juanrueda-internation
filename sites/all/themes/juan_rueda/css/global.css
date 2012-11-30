@@ -955,7 +955,7 @@ form .form-submit:hover,
     margin-bottom: 1em;
 }
 
-.view-mapa-contacto .attachment,
+.view-mapa-contacto .attachment{}
 .view-mapa-contacto .view-content {float: left;}
 
 .view-mapa-contacto .attachment .view{
