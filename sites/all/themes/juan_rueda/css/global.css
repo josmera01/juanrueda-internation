@@ -1086,7 +1086,7 @@ form .form-submit:hover,
 .responsive-layout-wide .view-mapa-contacto.view-display-id-page>.view-content{width: 760px;}
 .responsive-layout-normal .view-mapa-contacto.view-display-id-page>.view-content{width: 600px;}
 .responsive-layout-narrow .view-mapa-contacto.view-display-id-page>.view-content{width: 440px;}
-.responsive-layout-mobile .view-mapa-contacto.view-display-id-page>.view-content{width: 100%;float: none;}
+.responsive-layout-mobile .view-mapa-contacto.view-display-id-page>.view-content{width: 96%;float: none;}
 /*
 #gmap-auto1map-gmap0{width: 100% !important;}
 */
