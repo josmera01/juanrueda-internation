@@ -1065,10 +1065,11 @@ form .form-submit:hover,
 .view-mapa-contacto.view-display-id-page .attachment,
 .view-mapa-contacto.view-display-id-page>.view-content{
 	display: inline;
-/*	float: left;*/
+	float: left;
 	position: relative;
 	margin-left: 10px;
 	margin-right: 10px;
+	overflow: hidden;
 }
 
 .view-mapa-contacto.view-display-id-page>.view-content{
