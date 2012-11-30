@@ -996,7 +996,7 @@ form .form-submit:hover,
 }
 .view-mapa-contacto .attachment .views-field-coordinates a,
 .view-mapa-contacto .attachment .views-field-php a {float: none;}
-/*
+
 .view-mapa-contacto .attachment .views-field-php {margin-right: 5%;}
 
 
@@ -1016,7 +1016,7 @@ form .form-submit:hover,
     border-radius: 5px;
     width: 98% !important;
 }
-*//*
+*/
 
 .page-contacte-su-distribuidor #block-system-main {
     float: left;
@@ -1048,7 +1048,7 @@ form .form-submit:hover,
     padding: 0 !important;
     float: left !important;
 }
-
+/*
 .view-mapa-contacto .views-field-php a,
 .view-mapa-contacto .views-field-coordinates a{
     color: #FFFFFF;
