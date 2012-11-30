@@ -48,7 +48,7 @@ function juan_rueda_preprocess_page(&$variables) {
 
   $path = current_path();
   
-  dpm($path);
+
 
   if (drupal_match_path($path, $paths)) {
     //Titulo que salga con tildes
@@ -68,8 +68,9 @@ function juan_rueda_preprocess_page(&$variables) {
   $title = str_replace($caracter[0], "", $title);
 
   $texto_primero = ucwords(strtolower($caracter[0]));
-
+   if ($path != 'node/8') {
   drupal_set_title($texto_primero .' '. $title);
+   }
 
   drupal_set_title();
 
