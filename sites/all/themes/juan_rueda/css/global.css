@@ -887,7 +887,7 @@ background-position: 0px -41px;
 
 
 /***************************************CONTACTO***********************************************/
-/***************************************ERROR*********************************************************************************************/
+/***************************************ERROR*********************************************************************************************
 #block-webform-client-block-62 h2.node-title{display: none;}
 #block-webform-client-block-62 .field-name-body{position: relative;}
 #block-webform-client-block-62 p.obligatory {color: #FF7B00;}
@@ -1016,7 +1016,7 @@ form .form-submit:hover,
     border-radius: 5px;
     width: 98% !important;
 }
-*/
+*//*
 
 .page-contacte-su-distribuidor #block-system-main {
     float: left;
@@ -1064,11 +1064,11 @@ form .form-submit:hover,
 
 .view-mapa-contacto.view-display-id-page .attachment,
 .view-mapa-contacto.view-display-id-page>.view-content{
-	/*display: inline;
+	display: inline;
 	float: left;
 	position: relative;
 	margin-left: 10px;
-	margin-right: 10px;*/
+	margin-right: 10px;
 }
 
 .view-mapa-contacto.view-display-id-page>.view-content{
@@ -1085,7 +1085,7 @@ form .form-submit:hover,
 .responsive-layout-narrow .view-mapa-contacto.view-display-id-page>.view-content{width: 440px;}
 
 #gmap-auto1map-gmap0{width: 100% !important;}
-
+*/
 /***************************************ERROR*********************************************************************************************/
 
 /**********************************MASONRY VIEWS - BLOQUES GRISES***********************************/
