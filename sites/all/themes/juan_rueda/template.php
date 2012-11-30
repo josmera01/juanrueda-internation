@@ -40,13 +40,15 @@ function juan_rueda_preprocess_html(&$vars) {
 
 function juan_rueda_preprocess_page(&$variables) {
   $title = drupal_get_title();
-
+ 
 
   $paths = implode("\n", array(
     'tips/*',
   ));
 
   $path = current_path();
+  
+  dpm($path);
 
   if (drupal_match_path($path, $paths)) {
     //Titulo que salga con tildes
