@@ -69,7 +69,7 @@ function juan_rueda_preprocess_page(&$variables) {
 
   $texto_primero = ucwords(strtolower($caracter[0]));
    if ($path != 'node/8') {
-  drupal_set_title($texto_primero .' '. $title);
+      drupal_set_title($texto_primero .' '. $title);
    }
 
   drupal_set_title();
