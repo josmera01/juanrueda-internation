@@ -233,6 +233,7 @@ li.flag-bookmarks{
 .node-type-article .node-article>ul.links .socialmedia_share-default,
 .node-type-evento .node-evento>ul.links .socialmedia_share-default,
 .node-type-evento .node-evento>ul.links .comment-add,
+.node-type-article .node-article>ul.links .comment-add,
 #comments .comment-form .form-type-item,
 #comments .comment-form .form-item-subject,
 #comments .comment-form .field-name-comment-body label,
