@@ -71,6 +71,9 @@ input[type="search"] {
 input[type="text"], input[type="password"], input[type="email"], .form-textarea-wrapper textarea  {
   background-color: #fff;
   color: #666666;
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
+	font-size: 1em;
 }
 
 /***BOTONES */
