@@ -1048,7 +1048,7 @@ form .form-submit:hover,
     padding: 0 !important;
     float: left !important;
 }
-/*
+
 .view-mapa-contacto .views-field-php a,
 .view-mapa-contacto .views-field-coordinates a{
     color: #FFFFFF;
@@ -1061,7 +1061,7 @@ form .form-submit:hover,
 .view-mapa-contacto .gmnoprint {color: #000000;}
 .view-mapa-contacto .gmnoprint a{color: #133156;}
 
-
+/*
 .view-mapa-contacto.view-display-id-page .attachment,
 .view-mapa-contacto.view-display-id-page>.view-content{
 	display: inline;
