@@ -1061,16 +1061,16 @@ form .form-submit:hover,
 .view-mapa-contacto .gmnoprint {color: #000000;}
 .view-mapa-contacto .gmnoprint a{color: #133156;}
 
-/*
+
 .view-mapa-contacto.view-display-id-page .attachment,
 .view-mapa-contacto.view-display-id-page>.view-content{
 	display: inline;
-	float: left;
+/*	float: left;*/
 	position: relative;
 	margin-left: 10px;
 	margin-right: 10px;
 }
-*/
+
 .view-mapa-contacto.view-display-id-page>.view-content{
 	border: 10px solid #ffffff;
 	border-radius: 0.5em;
