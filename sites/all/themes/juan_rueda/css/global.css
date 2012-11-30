@@ -1070,7 +1070,7 @@ form .form-submit:hover,
 	margin-left: 10px;
 	margin-right: 10px;
 }
-
+*/
 .view-mapa-contacto.view-display-id-page>.view-content{
 	border: 10px solid #ffffff;
 	border-radius: 0.5em;
@@ -1085,7 +1085,7 @@ form .form-submit:hover,
 .responsive-layout-narrow .view-mapa-contacto.view-display-id-page>.view-content{width: 440px;}
 
 #gmap-auto1map-gmap0{width: 100% !important;}
-*/
+
 /***************************************ERROR*********************************************************************************************/
 
 /**********************************MASONRY VIEWS - BLOQUES GRISES***********************************/
