@@ -20,10 +20,18 @@
 	float: left;
 }
 .responsive-layout-narrow.page-noticias-y-eventos .grid-4.col-4#block-block-9,
-.responsive-layout-narrow.page-noticias-y-eventos .grid-4.col-4#block-block-15,
-.responsive-layout-narrow.page-noticias-y-eventos .grid-4.col-4#block-views-calendario-de-eventos-block-1{
+.responsive-layout-narrow.page-noticias-y-eventos .grid-4.col-4#block-block-15{
 	width: 340px;
 }
+
+.responsive-layout-narrow.page-noticias-y-eventos .grid-4.col-4#block-views-calendario-de-eventos-block-1{
+	float: none;
+}
+.responsive-layout-narrow.page-noticias-y-eventos .grid-4.col-4#block-views-calendario-de-eventos-block-1 .block-inner{
+	width: 70%;
+	margin: auto;
+}
+
 
 .responsive-layout-narrow #block-menu-menu-menu-secciones-principales .content ul li a{
 	width: 100%;
