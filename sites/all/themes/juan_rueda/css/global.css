@@ -1064,7 +1064,7 @@ form .form-submit:hover,
 
 .view-mapa-contacto.view-display-id-page .attachment,
 .view-mapa-contacto.view-display-id-page>.view-content{
-	display: inline;
+	/*display: inline;*/
 	float: left;
 	position: relative;
 	margin-left: 10px;
