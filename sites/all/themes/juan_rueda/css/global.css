@@ -944,7 +944,7 @@ form .form-submit:hover,
     background-image: -webkit-linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
     background-image: -ms-linear-gradient(bottom, #194E99 45%, #2E78C1 73%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#194E99', endColorstr='#2E78C1',GradientType=0 );
-}/*
+}
 
 #webform-component-nombre-completo, #webform-component-correo-electronico {margin-right: 20px;}
 #webform-component-correo-electronico {clear: left;}
@@ -996,7 +996,7 @@ form .form-submit:hover,
 }
 .view-mapa-contacto .attachment .views-field-coordinates a,
 .view-mapa-contacto .attachment .views-field-php a {float: none;}
-
+/*
 .view-mapa-contacto .attachment .views-field-php {margin-right: 5%;}
 
 
