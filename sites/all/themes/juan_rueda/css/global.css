@@ -1565,6 +1565,12 @@ select{width: 125% !important;}
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#cccccc',GradientType=0 );
 }
 
+@media screen{
+ #block-block-15{
+ 	position: fixed;
+ }
+}
+
 
 /*************************************************************************************/
 
