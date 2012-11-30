@@ -1080,8 +1080,8 @@ form .form-submit:hover,
 .responsive-layout-wide .view-mapa-contacto.view-display-id-page .attachment .view-content{float: none;}/*
 .responsive-layout-normal .view-mapa-contacto.view-display-id-page .attachment{width: 280px}
 .responsive-layout-narrow .view-mapa-contacto.view-display-id-page .attachment{width: 200px;}
-
-.responsive-layout-wide .view-mapa-contacto.view-display-id-page>.view-content{width: 760px;}
+*/
+.responsive-layout-wide .view-mapa-contacto.view-display-id-page>.view-content{width: 760px;}/*
 .responsive-layout-normal .view-mapa-contacto.view-display-id-page>.view-content{width: 600px;}
 .responsive-layout-narrow .view-mapa-contacto.view-display-id-page>.view-content{width: 440px;}
 
