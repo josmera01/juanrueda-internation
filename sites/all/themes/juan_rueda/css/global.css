@@ -469,8 +469,8 @@ li.flag-bookmarks{
 .field-name-field-galeria-usos-camion
 .field-name-field-galeria-ref
 
-.field-name-field-galeria-usos-camion li img,
-.field-name-field-galeria-ref li img,
+.node-type-camion .field-name-field-galeria-usos-camion li img,
+.node-type-camion .field-name-field-galeria-ref li img,
 #carousel-camion li img{
     border-top-right-radius: 0.5em;
     border-top-left-radius: 0.5em;
@@ -934,8 +934,8 @@ background-position: 0px -41px;
     padding: 20px 0;
 }
 
-form .form-submit:hover, 
-.responsive-layout-mobile .mapa-sitio-render, 
+form .form-submit:hover,
+.responsive-layout-mobile .mapa-sitio-render,
 .view-mapa-contacto .attachment .views-field-coordinates span:hover,
 .view-mapa-contacto .attachment .views-field-php span:hover {
 	background-color: #194E99;
