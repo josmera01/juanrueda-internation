@@ -1111,7 +1111,9 @@ form .form-submit:hover,
 .page-tips h1, .page-tips #block-system-main .view-header,
 .page-noticias-y-eventos h1,
 .page-contacte-su-distribuidor h1, .view-mapa-contacto .view-header,
-.node-type-camion h1
+.node-type-camion h1,
+.page-noticias-y-eventos .view-header,
+.page-noticias-y-eventos .view-filters
 {
 	margin: 0 10px;
 }
