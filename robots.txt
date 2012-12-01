@@ -18,7 +18,7 @@
 
 # go away
 User-agent: *
-Disallow: /*
+Crawl-delay: 10
 
 #User-agent: *
 #Crawl-delay: 10
