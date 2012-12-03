@@ -1296,6 +1296,8 @@ padding-bottom: 4%;
 
 /**********************************BARRA DERECHA***********************************/
 
+#block-widgets-s-socialmedia-share-default{display: none;}
+
 .view-art-culos-relacionados .item-list ul li {
 	margin: 0;
 	list-style: none;
