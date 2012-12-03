@@ -133,6 +133,7 @@ li.flag-bookmarks{
 }
 
 .social-bottons .fb-like span{margin-right: 15px;}
+.social-bottons .fb-like iframe{max-width: inherit;}
 
 .flag-bookmarks .flag-wrapper{
 	background-color: #194E99;

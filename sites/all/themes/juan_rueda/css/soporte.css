@@ -32,7 +32,7 @@ label {
 .resizable-textarea .grippie {
   display: none
 }
-.select-jr {
+/*.select-jr {
     background: url("../images/flecha-select.png") no-repeat scroll right 0 #FFFFFF;
     border: 1px solid #666666;
     font-size: 0.8em;
@@ -42,13 +42,13 @@ label {
     width: 100%;
     padding-right: 30px;
     max-width: 315px;
-}
-select{
+}*/
+/*select{
   width: 120%;
   background: transparent;
   border: 0;
   -webkit-appearance: none;
-}
+}*/
  .form-textarea-wrapper textarea , textarea {
     border: 1px solid #666666;
     font-size: 0.8em;
