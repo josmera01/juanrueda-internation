@@ -35,11 +35,27 @@ function opciones_distribuidor_email() {
 
 }
 
+function consultar_email_tax($id) {
+
+    $query = db_select('field_data_field_correo_electronico', 'c');
+    $query->fields('c', array('field_correo_electronico_value'));
+    $query->condition('entity_id', $id);
+
+    $result = $query->execute();
+
+    $record = $result->fetchAssoc();
+
+    return reset($record);
+
+}
+
 
 function validate_distribuidor_paises(&$form, &$form_state) {
 
-   form_set_error('Prueba', 'Prueba');
-   dpm($form_state['values']);
+   $tid = $form_state['values']['submitted']['pais'];
+
+   $form_state['values']['submitted']['pais'] = consultar_email_tax($tid);
+
 }
 
 /**
