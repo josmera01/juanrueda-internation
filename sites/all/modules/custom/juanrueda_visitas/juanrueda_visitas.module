@@ -43,6 +43,12 @@ function consultar_visitia_nid($nid) {
     ->condition('nid', $nid)
     ->execute()
     ->fetchField();
+  if ($db > 0) {
+    return $db;
+  }
+  else {
+    return 1;
+  }
 
-  return $db;
+
 }
