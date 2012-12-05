@@ -50,7 +50,9 @@ function consultar_email_tax($id) {
 
 }
 
-
+/**
+ *  Validate para los paises.
+ **/
 function validate_distribuidor_paises(&$form, &$form_state) {
 
    $tid = $form_state['values']['submitted']['pais'];
@@ -68,7 +70,6 @@ function juanrueda_opciones_distribuidor_form_alter(&$form, &$form_state, $form_
     case 'webform_client_form_62':
 
       $form['#validate'][] = 'validate_distribuidor_paises';
-      dpm($form);
 
       if (isset($_GET['pais'])) {
         $form['submitted']['pais']['#default_value'] =  $_GET['pais'];
