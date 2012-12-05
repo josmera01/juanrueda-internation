@@ -52,7 +52,7 @@ function consultar_visitia_nid($nid) {
     ->execute()
     ->fetchAssoc();
 
-  return if (reset($db)) ? reset($db) : 0;
+  return (reset($db)) ? reset($db) : 0;
 
 
 
