@@ -21,6 +21,7 @@ function _creacion_contador_visita($nid) {
     // Trae el total de las visitas
     $total = consultar_visitia_nid($nid);
     $total++;
+
     db_merge('masvisto_node')
       ->key(array(
         'nid' => $nid,
@@ -39,7 +40,7 @@ function _creacion_contador_visita($nid) {
 function consultar_visitia_nid($nid) {
 
   $db = $result = db_select('masvisto_node', 'm')
-    ->fields('m', array('nid'))
+    ->fields('m', array('cantidad'))
     ->condition('nid', $nid)
     ->execute()
     ->fetchField();
