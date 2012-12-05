@@ -21,7 +21,8 @@ function opciones_distribuidor_email() {
     $query->join('field_data_field_correo_electronico', 'c', 't.tid = c.entity_id'); //JOIN node with users
 
     $query->fields('t', array('name', 'tid'));
-    $query->fields('c', array('field_correo_electronico_value'));
+    $query->fields('c', array('field_correo_electronico_value'))
+    $query->orderBy('t.weight', 'ASC');
 
     $result = $query->execute();
 
