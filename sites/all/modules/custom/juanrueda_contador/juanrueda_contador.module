@@ -57,7 +57,7 @@ function html_contador_personalizado($nid = NULL) {
     );
 
 $links['visitas'] = array(
-    'title' => t('<span class="number">@total</span> <span class="label">Visitas</span>', array('@total' => _contador_like_drupal($nid))),
+    'title' => t('<span class="number">@total</span> <span class="label">Visitas</span>', array('@total' => consultar_visitia_nid($nid))),
     'html' => true,
   );
 
