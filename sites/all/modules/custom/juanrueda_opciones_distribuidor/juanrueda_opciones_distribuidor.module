@@ -22,7 +22,7 @@ function opciones_distribuidor_email() {
 
     $query->fields('t', array('name', 'tid'));
     $query->fields('c', array('field_correo_electronico_value'));
-    $query->orderBy('t.weight', 'ASC');
+    $query->orderBy('t.name', 'ASC');
 
     $result = $query->execute();
 
