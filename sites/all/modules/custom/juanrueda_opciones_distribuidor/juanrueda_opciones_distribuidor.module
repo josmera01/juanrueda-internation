@@ -27,12 +27,16 @@ function opciones_distribuidor_email() {
 
     $options = array();
     while($record = $result->fetchAssoc()) {
-      $options[$record['field_correo_electronico_value']] = $record['name'];
+      $options[$record['tid']] = $record['name'];
 
     }
 
     return $options;
 
+}
+
+function juanrueda_opciones_distribuidor_form_alter(&$form, &$form_state, $form_id) {
+  dpm($form_id);
 }
 
 function consultar_email_tax($id) {
