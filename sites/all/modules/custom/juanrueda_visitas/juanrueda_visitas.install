@@ -4,6 +4,7 @@
  * Implements hook_schema().
  */
 function juanrueda_visitas_schema() {
+
   $schema['masvisto_node'] = array(
     'description' => '',
     'fields' => array(
