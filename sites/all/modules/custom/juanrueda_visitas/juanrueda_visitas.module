@@ -20,7 +20,14 @@ function juanrueda_visitas_node_view($node, $view_mode, $langcode) {
 function _creacion_contador_visita($nid) {
     // Trae el total de las visitas
     $total = consultar_visitia_nid($nid);
-    $total++;
+
+    if ($total > 0) {
+      $total++;
+    }
+    else {
+      $total = 1;
+    }
+
 
     db_merge('masvisto_node')
       ->key(array(
@@ -43,14 +50,10 @@ function consultar_visitia_nid($nid) {
     ->fields('m', array('cantidad'))
     ->condition('nid', $nid)
     ->execute()
-    ->fetchField();
+    ->fetchAssoc();
 
-  if ($db > 0) {
-    return $db;
-  }
-  else {
-    return 1;
-  }
+  return reset($db);
+
 
 
 }
