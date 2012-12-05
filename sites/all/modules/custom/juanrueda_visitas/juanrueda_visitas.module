@@ -21,7 +21,7 @@ function _creacion_contador_visita($nid) {
     // Trae el total de las visitas
     $total = consultar_visitia_nid($nid);
 
-    if ($total > 0) {
+    if (is_numeric($total)) {
       $total++;
     }
     else {
