@@ -38,12 +38,12 @@ function _creacion_contador_visita($nid) {
 
 function consultar_visitia_nid($nid) {
 
-  $db = db_select('masvisto_node', 'm')
+  /*$db = db_select('masvisto_node', 'm')
     ->fields('m', array('cantidad')
     ->condition('nid', $nid)
     ->execute();
 
   $db->fetchAllAssoc('nid');
 
-  return $db;
+  return $db;*/
 }
