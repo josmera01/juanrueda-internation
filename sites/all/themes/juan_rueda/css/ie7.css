@@ -51,14 +51,14 @@ body {min-width: 960px;}
 
 #block-menu-menu-menu-secciones-principales ul.menu{padding: 0 5px;}
 #block-menu-menu-menu-secciones-principales ul li.leaf {
-	background-image: url("../images/menu-bg-ie.png");
+	background-image: url("/sites/all/themes/juan_rueda/images/menu-bg-ie.png");
 	height: 133px;
 	width: 176px;
 	margin: 5px;
 }
 #block-menu-menu-menu-secciones-principales ul li.leaf:hover,
 #block-menu-menu-menu-secciones-principales ul li.leaf.active-trail{
-	background-image: url("../images/menu_bg_ie-active-hover.png");
+	background-image: url("/sites/all/themes/juan_rueda/images/menu_bg_ie-active-hover.png");
 	background-position: 0 0;
 }
 #block-menu-menu-menu-secciones-principales .content ul li a {width: 100%}
