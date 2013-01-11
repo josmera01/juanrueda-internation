@@ -48,6 +48,7 @@ Crawl-delay: 10
 # Disallow: /filter/tips/
 # Disallow: /node/add/
 # Disallow: /search/
+# Disallow: /user/
 # Disallow: /user/register/
 # Disallow: /user/password/
 # Disallow: /user/login/
@@ -58,6 +59,7 @@ Crawl-delay: 10
 # Disallow: /?q=filter/tips/
 # Disallow: /?q=node/add/
 # Disallow: /?q=search/
+# Disallow: /?q=user/
 # Disallow: /?q=user/password/
 # Disallow: /?q=user/register/
 # Disallow: /?q=user/login/
