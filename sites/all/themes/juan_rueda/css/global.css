@@ -318,15 +318,12 @@ li.flag-bookmarks{
 	border-top: 1px solid #ffffff;
 	border-bottom: 1px solid #ffffff;
 	text-align: center;
-<<<<<<< HEAD
 	font-weight: 700;
 	font-size: 150%;
-=======
     text-transform: uppercase;
     font-weight: 700;
     font-size: 2em;
     margin: 0;
->>>>>>> fa3c9968be7f6f9854ce2aaa519f0893e804c45c
 }
 
 .nivo-caption h1 span{
@@ -799,8 +796,9 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
 #zone-footer #block-block-1 a, #zone-footer #block-block-2 a{color: #777777 !important;}
 #zone-footer #block-block-1 {
     float: left;
-    width: auto;
+    width: 100%;
 }
+
 #region-footer-second{
 	border-top: 1px solid #222;
 	margin-top: 2em;
@@ -822,8 +820,11 @@ ul.menu {
 #zone-footer #block-block-2{
     float: right;
     text-align: right;
-    width: auto;
+    width: 100%;
 }
+.responsive-layout-wide #zone-footer #block-block-1 ,
+.responsive-layout-wide #zone-footer #block-block-2 {width: auto;}
+
 #zone-footer .block-title  {
     font-size: 1.1em;
     height: auto;
