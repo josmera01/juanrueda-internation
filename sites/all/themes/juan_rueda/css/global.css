@@ -810,7 +810,7 @@ a.contacte_distribuidor  {background-image: url("../images/ico-contacto.png");}
     min-height: 18px;
     text-align: center;
 }
-.responsive-layout-wide #region-footer-second p {text-align: center;}
+.responsive-layout-wide #region-footer-second p {text-align: left;}
 ul.menu {
     border: medium none;
     list-style: none outside none;
