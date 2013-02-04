@@ -1604,7 +1604,7 @@ select{width: 100% !important;}
 .page-tips-disfrute-su-camion  #page-title{background: url("../images/ico-servicios.png") no-repeat scroll left -294px transparent;}
 .page-tips-conviertase-en-experto #page-title {background: url("../images/ico-latec.png") no-repeat scroll left -294px transparent;}
 
-.page-tips #page-title:first-letter{
+.page-tips #page-title:first-letter, .node-type-article #page-title:first-letter{
 	text-transform: uppercase;
 }
 
