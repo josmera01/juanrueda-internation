@@ -2,6 +2,10 @@
 SetOutputFilter DEFLATE
 </Files>
 
+<Files *.js>
+SetOutputFilter DEFLATE
+</Files>
+
   ### BOOST START ###
 
 
