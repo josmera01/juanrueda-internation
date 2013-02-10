@@ -1,4 +1,10 @@
+<Files *.css>
+SetOutputFilter DEFLATE
+</Files>
+
   ### BOOST START ###
+
+
 
   # Allow for alt paths to be set via htaccess rules; allows for cached variants (future mobile support)
   RewriteRule .* - [E=boostpath:tmp]
