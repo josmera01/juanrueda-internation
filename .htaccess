@@ -8,8 +8,6 @@ SetOutputFilter DEFLATE
 
   ### BOOST START ###
 
-
-
   # Allow for alt paths to be set via htaccess rules; allows for cached variants (future mobile support)
   RewriteRule .* - [E=boostpath:tmp]
 
@@ -25,11 +23,11 @@ SetOutputFilter DEFLATE
   # GZIP
   RewriteCond %{HTTP:Accept-encoding} !gzip
   RewriteRule .* - [S=1]
-  RewriteCond /var/www/vhosts/juanruedaconinternational.com/httpdocs/tmp/%{ENV:boostpath}/juanruedaconinternational.com%{REQUEST_URI}_%{QUERY_STRING}\.html -s
+  RewriteCond %{DOCUMENT_ROOT}/tmp/%{ENV:boostpath}/juanruedaconinternational.com%{REQUEST_URI}_%{QUERY_STRING}\.html -s
   RewriteRule .* tmp/%{ENV:boostpath}/juanruedaconinternational.com%{REQUEST_URI}_%{QUERY_STRING}\.html [L,T=text/html,E=no-gzip:1]
 
   # NORMAL
-  RewriteCond /var/www/vhosts/juanruedaconinternational.com/httpdocs/tmp/%{ENV:boostpath}/juanruedaconinternational.com%{REQUEST_URI}_%{QUERY_STRING}\.html -s
+  RewriteCond %{DOCUMENT_ROOT}/tmp/%{ENV:boostpath}/juanruedaconinternational.com%{REQUEST_URI}_%{QUERY_STRING}\.html -s
   RewriteRule .* tmp/%{ENV:boostpath}/juanruedaconinternational.com%{REQUEST_URI}_%{QUERY_STRING}\.html [L,T=text/html]
 
   ### BOOST END ###
