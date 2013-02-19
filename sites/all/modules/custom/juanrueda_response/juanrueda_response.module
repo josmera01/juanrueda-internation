@@ -40,8 +40,9 @@ function juanrueda_response_init() {
 
   cargar_estilos_mobile($_SERVER['HTTP_USER_AGENT']);
 
-  if(strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE 7') !== FALSE || strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE 8') !== FALSE) {
+  //if(strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE 7') !== FALSE || strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE 8') !== FALSE) {
 
+  if(preg_match('/MSIE [7]./', $_SERVER['HTTP_USER_AGENT']) || preg_match('/MSIE [7]./', $_SERVER['HTTP_USER_AGENT']) )  {
     drupal_add_js(array('ei7' => 1), 'setting');
 
     drupal_add_css(RUTA_DEFECTO_THEME . '/css/ie7.css', array('group' => CSS_THEME, 'weight' => 1000));
