@@ -1,9 +1,9 @@
 <Files *.css>
-SetOutputFilter DEFLATE
+ SetOutputFilter DEFLATE
 </Files>
 
 <Files *.js>
-SetOutputFilter DEFLATE
+ SetOutputFilter DEFLATE
 </Files>
 
   ### BOOST START ###
