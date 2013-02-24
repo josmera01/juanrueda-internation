@@ -24,12 +24,13 @@ function cargar_estilos_mobile($useragent) {
    'Palm' => 'Palm'
 );
 
-
+if ($useragents) {
    foreach($useragents as $nav=>$ua){
       if(strstr($useragent, $ua)!=false){
         drupal_add_css(RUTA_DEFECTO_THEME . '/css/mobile.css');
       }
    }
+ }
 }
 
 
