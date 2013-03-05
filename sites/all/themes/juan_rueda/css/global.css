@@ -74,7 +74,7 @@ label {color: #FFFFFF;}
 }
 
 form .form-submit, .view-mapa-contacto .attachment .views-field-coordinates span, .view-mapa-contacto .attachment .views-field-php span,
-.pager li a {
+.pager li a, .field-name-field-btn-ficha-tecnica a {
 	background-color: #133155;
     background-image: linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
     background-image: -o-linear-gradient(bottom, #133155 22%, #133B6C 61%, #224B88 81%);
@@ -472,6 +472,12 @@ li.flag-bookmarks{
 #carousel-camion li img{
     border-top-right-radius: 0.5em;
     border-top-left-radius: 0.5em;
+}
+
+.node-type-camion .field-name-field-btn-ficha-tecnica a.boton-azul{
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .field-name-field-galeria-usos-camion li a span,
