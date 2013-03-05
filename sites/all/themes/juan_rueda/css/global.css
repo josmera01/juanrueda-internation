@@ -474,7 +474,7 @@ li.flag-bookmarks{
     border-top-left-radius: 0.5em;
 }
 
-.node-type-camion .field-name-field-btn-ficha-tecnica a.boton-azul{
+.field-name-field-btn-ficha-tecnica .boton-azul{
     position: absolute;
     top: 0;
     right: 0;
