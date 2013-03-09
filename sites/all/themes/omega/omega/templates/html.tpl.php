@@ -6,7 +6,14 @@
   <?php print $styles; ?>
   <?php print $scripts; ?>
   <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-  <!--[if lt IE 7]><style type="text/css" media="all">@import url("http://juanruedaconinternational.com/sites/all/themes/juan_rueda/css/ie7.css");</style><![endif]-->
+
+  <!--[if (lt IE 7)]>
+<style type="text/css" media="all">@import url(""http://juanruedaconinternational.com/sites/all/themes/juan_rueda/css/ie7.css");
+
+
+<![endif]-->
+
+
 </head>
 <body<?php print $attributes;?>>
   <div id="skip-link">
