@@ -68,6 +68,7 @@
       });
 
       if($.browser.msie) {
+        alert(jQuery.browser.version);
         $("body").removeClass("responsive-layout-wide").addClass("responsive-layout-normal");
       }
 
