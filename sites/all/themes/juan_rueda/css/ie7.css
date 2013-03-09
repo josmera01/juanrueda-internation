@@ -11,7 +11,7 @@ body .ie7 {min-width: 960px;}
 .ie7.container-12 .grid-2 {width: 140px;}
 .ie7 .container-12 .grid-3 {width: 220px;}
 .ie7 .container-12 .grid-4 {width: 300px;}
- .ie7.container-12 .grid-5 {width: 380px;}
+.ie7 .container-12 .grid-5 {width: 380px;}
 .ie7 .container-12 .grid-6 {width: 460px;}
 .ie7 .container-12 .grid-7 {width: 540px;}
 .ie7 .container-12 .grid-8 {width: 620px;}
