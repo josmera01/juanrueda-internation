@@ -42,9 +42,11 @@ function juanrueda_response_init() {
   cargar_estilos_mobile($_SERVER['HTTP_USER_AGENT']);
 
   $css7 = array(
-  '#tag' => 'css',
+  '#tag' => 'style',
   '#attributes' => array( // Set up an array of attributes inside the tag
-    'src' => drupal_get_path('theme', 'juan_rueda') . '/css/ie7.css',
+    'href' => drupal_get_path('theme', 'juan_rueda') . '/css/ie7.css',
+    'rel' => 'stylesheet',
+    'type' => 'text/css',
   ),
   '#prefix' => '<!--[if lte IE 7]>',
   '#suffix' => '</css><![endif]-->',
