@@ -18,7 +18,7 @@ Drupal.omega = Drupal.omega || {};
     index = parseInt(index);
     previous = current;
 
-    current = Drupal.settings.omega.layouts.order.hasOwnProperty(index) ? Drupal.settings.omega.layouts.order[index] : 'wide';
+    current = Drupal.settings.omega.layouts.order.hasOwnProperty(index) ? Drupal.settings.omega.layouts.order[index] : 'mobile';
 
     if (previous != current) {
       $('body').removeClass('responsive-layout-' + previous).addClass('responsive-layout-' + current);
@@ -44,7 +44,7 @@ Drupal.omega = Drupal.omega || {};
    * @todo
    */
   Drupal.omega.crappyBrowser = function () {
-    return $.browser.msie && parseInt($.browser.version, 10) < 9;
+    return $.browser.msie && parseInt($.browser.version, 10) < 7;
   };
 
   /**
