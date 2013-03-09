@@ -69,7 +69,7 @@
 
       if($.browser.version == '7.0') {
         alert(jQuery.browser.version);
-        $("body").addClass("responsive-layout-wide");
+        $("body").addClass("ie7");
       }
 
 
