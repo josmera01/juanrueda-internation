@@ -52,7 +52,7 @@ function juanrueda_response_init() {
   '#suffix' => '</style><![endif]-->',
 );
 
-drupal_add_html_head($css7, 'css7');
+//drupal_add_html_head($css7, 'css7');
 
 
  }
