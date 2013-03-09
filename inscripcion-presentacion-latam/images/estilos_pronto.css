@@ -1,0 +1,248 @@
+@charset "utf-8";
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+#full-screen-background-image {
+	z-index: -999;
+	min-height: 100%;
+	min-width: 1024px;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+body {
+	font: 100%/1.4 'Istok Web', sans-serif;
+	background-color: #4E5869;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 15px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color: #414958;
+	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {
+	color: #4E5869;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}
+/* ~~ this container surrounds all other divs giving them their percentage-based width ~~ */
+.container {
+	width: 100%;
+	min-width: 780px;/* a min-width may be desirable to keep this layout from getting too narrow. This keeps line length more readable in the side columns. IE6 does not respect this declaration. */
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout. It is not needed if you set the .container's width to 100%. */
+	display:block;
+	clear:both;
+	/*height: 760px;*/
+	position:relative;
+}
+
+.foto_juan { 
+	height: 445px;
+	width: 490px;
+	position: absolute;
+	right: -34px;
+	bottom: 0;
+	z-index: 100;
+}
+/* ~~the header is not given a width. It will extend the full width of your layout. It contains an image placeholder that should be replaced with your own linked logo~~ */
+.header {
+	background-image: url(../images/bgHeader.png);
+	background-repeat: repeat-x;
+	height: 177px;
+}
+.content_header {
+	height: 140px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.logo_page {
+	float: left;
+	height: 111px;
+	width: 135px;
+	margin-top: 13px;
+	margin-left: 21px;
+}
+.title_page {
+	float: right;
+	height: 47px;
+	width: 666px;
+	margin-top: 56px;
+}
+/* ~~ This is the layout information. ~~ 
+
+1) Padding is only placed on the top and/or bottom of the div. The elements within this div have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
+
+*/
+.content {
+	padding: 10px 0;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+	/*height:810px;*/
+	
+}
+.container .content .col1 {
+	float: left;
+	width: 548px;
+	height:299px;
+	background-image: url(../images/count/bg_imgpronto.jpg);
+	background-repeat: no-repeat;
+}
+.container .content .col2 {
+	float: left;
+	width: 365px;
+	margin-left:70px;
+	
+}
+.container .content .col2 ul {
+	margin-top:15px;
+	text-align:left;
+}
+.container .content .col2 li {
+	font-size:14px;
+	margin-bottom:5px;
+}
+.amarillo_que {
+	color:#EF600F;
+	font-size:20px;
+}
+.amarillo {
+	color:#faa61a;	
+}
+.formField {
+	margin-bottom:10px;
+	margin-left:20px;	
+}
+.formField input[type="text"] {
+	width:378px;
+	height:32px;
+	background-color:#FFF;
+	text-indent:10px;
+	border:none;
+	font-size:16px;
+}
+.formField  select {
+	width:378px;
+	height:32px;
+	background-color:#FFF;
+	border:none;
+	font-size:16px;
+}
+.formField label {
+	color:#ef600f;
+	font-size:15px;
+	font-weight:bold;
+	display:block;
+}
+.btn_enviar {
+	background-image: url(../images/btnInscrip.png);
+	width: 121px;
+	height: 31px;
+	cursor: pointer;
+	border: none;
+	background-color: transparent !important;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	float:left;
+}
+/* ~~ This grouped selector gives the lists in the .content area space ~~ */
+.content ul, .content ol {
+	padding: 0 15px 15px 40px; /* this padding mirrors the right padding in the headings and paragraph rule above. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
+}
+/* ~~ The footer ~~ */
+.footer {
+	padding: 10px 0;
+	background-color: #d05f1f;
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
+.footer .subfooter {
+	width: 760px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 200px;
+	font-size:13px;
+}
+.subfooter a {
+	color:#FFF;	
+}
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
+	clear: both;
+	height: 0;
+	font-size: 1px;
+	line-height: 0px;
+}
+h1 {
+    border-bottom: 1px solid #EF600F;
+    color: #EF600F;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+#glowingLayout { width: 260px; height: 59px; position:relative; margin-top:180px; margin-left:228px; }
+#glowingLayout .contDay { position:absolute; top:-80px; left:50px;}
+#glowingLayout .contDay span { display:block; float:left; width:22px; height:25px; background:none;     font-family: verdana;
+    font-size: 29px;
+    font-weight: bold;
+	margin-left: 5px;}
+#glowingLayout span { display: block; float: left; width: 38px; height: 59px; 
+    background: url(../images/count/numeros.png) no-repeat 0px 0px; } 
+#glowingLayout span.image0 { background-position: -0px 0px; } 
+#glowingLayout span.image1 { background-position: -38px 0px; } 
+#glowingLayout span.image2 { background-position: -76px 0px; } 
+#glowingLayout span.image3 { background-position: -114px 0px; } 
+#glowingLayout span.image4 { background-position: -152px 0px; } 
+#glowingLayout span.image5 { background-position: -190px 0px; } 
+#glowingLayout span.image6 { background-position: -228px 0px; } 
+#glowingLayout span.image7 { background-position: -266px 0px; } 
+#glowingLayout span.image8 { background-position: -304px 0px; } 
+#glowingLayout span.image9 { background-position: -342px 0px; } 
+#glowingLayout span.imageSpace { background:none; width:15px; } 
+
+.validateTips {
+	font-size:10px;	
+}fieldset {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}

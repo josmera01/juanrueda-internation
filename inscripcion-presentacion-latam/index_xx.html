@@ -1,0 +1,391 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Presentación Juan Rueda</title>
+  <link href="css/custom-theme/jquery-ui-1.9.2.custom.css" rel="stylesheet">
+  <script src="js/jquery-1.8.3.js"></script>
+  <script src="js/jquery-ui-1.9.2.custom.js"></script>
+  <link href="css/estilos.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="js/ew61.js"></script>
+  <script type="text/javascript">
+$(document).ready(function(){
+	$(function() {
+		// a workaround for a flaw in the demo system (http://dev.jqueryui.com/ticket/4375), ignore!
+//		$( "#dialog:ui-dialog" ).dialog( "destroy" );
+//		$("dialog-message").html();
+//		$( "#dialog-message" ).dialog({
+//			modal: true,
+//			buttons: {
+//				"Aceptar": function() {
+//					$( this ).dialog( "close" );
+//				}
+//			}
+//		});
+		jQuery.fn.reset = function () {
+		  $(this).each (function() { this.reset(); });
+		}
+	});
+});
+function echeck(str) {
+	var at="@"
+	var dot="."
+	var lat=str.indexOf(at)
+	var lstr=str.length
+	var ldot=str.indexOf(dot)
+	if (str.indexOf(at)==-1){
+	   return false
+	}
+
+	if (str.indexOf(at)==-1 || str.indexOf(at)==0 || str.indexOf(at)==lstr){
+	   return false
+	}
+
+	if (str.indexOf(dot)==-1 || str.indexOf(dot)==0 || str.indexOf(dot)==lstr){
+		return false
+	}
+
+	 if (str.indexOf(at,(lat+1))!=-1){
+		return false
+	 }
+
+	 if (str.substring(lat-1,lat)==dot || str.substring(lat+1,lat+2)==dot){
+		return false
+	 }
+
+	 if (str.indexOf(dot,(lat+2))==-1){
+		return false
+	 }
+	
+	 if (str.indexOf(" ")!=-1){
+		return false
+	 }
+
+	 return true					
+}
+
+function ew_ValidateReg(fobj) {
+	
+	if (fobj.a_confirm && fobj.a_confirm.value == "F")
+		return true;
+	var i, elm, aelm, infix;
+	var rowcnt = (fobj.key_count) ? Number(fobj.key_count.value) : 1;
+	for (i=0; i<rowcnt; i++) {
+		infix = (fobj.key_count) ? String(i+1) : "";
+		
+		elm = fobj.elements["cNombre"];
+		$(elm).removeClass("campo_peque_valid").addClass("campo_peque");
+		if (elm && !ew_HasValue(elm)) {
+			$(elm).removeClass("campo_peque").addClass("campo_peque_valid");
+			$( "#dialog:ui-dialog" ).dialog( "destroy" );
+			$("#dialog-message").text("*Debes ingresar tu nombre");
+			$( "#dialog-message" ).dialog({
+				title: "Error",
+				resizable: false,
+				modal: true,
+				buttons: {
+					"Aceptar": function() {
+						$( this ).dialog( "close" );
+						elm.focus();
+					}
+				}
+			});
+			//if (!ew_OnError(elm, ""))
+			return false;
+		}
+		elm = fobj.elements["cApellido"];
+		$(elm).removeClass("campo_peque_valid").addClass("campo_peque");
+		if (elm && !ew_HasValue(elm)) {
+			$(elm).removeClass("campo_peque").addClass("campo_peque_valid");
+			$( "#dialog:ui-dialog" ).dialog( "destroy" );
+			$("#dialog-message").text("*Debes ingresar tu apellido");
+			$( "#dialog-message" ).dialog({
+				title: "Error",
+				resizable: false,
+				modal: true,
+				buttons: {
+					"Aceptar": function() {
+						$( this ).dialog( "close" );
+						elm.focus();
+					}
+				}
+			});
+			//if (!ew_OnError(elm, ""))
+				return false;
+		}
+		elm = fobj.elements["cEmail"];
+		$(elm).removeClass("campo_peque_valid").addClass("campo_peque");
+		if (elm && !ew_HasValue(elm)) {
+			$(elm).removeClass("campo_peque").addClass("campo_peque_valid");
+			$( "#dialog:ui-dialog" ).dialog( "destroy" );
+			$("#dialog-message").text("*Debes ingresar tu correo electrónico");
+			$( "#dialog-message" ).dialog({
+				title: "Error",
+				resizable: false,
+				modal: true,
+				buttons: {
+					"Aceptar": function() {
+						$( this ).dialog( "close" );
+						elm.focus();
+					}
+				}
+			});
+			//if (!ew_OnError(elm, ""))
+				return false;
+		}
+		elm = fobj.elements["cEmail"];
+		$(elm).removeClass("campo_peque_valid").addClass("campo_peque");
+		if(!echeck(elm.value)){
+			$(elm).removeClass("campo_peque").addClass("campo_peque_valid");
+			$( "#dialog:ui-dialog" ).dialog( "destroy" );
+			$("#dialog-message").text("*Tu correo electrónico es incorrecto");
+			$( "#dialog-message" ).dialog({
+				title: "Error",
+				resizable: false,
+				modal: true,
+				buttons: {
+					"Aceptar": function() {
+						$( this ).dialog( "close" );
+						elm.focus();
+					}
+				}
+			});
+			//if (!ew_OnError(elm, ""))
+				return false;
+		}
+		elm = fobj.elements["cPais"];
+		$(elm).removeClass("campo_peque_valid").addClass("campo_peque");
+		if (elm && !ew_HasValue(elm)) {
+			$(elm).removeClass("campo_peque").addClass("campo_peque_valid");
+			$( "#dialog:ui-dialog" ).dialog( "destroy" );
+			$("#dialog-message").text("*Debes ingresar tu país");
+			$( "#dialog-message" ).dialog({
+				title: "Error",
+				resizable: false,
+				modal: true,
+				buttons: {
+					"Aceptar": function() {
+						$( this ).dialog( "close" );
+						elm.focus();
+					}
+				}
+			});
+			//if (!ew_OnError(elm, ""))
+				return false;
+		}
+		elm = fobj.elements["cEmpresa"];
+		$(elm).removeClass("campo_peque_valid").addClass("campo_peque");
+		if (elm && !ew_HasValue(elm)) {
+			$(elm).removeClass("campo_peque").addClass("campo_peque_valid");
+			$( "#dialog:ui-dialog" ).dialog( "destroy" );
+			$("#dialog-message").text("*Debes ingresar el nombre de la empresa");
+			$( "#dialog-message" ).dialog({
+				title: "Error",
+				resizable: false,
+				modal: true,
+				buttons: {
+					"Aceptar": function() {
+						$( this ).dialog( "close" );
+						elm.focus();
+					}
+				}
+			});
+			//if (!ew_OnError(elm, ""))
+				return false;
+		}
+		elm = fobj.elements["cSede"];
+		$(elm).removeClass("campo_peque_valid").addClass("campo_peque");
+		if (elm && !ew_HasValue(elm)) {
+			$(elm).removeClass("campo_peque").addClass("campo_peque_valid");
+			$( "#dialog:ui-dialog" ).dialog( "destroy" );
+			$("#dialog-message").text("*Debes ingresar la sede (ciudad)");
+			$( "#dialog-message" ).dialog({
+				title: "Error",
+				resizable: false,
+				modal: true,
+				buttons: {
+					"Aceptar": function() {
+						$( this ).dialog( "close" );
+						elm.focus();
+					}
+				}
+			});
+			//if (!ew_OnError(elm, ""))
+				return false;
+		}
+		elm = fobj.elements["cCargo"];
+		$(elm).removeClass("campo_peque_valid").addClass("campo_peque");
+		if (elm && !ew_HasValue(elm)) {
+			$(elm).removeClass("campo_peque").addClass("campo_peque_valid");
+			$( "#dialog:ui-dialog" ).dialog( "destroy" );
+			$("#dialog-message").text("*Debes ingresar tu cargo");
+			$( "#dialog-message" ).dialog({
+				title: "Error",
+				resizable: false,
+				modal: true,
+				buttons: {
+					"Aceptar": function() {
+						$( this ).dialog( "close" );
+						elm.focus();
+					}
+				}
+			});
+			//if (!ew_OnError(elm, ""))
+				return false;
+		}
+		//enviarRegistro();
+	}
+	return true;
+}
+function enviarRegistro(){
+
+		$('#Submit').hide();
+		
+		var short_n = $("#cNombre").val().split(" ");
+		
+		$.post("inc/core-functions.inc.php?acc=reggen", $("#form_ref").serialize(), 
+		function( data ) {
+			  //alert(data);
+			  arr_return = data.split(",");
+			  if(arr_return[0] == 1){
+				  
+					$.post("http://api.madmimi.com/audience_lists/651982/add", { 
+						
+							api_key: "a3f55d89b1957e9e39c615e46aaddf43", 
+							username: "alejandro.cortes@aguayopublicidad.com", 
+							email: $("#cEmail").val(), 
+							first_name: $("#cNombre").val(), 
+							last_name: $("#cApellido").val(), 
+							country: $("#cPais").val(), 
+							shortname: short_n[0], 
+							empresa: $("#cEmpresa").val(),
+							sede: $("#cSede").val(),
+							cargo: $("#cCargo").val()
+							
+						}).always(function(data) {
+							$( "#dialog:ui-dialog" ).dialog( "destroy" );
+							$("#dialog-message").text("En los próximos días recibirás más información para la presentación de Juan Rueda.");
+							$( "#dialog-message" ).dialog({
+								title: "¡GRACIAS POR INSCRIBIRTE!",
+								resizable: false,
+								modal: true,
+								buttons: {
+									"Cerrar": function() {
+										$("#form_ref").reset();
+										//$('#Submit').show();
+										window.location.href = "http://juanruedaconinternational.com";
+										//$( this ).dialog( "close" );
+									}
+								}
+							});
+					});
+			  
+			  }
+		});
+}
+</script>
+  <script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Istok+Web:400,700,400italic,700italic:latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
+  </head>
+
+  <body>
+<div id="dialog-message"> </div>
+<img alt="full screen background image" src="images/background.jpg" id="full-screen-background-image" />
+<div class="container">
+    <div class="header">
+    <div class="content_header">
+        <div class="logo_page"><img src="images/logo.png" width="135" height="111" alt="International" /></div>
+        <div class="title_page"><img src="images/titSite.png" width="666" height="47" alt="Presentación Juan Rueda" /></div>
+      </div>
+  </div>
+    <div class="content">
+    <div class="foto_juan"><img src="images/imgJuanRueda.png" width="490" height="445" alt="Juan Rueda" /></div>
+    <div class="col1">
+        <h1>Ingresa tus datos para inscribirte al
+        evento de presentación de Juan Rueda,</h1>
+        <p>a realizarse el Jueves 21 de Febrero vía internet. Próximamente recibirás instrucciones e información sobre como acceder al evento desde tu computador.</p>
+        <form action="regdata.php?acc=reggen" method="post" name="form_ref" id="form_ref" onsubmit="return ew_ValidateReg(this)">
+        <div class="formField">
+            <label for="cNombre">Nombres</label>
+            <input name="cNombre" id="cNombre" type="text" />
+          </div>
+        <div class="formField">
+            <label for="cApellido">Apellidos</label>
+            <input name="cApellido" id="cApellido" type="text" />
+          </div>
+        <div class="formField">
+            <label for="cEmail">Correo Electrónico</label>
+            <input name="cEmail" id="cEmail" type="text" />
+          </div>
+        <div class="formField">
+            <label for="cPais">País</label>
+            <!-- <input name="cPais" id="cPais" type="text" />-->
+            <select  name="cPais" id="cPais">
+            <option selected="selected" value="">- Seleccionar -</option>
+            <option value="Bolivia">Bolivia</option>
+            <option value="Chile">Chile</option>
+            <option value="Colombia">Colombia</option>
+            <option value="Costa Rica">Costa Rica</option>
+            <option value="Ecuador">Ecuador</option>
+            <option value="El Salvador">El Salvador</option>
+            <option value="Guatemala">Guatemala</option>
+            <option value="Honduras">Honduras</option>
+            <option value="Nicaragua">Nicaragua</option>
+            <option value="Panamá">Panamá</option>
+            <option value="Perú">Perú</option>
+            <option value="Puerto Rico">Puerto Rico</option>
+            <option value="República Dominicana">República Dominicana</option>
+            <option value="Uruguay">Uruguay</option>
+            <option value="Venezuela">Venezuela</option>
+            <option value="USA">Estados Unidos</option>
+          </select>
+          </div>
+        <div class="formField">
+            <label for="cEmpresa">Nombre de la empresa</label>
+            <input name="cEmpresa" id="cEmpresa" type="text" />
+          </div>
+        <div class="formField">
+            <label for="cSede">Sede (Ciudad)</label>
+            <input name="cSede" id="cSede" type="text" />
+          </div>
+        <div class="formField">
+            <label for="cCargo">Cargo</label>
+            <input name="cCargo" id="cCargo" type="text" />
+          </div>
+        <input name="Submit" type="submit" id="Submit"  class="btn_enviar" value="" />
+      </form>
+      </div>
+    <div class="col2"> Conozcamonos vía internet el<br />
+        <span class="amarillo">JUEVES 21 DE FEBRERO</span> <br />
+        en los siguientes horarios:
+        <ul>
+        <li><span class="amarillo">GUATEMALA/EL SALVADOR/COSTA RICA<br />
+          HONDURAS/NICARAGUA:</span> 14:00</li>
+        <li><span class="amarillo">COLOMBIA/ECUADOR/PANAMÁ<br />
+          MIAMI/PERÚ:</span> 15:00</li>
+        <li><span class="amarillo">VENEZUELA:</span> 15:30</li>
+        <li><span class="amarillo">BOLIVIA/PUERTO RICO<br />
+          REP. DOMINICANA:</span> 16:00</li>
+        <li><span class="amarillo">CHILE:</span> 17:00</li>
+        <li><span class="amarillo">URUGUAY:</span> 18:00</li>
+      </ul>
+      </div>
+  </div>
+    <div class="footer">
+    <div class="subfooter"><a href="http://www.internationalcamiones.com/LatinAmerica/">International®</a> es una marca registrada de Navistar Inc. Todos los derechos reservados 2013.<br />
+        Sitio web desarrollado por Aguayo Publicidad.</div>
+  </div>
+  </div>
+</body>
+</html>
