@@ -68,7 +68,7 @@
       });
 
       if($.browser.version == '7.0') {
-        alert(jQuery.browser.version);
+        //alert(jQuery.browser.version);
         //$("body").addClass("ie7");
         //$("body").removeClass('responsive-layout-wide').addClass("responsive-layout-normal");
       }
