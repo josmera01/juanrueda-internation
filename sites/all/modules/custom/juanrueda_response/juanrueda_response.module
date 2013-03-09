@@ -41,6 +41,8 @@ function juanrueda_response_init() {
 
   cargar_estilos_mobile($_SERVER['HTTP_USER_AGENT']);
 
+  drupal_add_css(RUTA_DEFECTO_THEME . '/css/ie7.css', array('group' => CSS_THEME, 'weight' => 1000));
+
  }
 
 
