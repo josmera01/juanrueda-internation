@@ -41,11 +41,17 @@ function juanrueda_response_init() {
 
   cargar_estilos_mobile($_SERVER['HTTP_USER_AGENT']);
 
-  drupal_add_css(RUTA_DEFECTO_THEME . '/css/ie7.css', array(
-    'group' => CSS_THEME,
-    'browsers' => array('IE' => 'lte IE 7', '!IE' => FALSE)
-    )
-  );
+  $css7 = array(
+  '#tag' => 'css',
+  '#attributes' => array( // Set up an array of attributes inside the tag
+    'src' => drupal_get_path('theme', 'juan_rueda') . '/css/ie7.css',
+  ),
+  '#prefix' => '<!--[if lte IE 7]>',
+  '#suffix' => '</css><![endif]-->',
+);
+
+drupal_add_html_head($css7, 'css7');
+
 
  }
 
