@@ -49,7 +49,7 @@ function juanrueda_response_init() {
     'type' => 'text/css',
   ),
   '#prefix' => '<!--[if lte IE 7]>',
-  '#suffix' => '</css><![endif]-->',
+  '#suffix' => '</style><![endif]-->',
 );
 
 drupal_add_html_head($css7, 'css7');
