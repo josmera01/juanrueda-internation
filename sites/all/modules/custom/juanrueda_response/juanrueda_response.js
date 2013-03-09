@@ -70,7 +70,7 @@
       if($.browser.version == '7.0') {
         alert(jQuery.browser.version);
         $("body").addClass("ie7");
-        $("body").addClass("responsive-layout-wide");
+        $("body").removeClass('responsive-layout-wide').addClass("responsive-layout-normal");
       }
       if($.browser.version == '8.0' || $.browser.version == '9.0') {
 
