@@ -21,8 +21,9 @@ function juan_rueda_menu_link__menu_menu_secciones_principales(&$variables) {
     $sub_menu = drupal_render($element['#below']);
   }
 
-
-  $output = l('<span class="titulo_menu">' . $element['#title'] .'</span><span class="texto">'. $element['#localized_options']['attributes']['title'] . '</span>', $element['#href'], array('attributes' => $element['#localized_options']['attributes'], 'html' => TRUE));
+  if (isset($element['#title'])) {
+    $output = l('<span class="titulo_menu">' . $element['#title'] .'</span><span class="texto">'. $element['#localized_options']['attributes']['title'] . '</span>', $element['#href'], array('attributes' => $element['#localized_options']['attributes'], 'html' => TRUE));
+  }
   return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu  ."</li>\n";
 
 }
@@ -40,14 +41,14 @@ function juan_rueda_preprocess_html(&$vars) {
 
 function juan_rueda_preprocess_page(&$variables) {
   $title = drupal_get_title();
- 
+
 
   $paths = implode("\n", array(
     'tips/*',
   ));
 
   $path = current_path();
-  
+
 
 
   if (drupal_match_path($path, $paths)) {
