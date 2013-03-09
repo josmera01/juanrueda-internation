@@ -67,7 +67,7 @@
 
       });
 
-      if($.browser.msie && $.browser.version == '7.0')) {
+      if($.browser.msie && $.browser.version == 7.0)) {
         alert(jQuery.browser.version);
         $("body").removeClass("responsive-layout-wide").addClass("responsive-layout-normal");
       }
