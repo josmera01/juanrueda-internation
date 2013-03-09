@@ -67,6 +67,10 @@
 
       });
 
+      if($.browser.msie) {
+        alert('IE');
+      }
+
 
   }
 }

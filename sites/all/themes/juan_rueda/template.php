@@ -22,22 +22,13 @@ function juan_rueda_menu_link__menu_menu_secciones_principales(&$variables) {
   }
 
   if (isset($element['#title'])) {
-    $output = l('<span class="titulo_menu">' . $element['#title'] .'</span><span class="texto">'. $element['#localized_options']['attributes']['title'] . '</span>', $element['#href'], array('attributes' => $element['#localized_options']['attributes'], 'html' => TRUE));
+    $output = l('<span class="titulo_menu">' . $element['#title'] .'</span><span class="texto">'. $element['#localized_options']['attributes'] . '</span>', $element['#href'], array('attributes' => $element['#localized_options']['attributes'], 'html' => TRUE));
   }
   return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu  ."</li>\n";
 
 }
 
-function juan_rueda_preprocess_html(&$vars) {
 
-  // Soporte de HTML5 para IE
-  /*if (preg_match('/MSIE [6-8]./', $_SERVER['HTTP_USER_AGENT'])) {
-    drupal_add_js('http://html5shim.googlecode.com/svn/trunk/html5.js', array('type' => 'external', 'group' => JS_LIBRARY, 'weight' => -100));
-    drupal_add_js('http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js',  array('type' => 'external', 'group' => JS_LIBRARY, 'weight' => -100));
-  }*/
-
-
-}
 
 function juan_rueda_preprocess_page(&$variables) {
   $title = drupal_get_title();
@@ -71,9 +62,6 @@ function juan_rueda_preprocess_page(&$variables) {
   $texto_primero = ucwords($caracter[0]);
 
   drupal_set_title($texto_primero .' '. $title);
-
-
-
 
 
 }

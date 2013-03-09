@@ -17,13 +17,8 @@ Drupal.omega = Drupal.omega || {};
   var setCurrentLayout = function (index) {
     index = parseInt(index);
     previous = current;
-    if (Drupal.settings.ei7 == 1) {
-      current =  'normal';
-    }
-    else {
-      current = Drupal.settings.omega.layouts.order.hasOwnProperty(index) ? Drupal.settings.omega.layouts.order[index] : 'mobile';
-    }
 
+    current = Drupal.settings.omega.layouts.order.hasOwnProperty(index) ? Drupal.settings.omega.layouts.order[index] : 'mobile';
 
     if (previous != current) {
       $('body').removeClass('responsive-layout-' + previous).addClass('responsive-layout-' + current);
