@@ -73,7 +73,7 @@
         $("body").addClass("responsive-layout-wide");
       }
       if($.browser.version == '8.0' || $.browser.version == '9.0') {
-        alert(jQuery.browser.version);
+
         $("body").addClass("responsive-layout-wide");
       }
 
