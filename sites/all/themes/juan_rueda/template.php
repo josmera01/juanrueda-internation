@@ -68,23 +68,12 @@ function juan_rueda_preprocess_page(&$variables) {
   $caracter = explode(" ", $title);
   $title = str_replace($caracter[0], "", $title);
 
+  $texto_primero = ucwords($caracter[0]);
 
-   $paths = implode("\n", array(
-    'node/4',
-'node/42',
-'node/8',
-'node/28',
-'node/41',
-'node/44',
-'node/43',
-  ));
+  drupal_set_title($texto_primero .' '. $title);
 
-  $texto_primero = ucwords(strtolower($caracter[0]));
-   if (!drupal_match_path($path, $paths)) {
-      drupal_set_title($texto_primero .' '. $title);
-   }
 
-  drupal_set_title();
+
 
 
 }
