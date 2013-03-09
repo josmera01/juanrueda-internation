@@ -41,18 +41,6 @@ function juanrueda_response_init() {
 
   cargar_estilos_mobile($_SERVER['HTTP_USER_AGENT']);
 
-  $css7 = array(
-  '#tag' => 'style',
-  '#attributes' => array( // Set up an array of attributes inside the tag
-    'href' => drupal_get_path('theme', 'juan_rueda') . '/css/ie7.css',
-    'rel' => 'stylesheet',
-    'type' => 'text/css',
-  ),
-  '#prefix' => '<!--[if lte IE 7]>',
-  '#suffix' => '</style><![endif]-->',
-);
-
-//drupal_add_html_head($css7, 'css7');
 
 
  }
