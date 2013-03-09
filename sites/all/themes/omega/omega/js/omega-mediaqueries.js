@@ -18,7 +18,15 @@ Drupal.omega = Drupal.omega || {};
     index = parseInt(index);
     previous = current;
 
-    current = Drupal.settings.omega.layouts.order.hasOwnProperty(index) ? Drupal.settings.omega.layouts.order[index] : 'mobile';
+    if($.browser.version == '7.0') {
+        //alert(jQuery.browser.version);
+        //$("body").addClass("ie7");
+     current = Drupal.settings.omega.layouts.order.hasOwnProperty(index) ? Drupal.settings.omega.layouts.order[index] : 'wide';
+      }
+      else {
+       current = Drupal.settings.omega.layouts.order.hasOwnProperty(index) ? Drupal.settings.omega.layouts.order[index] : 'mobile';
+      }
+
 
     if (previous != current) {
       $('body').removeClass('responsive-layout-' + previous).addClass('responsive-layout-' + current);
