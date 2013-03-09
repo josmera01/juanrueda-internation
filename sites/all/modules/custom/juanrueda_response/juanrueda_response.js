@@ -68,7 +68,7 @@
       });
 
       if($.browser.msie) {
-        alert('IE');
+        $("body").removeClass("responsive-layout-wide").addClass("responsive-layout-normal");
       }
 
 
