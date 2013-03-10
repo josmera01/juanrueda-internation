@@ -21,7 +21,7 @@ Drupal.omega = Drupal.omega || {};
     if($.browser.version == '7.0') {
         //alert(jQuery.browser.version);
         //$("body").addClass("ie7");
-     current = Drupal.settings.omega.layouts.order.hasOwnProperty(index) ? Drupal.settings.omega.layouts.order[index] : 'wide';
+     current = Drupal.settings.omega.layouts.order.hasOwnProperty(index) ? Drupal.settings.omega.layouts.order[index] : 'normal';
       }
       else {
        current = Drupal.settings.omega.layouts.order.hasOwnProperty(index) ? Drupal.settings.omega.layouts.order[index] : 'mobile';
