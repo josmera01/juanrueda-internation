@@ -10,6 +10,9 @@
   <!--[if IE 7]>
   <style type="text/css" media="all">@import url("http://juanruedaconinternational.com/sites/all/themes/juan_rueda/css/ie7.css");</style>
 <![endif]-->
+<!--[if IE 8]>
+  <style type="text/css" media="all">@import url("http://juanruedaconinternational.com/sites/all/themes/juan_rueda/css/ie7.css");</style>
+<![endif]-->
 
 
 </head>
