@@ -67,15 +67,7 @@
 
       });
 
-      if($.browser.version == '7.0' || $.browser.version == '8.0') {
-        //alert(jQuery.browser.version);
-        //$("body").addClass("ie7");
-        $("body").removeClass('responsive-layout-wide').addClass("responsive-layout-wide");
-      }
-      if($.browser.version == '8.0' || $.browser.version == '9.0') {
 
-        $("body").addClass("responsive-layout-wide");
-      }
 
 
   }
