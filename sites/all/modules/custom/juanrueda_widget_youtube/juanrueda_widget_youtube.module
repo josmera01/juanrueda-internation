@@ -41,12 +41,12 @@ function html_widget_youtube_custom() {
     $output .= '<img alt="Imagen del perfil" src="' .$path. '/ytimg/international_trucks.jpg">';
     $output .= '</div>';
       $output .= '<div class="youtube-contenido-header">';
-      $output .= '<a href="http://www.youtube.com/InternationalTruck">InternationalTrucks</a><br/>';
+      $output .= '<a href="http://www.youtube.com/juanruedaint">Juanruedaint</a><br/>';
         $output .= '<span class="cantidad">'. t('@cantida Suscriptores ', array('@cantida' => $subs)) . '</span>';
         $output .= '<span class="videos">'. t('@cantidad Videos', array('@cantidad' => $countVideos)) . '</span>';
     $output .= '</div>';
     $output .= '<div class="contenido-youtube-footer">';
-      $output .= '<a href="http://www.youtube.com/subscription_center?add_user=InternationalTruck">Suscribirme</a><br/>';
+      $output .= '<a href="http://www.youtube.com/subscription_center?add_user=juanruedaint">Suscribirme</a><br/>';
     $output .= '</div>';
 
   return $output;
