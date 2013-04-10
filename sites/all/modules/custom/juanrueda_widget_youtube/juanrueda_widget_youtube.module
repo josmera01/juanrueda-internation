@@ -32,7 +32,7 @@ function html_widget_youtube_custom() {
 
   $path = drupal_get_path('module', 'juanrueda_widget_youtube');
 
-  $json = file_get_contents("http://gdata.youtube.com/feeds/api/users/internationaltruck?alt=json");
+  $json = file_get_contents("http://gdata.youtube.com/feeds/api/users/juanruedaint?alt=json");
   $data = json_decode($json, true);
   $subs = $data['entry']['yt$statistics']['subscriberCount'];
   $countVideos = $data['entry']['gd$feedLink'][4]['countHint'];
