@@ -301,29 +301,30 @@ li.flag-bookmarks{
 	height: auto !important;
 }
 
-.theme-dark .nivo-caption{
-	background-color: transparent;
-    left: 50%;
+.theme-dark .nivo-caption {
+    background: none;
+    font-family: "lato",sans-serif;
+    left: auto;
     opacity: 0.9;
     padding: 10% 3em;
-    top: 0px;
+    right: 50px;
+    text-align: center;
+    top: 0;
     width: 50%;
-    font-family: "lato",sans-serif;
 }
 .node-type-camion .theme-dark .nivo-caption{display: none !important;}
 
 .theme-dark .nivo-caption h1{margin-bottom: 0;}
 .theme-dark .nivo-caption h1 p{
-	padding: 0.2em 0;
-	border-top: 1px solid #ffffff;
-	border-bottom: 1px solid #ffffff;
-	text-align: center;
-	font-weight: 700;
-	font-size: 150%;
-    text-transform: uppercase;
-    font-weight: 700;
+    border-bottom: 1px solid #FFFFFF;
+    border-top: 1px solid #FFFFFF;
+    display: inline-block;
     font-size: 2em;
-    margin: 0;
+    font-weight: 700;
+    margin: auto;
+    padding: 0.2em 0;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .nivo-caption h1 span{
